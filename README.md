@@ -16,20 +16,18 @@ Insert certificate here when completed
 
 **Note: The material provided in this repository is only for helping those who may get stuck at any point of time in the course. It is very advised that no one should just copy the solutions(violation of Honor Code) presented here.**
 
-
-- Todo update when time
 - Todo add some prototypes with Express or some library which makes routes to drive in these concepts  
 
 ## Progress
-- [ ] [Section 01](#) - Setting the stage
-- [ ] [Section 02](#) 
-- [ ] [Section 03](#) 
-- [ ] [Section 04](#) 
-- [ ] [Section 05](#) 
-- [ ] [Section 06](#) 
-- [ ] [Section 07](#) 
-- [ ] [Section 08](#) 
-- [ ] [Section 09](#) 
-- [ ] [Section 10](#) - 
-- [ ] [Section 11](#) - 
-- [ ] [Section 12](#) - 
+- [ ] [Section 01](https://github.com/developersCradle/rest-api-design-development-management/tree/main/Section%2001) - Setting the stage
+- [ ] [Section 02](#) - Evolution of RESTful services
+- [ ] [Section 03](#) - REST API Architectural Constraints
+- [ ] [Section 04](#) - Designing REST API
+- [ ] [Section 05](#) - REST API Error Handling Patterns
+- [ ] [Section 06](#) - REST API Handling Change - Versioning Patterns
+- [ ] [Section 07](#) - REST API Cache Control Patterns
+- [ ] [Section 08](#) - REST API Response Data Handling Patterns
+- [ ] [Section 09](#) - REST API Security
+- [ ] [Section 10](#) - REST API Specifications using Swagger 2.0 / OAI
+- [ ] [Section 11](#) - API Management
+- [ ] [Section 12](#) - Goodbye & All the Best
