@@ -8,6 +8,7 @@ This course servers as start, but later might add even more resources.
 Learn the REST API Concepts, Design best practices, Security practices, Swagger 2.0/OAI, Hands-on API Management by
 
 All course material from REST API Design, Development & Management by Rajeev Sakhuja. 
+
 If the content sparked :fire: your interest, please consider buying the course and start learning :book:
 
 [The Course at Udemy](https://www.udemy.com/course/rest-api/)   
