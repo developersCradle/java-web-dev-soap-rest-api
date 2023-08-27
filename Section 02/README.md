@@ -100,3 +100,22 @@
 
 <img src="exampleOfRESTfulAPI.PNG" alt="alt text" width="500"/>
 
+- 1. Client asks form RESTful API Job resource as **XML**
+- 2. Returned as **XML** resource
+
+
+<img src="example2OfRESTfulAPI.PNG" alt="alt text" width="500"/>
+
+- REST client can also ask it as **JSON** format
+    - Point here is, many formats can be returned
+
+<img src="spefyingType.PNG" alt="alt text" width="500"/>
+
+- As you can see RESTful API provides are providing parameter to specify the format 
+
+<img src="restAPIStyle.PNG" alt="alt text" width="500"/>
+
+- All modern API use HTTP:// Protocol for RESTful communication
+    - We call such `HTTP REST API`
+
+- **REST** style communication is not tied to **HTTP**. You could use other protocols as well
