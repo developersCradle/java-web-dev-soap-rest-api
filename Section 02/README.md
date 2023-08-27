@@ -50,7 +50,7 @@
 - Code here creates process when executed
     - No network activity
 
-<img src="rpc.png" alt="alt text" width="500"/>
+<img src="rpc.PNG" alt="alt text" width="500"/>
 
 - 1. On the **servers** side there is function that client can invoke()
 
@@ -65,3 +65,38 @@
 - These both were heavily dependent on message format and hard to use. These RPC mechanics were build for enterprise solutions **not** for internet
 
 - Today HTTP REST is **De-facto** standard for API
+
+<img src="whyRest.PNG" alt="alt text" width="500"/>
+
+- 1. REST API are not locked to any specific type 
+    - For examole like SOPA is locked into using **XML** format
+- Almost **all** modern API use **REST/JSON**
+
+<img src="whySoapWasHard.PNG" alt="alt text" width="500"/>
+
+- 1. XML was ment for computer consumption 
+- 2. SOAP standards was always changing, meaning API needed to implement new version often
+
+- [REST](https://fi.wikipedia.org/wiki/REST)   
+
+<img src="whySoapWasHard.PNG" alt="alt text" width="500"/>
+
+<img src="representationState.PNG" alt="alt text" width="500"/>
+
+- 1. Each of instance have their own values
+- 2. Query happening to database
+- 3. Representational State is returned
+
+- This is called **REST**
+
+<img src="dataFormat.PNG" alt="alt text" width="500"/>
+
+- 1. This Representational State can be in any format
+- 2. This can be converted to **ANY** format
+    - For example HTML for browsers
+- 3. Now if you convert this node to REST API point, this will represent RESTful API from data point perspective.
+
+> REST API not tied to any specific Data Format ~ Rajeev
+
+<img src="exampleOfRESTfulAPI.PNG" alt="alt text" width="500"/>
+
