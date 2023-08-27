@@ -46,3 +46,22 @@
 - After 2013 JSON have grown popularity. Nowadays, it's the first choice for API developers.
 
 <img src="localProcedureCall.PNG" alt="alt text" width="500"/>
+
+- Code here creates process when executed
+    - No network activity
+
+<img src="rpc.png" alt="alt text" width="500"/>
+
+- 1. On the **servers** side there is function that client can invoke()
+
+- 2. Using RPC mechanism, client can invoke method as it was in local
+
+- API is RPC mechanism
+
+<img src="rpcHistory.PNG" alt="alt text" width="500"/>
+
+- 1. 1991 CORBA was first practical RPC mechanic 
+- 2. 1998 SOAP was introduced
+- These both were heavily dependent on message format and hard to use. These RPC mechanics were build for enterprise solutions **not** for internet
+
+- Today HTTP REST is **De-facto** standard for API

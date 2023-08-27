@@ -28,3 +28,4 @@
 <img src="apiManagementPlatform.PNG" alt="alt text" width="400"/>
 
 - There is many API management tools, we will be using these three
+

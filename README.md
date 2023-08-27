@@ -20,6 +20,7 @@ Insert certificate here when completed
 **Note: The material provided in this repository is only for helping those who may get stuck at any point of time in the course. It is very advised that no one should just copy the solutions(violation of Honor Code) presented here.**
 
 - Todo add some prototypes with Express or some library which makes routes to drive in these concepts  
+- Todo tee testiksi RPC kutsu GWT:llä :D?
 
 ## Progress
 - [x] [Section 01](https://github.com/developersCradle/rest-api-design-development-management/tree/main/Section%2001) - Setting the stage
