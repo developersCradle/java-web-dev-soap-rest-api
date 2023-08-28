@@ -7,7 +7,7 @@
 
 <img src="imdb.PNG" alt="alt text" width="500"/>
 
-- Old days used to just browse into webpage and look for infomation
+- Old days used to just browse into webpage and look for information
 
 - Later FedEx released web tracking feature with ID, at the time this was super cool!
 
@@ -39,7 +39,7 @@
 - API has well-defined Contract between consumer & provider. Meaning this case **Contract = XML Request/Response structure**
     - Meaning our case stuff will not change randomly like in our `<html>` scrapper example
 
-- API’s are expected to use by machine
+- APIs are expected to use by machine
 
 <img src="JSON.PNG" alt="alt text" width="500"/>
 
@@ -119,3 +119,53 @@
     - We call such `HTTP REST API`
 
 - **REST** style communication is not tied to **HTTP**. You could use other protocols as well
+
+<img src="3typesOfApi.PNG" alt="alt text" width="500"/>
+
+- 1. Private or Internal consumer. From same organization
+    - Used by development team, inside organization
+- 2. Outside of organization
+    - Public domain application users
+    - **Not trusted** users, some security is needed for these APIs’s
+- 3. Partner, trusted by provider
+    - Only trusted users
+
+- ! There is no difference how these APIs are **implemented**
+    - Only difference how these are **managed**
+
+<img src="howImplementedOtherTypes.PNG" alt="alt text" width="500"/>
+
+- How API security are implemented
+
+<img src="security.PNG" alt="alt text" width="500"/>
+
+- 1. With trusted Developers trust is not too much needed. Basic Auth and Proprietary schemes are common to use. 
+
+- 2. For these users. Security is main concern. Key/Secret and OAuth are often used.
+
+- How carry out API documentation for public
+
+<img src="documentation.PNG" alt="alt text" width="500"/>
+
+- How access requests are managed
+
+<img src="accessRequest.PNG" alt="alt text" width="500"/>
+
+- 1. Requesting access to these APIs’s with emails and tickets are commonly used by partners and internal developers
+
+- 2. For public developers It's common to have some Developer portal process. It's recommended to expose API provisioning workflow in **Developer portal**
+
+- How SLA are taken care of (SLA= **S**ervice **L**evel **A**greement)
+- Example from API perspective 
+
+<img src="sla.PNG" alt="alt text" width="500"/>
+
+- 1. SLA promises API to be up and working for 99.99% of the time
+- 2. Promises maximum 20 call/sec for API consumer
+- 3. Provides email support for consumer
+- 4. Different levels for API’s
+- 5. Provider needs to monitor the API performance to keep up promise what SLA promised in first place. 
+
+- **Todo** käy lävitse mitkä eri API osat tunnistat [ticketMasterista](https://developer.ticketmaster.com/partners/)
+
+- **Todo** video 11
