@@ -25,13 +25,13 @@ Insert certificate here when completed
 ## Progress
 - [x] [Section 01](https://github.com/developersCradle/rest-api-design-development-management/tree/main/Section%2001) - Setting the stage
 - [x] [Section 02](https://github.com/developersCradle/rest-api-design-development-management/tree/main/Section%2002) - Evolution of RESTful services. **PARI TODO**
-- [ ] [Section 03](#) - REST API Architectural Constraints
-- [ ] [Section 04](#) - Designing REST API
-- [ ] [Section 05](#) - REST API Error Handling Patterns
-- [ ] [Section 06](#) - REST API Handling Change - Versioning Patterns
-- [ ] [Section 07](#) - REST API Cache Control Patterns
-- [ ] [Section 08](#) - REST API Response Data Handling Patterns
-- [ ] [Section 09](#) - REST API Security
-- [ ] [Section 10](#) - REST API Specifications using Swagger 2.0 / OAI
-- [ ] [Section 11](#) - API Management
-- [ ] [Section 12](#) - Goodbye & All the Best
+- [ ] [Section 03](https://github.com/developersCradle/rest-api-design-development-management/tree/main/Section%2003) - REST API Architectural Constraints
+- [ ] [Section 04](https://github.com/developersCradle/rest-api-design-development-management/tree/main/Section%2004) - Designing REST API
+- [ ] [Section 05](https://github.com/developersCradle/rest-api-design-development-management/tree/main/Section%2005) - REST API Error Handling Patterns
+- [ ] [Section 06](https://github.com/developersCradle/rest-api-design-development-management/tree/main/Section%2006) - REST API Handling Change - Versioning Patterns
+- [ ] [Section 07](https://github.com/developersCradle/rest-api-design-development-management/tree/main/Section%2007) - REST API Cache Control Patterns
+- [ ] [Section 08](https://github.com/developersCradle/rest-api-design-development-management/tree/main/Section%2008) - REST API Response Data Handling Patterns
+- [ ] [Section 09](https://github.com/developersCradle/rest-api-design-development-management/tree/main/Section%2009) - REST API Security
+- [ ] [Section 10](https://github.com/developersCradle/rest-api-design-development-management/tree/main/Section%2010) - REST API Specifications using Swagger 2.0 / OAI
+- [ ] [Section 11](https://github.com/developersCradle/rest-api-design-development-management/tree/main/Section%2011) - API Management
+- [ ] [Section 12](https://github.com/developersCradle/rest-api-design-development-management/tree/main/Section%2012) - Goodbye & All the Best
