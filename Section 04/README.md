@@ -20,4 +20,53 @@
 
 <img src="apiDomain.JPG" alt="alt text" width="500"/>
 
-- Some companies take this step further. **if option** 
+- **if option** go for dedicated domain  
+
+<img src="producstsINrest.JPG" alt="alt text" width="500"/>
+
+- Product is also called `packages`
+
+- Multiple API in big comppanyes with multiple teams.
+
+<img src="producstsINrest.JPG" alt="alt text" width="500"/>
+
+- 1. If you work for smaller organization you where you don't have many teams -> package is not required! 
+
+- Example Ticket Master Grouping
+
+<img src="ticketMasterGroupping.JPG
+" alt="alt text" width="500"/>
+
+- Version of API
+
+<img src="versionApis.JPG" alt="alt text" width="500"/>
+
+- 1. Your API can have many versions of the API:s
+- 2. Customer can take use of API at their own time scedule.
+- 3. Version it the past was optional, because there was other ways to manage versioning. 
+
+<img src="resourceUrlPath.JPG" alt="alt text" width="500"/>
+
+1. If you don't provide ID. It can be operated on **Array of resources**
+    - **If** in other hand `{id}` is spesified. I can be operated in **spesific resource**
+
+2. If you **GET** on spesific-id you will get spesific property
+
+<img src="resourceUrlPathMultiple.JPG" alt="alt text" width="500"/>
+
+- If you **GET** here **multiple properties** are returned
+
+<img src="RootURL.JPG" alt="alt text" width="500"/>
+
+- 1. This domain represent root URL
+
+<img src="summary.JPG" alt="alt text" width="500"/>
+
+<img src="resourcingNaming.JPG" alt="alt text" width="500"/>
+
+- Naming of API of different comppanyes
+    - 1. Multiple resources
+    - 2. Single resource
+    - 3. To identify resources we use **nouns**
+        - We could say `getNames` or `getPeople`, but this does not follow REST practices 
+    - 4. Use pluras not singulars. TOdo jöin tähän
