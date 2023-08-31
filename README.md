@@ -21,11 +21,12 @@ Insert certificate here when completed
 
 - Todo add some prototypes with Express or some library which makes routes to drive in these concepts  
 - Todo tee testiksi RPC kutsu GWT:llä :D?
+- TODO tee kappaleen 3 kappaleita sitämukaa kun tulee mielenkiinota, enemmän abstractia juttuja
 
 ## Progress
 - [x] [Section 01](https://github.com/developersCradle/rest-api-design-development-management/tree/main/Section%2001) - Setting the stage
 - [x] [Section 02](https://github.com/developersCradle/rest-api-design-development-management/tree/main/Section%2002) - Evolution of RESTful services. **PARI TODO**
-- [ ] [Section 03](https://github.com/developersCradle/rest-api-design-development-management/tree/main/Section%2003) - REST API Architectural Constraints
+- [x] [Section 03](https://github.com/developersCradle/rest-api-design-development-management/tree/main/Section%2003) - REST API Architectural Constraints. **TODO TEE TÄTÄ KUN EHTII**
 - [ ] [Section 04](https://github.com/developersCradle/rest-api-design-development-management/tree/main/Section%2004) - Designing REST API
 - [ ] [Section 05](https://github.com/developersCradle/rest-api-design-development-management/tree/main/Section%2005) - REST API Error Handling Patterns
 - [ ] [Section 06](https://github.com/developersCradle/rest-api-design-development-management/tree/main/Section%2006) - REST API Handling Change - Versioning Patterns
