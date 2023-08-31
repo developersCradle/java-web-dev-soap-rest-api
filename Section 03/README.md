@@ -4,7 +4,7 @@
 
 <img src="restFullAppllication.JPG" alt="alt text" width="500"/>
 
-- Just beccause you add HTTP and JSOn together, you dont nesseseray have RESTful architecture.
+- Just because you add HTTP and JSON together, you don't necessarily have RESTful architecture.
     - It can be **REST like** or **RESTish**
 
 - What makes Architecture RESTful?
@@ -18,7 +18,7 @@
 - 1. Client - Server
     - Use Client/Server design principles 
 - 2. Uniform Interface 
-    - Use of well defined contracts between **client** and the **server**
+    - Use of well-defined contracts between **client** and the **server**
 - 3. Statelessness
     - Server should not manage state of application
 - 4. Caching 
@@ -57,9 +57,9 @@
 
 <img src="ClientServerIndependently.JPG" alt="alt text" width="500"/>
 
-- CLient and Server can evolve independently
-    - 2. At first Servers provided recource as **XML** format
-    - 1. Then came need for suppert **JSON**
+- Client and Server can evolve independently
+    - 2. At first Servers provided resource as **XML** format
+    - 1. Then came need for support **JSON**
     - 3. In future came **CSV file format** 
     - THIS IS POSSIBLE ONLY IF **Uniform Interface** is being valued!
 
@@ -95,9 +95,9 @@
 
 <img src="exampleCodeOnDemand.JPG" alt="alt text" width="600"/>
 
-- 1. Respose is returned with different **links**, client can **Invoke** these links, which in return get executed in server side. Hence, **server** can manage content of Vacation
+- 1. Repose is returned with different **links**, client can **Invoke** these links, which in return get executed in server side. Hence, **server** can manage content of Vacation
 
-- 2. Lets say, requested resource is booked out. Server can mange response(Link) given in returned resource.
+- 2. Let's say, requested resource is booked out. Server can manage response(Link) given in returned resource.
 
 <img src="BenefitsHATEOAS.JPG" alt="alt text" width="500"/>
 
