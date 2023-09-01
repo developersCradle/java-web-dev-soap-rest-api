@@ -71,3 +71,25 @@
     - 4. Use plurals not singulars. Idea is follow patters, which many companies are following -> **Plural**
 
 <img src="operationAsResources.PNG" alt="alt text" width="500"/>
+
+- What if action is not CRUD operation action `search`
+
+- API exoposes action
+
+<img src="spotifyExposesAction.JPG" alt="alt text" width="500"/>
+
+- 1. Spotify exposes 
+
+<img src="ActionAsPart.JPG" alt="alt text" width="500"/>
+
+- Some companies exposing action in Recource
+
+<img src="ActionAsPart.JPG" alt="alt text" width="500"/>
+
+<img src="resourceAssosation.JPG" alt="alt text" width="500"/>
+
+- 1. **Resources** can have relationships like normal things have. Order has Items
+- 2. Find exact person with spesific **ID** and get spesific folower with **ID**
+
+
+<img src="spesificAccoutId.JPG" alt="alt text" width="500"/>
