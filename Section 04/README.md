@@ -74,7 +74,7 @@
 
 - What if action is not CRUD operation action `search`
 
-- API exoposes action
+- API exposes action
 
 <img src="spotifyExposesAction.JPG" alt="alt text" width="500"/>
 
@@ -82,14 +82,97 @@
 
 <img src="ActionAsPart.JPG" alt="alt text" width="500"/>
 
-- Some companies exposing action in Recource
+- Some companies exposing action in Resource
 
 <img src="ActionAsPart.JPG" alt="alt text" width="500"/>
 
 <img src="resourceAssosation.JPG" alt="alt text" width="500"/>
 
 - 1. **Resources** can have relationships like normal things have. Order has Items
-- 2. Find exact person with spesific **ID** and get spesific folower with **ID**
+- 2. Find exact person with specific **ID** and get specific flower with **ID**
 
+- Example of **E trade** portal
 
 <img src="spesificAccoutId.JPG" alt="alt text" width="500"/>
+
+- 1. List transactions of this `accountID`
+
+<img src="subQuery.PNG" alt="alt text" width="500"/>
+
+1. Avoid deep nesting, you could make sub-query
+
+<img src="summary2.PNG" alt="alt text" width="500"/>
+
+
+## User case: ACME API
+
+<img src="userCasePlan.PNG" alt="alt text" width="500"/>
+
+- 1. End user experience brings most customer value. 
+
+- Domain will be `https://api.acme.com`
+- `https://domain/`<del>`product`</del>`/version`
+    - No need for **product path**, since it does not have too many resources
+- Version since its first version, it will be `/v1`
+- Root URL of our user case will be `https://api.acme.com/v1`
+
+<img src="userCaseResources.PNG" alt="alt text" width="500"/>
+
+- 1. For getting many resources
+- 2. for getting specific resource
+
+<img src="userCaseSearchAcions.PNG" alt="alt text" width="500"/>
+
+- 1. Exposing destination as endpoint. This is not only case, to book travel **Destination** **Price** **Number of Day** are expected as well 
+- 2. We will expose prove an **Action** on search. Parameters are provided in query parameters
+
+<img src="acme API Assosation.PNG" alt="alt text" width="500"/>
+
+- 1. Customer can upload pictures
+- 2. Customer can review the travel package from ACME travels
+- 3. Get single picture form specific
+- 4. Get all photographs from specific vacation package 
+- 5. Delete review from specific vacation and specific review ID
+
+<img src="summary3.PNG" alt="alt text" width="500"/>
+
+
+<img src="RESTAPIflow.PNG" alt="alt text" width="500"/>
+
+<img src="requestResponsePayload.PNG" alt="alt text" width="500"/>
+
+- HTTP methods need to define request body and header
+
+<img src="UniformInterfaceContract.PNG" alt="alt text" width="500"/>
+
+- Contract between client and server
+
+- 1. Request header needs to defined when making request
+- 2. In response Header also needs to be defined. HTTP status code is also returned
+
+<img src="serverAnswers.PNG" alt="alt text" width="500"/>
+
+
+<img src="summary4.PNG" alt="alt text" width="500"/>
+
+- When planning HTTP Verbs for CRUD, here is some which you should be aware of
+
+<img src="httpVerbsWhenPlanningCRUD.PNG" alt="alt text" width="500"/>
+
+### Request
+
+- What kind of information is needed for `HTTP POST` from `Requestor` perspective
+
+<img src="createResourceByPost.PNG" alt="alt text" width="500"/>
+
+1. Endpoint, meaning 
+2. If you want vacation package. This will be the URL 
+3. If Resource is sub-resource for example review the URL will look like this
+4. Request Body will have the data of Resource
+
+### Response
+
+<img src="createResourceByPostResponse.PNG" alt="alt text" width="500"/>
+
+1. Request CODE must return in **header**
+2. API implementation can do either one of two things 
