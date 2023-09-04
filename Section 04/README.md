@@ -159,7 +159,7 @@
 
 <img src="httpVerbsWhenPlanningCRUD.PNG" alt="alt text" width="500"/>
 
-### Request
+### POST, Request
 
 - What kind of information is needed for `HTTP POST` from `Requestor` perspective
 
@@ -170,9 +170,66 @@
 3. If Resource is sub-resource for example review the URL will look like this
 4. Request Body will have the data of Resource
 
-### Response
+### POST, Response
 
 <img src="createResourceByPostResponse.PNG" alt="alt text" width="500"/>
 
 1. Request CODE must return in **header**
 2. API implementation can do either one of two things 
+
+### GET, Request
+
+<img src="retrieveResosourceByGetRequest.PNG" alt="alt text" width="500"/>
+
+- 1. If client is asking is many or one resource
+
+- Query Parameters are optional
+- Headers are optional
+- Request body is optional
+
+
+### GET, Response
+
+
+<img src="retrieveResosourceByGetResponse.PNG" alt="alt text" width="500"/>
+
+
+### HTTP PUT/PATCH, Request, For Updating the Resource
+
+- You could use **PUT** or **PATCH**
+    - **PUT** When all attributes are updated
+    - **PATCH** When **SOME** attributes of the resource are updated.
+        - Patch may be more performant for large size objects
+    - Both are good to have!
+
+
+<img src="updatingTheResosourceByPutOrPatchRequest.PNG" alt="alt text" width="500"/>
+
+### HTTP PUT/PATCH, Response, For Updating the Resource
+
+- This can be implemented in many ways
+
+<img src="updatingTheResosourceByPutOrPatchResponse.PNG" alt="alt text" width="500"/>
+
+
+
+### HTTP DELETE, Request, For Deleting the Resource
+
+
+<img src="deletingTheResosourceByDeleteRequest.PNG" alt="alt text" width="500"/>
+
+- Body is not needed
+
+### HTTP DELETE, Response, For Deleting the Resource
+
+
+<img src="deletingTheResosourceByDeleteResponse.PNG" alt="alt text" width="500"/>
+
+- Can I use POST for updating?
+    - Yes you can. For example twitter use GET & POST for all their API!!!
+- **These are some guidelines, which are commonly adopted** 
+
+<img src="twitterApis.PNG" alt="alt text" width="500"/>
+
+- 1. Twitter API uses **POST** for updating partially their resources. **PATCH** would be here the best, but twitter.
+    - They own way, no harm done if you follow this consistently
