@@ -233,3 +233,51 @@
 
 - 1. Twitter API uses **POST** for updating partially their resources. **PATCH** would be here the best, but twitter.
     - They own way, no harm done if you follow this consistently
+
+
+- For supporting multiple Data Formats API needs to decide what kind of output is given. This can be done in multiple ways. 
+
+- 1. Example using **Query Parameters**
+    - Example using MSNBC API
+
+<img src="queryParametersInAPI.PNG" alt="alt text" width="200"/>
+
+- Example from API is asking for **Query String**
+
+<img src="settingInQueryString.PNG" alt="alt text" width="500"/>
+
+- 2. Second example using **HTTP Headers**
+    - Example PayPal is using
+
+<img src="httpHeader.PNG" alt="alt text" width="300"/>
+
+- Example below from PayPal. Setting data in header
+
+<img src="httpHeaderExamplePayPal.PNG" alt="alt text" width="500"/>
+
+
+- 3. Third example using **Resource format suffix**
+    - Example is using **The Weather Chanel**
+
+<img src="resourceFormatSuffixThirdWay.PNG" alt="alt text" width="400"/>
+
+
+- Example below from The Weather Channel API
+
+<img src="exampleUsingResourceFormat.PNG" alt="alt text" width="500"/>
+
+
+
+### API codes for returning query status
+
+<img src="APIdeveloperResponseCodes.PNG" alt="alt text" width="500"/>
+
+- 1. Return 200 if API request was fine, and you could process request successfully
+
+- 2. Return 415 if requestor gave unsupported type in request
+
+- 3. if errors return 5xx
+
+- 4. Always set `Content-Type: application/json`
+
+<img src="summary5.PNG" alt="alt text" width="500"/>
