@@ -87,8 +87,10 @@
 
 <img src="resourceAssosation.JPG" alt="alt text" width="500"/>
 
-- 1. **Resources** can have relationships like normal things have. Order has Items
-- 2. Find exact person with specific **ID** and get specific flower with **ID**
+<ul>
+    <li> **Resources** can have relationships like normal things have. Order has Items
+    <li> Find exact person with specific **ID** and get specific flower with **ID**
+</ul>
 
 - Example of **E trade** portal
 
