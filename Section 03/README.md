@@ -58,9 +58,9 @@
 <img src="ClientServerIndependently.JPG" alt="alt text" width="500"/>
 
 - Client and Server can evolve independently
-    2. At first Servers provided resource as **XML** format
-    1. Then came need for support **JSON**
-    3. In future came **CSV file format** 
+2. At first Servers provided resource as **XML** format
+1. Then came need for support **JSON**
+3. In future came **CSV file format** 
     - THIS IS POSSIBLE ONLY IF **Uniform Interface** is being valued!
 
 <img src="summaryClientAndServer.JPG" alt="alt text" width="500"/>

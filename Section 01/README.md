@@ -10,7 +10,7 @@
 
 <img src="implementingRestAPI.PNG" alt="alt text" width="400"/>
 
-- 1. node is simple and many packages
+1. Node is simple and many packages
 
 <img src="nodeREST.PNG" alt="alt text" width="400"/>
 

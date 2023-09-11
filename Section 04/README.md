@@ -63,11 +63,11 @@
 <img src="resourcingNaming.JPG" alt="alt text" width="500"/>
 
 - Naming of API of different companies
-    1. Multiple resources
-    2. Single resource
-    3. To identify resources we use **nouns**
-        - We could say `getNames` or `getPeople`, but this does not follow REST practices. 
-    4. Use plurals not singulars. Idea is follow patters, which many companies are following → **Plural**
+1. Multiple resources
+2. Single resource
+3. To identify resources we use **nouns**
+    - We could say `getNames` or `getPeople`, but this does not follow REST practices. 
+4. Use plurals not singulars. Idea is follow patters, which many companies are following → **Plural**
 
 <img src="operationAsResources.PNG" alt="alt text" width="500"/>
 
@@ -276,8 +276,8 @@
 <img src="clusterConnection.PNG" alt="alt text" width="500"/>
 
 - To connect cluster db
-    1. Protocol of usage
-    2. Cluster name
+1. Protocol of usage
+2. Cluster name
 
 - API which returns **non resource** and follows by REST rules, is **not** defined as 
 
