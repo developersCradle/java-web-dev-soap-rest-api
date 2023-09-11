@@ -22,7 +22,8 @@ Insert certificate here when completed
 - Todo add some prototypes with Express or some library which makes routes to drive in these concepts  
 - Todo tee testiksi RPC kutsu GWT:llä :D?
 - TODO tee kappaleen 3 kappaleita sitämukaa kun tulee mielenkiinota, enemmän abstractia juttuja
-- TODO kts noista listoista numeroinnit kuntoon
+- TODO kts noista listoista numeroinnit 
+- TODO selvitä miten kannattaa toisen repo sisällyttää omaan repooon fiksusti.
 
 ## Progress
 - [x] [Section 01](https://github.com/developersCradle/rest-api-design-development-management/tree/main/Section%2001) - Setting the stage

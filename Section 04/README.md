@@ -275,7 +275,7 @@
 
 - 2. Return 415 if requestor gave unsupported type in request
 
-- 3. if errors return 5xx
+- 3. If errors return 5xx
 
 - 4. Always set `Content-Type: application/json`
 
@@ -287,4 +287,6 @@
     - 1. Protocol of usage
     - 2. Cluster name
 
-- API which returns **non resource** and follows by REST rules, is **not** defined as resource
+- API which returns **non resource** and follows by REST rules, is **not** defined as 
+
+- Example project from [GitHubRestAPICourseV2](https://github.com/acloudfan/REST-API-Course-V2)
