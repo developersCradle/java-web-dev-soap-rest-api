@@ -4,10 +4,10 @@
 
 <img src="APIendPoint.JPG" alt="alt text" width="500"/>
 
-- 1. Base URL 
-- 2. Grouping Name (optional)
-- 3. Version of API
-- 4. REST resource ID (Action is operated to here)
+1. Base URL 
+2. Grouping Name (optional)
+3. Version of API
+4. REST resource ID (Action is operated to here)
 
 - Example of Base URL for API’s
 
@@ -29,7 +29,7 @@
 
 <img src="producstsINrest.JPG" alt="alt text" width="500"/>
 
-- 1. If you work for smaller organization you were you don't have many teams -> package is not required! 
+1. If you work for smaller organization you were you don't have many teams → package is not required! 
 
 - Example Ticket Master Grouping
 
@@ -39,9 +39,9 @@
 
 <img src="versionApis.JPG" alt="alt text" width="500"/>
 
-- 1. Your API can have many versions of the API’s
-- 2. Customer can take use of API at their own time schedule.
-- 3. Version it the past was optional, because there were other ways to manage versioning. 
+1. Your API can have many versions of the API’s
+2. Customer can take use of API at their own time schedule.
+3. Version it the past was optional, because there were other ways to manage versioning. 
 
 <img src="resourceUrlPath.JPG" alt="alt text" width="500"/>
 
@@ -56,18 +56,18 @@
 
 <img src="RootURL.JPG" alt="alt text" width="500"/>
 
-- 1. This domain represents root URL
+1. This domain represents root URL
 
 <img src="summary.JPG" alt="alt text" width="500"/>
 
 <img src="resourcingNaming.JPG" alt="alt text" width="500"/>
 
 - Naming of API of different companies
-    - 1. Multiple resources
-    - 2. Single resource
-    - 3. To identify resources we use **nouns**
+    1. Multiple resources
+    2. Single resource
+    3. To identify resources we use **nouns**
         - We could say `getNames` or `getPeople`, but this does not follow REST practices. 
-    - 4. Use plurals not singulars. Idea is follow patters, which many companies are following -> **Plural**
+    4. Use plurals not singulars. Idea is follow patters, which many companies are following → **Plural**
 
 <img src="operationAsResources.PNG" alt="alt text" width="500"/>
 
@@ -77,7 +77,7 @@
 
 <img src="spotifyExposesAction.JPG" alt="alt text" width="500"/>
 
-- 1. Spotify exposes 
+1. Spotify exposes 
 
 <img src="ActionAsPart.JPG" alt="alt text" width="500"/>
 
@@ -94,7 +94,7 @@
 
 <img src="spesificAccoutId.JPG" alt="alt text" width="500"/>
 
-- 1. List transactions of this `accountID`
+1. List transactions of this `accountID`
 
 <img src="subQuery.PNG" alt="alt text" width="500"/>
 
@@ -102,12 +102,11 @@
 
 <img src="summary2.PNG" alt="alt text" width="500"/>
 
-
 ## User case: ACME API
 
 <img src="userCasePlan.PNG" alt="alt text" width="500"/>
 
-- 1. End user experience brings most customer value. 
+1. End user experience brings most customer value. 
 
 - Domain will be `https://api.acme.com`
 - `https://domain/`<del>`product`</del>`/version`
@@ -117,24 +116,23 @@
 
 <img src="userCaseResources.PNG" alt="alt text" width="500"/>
 
-- 1. For getting many resources
-- 2. for getting specific resource
+1. For getting many resources
+2. for getting specific resource
 
 <img src="userCaseSearchAcions.PNG" alt="alt text" width="500"/>
 
-- 1. Exposing destination as endpoint. This is not only case, to book travel **Destination** **Price** **Number of Day** are expected as well 
-- 2. We will expose prove an **Action** on search. Parameters are provided in query parameters
+1. Exposing destination as endpoint. This is not only case, to book travel **Destination** **Price** **Number of Day** are expected as well 
+2. We will expose prove an **Action** on search. Parameters are provided in query parameters
 
 <img src="acme API Assosation.PNG" alt="alt text" width="500"/>
 
-- 1. Customer can upload pictures
-- 2. Customer can review the travel package from ACME travels
-- 3. Get single picture form specific
-- 4. Get all photographs from specific vacation package 
-- 5. Delete review from specific vacation and specific review ID
+1. Customer can upload pictures
+2. Customer can review the travel package from ACME travels
+3. Get single picture form specific
+4. Get all photographs from specific vacation package 
+5. Delete review from specific vacation and specific review ID
 
 <img src="summary3.PNG" alt="alt text" width="500"/>
-
 
 <img src="RESTAPIflow.PNG" alt="alt text" width="500"/>
 
@@ -146,11 +144,10 @@
 
 - Contract between client and server
 
-- 1. Request header needs to defined when making request
-- 2. In response Header also needs to be defined. HTTP status code is also returned
+1. Request header needs to defined when making request
+2. In response Header also needs to be defined. HTTP status code is also returned
 
 <img src="serverAnswers.PNG" alt="alt text" width="500"/>
-
 
 <img src="summary4.PNG" alt="alt text" width="500"/>
 
@@ -180,7 +177,7 @@
 
 <img src="retrieveResosourceByGetRequest.PNG" alt="alt text" width="500"/>
 
-- 1. If client is asking is many or one resource
+1. If client is asking is many or one resource
 
 - Query Parameters are optional
 - Headers are optional
@@ -210,10 +207,7 @@
 
 <img src="updatingTheResosourceByPutOrPatchResponse.PNG" alt="alt text" width="500"/>
 
-
-
 ### HTTP DELETE, Request, For Deleting the Resource
-
 
 <img src="deletingTheResosourceByDeleteRequest.PNG" alt="alt text" width="500"/>
 
@@ -230,13 +224,13 @@
 
 <img src="twitterApis.PNG" alt="alt text" width="500"/>
 
-- 1. Twitter API uses **POST** for updating partially their resources. **PATCH** would be here the best, but twitter.
+1. Twitter API uses **POST** for updating partially their resources. **PATCH** would be here the best, but twitter.
     - They own way, no harm done if you follow this consistently
 
 
 - For supporting multiple Data Formats API needs to decide what kind of output is given. This can be done in multiple ways. 
 
-- 1. Example using **Query Parameters**
+1. Example using **Query Parameters**
     - Example using MSNBC API
 
 <img src="queryParametersInAPI.PNG" alt="alt text" width="200"/>
@@ -245,7 +239,7 @@
 
 <img src="settingInQueryString.PNG" alt="alt text" width="500"/>
 
-- 2. Second example using **HTTP Headers**
+2. Second example using **HTTP Headers**
     - Example PayPal is using
 
 <img src="httpHeader.PNG" alt="alt text" width="300"/>
@@ -255,7 +249,7 @@
 <img src="httpHeaderExamplePayPal.PNG" alt="alt text" width="500"/>
 
 
-- 3. Third example using **Resource format suffix**
+3. Third example using **Resource format suffix**
     - Example is using **The Weather Chanel**
 
 <img src="resourceFormatSuffixThirdWay.PNG" alt="alt text" width="400"/>
@@ -265,27 +259,25 @@
 
 <img src="exampleUsingResourceFormat.PNG" alt="alt text" width="500"/>
 
-
-
 ### API codes for returning query status
 
 <img src="APIdeveloperResponseCodes.PNG" alt="alt text" width="500"/>
 
-- 1. Return 200 if API request was fine, and you could process request successfully
+1. Return 200 if API request was fine, and you could process request successfully
 
-- 2. Return 415 if requestor gave unsupported type in request
+2. Return 415 if requestor gave unsupported type in request
 
-- 3. If errors return 5xx
+3. If errors return 5xx
 
-- 4. Always set `Content-Type: application/json`
+4. Always set `Content-Type: application/json`
 
 <img src="summary5.PNG" alt="alt text" width="500"/>
 
 <img src="clusterConnection.PNG" alt="alt text" width="500"/>
 
 - To connect cluster db
-    - 1. Protocol of usage
-    - 2. Cluster name
+    1. Protocol of usage
+    2. Cluster name
 
 - API which returns **non resource** and follows by REST rules, is **not** defined as 
 

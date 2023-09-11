@@ -26,10 +26,3 @@
 <img src="apiManagementPlatform.PNG" alt="alt text" width="400"/>
 
 - There is many API management tools, we will be using these three
-
-<img src="clusterConnection.PNG" alt="alt text" width="400"/>
-
-- 1. Protocol
-- 2. Cluster name in mongoDb
-
-- Add Documents to vacations collection

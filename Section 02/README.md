@@ -18,10 +18,10 @@
 
 <img src="implemented.PNG" alt="alt text" width="500"/>
 
-- 1. `PHP` based website will receive HTTP request to website
-- 2. After receiving request, Web Scraper was **invoked()**
-- 3. HTTP `GET` was invoked form Web Scraper
-- 4. Response had tracking information about the movie
+1. `PHP` based website will receive HTTP request to website
+2. After receiving request, Web Scraper was **invoked()**
+3. HTTP `GET` was invoked form Web Scraper
+4. Response had tracking information about the movie
 
 - This case was not end of trouble, there were many problems head
 
@@ -52,30 +52,30 @@
 
 <img src="rpc.PNG" alt="alt text" width="500"/>
 
-- 1. On the **servers** side there is function that client can invoke()
+1. On the **servers** side there is function that client can invoke()
 
-- 2. Using RPC mechanism, client can invoke method as it was in local
+2. Using RPC mechanism, client can invoke method as it was in local
 
 - API is RPC mechanism
 
 <img src="rpcHistory.PNG" alt="alt text" width="500"/>
 
-- 1. 1991 CORBA was first practical RPC mechanic 
-- 2. 1998 SOAP was introduced
+1. 1991 CORBA was first practical RPC mechanic 
+2. 1998 SOAP was introduced
 - These both were heavily dependent on message format and hard to use. These RPC mechanics were build for enterprise solutions **not** for internet
 
 - Today HTTP REST is **De-facto** standard for API
 
 <img src="whyRest.PNG" alt="alt text" width="500"/>
 
-- 1. REST API are not locked to any specific type 
+1. REST API are not locked to any specific type 
     - For examole like SOPA is locked into using **XML** format
 - Almost **all** modern API use **REST/JSON**
 
 <img src="whySoapWasHard.PNG" alt="alt text" width="500"/>
 
-- 1. XML was ment for computer consumption 
-- 2. SOAP standards was always changing, meaning API needed to implement new version often
+1. XML was ment for computer consumption 
+2. SOAP standards was always changing, meaning API needed to implement new version often
 
 - [REST](https://fi.wikipedia.org/wiki/REST)   
 
@@ -83,26 +83,25 @@
 
 <img src="representationState.PNG" alt="alt text" width="500"/>
 
-- 1. Each of instance have their own values
-- 2. Query happening to database
-- 3. Representational State is returned
+1. Each of instance have their own values
+2. Query happening to database
+3. Representational State is returned
 
 - This is called **REST**
 
 <img src="dataFormat.PNG" alt="alt text" width="500"/>
 
-- 1. This Representational State can be in any format
-- 2. This can be converted to **ANY** format
+1. This Representational State can be in any format
+2. This can be converted to **ANY** format
     - For example HTML for browsers
-- 3. Now if you convert this node to REST API point, this will represent RESTful API from data point perspective.
+3. Now if you convert this node to REST API point, this will represent RESTful API from data point perspective.
 
 > REST API not tied to any specific Data Format ~ Rajeev
 
 <img src="exampleOfRESTfulAPI.PNG" alt="alt text" width="500"/>
 
-- 1. Client asks form RESTful API Job resource as **XML**
-- 2. Returned as **XML** resource
-
+1. Client asks form RESTful API Job resource as **XML**
+2. Returned as **XML** resource
 
 <img src="example2OfRESTfulAPI.PNG" alt="alt text" width="500"/>
 
@@ -122,12 +121,12 @@
 
 <img src="3typesOfApi.PNG" alt="alt text" width="500"/>
 
-- 1. Private or Internal consumer. From same organization
+1. Private or Internal consumer. From same organization
     - Used by development team, inside organization
-- 2. Outside of organization
+2. Outside of organization
     - Public domain application users
     - **Not trusted** users, some security is needed for these APIs’s
-- 3. Partner, trusted by provider
+3. Partner, trusted by provider
     - Only trusted users
 
 - ! There is no difference how these APIs are **implemented**
@@ -139,9 +138,9 @@
 
 <img src="security.PNG" alt="alt text" width="500"/>
 
-- 1. With trusted Developers trust is not too much needed. Basic Auth and Proprietary schemes are common to use. 
+1. With trusted Developers trust is not too much needed. Basic Auth and Proprietary schemes are common to use. 
 
-- 2. For these users. Security is main concern. Key/Secret and OAuth are often used.
+2. For these users. Security is main concern. Key/Secret and OAuth are often used.
 
 - How carry out API documentation for public
 
@@ -151,20 +150,20 @@
 
 <img src="accessRequest.PNG" alt="alt text" width="500"/>
 
-- 1. Requesting access to these APIs’s with emails and tickets are commonly used by partners and internal developers
+1. Requesting access to these APIs’s with emails and tickets are commonly used by partners and internal developers
 
-- 2. For public developers It's common to have some Developer portal process. It's recommended to expose API provisioning workflow in **Developer portal**
+2. For public developers It's common to have some Developer portal process. It's recommended to expose API provisioning workflow in **Developer portal**
 
 - How SLA are taken care of (SLA= **S**ervice **L**evel **A**greement)
 - Example from API perspective 
 
 <img src="sla.PNG" alt="alt text" width="500"/>
 
-- 1. SLA promises API to be up and working for 99.99% of the time
-- 2. Promises maximum 20 call/sec for API consumer
-- 3. Provides email support for consumer
-- 4. Different levels for API’s
-- 5. Provider needs to monitor the API performance to keep up promise what SLA promised in first place. 
+1. SLA promises API to be up and working for 99.99% of the time
+2. Promises maximum 20 call/sec for API consumer
+3. Provides email support for consumer
+4. Different levels for API’s
+5. Provider needs to monitor the API performance to keep up promise what SLA promised in first place. 
 
 - **Todo** käy lävitse mitkä eri API osat tunnistat [ticketMasterista](https://developer.ticketmaster.com/partners/)
 
