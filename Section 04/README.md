@@ -33,8 +33,7 @@
 
 - Example Ticket Master Grouping
 
-<img src="ticketMasterGroupping.JPG
-" alt="alt text" width="500"/>
+<img src="ticketMasterGroupping.JPG" alt="alt text" width="500"/>
 
 - Version of API
 
@@ -281,3 +280,11 @@
 - 4. Always set `Content-Type: application/json`
 
 <img src="summary5.PNG" alt="alt text" width="500"/>
+
+<img src="clusterConnection.PNG" alt="alt text" width="500"/>
+
+- To connect cluster db
+    - 1. Protocol of usage
+    - 2. Cluster name
+
+- API which returns **non resource** and follows by REST rules, is **not** defined as resource
