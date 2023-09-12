@@ -26,7 +26,7 @@ Insert certificate here when completed
 
 ## Progress
 - [x] [Section 01](https://github.com/developersCradle/rest-api-design-development-management/tree/main/Section%2001) - Setting the stage
-- [x] [Section 02](https://github.com/developersCradle/rest-api-design-development-management/tree/main/Section%2002) - Evolution of RESTful services. **PARI TODO**
+- [x] [Section 02](https://github.com/developersCradle/rest-api-design-development-management/tree/main/Section%2002) - Evolution of RESTful services.
 - [x] [Section 03](https://github.com/developersCradle/rest-api-design-development-management/tree/main/Section%2003) - REST API Architectural Constraints. **TODO TEE TÄTÄ KUN EHTII**
 - [x] [Section 04](https://github.com/developersCradle/rest-api-design-development-management/tree/main/Section%2004) - Designing REST API
 - [ ] [Section 05](https://github.com/developersCradle/rest-api-design-development-management/tree/main/Section%2005) - REST API Error Handling Patterns

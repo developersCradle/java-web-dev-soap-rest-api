@@ -165,7 +165,23 @@
 4. Different levels for API’s
 5. Provider needs to monitor the API performance to keep up promise what SLA promised in first place. 
 
-- **Todo** käy lävitse mitkä eri API osat tunnistat [ticketMasterista](https://developer.ticketmaster.com/partners/)
+- Examples used from this link [Ticketmaster](https://developer.ticketmaster.com/partners/)
+
+<img src="publicAPI.PNG" alt="alt text" width="500"/>
+
+- Here is example of **Public API** in **Ticketmaster**
+
+<img src="partner.PNG" alt="alt text" width="500"/>
+
+- Here is example of **partner contract** API in **Ticketmaster**
+
+<img src="slaManagement.PNG" alt="alt text" width="500"/>
+
+- Here is example of **SLA management** in **Ticketmaster**
+    - Rate Limit, 5 request per second
+
+<br>
+
 
 - API makes value by exposing data to outside and inside organization
 
