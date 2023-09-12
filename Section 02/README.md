@@ -167,4 +167,21 @@
 
 - **Todo** käy lävitse mitkä eri API osat tunnistat [ticketMasterista](https://developer.ticketmaster.com/partners/)
 
-- **Todo** video 11
+- API makes value by exposing data to outside and inside organization
+
+<img src="assetOfValue.PNG" alt="alt text" width="500"/>
+
+1. **TheWeatherCompany** holds a lot of weather data **FedEx** provides a lot of packages information
+2. **NetFlix** exposes movies services to TV manufacturers  
+3. **FaceBook** data from users
+
+- So what value company gets for exposing this data to outside world
+
+<img src="whatIsValueForComppanyes.PNG" alt="alt text" width="500"/>
+
+- There is two main ways companies benefits from exposing data
+
+<img src="diffrentRevenueModels.PNG" alt="alt text" width="500"/>
+
+1. From Direct Value
+2. Indirect Benefits, for competitive edge
