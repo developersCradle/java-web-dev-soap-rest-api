@@ -1,0 +1,9 @@
+[submodule "REST-API-Course-Swagger"]
+	path = REST-API-Course-Swagger
+	url = https://github.com/acloudfan/REST-API-Course-Swagger
+[submodule "REST-API-Course-API-Management"]
+	path = REST-API-Course-API-Management
+	url = https://github.com/acloudfan/REST-API-Course-API-Management
+[submodule "REST-API-Course"]
+	path = REST-API-Course
+	url = https://github.com/acloudfan/REST-API-Course

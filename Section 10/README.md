@@ -28,9 +28,74 @@
 
 - It's recommended write specification wit **YML**
 
-- Online tool for creating Swagger specifications[YML Editor](https://editor.swagger.io/)
+- Online tool for creating Swagger specifications [YML Editor](https://editor.swagger.io/)
 
-- [swagger](https://www.npmjs.com/package/swagger)
-- [swagger](https://www.npmjs.com/package/swagger-editor)
+- [Swagger](https://www.npmjs.com/package/swagger)
+- [Swagger Editor](https://www.npmjs.com/package/swagger-editor)
 
-- API is being build, while defining API specification 
+- API is being build, while defining API specification.
+
+<img src="restAPIdocumentationStandard.PNG" alt="alt text" width="500"/>
+
+- There is many other API specifications Standards, but most popular and used currently is Swagger **1.**
+
+<img src="swagger2.PNG" alt="alt text" width="500"/>
+
+- Three parts what we are going through
+
+- Example used in this course [Link to repo](https://github.com/acloudfan/REST-API-Course-API-Management)
+
+## Swagger 2.0 portions part 1
+
+<img src="metaDataInSwagger.PNG" alt="alt text" width="500"/>
+
+<br>
+
+<img src="rootDocumentDataInSwagger.PNG" alt="alt text" width="500"/>
+
+<br>
+
+<img src="tags.PNG" alt="alt text" width="500"/>
+
+<br>
+
+<img src="externalDocs.PNG" alt="alt text" width="500"/>
+
+## Swagger 2.0 portions part 2
+
+<img src="swaggerDefination.PNG" alt="alt text" width="500"/>
+
+- There are three parts in **Definitions**. **Definitions**, **Parameters** and **Security Dedications**
+    - **Definitions** has requests and responses 
+    - **Parameters** how request data is received
+    - **Security Dedications** defines security schemes
+
+<br>
+
+<img src="swaggerDefination2.PNG" alt="alt text" width="500"/>
+
+1. Mocking can be written on examples which is written in this documentation
+
+<img src="parameters.PNG" alt="alt text" width="500"/>
+
+<br>
+
+<img src="security.PNG" alt="alt text" width="500"/>
+
+## Swagger 2.0 portions part 3
+
+<img src="parameters.PNG" alt="alt text" width="500"/>
+
+<br>
+
+<img src="swaggerPaths.PNG" alt="alt text" width="500"/>
+
+<br>
+
+<img src="mimeTypes.PNG" alt="alt text" width="500"/>
+
+<br>
+
+<img src="responsesSwagger.PNG" alt="alt text" width="500"/>
+
+- Easy to write beautiful document for app developers in no time!

@@ -22,7 +22,7 @@ Insert certificate here when completed
 - Todo add some prototypes with Express or some library which makes routes to drive in these concepts  
 - Todo tee testiksi RPC kutsu GWT:llä :D?
 - TODO tee kappaleen 3 kappaleita sitämukaa kun tulee mielenkiinota, enemmän abstractia juttuja
-- TODO selvitä miten kannattaa toisen repo sisällyttää omaan repooon fiksusti.
+- TODO Write some mockup swagger API documentation
 
 ## Progress
 - [x] [Section 01](https://github.com/developersCradle/rest-api-design-development-management/tree/main/Section%2001) - Setting the stage
@@ -34,6 +34,6 @@ Insert certificate here when completed
 - [ ] [Section 07](https://github.com/developersCradle/rest-api-design-development-management/tree/main/Section%2007) - REST API Cache Control Patterns
 - [ ] [Section 08](https://github.com/developersCradle/rest-api-design-development-management/tree/main/Section%2008) - REST API Response Data Handling Patterns
 - [ ] [Section 09](https://github.com/developersCradle/rest-api-design-development-management/tree/main/Section%2009) - REST API Security
-- [ ] [Section 10](https://github.com/developersCradle/rest-api-design-development-management/tree/main/Section%2010) - REST API Specifications using Swagger 2.0 / OAI
+- [x] [Section 10](https://github.com/developersCradle/rest-api-design-development-management/tree/main/Section%2010) - REST API Specifications using Swagger 2.0 / OAI
 - [ ] [Section 11](https://github.com/developersCradle/rest-api-design-development-management/tree/main/Section%2011) - API Management
 - [ ] [Section 12](https://github.com/developersCradle/rest-api-design-development-management/tree/main/Section%2012) - Goodbye & All the Best
