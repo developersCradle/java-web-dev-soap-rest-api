@@ -7,3 +7,6 @@
 [submodule "REST-API-Course"]
 	path = REST-API-Course
 	url = https://github.com/acloudfan/REST-API-Course
+[submodule "Section 07/REST-API-Caching"]
+	path = Section 07/REST-API-Caching
+	url = https://github.com/acloudfan/REST-API-Caching
