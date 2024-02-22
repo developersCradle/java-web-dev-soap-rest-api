@@ -88,6 +88,9 @@ Caching behavior
 
 ## `no-cache` and `ETag` directives
 
+> The no-cache response directive indicates that the response can be stored in caches, but the response must be validated with the origin server before each reuse, even when the cache is disconnected from the origin server.
+
+
 <img src="noCacheETag.JPG" alt="alt text" width="400"/>
 
 1. Data always form server
@@ -129,10 +132,8 @@ Caching behavior
 1. Some **cache** control directives
 2. For sensitive data
 3. No backups directive
-4. When unpredictable data, you can use `no-cache`, but will lead inefficiently. Can use with `ETag` header
+4. When unpredictable data, you can use `no-cache`, but will lead inefficiently. You can use with `ETag` header
 5. Most popular **cache header**. Be careful when setting.
-
-
 
 ## Demo - API Caching
 
@@ -145,4 +146,162 @@ Caching behavior
 
 1. In scenario one. Call is made and response is returned form cache if its valid
 2. Seconds scenario, where client will suppress the ***cache**
+
+# Scenario 1
+
+- We are using **Cache-Conrol** `max-age` directive. 
+
+### Server code
+
+```
+/**
+ * A Very simple express server to demostrate the use of Cache-Control header
+ */
+
+
+var express = require('express');
+var app = express();
+
+var counter = 0
+// Change the max age - keep in mind its in seconds
+var MAX_AGE = 15
+
+app.use(express.static('public'))
+
+app.get('/cachetest', function (req, res) {
+    // Set the headers
+    res.header('Cache-Control', 'public, max-age='+MAX_AGE);
+
+    // Increment the counter
+    counter++
+    console.log('recvd ' + counter)
+
+    // Response data
+    data = {
+        value: "Hello Cache !!!",
+        counter: counter
+      };
+    res.send(JSON.stringify(data));
+});
+
+// Listen on http port
+app.listen(3000, function () {
+  console.log('Example app listening on port 3000!');
+});
+```
+
+
+### Scenario 2
+
+
+- Here we suppress the **cache** `headers: {"Cache-Control" : "no-cache"}`
+```
+<html>
+
+<head>
+    <title>Cache-Control Demo</title>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+    <script type="text/javascript">
+
+        var maxAge = 0
+        var suppressCache = false
+
+         $(document).ready(function(){
+
+             $("#suppresscache").change( function(){
+                 maxAge = 0
+                if( $(this).is(':checked') ) {
+                    suppressCache = true
+                    $('#expiring').text("Cache Suppressed with 'no-cache'")
+                }else{
+                    $('#expiring').text("Cache controlled by server")
+                    suppressCache = false
+                }
+            });
+
+             $("#callrest").click(function(){
+                 if(suppressCache){
+                    jQuery.support.cors = true;
+
+                    // AJAX Code with cache suppress
+                    $.ajax(
+                    {
+                        type:'GET',
+                        url: "http://localhost:3000/cachetest" ,
+                        headers: {"Cache-Control" : "no-cache"},
+                        data: "{}",
+                        contentType: "application/json; charset=utf-8",
+                        dataType:  "json",
+                        success: success ,
+                        error: function (msg, url, line) {
+                            alert('error '+msg+ "    "+url+"    "+line)
+                        }
+                    })
+                 } else {
+                    
+                    $.ajax(
+                    {
+                        type:'GET',
+                        url: "http://localhost:3000/cachetest" ,
+                        headers: {},
+                        data: "{}",
+                        contentType: "application/json; charset=utf-8",
+                        dataType:  "json",
+                        success: success ,
+                        error: function (msg, url, line) {
+                            alert('error '+msg+ "    "+url+"    "+line)
+                        }
+                    })
+                 }
+             });
+        });
+
+        function success(data,status,xhr) {
+                    
+            if(maxAge <=0){
+                maxAge = extractMaxAge(xhr.getResponseHeader('Cache-Control'))
+                startTime()
+            }
+            $('#countervalue').text("Counter="+data.counter)
+            $('#dataarea').val(JSON.stringify(data))
+            $('#headers').val(xhr.getResponseHeader('Cache-Control'))
+                    
+        }
+
+        function extractMaxAge(cacheHeader){
+            var index = cacheHeader.indexOf("max-age=")
+            var val = cacheHeader.substring(index+"max-age=".length)
+            return val
+        }
+
+        function startTime() {
+            if(suppressCache == true) return;
+            
+            if (maxAge <= 0){
+                $('#expiring').text('Cache expired')
+            } else {
+                $('#expiring').text('Cache expiring in: '+maxAge+' secs')
+                maxAge--
+                var t = setTimeout(startTime, 1000);
+            }
+        }
+
+      </script>
+
+</head>
+
+<body>
+    <button id="callrest">Call REST</button>
+    <p> Suppress Cache
+        <input type="checkbox" id="suppresscache"> </p>
+    <p id="expiring">Cache controlled by server</p>
+    <h3 id="countervalue">Counter=</h3>
+    <textarea cols="50" rows="5" id="dataarea"></textarea>
+    <h4>HTTP Header</h4>
+    <textarea cols="50" rows="5" id="headers"></textarea>
+</body>
+
+</html>
+```
 
