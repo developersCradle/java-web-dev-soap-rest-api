@@ -12,6 +12,8 @@
 1. **REST client** is in control of **granularity** of the data.    
     - **x, y, z** will be returned form REST Server API 
 
+## Partial response
+
 Partial Responses gives benefits: (**Example mobile applications**)
     - Better performance
     - Optimal use of CPU/Memory
@@ -77,7 +79,7 @@ Partial Responses gives benefits: (**Example mobile applications**)
 2. Website has more screen to view, it will want to get more rows.
 3. Mobile in other hand has less space, it will only want what is needed.
 
-<img src="whyPagination.JPG" alt="alt text" width="400"/>
+<img src="pagination.JPG" alt="alt text" width="400"/>
 
 1. App developer decides to return all **pages**
 2. App developer decides to **return only page 2** 
@@ -90,10 +92,48 @@ Partial Responses gives benefits: (**Example mobile applications**)
 
 <img src="designOptions.JPG" alt="alt text" width="400"/>
 
- - **Three** Common ways REST API:s implements pagination
+- **Three** Common ways REST API:s implements pagination
 
  1. Most popular nowadays pagination way
  2. The Least popular nowadays pagination way
  
+ ## Cursors for pagination
+
+ - If you want to go thought, in more detail. Check documentation from Facebook. 
 
 <img src="cursorDefination.JPG" alt="alt text" width="400"/>
+
+1. Cursor pagination is considered to e **most efficient**
+
+2. Cursor is random string pointing to one record
+
+<img src="cursorPaginationReturned.JPG" alt="alt text" width="400"/>
+
+1. **Page data**, page 2
+2. Some **metadata** which points to next and previous page 
+3. HTTP Header can also hold metadata
+
+<img src="offsetBasedPagination.JPG" alt="alt text" width="400"/>
+
+3. Most common for pagination
+
+- Typical query example `GET /../hotels?offset=6&limit=5` 
+
+1. From **Offset** of 6 
+2. **Limit** of 5 will be returned, therefore from rows **6 - 10** will be returned 
+
+<img src="usageOfPagination.JPG" alt="alt text" width="400"/>
+
+1. Semantics can be little different
+    - Idea is the same
+
+<img src="httpLinkHeader.JPG" alt="alt text" width="400"/>
+
+- If you want read more read `RFC5988`
+
+- **Paginated data** will be returned with **HTTP Header** is having such fields
+
+1. Link to next page
+2. Link to the last page
+
+<img src="summary.JPG" alt="alt text" width="400"/>
