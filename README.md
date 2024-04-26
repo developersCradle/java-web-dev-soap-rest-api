@@ -58,8 +58,7 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 
 **Note: The material provided in this repository is only for helping those who may get stuck at any point of time in the course. It is very advised that no one should just copy the solutions(violation of Honor Code) presented here.**
 
-
-- TODO do SOAP with [Spring](https://www.youtube.com/watch?v=ceSqN3CWd14)
+- TODO do SOAP with [Spring](https://www.youtube.com/watch?v=ceSqN3CWd14)es 
 
 ## Progress/Curriculum
 
@@ -67,8 +66,8 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 - [x] [02](https://github.com/developersCradle/java-web-development-under-the-hood/tree/main/SOAPWebServices/Section%2002) - SOAP Web Services 02 - Web Service Jargon ✔️
 - [x] [03](https://github.com/developersCradle/java-web-development-under-the-hood/tree/main/SOAPWebServices/Section%2003) - SOAP Web Services 03 - Writing a Web service Client: Stub generation ✔️ 
 - [x] [04](https://github.com/developersCradle/java-web-development-under-the-hood/tree/main/SOAPWebServices/Section%2004) - SOAP Web Services 04 - Writing a Web service Client: Calling the Service ✔️
-- [x] [05](#) - SOAP Web Services 05 - Setting up Java EE 7 SDK ✔️
-- [ ] [06](#) - SOAP Web Services 06 - Writing a Web Service: Eclipse setup
+- [x] [05](https://github.com/developersCradle/rest-api-design-development-management/tree/main/SOAPWebServices/Section%2005) - SOAP Web Services 05 - Setting up Java EE 7 SDK ✔️
+- [ ] [06](https://github.com/developersCradle/rest-api-design-development-management/tree/main/SOAPWebServices/Section%2006) - SOAP Web Services 06 - Writing a Web Service: Eclipse setup
 - [ ] [07](#) - 
 - [ ] [08](#) - 
 - [ ] [09](#) - 

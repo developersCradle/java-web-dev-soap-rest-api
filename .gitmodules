@@ -1,15 +1,15 @@
-[submodule "REST-API-Course-Swagger"]
-	path = REST-API-Course-Swagger
+[submodule "RestApiDesignDevelopementAndManagement/REST-API-Course-Swagger"]
+	path = RestApiDesignDevelopementAndManagement/REST-API-Course-Swagger
 	url = https://github.com/acloudfan/REST-API-Course-Swagger
-[submodule "REST-API-Course-API-Management"]
-	path = REST-API-Course-API-Management
+[submodule "RestApiDesignDevelopementAndManagement/REST-API-Course-API-Management"]
+	path = RestApiDesignDevelopementAndManagement/REST-API-Course-API-Management
 	url = https://github.com/acloudfan/REST-API-Course-API-Management
-[submodule "REST-API-Course"]
-	path = REST-API-Course
+[submodule "RestApiDesignDevelopementAndManagement/REST-API-Course"]
+	path = RestApiDesignDevelopementAndManagement/REST-API-Course
 	url = https://github.com/acloudfan/REST-API-Course
-[submodule "Section 07/REST-API-Caching"]
-	path = Section 07/REST-API-Caching
+[submodule "RestApiDesignDevelopementAndManagement/Section 07/REST-API-Caching"]
+	path = RestApiDesignDevelopementAndManagement/Section 07/REST-API-Caching
 	url = https://github.com/acloudfan/REST-API-Caching
-[submodule "REST-API-Course-V2"]
-	path = REST-API-Course-V2
+[submodule "RestApiDesignDevelopementAndManagement/REST-API-Course-V2"]
+	path = RestApiDesignDevelopementAndManagement/REST-API-Course-V2
 	url = https://github.com/acloudfan/REST-API-Course-V2.git
