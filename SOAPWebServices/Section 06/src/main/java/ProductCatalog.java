@@ -1,7 +1,9 @@
-# SOAP Web Services 07 - Writing a Web service Client: Stub generation
+import java.util.ArrayList;
+import java.util.List;
 
-```
-public List<String> getProductCategories() {
+public class ProductCatalog {
+	
+	public List<String> getProductCategories() {
 		
 		List<String> categories = new ArrayList<>();
 		
@@ -12,6 +14,11 @@ public List<String> getProductCategories() {
 		
 		return categories;
 	}
-```
+	
+	
+	
+	
+	
+	
 
-- Converting this to SOAP Web Service.
+}

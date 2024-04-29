@@ -27,13 +27,34 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 
 <img id="" src="" alt="" width="600"/>
 
+Insert certificate here when completed
+
 **Note: The material provided in this repository is only for helping those who may get stuck at any point of time in the course. It is very advised that no one should just copy the solutions(violation of Honor Code) presented here.**
 
 ## Progress/Curriculum
 
-- [x] [Module 1](#) - Module 1 ✔️
-- [x] [Chapter 1](#) - Introduction  
-- [x] [Chapter 2](#) - Servlets
+- [x] [Section 1: Module 1](#) - Module 1 ✔️
+- [ ] [Section 2](#) - Introduction  
+- [ ] [Section 3](#) - Servlets
+- [ ] [Section 4](#) -
+- [ ] [Section 5](#) -
+- [ ] [Section 6](#) -
+- [ ] [Section 7](#) -
+- [ ] [Section 8](#) -
+- [ ] [Section 9](#) -
+- [ ] [Section 10](#) -
+- [ ] [Section 11](#) -
+- [ ] [Section 12](#) -
+- [ ] [Section 13](#) -
+- [ ] [Section 14](#) -
+- [ ] [Section 15](#) -
+- [ ] [Section 16](#) -
+- [ ] [Section 17](#) -
+- [ ] [Section 18](#) -
+- [ ] [Section 19](#) -
+- [ ] [Section 20](#) -
+- [ ] [Section 21](#) -
+
 
 # SOAP Web Services by Java Brains
 
@@ -56,9 +77,11 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 
 <img id="" src="" alt="" width="600"/>
 
+Insert certificate here when completed
+
 **Note: The material provided in this repository is only for helping those who may get stuck at any point of time in the course. It is very advised that no one should just copy the solutions(violation of Honor Code) presented here.**
 
-- TODO do SOAP with [Spring](https://www.youtube.com/watch?v=ceSqN3CWd14)es 
+- TODO do SOAP with [Spring](https://www.youtube.com/watch?v=ceSqN3CWd14)
 
 ## Progress/Curriculum
 
@@ -67,8 +90,8 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 - [x] [03](https://github.com/developersCradle/java-web-development-under-the-hood/tree/main/SOAPWebServices/Section%2003) - SOAP Web Services 03 - Writing a Web service Client: Stub generation ✔️ 
 - [x] [04](https://github.com/developersCradle/java-web-development-under-the-hood/tree/main/SOAPWebServices/Section%2004) - SOAP Web Services 04 - Writing a Web service Client: Calling the Service ✔️
 - [x] [05](https://github.com/developersCradle/rest-api-design-development-management/tree/main/SOAPWebServices/Section%2005) - SOAP Web Services 05 - Setting up Java EE 7 SDK ✔️
-- [ ] [06](https://github.com/developersCradle/rest-api-design-development-management/tree/main/SOAPWebServices/Section%2006) - SOAP Web Services 06 - Writing a Web Service: Eclipse setup
-- [ ] [07](#) - 
+- [x] [06](https://github.com/developersCradle/rest-api-design-development-management/tree/main/SOAPWebServices/Section%2006) - SOAP Web Services 06 - Writing a Web Service: Eclipse setup ✔️
+- [ ] [07](#) - SOAP Web Services 07 - Writing a Web Service: Code and Deploy
 - [ ] [08](#) - 
 - [ ] [09](#) - 
 - [ ] [10](#) - 
@@ -82,7 +105,6 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 - [ ] [18](#) - 
 - [ ] [19](#) - 
 - [ ] [20](#) - 
-
 
 ## REST API Design, Development & Management
 
