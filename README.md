@@ -85,15 +85,15 @@ Insert certificate here when completed
 
 ## Progress/Curriculum
 
-- [x] [01](https://github.com/developersCradle/java-web-development-under-the-hood/tree/main/SOAPWebServices/Section%2001) - SOAP Web Services 01 - Introduction To Web Services ✔️
-- [x] [02](https://github.com/developersCradle/java-web-development-under-the-hood/tree/main/SOAPWebServices/Section%2002) - SOAP Web Services 02 - Web Service Jargon ✔️
-- [x] [03](https://github.com/developersCradle/java-web-development-under-the-hood/tree/main/SOAPWebServices/Section%2003) - SOAP Web Services 03 - Writing a Web service Client: Stub generation ✔️ 
-- [x] [04](https://github.com/developersCradle/java-web-development-under-the-hood/tree/main/SOAPWebServices/Section%2004) - SOAP Web Services 04 - Writing a Web service Client: Calling the Service ✔️
-- [x] [05](https://github.com/developersCradle/rest-api-design-development-management/tree/main/SOAPWebServices/Section%2005) - SOAP Web Services 05 - Setting up Java EE 7 SDK ✔️
-- [x] [06](https://github.com/developersCradle/rest-api-design-development-management/tree/main/SOAPWebServices/Section%2006) - SOAP Web Services 06 - Writing a Web Service: Eclipse setup ✔️
-- [ ] [07](#) - SOAP Web Services 07 - Writing a Web Service: Code and Deploy
-- [ ] [08](#) - 
-- [ ] [09](#) - 
+- [x] [01](https://github.com/developersCradle/java-web-development-under-the-hood/tree/main/SOAPWebServices/Section%2001) - SOAP Web Services - Introduction To Web Services ✔️
+- [x] [02](https://github.com/developersCradle/java-web-development-under-the-hood/tree/main/SOAPWebServices/Section%2002) - SOAP Web Services - Web Service Jargon ✔️
+- [x] [03](https://github.com/developersCradle/java-web-development-under-the-hood/tree/main/SOAPWebServices/Section%2003) - SOAP Web Services - Writing a Web service Client: Stub generation ✔️ 
+- [x] [04](https://github.com/developersCradle/java-web-development-under-the-hood/tree/main/SOAPWebServices/Section%2004) - SOAP Web Services - Writing a Web service Client: Calling the Service ✔️
+- [x] [05](https://github.com/developersCradle/rest-api-design-development-management/tree/main/SOAPWebServices/Section%2005) - SOAP Web Services - Setting up Java EE 7 SDK ✔️
+- [x] [06](https://github.com/developersCradle/rest-api-design-development-management/tree/main/SOAPWebServices/Section%2006) - SOAP Web Services - Writing a Web Service: Eclipse setup ✔️
+- [x] [07](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/SOAPWebServices/Section%2007) - SOAP Web Services - Writing a Web Service: Code and Deploy ✔️
+- [x] [08](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/SOAPWebServices/Section%2008) - SOAP Web Services - Adding Input Arguments ✔️
+- [ ] [09](#) - SOAP Web Services - Service First and Contract First Web Services
 - [ ] [10](#) - 
 - [ ] [11](#) - 
 - [ ] [12](#) - 

@@ -3,10 +3,10 @@
 - [GlassFish Included nowadays](https://www.oracle.com/java/technologies/javaee-8-sdk-downloads.html)
 
 - Starting GlassFish server. In Widows:
-    - `asadmin stop-domain`
+    - `asadmin start-domain`
     - `asadmin stop-domain`
 
-- Admin UI: `http://localhost:4848/common/index.jsf`
+- Admin UI: `http://localhost:4848/common/index.jsf`.
 
 <img src="deployingJavaIntoGlassFish.JPG" alt="alt text" width="900"/>
 

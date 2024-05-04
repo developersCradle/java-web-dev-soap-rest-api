@@ -1,9 +1,9 @@
 # SOAP Web Services 03 - Writing a Web service Client: Stub generation
 
-- We are writing **Web Service** client. Of using [GeoIPService](http://wsgeoip.lavasoft.com/ipservice.asmx)
+- We are writing **Web Service** client. Of using [GeoIPService](http://wsgeoip.lavasoft.com/ipservice.asmx).
 
 - Real World example of **W**eb **S**ervice **D**escription **L**anguage.
-    - [Example if WSDL](http://wsgeoip.lavasoft.com/ipservice.asmx?WSDL)
+    - [Example if WSDL](http://wsgeoip.lavasoft.com/ipservice.asmx?WSDL).
 
 <img src="wsdlXML.JPG" alt="alt text" width="500"/>
 
@@ -36,7 +36,7 @@ public class IPLocationFinder {
 
 - Since `wsimport` is not shipped with **JDK** [anymore](https://stackoverflow.com/questions/72984802/installing-metro-jax-ws-and-running-wsimport-issue) we need to install `metro-jax-ws`.
 
-- To install this, get this. This is from [here](https://eclipse-ee4j.github.io/metro-jax-ws/)
+- To install this, get this. This is from [here](https://eclipse-ee4j.github.io/metro-jax-ws/).
 
 ```
         <dependencies>
