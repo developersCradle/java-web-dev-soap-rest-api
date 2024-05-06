@@ -17,7 +17,7 @@ public class ProductCatalog {
 		return productService.getProductCategories(); 				
 	}
 	
-	@WebMethod //This is optional
+	@WebMethod(exclude = true) //This is optional
 	public List<String> getProducts(String category)
 	{
 		System.out.println("Get Products");

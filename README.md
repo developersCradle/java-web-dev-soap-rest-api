@@ -93,9 +93,9 @@ Insert certificate here when completed
 - [x] [06](https://github.com/developersCradle/rest-api-design-development-management/tree/main/SOAPWebServices/Section%2006) - SOAP Web Services - Writing a Web Service: Eclipse setup ✔️
 - [x] [07](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/SOAPWebServices/Section%2007) - SOAP Web Services - Writing a Web Service: Code and Deploy ✔️
 - [x] [08](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/SOAPWebServices/Section%2008) - SOAP Web Services - Adding Input Arguments ✔️
-- [ ] [09](#) - SOAP Web Services - Service First and Contract First Web Services
-- [ ] [10](#) - 
-- [ ] [11](#) - 
+- [x] [09](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/SOAPWebServices/Section%2009) - SOAP Web Services - Service First and Contract First Web Services ✔️
+- [x] [10](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/SOAPWebServices/Section%2010) - SOAP Web Services - Understanding the WSDL ✔️
+- [ ] [11](#) - SOAP Web Services - Customizing the WSDL
 - [ ] [12](#) - 
 - [ ] [13](#) - 
 - [ ] [14](#) - 

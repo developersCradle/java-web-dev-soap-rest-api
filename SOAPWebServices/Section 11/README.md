@@ -1,1 +1,1 @@
-# SOAP Web Services 03 - Writing a Web service Client: Stub generation
+# SOAP Web Services 11 - Customizing the WSDL
