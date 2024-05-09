@@ -95,9 +95,9 @@ Insert certificate here when completed
 - [x] [08](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/SOAPWebServices/Section%2008) - SOAP Web Services - Adding Input Arguments ✔️
 - [x] [09](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/SOAPWebServices/Section%2009) - SOAP Web Services - Service First and Contract First Web Services ✔️
 - [x] [10](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/SOAPWebServices/Section%2010) - SOAP Web Services - Understanding the WSDL ✔️
-- [ ] [11](#) - SOAP Web Services - Customizing the WSDL
-- [ ] [12](#) - 
-- [ ] [13](#) - 
+- [x] [11](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/SOAPWebServices/Section%2011) - SOAP Web Services - Customizing the WSDL ✔️
+- [ ] [12](#) - SOAP Web Services - Schema Types and Binding Styles ✔️
+- [ ] [13](#) - SOAP Web Services - Service Interface and Custom Types
 - [ ] [14](#) - 
 - [ ] [15](#) - 
 - [ ] [16](#) - 

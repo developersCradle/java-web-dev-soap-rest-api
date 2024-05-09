@@ -6,4 +6,8 @@
       name="ProductCatalog"
       implementation="org.javabrains.ProductCatalog"
       url-pattern="/home"/>
+<endpoint
+      name="ShopInfo"
+      implementation="org.javabrains.ShopInfo"
+      url-pattern="/home2"/>
 </endpoints>

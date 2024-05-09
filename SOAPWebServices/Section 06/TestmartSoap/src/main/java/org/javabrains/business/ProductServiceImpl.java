@@ -1,4 +1,4 @@
-package org.javabrains;
+package org.javabrains.business;
 
 import java.util.ArrayList;
 import java.util.List;

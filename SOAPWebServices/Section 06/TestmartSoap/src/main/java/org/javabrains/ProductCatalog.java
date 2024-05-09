@@ -3,15 +3,17 @@ package org.javabrains;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.javabrains.business.ProductServiceImpl;
+
 import jakarta.jws.WebMethod;
 import jakarta.jws.WebService;
 
-@WebService
+@WebService(name = "TestMartCatalog", portName = "TestMartCatalogPort", serviceName="TestMartCatalogService", targetNamespace = "http://www.testmart.com")
 public class ProductCatalog {
 	
 	ProductServiceImpl productService = new ProductServiceImpl();
 	
-	@WebMethod //This is optional
+	@WebMethod(operationName = "fetchCatogories") //This is optional
 	public List<String> getProductCategories() {
 		System.out.println("Get Product Categories");
 		return productService.getProductCategories(); 				

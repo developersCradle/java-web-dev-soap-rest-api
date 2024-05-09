@@ -9,7 +9,7 @@ public interface Calculator {
 }
 ```
 
-- Excluding method out of **Web Service** .
+- Excluding method out of **Web Service**.
 
 ```
 	@WebMethod(exclude = true) //This is optional
@@ -60,7 +60,7 @@ public interface Calculator {
 </binding>
 ```
 
-- Where **service** is made available.
+- Where **service** is made available and in what **port**.
 
 ```
 <service name="ProductCatalogService">
