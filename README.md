@@ -96,12 +96,12 @@ Insert certificate here when completed
 - [x] [09](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/SOAPWebServices/Section%2009) - SOAP Web Services - Service First and Contract First Web Services ✔️
 - [x] [10](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/SOAPWebServices/Section%2010) - SOAP Web Services - Understanding the WSDL ✔️
 - [x] [11](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/SOAPWebServices/Section%2011) - SOAP Web Services - Customizing the WSDL ✔️
-- [ ] [12](#) - SOAP Web Services - Schema Types and Binding Styles ✔️
-- [ ] [13](#) - SOAP Web Services - Service Interface and Custom Types
+- [x] [12](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/SOAPWebServices/Section%2012) - SOAP Web Services - Schema Types and Binding Styles ✔️
+- [ ] [13](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/SOAPWebServices/Section%2013) - SOAP Web Services - Service Interface and Custom Types
 - [ ] [14](#) - 
 - [ ] [15](#) - 
 - [ ] [16](#) - 
-- [ ] [17](#) - 
+- [ ] [17](#) - SOAP Web Services - Using SoapUI ✔️
 - [ ] [18](#) - 
 - [ ] [19](#) - 
 - [ ] [20](#) - 
