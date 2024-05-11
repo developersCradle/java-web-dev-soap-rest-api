@@ -97,11 +97,11 @@ Insert certificate here when completed
 - [x] [10](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/SOAPWebServices/Section%2010) - SOAP Web Services - Understanding the WSDL ✔️
 - [x] [11](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/SOAPWebServices/Section%2011) - SOAP Web Services - Customizing the WSDL ✔️
 - [x] [12](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/SOAPWebServices/Section%2012) - SOAP Web Services - Schema Types and Binding Styles ✔️
-- [ ] [13](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/SOAPWebServices/Section%2013) - SOAP Web Services - Service Interface and Custom Types
-- [ ] [14](#) - 
-- [ ] [15](#) - 
-- [ ] [16](#) - 
-- [ ] [17](#) - SOAP Web Services - Using SoapUI ✔️
+- [x] [13](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/SOAPWebServices/Section%2013) - SOAP Web Services - Service Interface and Custom Types ✔️
+- [x] [14](#) - SOAP Web Services - Using JAXB Annotations Part 1 ✔️
+- [x] [15](#) - SOAP Web Services - Using JAXB Annotations Part 2 ✔️
+- [ ] [16](#) - SOAP Web Services - Handling Faults
+- [x] [17](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/SOAPWebServices/Section%2017) - SOAP Web Services - Using SoapUI ✔️
 - [ ] [18](#) - 
 - [ ] [19](#) - 
 - [ ] [20](#) - 
