@@ -102,10 +102,10 @@ Insert certificate here when completed
 - [x] [13](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/SOAPWebServices/Section%2013) - SOAP Web Services - Service Interface and Custom Types ✔️
 - [x] [14](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/SOAPWebServices/Section%2014) - SOAP Web Services - Using JAXB Annotations Part 1 ✔️
 - [x] [15](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/SOAPWebServices/Section%2015) - SOAP Web Services - Using JAXB Annotations Part 2 ✔️
-- [x] [16](#) - SOAP Web Services - Handling Faults ✔️
+- [x] [16](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/SOAPWebServices/Section%2016) - SOAP Web Services - Handling Faults ✔️
 - [x] [17](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/SOAPWebServices/Section%2017) - SOAP Web Services - Using SoapUI ✔️
-- [ ] [18](#) - 
-- [ ] [19](#) - 
+- [x] [18](#) - SOAP Web Services - Using Web Service Explorer
+- [ ] [19](#) - SOAP Web Services - Using Endpoint
 - [ ] [20](#) - 
 
 ## REST API Design, Development & Management
