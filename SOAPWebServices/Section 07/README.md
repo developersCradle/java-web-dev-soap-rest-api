@@ -50,6 +50,7 @@ Inc.//DTD Web Application 2.3//EN"
 </endpoints>
 
 ```
+- © Some smart dude from comment section!
 
 - Converting this to SOAP Web Service.
 
