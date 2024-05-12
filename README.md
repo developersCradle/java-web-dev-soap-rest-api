@@ -60,7 +60,7 @@ Insert certificate here when completed
 
 ![SOAP Web Services](webServices.jpg)
 
-All course material from SOAP Web Services by **Java Brains** with little bit of mixing new stuff, since this is old tutorial and many relevant technologies were deprecated or disappeared at time when i proceeded thought this. Comment section rocks! Contains my additional notes and some extra videos to make it more content rich experience.
+All course material from SOAP Web Services by **Java Brains** with little bit of mixing new stuff, since this is old tutorial and many relevant technologies were deprecated or disappeared at time when i proceeded thought this. Comment section rocks! Contains my additional notes and some extra videos to make it more content rich experience. We be using **JAX-WS** standard and Java for this.
 
 [Original Channel](https://www.youtube.com/@Java.Brains)
 
@@ -77,9 +77,7 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 ?trk=public_profile_see-credential 
 -->
 
-<img id="" src="" alt="" width="600"/>
-
-Insert certificate here when completed
+<img id="SOAP Web Services with Java_certificate?trk=public_profile_see-credential" src="SOAP Web Services with Java_certificate.JPG" alt="SOAP Web Services with Java_certificate" width="600"/>
 
 **Note: The material provided in this repository is only for helping those who may get stuck at any point of time in the course. It is very advised that no one should just copy the solutions(violation of Honor Code) presented here.**
 
@@ -105,8 +103,8 @@ Insert certificate here when completed
 - [x] [16](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/SOAPWebServices/Section%2016) - SOAP Web Services - Handling Faults ✔️
 - [x] [17](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/SOAPWebServices/Section%2017) - SOAP Web Services - Using SoapUI ✔️
 - [x] [18](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/SOAPWebServices/Section%2018) - SOAP Web Services - Using Web Service Explorer ✔️
-- [x] [19](#) - SOAP Web Services - Using Endpoint ✔️
-- [x] [20](#) - SOAP Web Services - wsimport Revisited ✔️
+- [x] [19](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/SOAPWebServices/Section%2019) - SOAP Web Services - Using Endpoint ✔️
+- [x] [20](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/SOAPWebServices/Section%2020) - SOAP Web Services - wsimport Revisited ✔️
 
 ## REST API Design, Development & Management
 
