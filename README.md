@@ -1,6 +1,6 @@
 # Java Web Development Under The Hood
 
-![JunitAndMockito](webDevelopementUnderTheHood.JPG)
+![Java Web Development Under The Hood](webDevelopementUnderTheHood.JPG)
 
 These are fundamentals for any **professional** Java developer to understand, even the old concepts, these can become handy in legacy projects! These concepts will come to you eventually regardless which Java framework you will decide to work with.
 
@@ -58,7 +58,9 @@ Insert certificate here when completed
 
 # SOAP Web Services by Java Brains
 
-![JunitAndMockito](webServices.jpg)
+![SOAP Web Services](webServices.jpg)
+
+All course material from SOAP Web Services by **Java Brains** with little bit of mixing new stuff, since this is old tutorial and many relevant technologies were deprecated or disappeared at time when i proceeded thought this. Comment section rocks! Contains my additional notes and some extra videos to make it more content rich experience.
 
 [Original Channel](https://www.youtube.com/@Java.Brains)
 
@@ -98,9 +100,9 @@ Insert certificate here when completed
 - [x] [11](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/SOAPWebServices/Section%2011) - SOAP Web Services - Customizing the WSDL ✔️
 - [x] [12](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/SOAPWebServices/Section%2012) - SOAP Web Services - Schema Types and Binding Styles ✔️
 - [x] [13](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/SOAPWebServices/Section%2013) - SOAP Web Services - Service Interface and Custom Types ✔️
-- [x] [14](#) - SOAP Web Services - Using JAXB Annotations Part 1 ✔️
-- [x] [15](#) - SOAP Web Services - Using JAXB Annotations Part 2 ✔️
-- [ ] [16](#) - SOAP Web Services - Handling Faults
+- [x] [14](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/SOAPWebServices/Section%2014) - SOAP Web Services - Using JAXB Annotations Part 1 ✔️
+- [x] [15](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/SOAPWebServices/Section%2015) - SOAP Web Services - Using JAXB Annotations Part 2 ✔️
+- [x] [16](#) - SOAP Web Services - Handling Faults ✔️
 - [x] [17](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/SOAPWebServices/Section%2017) - SOAP Web Services - Using SoapUI ✔️
 - [ ] [18](#) - 
 - [ ] [19](#) - 
@@ -133,7 +135,6 @@ Insert certificate here when completed
 **Note: The material provided in this repository is only for helping those who may get stuck at any point of time in the course. It is very advised that no one should just copy the solutions(violation of Honor Code) presented here.**
 
 - TODO [Crash Course on API design](https://www.youtube.com/watch?v=6WGxVttWaXE&list=WL&index=94)
-- TODO Add some prototypes with Express or some library which makes routes to drive in these concepts  
 - TODO Do RPC call with GWT
 - TODO Do chapter 3, more abstract concepts
 - TODO Write some mockup swagger API documentation
@@ -145,7 +146,7 @@ Insert certificate here when completed
 
 - [x] [Section 01](https://github.com/developersCradle/rest-api-design-development-management/tree/main/RestApiDesignDevelopementAndManagement/Section%2001) - Setting the stage
 - [x] [Section 02](https://github.com/developersCradle/rest-api-design-development-management/tree/main/RestApiDesignDevelopementAndManagement/Section%2002) - Evolution of RESTful services.
-- [x] [Section 03](https://github.com/developersCradle/rest-api-design-development-management/tree/main/RestApiDesignDevelopementAndManagement/Section%2003) - REST API Architectural Constraints. **TODO Do this when time**
+- [x] [Section 03](https://github.com/developersCradle/rest-api-design-development-management/tree/main/RestApiDesignDevelopementAndManagement/Section%2003) - REST API Architectural Constraints.
 - [x] [Section 04](https://github.com/developersCradle/rest-api-design-development-management/tree/main/RestApiDesignDevelopementAndManagement/Section%2004) - Designing REST API
 - [ ] [Section 05](https://github.com/developersCradle/rest-api-design-development-management/tree/main/RestApiDesignDevelopementAndManagement/Section%2005) - REST API Error Handling Patterns
 - [ ] [Section 06](https://github.com/developersCradle/rest-api-design-development-management/tree/main/RestApiDesignDevelopementAndManagement/Section%2006) - REST API Handling Change - Versioning Patterns

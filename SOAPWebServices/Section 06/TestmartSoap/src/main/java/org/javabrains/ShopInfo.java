@@ -14,9 +14,9 @@ public class ShopInfo {
 	
 	@WebMethod
 	@WebResult(partName="lookupOutput")
-	public String getShopInfo(@WebParam(partName = "lookupInput") String property)
+	public String getShopInfo(@WebParam(partName = "lookupInput") String property) throws InvalidInputException
 	{
-		String response = "Invalid property";
+		String response = null;
 		
 		if ("shopName".equals(property)) {
 			response = "Test Mart";
@@ -24,6 +24,9 @@ public class ShopInfo {
 		else if("since".equals(property))
 		{
 			response = "since 2012";
+		}
+		else {
+			throw new InvalidInputException("Invalid Input", property + " is not a valid input");
 		}
 		
 		return response;
