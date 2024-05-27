@@ -5,51 +5,54 @@
 <img src="restFullAppllication.JPG" alt="alt text" width="500"/>
 
 - Just because you add HTTP and JSON together, you don't necessarily have RESTful architecture.
-    - It can be **REST like** or **RESTish**
+    - It can be **REST like** or **RESTish**.
 
 - What makes Architecture RESTful?
     - It must follow **6** Design Rules. 
-        - These rules are called **REST Architecture Constraints**
+        - These rules are called **REST Architecture Constraints**.
 
-- In summary these are
+- In summary these are.
 
 <img src="REST6Constraints.JPG" alt="alt text" width="500"/>
 
-1. Client - Server
-    - Use Client/Server design principles 
-2. Uniform Interface 
-    - Use of well-defined contracts between **client** and the **server**
-3. Statelessness
-    - Server should not manage state of application
-4. Caching 
-    - HTTP Caching header to cache responses to requests
-5. Layers
-    - Architecture should be layered
-6. Code on Demand (optional)
-    - Server can send code to client 
+1. Client - Server.
+    - Use Client/Server design principles.
+2. Uniform Interface. 
+    - Use of well-defined contracts between **client** and the **server**.
+3. Statelessness.
+    - Server should not manage state of application.
+4. Caching.
+    - HTTP Caching header to cache responses to requests.
+5. Layers.
+    - Architecture should be layered.
+6. Code on Demand (optional).
+    - Server can send code to client. 
 
 <img src="restOverHttp.JPG" alt="alt text" width="500"/>
 
-- Rest API are not restricted to HTTP. This can be said `REST over HTTP`
+- Rest API are not restricted to HTTP. This can be said `REST over HTTP`.
 
 <img src="MaturityModel.JPG" alt="alt text" width="500"/>
 
-- RESTfullness of API implementation
+1. Measurement for **measuring** RESTfullness **->** Richardson Maturity Model(**RMM**).
+    - This model was when **Richard analyzed** over 100 API:s.
+
+- RESTfullness of API implementation.
 
 <img src="summary.JPG" alt="alt text" width="500"/>
 
 ### 1. Client - Server constraint explained 
 
-- Client request **resource**
-- Server responses with **resource**
-    - Server may serve multiple resources
-    - Serves multiple clients
-- Client and Server NOT run in same process
+- Client request **resource**.
+- Server responses with **resource**.
+    - Server may serve multiple resources.
+    - Serves multiple clients.
+- Client and Server NOT run in same process.
 
 <img src="clientServerCommunicaiton.JPG" alt="alt text" width="500"/>
 
-- Over network, client and server can change independently
-    - As long **Uniform Interface** is 
+- Over network, client and server can change independently.
+    - As long **Uniform Interface** is.
 
 <img src="clientServer.JPG" alt="alt text" width="500"/>
 
@@ -57,44 +60,81 @@
 
 <img src="ClientServerIndependently.JPG" alt="alt text" width="500"/>
 
-- Client and Server can evolve independently
-2. At first Servers provided resource as **XML** format
-1. Then came need for support **JSON**
-3. In future came **CSV file format** 
+- Client and Server can evolve independently.
+
+2. At first Servers provided resource as **XML** format.
+1. Then came need for support **JSON**.
+3. In future came **CSV file format**. 
     - THIS IS POSSIBLE ONLY IF **Uniform Interface** is being valued!
 
 <img src="summaryClientAndServer.JPG" alt="alt text" width="500"/>
 
-### 2. Client - Server constraint explained 
-- todo
-### 3. Client - Server constraint explained
+### 2. Uniform Interface constraint explained 
+
+<img src="uniformInterface.JPG" alt="uniform" width="500"/>
+
+1. There shall not be any business logic.
+2. There needs to be contract between client and server. 
+
+<img src="uniformInterfaceRuleNumber1.JPG" alt="uniform" width="500"/>
+
+1. **Individual Resources** are identified in request.
+
+<img src="uniformInterfaceRuleNumber2first.JPG" alt="uniform" width="500"/>
+
+- Resource can use that object, to manipulate data. ie **DELETE**.
+
+<img src="uniformInterfaceRuleNumber2.JPG" alt="uniform" width="500"/>
+
+- Client can ask in different file format.
+
+<img src="uniformInterfaceRuleNumber2Third.JPG" alt="uniform" width="500"/>
+
+- Client and server exchanges **metadata** request and responses.
+
+1. Example `Accepts` header with `application/json` for accepted file formats.
+
+<img src="uniformInterfaceRuleNumber2fourth.JPG" alt="uniform" width="500"/>
+
+- Server back **Hypermedia**.
+
+1. **Links for discovery** = data + actions.
+
+<img src="summaryUniformItnerface.JPG" alt="uniform" width="500"/>
+
+### 3. Statelessness constraint explained
+
 - todo 
+
 ### 4. Client - Server constraint explained 
+
 - todo
+
 ### 5. Client - Server constraint explained
+
 - todo
 
 ### 6. Code On Demand - REST API Architectural Constraint
 
-- Server can send code to client
+- Server can send code to client.
 
 <img src="CodeOnDemand.JPG" alt="alt text" width="600"/>
 
 - When client asks server `hmtl` its returned from `server`. In REST context `<Response>` is sent back instead of `<html>`
-    - This can be other `.filetypes`
+    - This can be other `.filetypes`.
 
-2. Client can execute this in their machine
+2. Client can execute this in their machine.
 
-- `HATEOAS` is something as **Code on demand**
+- `HATEOAS` is something as **Code on demand**.
 
 <img src="hateoes.JPG" alt="alt text" width="600"/>
 
-2. REST client can take action on links coming from `<Response>` and apply them on **resources** manged on ***Rest Server**
+2. REST client can take action on links coming from `<Response>` and apply them on **resources** manged on ***Rest Server**.
 
 
 <img src="exampleCodeOnDemand.JPG" alt="alt text" width="600"/>
 
-1. Repose is returned with different **links**, client can **Invoke** these links, which in return get executed in server side. Hence, **server** can manage content of Vacation
+1. Repose is returned with different **links**, client can **Invoke** these links, which in return get executed in server side. Hence, **server** can manage content of Vacation.
 
 2. Let's say, requested resource is booked out. Server can manage response(Link) given in returned resource.
 
@@ -107,6 +147,6 @@
 
 <img src="PaypalUsesHateoa.JPG" alt="alt text" width="600"/>
 
-1. Link 1, link about this payment transaction
-2. Link 2, Carrying refund of trans action
-3. Link 3, Get parent transaction of this transaction
+1. Link 1, link about this payment transaction.
+2. Link 2, Carrying refund of trans action.
+3. Link 3, Get parent transaction of this transaction.
