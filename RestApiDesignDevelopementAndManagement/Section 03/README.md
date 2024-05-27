@@ -104,15 +104,56 @@
 
 ### 3. Statelessness constraint explained
 
-- todo 
+<img src="stateless.JPG" alt="Statelessness" width="500"/>
+
+<br>
+
+<img src="stateless1.JPG" alt="Statelessness" width="500"/>
+
+1. **Web Application** creates **state** to manage clients state of application. Some kind of **session** store.
+
+2. For every application **Web Application** manages state independently. **2.1** This approach where **Web application** manages state in server **IS NOT**  best practices for building REST:full API:s.
+
+<img src="stateless2.JPG" alt="Statelessness" width="500"/>
+
+<img src="stateless3.JPG" alt="Statelessness" width="500"/>
+
+1. REST client manages its own state!. This is left **CLIENT**.
+    
+2. Easier api implementation, easier to scale and needs less resources.
+
+<img src="stateless4.JPG" alt="Statelessness" width="500"/>
+
+1. In REST client sends necessary information.
+
+<img src="summary2.JPG" alt="Statelessness" width="500"/>
 
 ### 4. Client - Server constraint explained 
 
-- todo
+<img src="stateness.JPG" alt="cache" width="500"/>
 
-### 5. Client - Server constraint explained
+1. Such problems occur when using REST with session management.
 
-- todo
+<img src="cache.JPG" alt="cache" width="500"/>
+
+<br>
+
+<img src="cache2.JPG" alt="cache" width="500"/>
+
+1. There is other many places to insert cache.
+
+<img src="cache3.JPG" alt="cache" width="500"/>
+
+1. Caching can be done using `Cache-Control Directives`.
+
+- Not all data can be cached. Example, **stock prices**.
+
+<img src="cache3.JPG" alt="cache" width="500"/>
+
+### 5. Layered System explained
+
+
+
 
 ### 6. Code On Demand - REST API Architectural Constraint
 
