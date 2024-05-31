@@ -134,7 +134,6 @@ Insert certificate here when completed
 
 - TODO [Crash Course on API design](https://www.youtube.com/watch?v=6WGxVttWaXE&list=WL&index=94)
 - TODO Do RPC call with GWT
-- TODO Do chapter 3, more abstract concepts
 - TODO Write some mockup swagger API documentation
 - TODO Read thought [RFC2616](https://www.w3.org/Protocols/rfc2616/rfc2616.html)
 - TODO Go thought LinkedIn profiling API 
@@ -142,9 +141,9 @@ Insert certificate here when completed
 
 ## Progress
 
-- [x] [Section 01](https://github.com/developersCradle/rest-api-design-development-management/tree/main/RestApiDesignDevelopementAndManagement/Section%2001) - Setting the stage
-- [x] [Section 02](https://github.com/developersCradle/rest-api-design-development-management/tree/main/RestApiDesignDevelopementAndManagement/Section%2002) - Evolution of RESTful services.
-- [x] [Section 03](https://github.com/developersCradle/rest-api-design-development-management/tree/main/RestApiDesignDevelopementAndManagement/Section%2003) - REST API Architectural Constraints.
+- [x] [Section 01](https://github.com/developersCradle/rest-api-design-development-management/tree/main/RestApiDesignDevelopementAndManagement/Section%2001) - Setting the stage ✔️
+- [x] [Section 02](https://github.com/developersCradle/rest-api-design-development-management/tree/main/RestApiDesignDevelopementAndManagement/Section%2002) - Evolution of RESTful services. ✔️
+- [x] [Section 03](https://github.com/developersCradle/rest-api-design-development-management/tree/main/RestApiDesignDevelopementAndManagement/Section%2003) - REST API Architectural Constraints. ✔️
 - [x] [Section 04](https://github.com/developersCradle/rest-api-design-development-management/tree/main/RestApiDesignDevelopementAndManagement/Section%2004) - Designing REST API
 - [ ] [Section 05](https://github.com/developersCradle/rest-api-design-development-management/tree/main/RestApiDesignDevelopementAndManagement/Section%2005) - REST API Error Handling Patterns
 - [ ] [Section 06](https://github.com/developersCradle/rest-api-design-development-management/tree/main/RestApiDesignDevelopementAndManagement/Section%2006) - REST API Handling Change - Versioning Patterns
