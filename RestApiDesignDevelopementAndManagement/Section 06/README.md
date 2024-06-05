@@ -14,18 +14,18 @@
 
 <img src="nonBearkingChange.JPG" alt="alt text" width="500"/>
 
-1. Since this is changed, this will not brake API. **Nón Breaking Change** 
+1. Since this is changed, this will not brake API. **Nón Breaking Change**.
 
 <img src="breakingChange.JPG" alt="alt text" width="500"/>
 
-- This code change will break the API. **Breaking Change**
+- This code change will break the API. **Breaking Change**.
 
-1. We need to change code with this change. 
+1. We need to change code with this change.
 
 <img src="commonAPIchanges.JPG" alt="alt text" width="500"/>
 
-1. These changes will not changes application
-2. These changes will make **Breaking Change** 
+1. These changes will not changes application.
+2. These changes will make **Breaking Change**. 
 
 <img src="backEndChallange.JPG" alt="alt text" width="500"/>
 
@@ -96,3 +96,17 @@
 <img src="apiVersioning1.JPG" alt="alt text" width="500"/>
 
 1. **v1** and **v2** versioning is being used.
+
+<img src="apiChangeStrategy.JPG" alt="alt text" width="500"/>
+
+1.  When new version of API is released, old one is marked as **deprecated**.
+    - No more **new subscription** to te deprecated one by new developers.
+    - New users are given access to new version only.
+2. in **Q3** version-1 is deprecated.
+3. Developer can choose multiple version of API.
+
+<img src="keypoints.JPG" alt="alt text" width="500"/>
+
+<br>
+
+<img src="summary3.JPG" alt="alt text" width="500"/>

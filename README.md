@@ -133,11 +133,11 @@ Insert certificate here when completed
 **Note: The material provided in this repository is only for helping those who may get stuck at any point of time in the course. It is very advised that no one should just copy the solutions(violation of Honor Code) presented here.**
 
 - TODO [Crash Course on API design](https://www.youtube.com/watch?v=6WGxVttWaXE&list=WL&index=94)
-- TODO Do RPC call with GWT
-- TODO Write some mockup swagger API documentation
-- TODO Read thought [RFC2616](https://www.w3.org/Protocols/rfc2616/rfc2616.html)
-- TODO Go thought LinkedIn profiling API 
-- TODO Change Sub modules, to specific chapters
+- TODO Do RPC call with **GWT**.
+- TODO Write some mockup **Swagger API** documentation.
+- TODO Read thought [RFC2616](https://ww.w.w3.org/Protocols/rfc2616/rfc2616.html)
+- TODO Change Sub modules, to specific chapters.
+- TODO Do some partial response test with **GraphQL**.
 
 ## Progress
 
@@ -146,7 +146,7 @@ Insert certificate here when completed
 - [x] [Section 03](https://github.com/developersCradle/rest-api-design-development-management/tree/main/RestApiDesignDevelopementAndManagement/Section%2003) - REST API Architectural Constraints. ✔️
 - [x] [Section 04](https://github.com/developersCradle/rest-api-design-development-management/tree/main/RestApiDesignDevelopementAndManagement/Section%2004) - Designing REST API ✔️
 - [x] [Section 05](https://github.com/developersCradle/rest-api-design-development-management/tree/main/RestApiDesignDevelopementAndManagement/Section%2005) - REST API Error Handling Patterns ✔️
-- [ ] [Section 06](https://github.com/developersCradle/rest-api-design-development-management/tree/main/RestApiDesignDevelopementAndManagement/Section%2006) - REST API Handling Change - Versioning Patterns
+- [x] [Section 06](https://github.com/developersCradle/rest-api-design-development-management/tree/main/RestApiDesignDevelopementAndManagement/Section%2006) - REST API Handling Change - Versioning Patterns ✔️
 - [x] [Section 07](https://github.com/developersCradle/rest-api-design-development-management/tree/main/RestApiDesignDevelopementAndManagement/Section%2007) - REST API Cache Control Patterns
 - [ ] [Section 08](https://github.com/developersCradle/rest-api-design-development-management/tree/main/RestApiDesignDevelopementAndManagement/Section%2008) - REST API Response Data Handling Patterns
 - [ ] [Section 09](https://github.com/developersCradle/rest-api-design-development-management/tree/main/RestApiDesignDevelopementAndManagement/Section%2009) - REST API Security
