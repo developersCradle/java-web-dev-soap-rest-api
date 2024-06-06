@@ -14,7 +14,7 @@
 
 <img src="nonBearkingChange.JPG" alt="alt text" width="500"/>
 
-1. Since this is changed, this will not brake API. **Nón Breaking Change**.
+1. Since this is changed, this will not brake API. **Non Breaking Change**.
 
 <img src="breakingChange.JPG" alt="alt text" width="500"/>
 

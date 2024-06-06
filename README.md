@@ -81,8 +81,6 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 
 **Note: The material provided in this repository is only for helping those who may get stuck at any point of time in the course. It is very advised that no one should just copy the solutions(violation of Honor Code) presented here.**
 
-- TODO do SOAP with [Spring](https://www.youtube.com/watch?v=ceSqN3CWd14)
-
 ## Progress/Curriculum
 
 - [x] [01](https://github.com/developersCradle/java-web-development-under-the-hood/tree/main/SOAPWebServices/Section%2001) - SOAP Web Services - Introduction To Web Services ✔️
@@ -105,6 +103,10 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 - [x] [18](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/SOAPWebServices/Section%2018) - SOAP Web Services - Using Web Service Explorer ✔️
 - [x] [19](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/SOAPWebServices/Section%2019) - SOAP Web Services - Using Endpoint ✔️
 - [x] [20](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/SOAPWebServices/Section%2020) - SOAP Web Services - wsimport Revisited ✔️
+
+### Additional stuff
+
+- [ ] SOAP with [Spring](https://www.youtube.com/watch?v=ceSqN3CWd14)
 
 ## REST API Design, Development & Management
 
@@ -132,12 +134,6 @@ Insert certificate here when completed
 
 **Note: The material provided in this repository is only for helping those who may get stuck at any point of time in the course. It is very advised that no one should just copy the solutions(violation of Honor Code) presented here.**
 
-- TODO [Crash Course on API design](https://www.youtube.com/watch?v=6WGxVttWaXE&list=WL&index=94)
-- TODO Do RPC call with **GWT**.
-- TODO Write some mockup **Swagger API** documentation.
-- TODO Read thought [RFC2616](https://ww.w.w3.org/Protocols/rfc2616/rfc2616.html)
-- TODO Change Sub modules, to specific chapters.
-- TODO Do some partial response test with **GraphQL**.
 
 ## Progress
 
@@ -153,3 +149,13 @@ Insert certificate here when completed
 - [x] [Section 10](https://github.com/developersCradle/rest-api-design-development-management/tree/main/RestApiDesignDevelopementAndManagement/Section%2010) - REST API Specifications using Swagger 2.0 / OAI
 - [ ] [Section 11](https://github.com/developersCradle/rest-api-design-development-management/tree/main/RestApiDesignDevelopementAndManagement/Section%2011) - API Management
 - [ ] [Section 12](https://github.com/developersCradle/rest-api-design-development-management/tree/main/RestApiDesignDevelopementAndManagement/Section%2012) - Goodbye & All the Best
+
+
+### Additional stuff
+
+- [x] [Profile API - LinkedIn](https://learn.microsoft.com/en-us/linkedin/shared/integrations/people/profile-api).
+- [ ] [Crash Course on API design](https://www.youtube.com/watch?v=6WGxVttWaXE&list=WL&index=94).
+- [ ] Do RPC call with **GWT**.
+- [ ] Write some mockup **Swagger API** documentation.
+- [ ] Read thought [RFC2616](https://ww.w.w3.org/Protocols/rfc2616/rfc2616.html).
+- [ ] Do some partial response test with **GraphQL**.
