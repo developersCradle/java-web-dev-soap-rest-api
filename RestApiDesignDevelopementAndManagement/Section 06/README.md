@@ -24,13 +24,13 @@
 
 <img src="commonAPIchanges.JPG" alt="alt text" width="500"/>
 
-1. These changes will not changes application.
+1. These changes will not **break** application.
 2. These changes will make **Breaking Change**. 
 
 <img src="backEndChallange.JPG" alt="alt text" width="500"/>
 
 1. Back end tech also can also be **Breaking** or **Non-breaking**.
-2. If database field **length** changes to more higher characters. API developer can just change restrictions to return from db.
+2. If database field **length** changes to **more characters**. API developer can just change restrictions for API.
 3. Application will need to add extra variable.
 
 <img src="versioningAPI.JPG" alt="alt text" width="500"/>

@@ -2,7 +2,10 @@
 
 # What I Learned
 
+- For pulling submodules i used `git submodule update --init --recursive`
+
 # 1. Introduction to the Author and the Course
+
 
 - Get you hand dirty.
 
