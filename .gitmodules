@@ -13,3 +13,6 @@
 [submodule "RestApiDesignDevelopementAndManagement/REST-API-Course-V2"]
 	path = RestApiDesignDevelopementAndManagement/REST-API-Course-V2
 	url = https://github.com/acloudfan/REST-API-Course-V2.git
+[submodule "RestApiDesignDevelopementAndManagement/REST-API-Course-Security"]
+	path = RestApiDesignDevelopementAndManagement/REST-API-Course-Security
+	url = https://github.com/acloudfan/REST-API-Course-Security.git

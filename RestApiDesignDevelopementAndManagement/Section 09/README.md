@@ -2,5 +2,79 @@
 
 # What I Learned
 
-- Skipperos
+# 42. REST API Security - Introduction
 
+<img src="APIsecurity.JPG" alt="alt text" width="600"/>
+
+1. Attack can attack any of these points!
+
+<img src="bankingMobileApp.JPG" alt="alt text" width="600"/>
+
+1. Attacker can steal these one.
+2. Attacker can fake API calls.
+3. We need to have some users authenticated by customer.
+4. Data itself needs to be secured.
+
+- We need think about authentication. Most common ways:
+    - Basic auth.
+    - Token auth.
+    - Key secret based auth.
+
+<img src="dataSecurity.JPG" alt="alt text" width="600"/>
+
+1. Data in db, in REST. is out of scope of this. This needs to communication with other stake holders.
+2. Who ever uses your REST API is in this scope. **ALWAYS** use **TLS/HTTPS** for **REST API**.
+
+<br>
+
+<img src="apiSecurity2.JPG" alt="alt text" width="600"/>
+
+# 43. Securing API with Basic Authentication
+
+- **Basic is authentication** is the most **basic** authenticating.
+    - It is included with HTTP standard.
+
+<img src="BasicAuthetication.JPG" alt="alt text" width="600"/>
+
+1. **Password** and **User** is sended to the server in header.
+2. Server will answer with status codes.
+3. **Basic authentication** should be used with **TLS** or **HTTPs**. NOT with **HTTP**.
+
+<img src="BasicAutheticationWeakness.JPG" alt="alt text" width="600"/>
+
+1. If password is sended in unsecure channel **HTTP** by 3rd party route.
+2. Using of **sessions** is not best REST practices and credentials is needed to send with every request.
+3. If there is 3rd party platform, the credentials needed to hardcode in mobile app.
+
+- [Security](https://github.com/acloudfan/REST-API-Course-Security)
+- [JWT](https://github.com/acloudfan/REST-API-Course-Security/tree/tokens)
+
+- We be using plugin in Node.js
+
+<img src="authentication.JPG" alt="alt text" width="600"/>
+
+<br>
+
+- You can see how **Basic Auth** works.
+
+<img src="basicAuth.JPG" alt="alt text" width="600"/>
+
+1. Select **Basic Auth**.
+
+<img src="basicAuth.JPG" alt="alt text" width="600"/>
+
+- As you can see **credentials** are stored in **Base64** format inside **Authorization** header.
+
+<img src="base64.JPG" alt="alt text" width="600"/>
+
+<br>
+
+- **Base64** can be easily decoded.
+
+<img src="decodingBase64.JPG" alt="alt text" width="600"/>
+
+<br>
+
+<img src="summaryBasicAuth.JPG" alt="alt text" width="600"/>
+
+- To fix sending credentials every request. We need to use **Session**, but this is not **REST**.
