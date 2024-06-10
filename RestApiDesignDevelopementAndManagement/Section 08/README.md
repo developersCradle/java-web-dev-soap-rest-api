@@ -16,10 +16,11 @@
 
 ## Partial response
 
-Partial Responses gives benefits: (**Example mobile applications**)  
-    - Better performance.
-    - Optimal use of CPU/Memory.
-    - Low battery usage.
+Partial Responses gives benefits: (**Example mobile applications**)
+- Better performance.
+- Optimal use of CPU/Memory.
+- Low battery usage.
+
 - We can make **common endpoint** for all REST clients.
 
 - In API implantation, It's needed to support **partial responses**.

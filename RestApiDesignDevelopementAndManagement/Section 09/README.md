@@ -55,17 +55,15 @@
 
 <br>
 
-- You can see how **Basic Auth** works.
+1. You can see how **Basic Auth** works.
 
 <img src="basicAuth.JPG" alt="alt text" width="600"/>
+
+<img src="base64.JPG" alt="alt text" width="600"/>
 
 1. Select **Basic Auth**.
 
-<img src="basicAuth.JPG" alt="alt text" width="600"/>
-
 - As you can see **credentials** are stored in **Base64** format inside **Authorization** header.
-
-<img src="base64.JPG" alt="alt text" width="600"/>
 
 <br>
 
@@ -78,3 +76,20 @@
 <img src="summaryBasicAuth.JPG" alt="alt text" width="600"/>
 
 - To fix sending credentials every request. We need to use **Session**, but this is not **REST**.
+
+# 44. Securing API with Tokens & JWT
+
+<img src="tokenBasedAuth.JPG" alt="alt text" width="600"/>
+
+1. Invoke `/token` endpoint with credential.
+3. Issuing token, its saved in storage.
+2. ACME will send token back to **Dreamz**.
+4. Token is needed to use when using ACME from now one.
+
+<img src="BasicActivation.JPG" alt="alt text" width="600"/>
+
+1. If using **Basic Authentication**, the credentials is needed to store in mobile app.
+
+<img src="tokens.JPG" alt="alt text" width="600"/>
+
+1. Tokens are passed around, not credentials.

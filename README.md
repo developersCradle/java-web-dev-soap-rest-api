@@ -157,5 +157,7 @@ Insert certificate here when completed
 - [ ] [Crash Course on API design](https://www.youtube.com/watch?v=6WGxVttWaXE&list=WL&index=94).
 - [ ] Do RPC call with **GWT**.
 - [ ] Write some mockup **Swagger API** documentation.
-- [ ] Read thought [RFC2616](https://ww.w.w3.org/Protocols/rfc2616/rfc2616.html).
+- [ ] Read thought [RFC2616](https://datatracker.ietf.org/doc/html/rfc2616) - Hypertext Transfer Protocol -- HTTP/1.1
+- [ ] Read thought [RFC7617](https://datatracker.ietf.org/doc/html/rfc7617) - Basic Auth.
+
 - [ ] Do some partial response test with **GraphQL**.
