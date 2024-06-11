@@ -159,5 +159,8 @@ Insert certificate here when completed
 - [ ] Write some mockup **Swagger API** documentation.
 - [ ] Read thought [RFC2616](https://datatracker.ietf.org/doc/html/rfc2616) - Hypertext Transfer Protocol -- HTTP/1.1
 - [ ] Read thought [RFC7617](https://datatracker.ietf.org/doc/html/rfc7617) - Basic Auth.
+- [ ] Read thought [RFC7519](https://datatracker.ietf.org/doc/html/rfc7519) - JSON Web Token (JWT)
+
+
 
 - [ ] Do some partial response test with **GraphQL**.

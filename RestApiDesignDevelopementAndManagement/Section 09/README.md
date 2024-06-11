@@ -93,3 +93,29 @@
 <img src="tokens.JPG" alt="alt text" width="600"/>
 
 1. Tokens are passed around, not credentials.
+
+<img src="whatAreTokens.JPG" alt="alt text" width="600"/>
+
+1. Token goes thought hashing/encoding.
+2. Token can be sended in different places.
+3. There is many token standard, but most famous one is <b>JWT</b>.
+    - Multiple sites are using <b>token based authentication.</b> Like Facebook, Twitter/X and LinkedIn.
+
+<img src="jsonWebToken.JPG" alt="alt text" width="600"/>
+
+1. JSON web token format.
+2. **Self contained** information about user and token is collected inside here.
+
+<img src="JSONwebToken2.JPG" alt="alt text" width="600"/>
+
+1. There can be multiple **Hashing algorithm**.
+
+<img src="JSONwebToken3.JPG" alt="alt text" width="600"/>
+
+1. Payload here, it get **base64 encoded**.
+
+<img src="jwtSecret2.JPG" alt="alt text" width="600"/>
+
+1. Secret is created with following.
+2. After this, this is **hashed** with secret. 
+3. Output is this part.
