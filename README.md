@@ -130,7 +130,7 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 ?trk=public_profile_see-credential 
 -->
 
-Insert certificate here when completed
+<img id="REST API Design, Development and Management?trk=public_profile_see-credential" src="REST API Design_Development_and_Management.jpg" alt="REST API Design, Development and Management_certificate" width="600"/>
 
 **Note: The material provided in this repository is only for helping those who may get stuck at any point of time in the course. It is very advised that no one should just copy the solutions(violation of Honor Code) presented here.**
 
@@ -144,10 +144,10 @@ Insert certificate here when completed
 - [x] [Section 06](https://github.com/developersCradle/rest-api-design-development-management/tree/main/RestApiDesignDevelopementAndManagement/Section%2006) - REST API Handling Change - Versioning Patterns ✔️
 - [x] [Section 07](https://github.com/developersCradle/rest-api-design-development-management/tree/main/RestApiDesignDevelopementAndManagement/Section%2007) - REST API Cache Control Patterns
 - [x] [Section 08](https://github.com/developersCradle/rest-api-design-development-management/tree/main/RestApiDesignDevelopementAndManagement/Section%2008) - REST API Response Data Handling Patterns ✔️
-- [ ] [Section 09](https://github.com/developersCradle/rest-api-design-development-management/tree/main/RestApiDesignDevelopementAndManagement/Section%2009) - REST API Security 
+- [x] [Section 09](https://github.com/developersCradle/rest-api-design-development-management/tree/main/RestApiDesignDevelopementAndManagement/Section%2009) - REST API Security 
 - [x] [Section 10](https://github.com/developersCradle/rest-api-design-development-management/tree/main/RestApiDesignDevelopementAndManagement/Section%2010) - REST API Specifications using Swagger 2.0 / OAI
-- [ ] [Section 11](https://github.com/developersCradle/rest-api-design-development-management/tree/main/RestApiDesignDevelopementAndManagement/Section%2011) - API Management
-- [ ] [Section 12](https://github.com/developersCradle/rest-api-design-development-management/tree/main/RestApiDesignDevelopementAndManagement/Section%2012) - Goodbye & All the Best
+- [x] [Section 11](https://github.com/developersCradle/rest-api-design-development-management/tree/main/RestApiDesignDevelopementAndManagement/Section%2011) - API Management
+- [x] [Section 12](https://github.com/developersCradle/rest-api-design-development-management/tree/main/RestApiDesignDevelopementAndManagement/Section%2012) - Goodbye & All the Best
 
 ### Additional stuff
 
