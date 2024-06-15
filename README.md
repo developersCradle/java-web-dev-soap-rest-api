@@ -115,22 +115,22 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 This repository is trying to be one place quest for understanding REST API Design/Development. Contains my own notes with some course material.
 This course servers as start, but later might add even more resources.
 
-Learn the REST API Concepts, Design best practices, Security practices, Swagger 2.0/OAI, Hands-on API Management by
-
-All course material from REST API Design, Development & Management by Rajeev Sakhuja. 
-
-If the content sparked :fire: your interest, please consider buying the course and start learning :book:
+Learn the REST API Concepts, Design best practices, Security practices, Swagger 2.0/OAI, Hands-on API Management by **Rajeev Sakhuja**.
 
 [The Course at Udemy](https://www.udemy.com/course/rest-api/)   
 
 Official [answers](https://github.com/acloudfan/REST-API-Course)
+
+
+If the content sparked :fire: your interest, please consider buying the course and start learning :book:
+
 
 <!-- 
 Linkedin puts this shit front, when clicking from private mode x(. Need to put this to make jump working every case
 ?trk=public_profile_see-credential 
 -->
 
-<img id="REST API Design, Development and Management?trk=public_profile_see-credential" src="REST API Design_Development_and_Management.jpg" alt="REST API Design, Development and Management_certificate" width="600"/>
+<img id="REST_API_Design_Development_and_Management.jpg?trk=public_profile_see-credential" src="REST_API_Design_Development_and_Management.jpg" alt="REST API Design, Development and Management_certificate" width="600"/>
 
 **Note: The material provided in this repository is only for helping those who may get stuck at any point of time in the course. It is very advised that no one should just copy the solutions(violation of Honor Code) presented here.**
 
