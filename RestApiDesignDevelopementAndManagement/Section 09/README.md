@@ -225,7 +225,7 @@ app.listen(3000);
 console.log('Listening on 3000')
 ```
 
-- Validating
+- Validating.
 
 ```
 // DO NOT USE THIS IN PRODUCTION Implementation
@@ -339,7 +339,7 @@ module.exports = {
 1. API developer needs to decide in where **API key & Secret/Signature** is placed.
 2. How API provider will manage keys and secrets. Example, need for database. How is keys invalidating.
 3. How API key and security is implemented.
-4. How these is keys are provided to application developer(in webpage or sended by email)
+4. How these is keys are provided to application developer(in webpage or sended by email).
 5. Where would you implement Rate limiting & analytics.
 - These should be **NOT** be implemented into API CODE!
 6. Instead you should use **API Management Platform**.
@@ -349,3 +349,42 @@ module.exports = {
 # 46. API Authorization using OAuth2.0
 
 <img src="OauthSetup.JPG" alt="alt text" width="600"/>
+
+1. **ACME** page is getting popular. They start add more data! ACME saves customer data.
+2. **Dreamz** want to sell packages based on this **ACMES** data. **Acme** does not own that data, it belongs to customer. **Dreamz** should ask customer is it OK to use that data.
+
+<img src="OauthSetup2.JPG" alt="alt text" width="600"/>
+
+1. **Dreamz** ask customer is it OK to use the data.
+2. **Dreamz** call for customer information with + **Proof of Authorization** from customer.
+3. **ACME** checks **Proof of Authorization**, if its OK, it allows the access.
+
+<br>
+
+<img src="OauthAuth.JPG" alt="alt text" width="600"/>
+
+1. OAuth is flexible framework.
+2. Its based on tokens. There is different types of tokens.
+3. There is 5 methods for accessing these access tokens. These are called **grants**.
+4. User can decide what data is user authorized for.
+5. Application client needs **API & Secret**.
+6. **OAuth** is defacto by many companies. Here is spotify for example.
+
+<img src="authorizationScope.JPG" alt="alt text" width="600"/>
+
+1. **Authorization Scope Grant** is most common. You can use **Fb login** to login in other websites.
+
+- There is three parts, in here.
+
+2. **End user**. 
+3. **Client** or **Application**.
+4. Provider of API. It has **Authorization Sever** and **Resource or API Server**.
+5. **Flow:**
+    - **1.** Application asks users to grant the authorization. 
+    - **2.** User grants the authorization.
+    - **3.** Application sends the authorization **Grant** to **Authorization Server** for validation.
+    - **4.** Return the access **Token**.
+    - **5.** Client can repeatedly use the **Access Token**.
+    - **6.** Protected Resource is returned.
+
+<img src="OauthAuth2.JPG" alt="alt text" width="600"/>

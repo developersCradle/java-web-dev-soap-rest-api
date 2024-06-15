@@ -2,5 +2,4 @@
 
 # What I Learned
 
-- Skipperos
 

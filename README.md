@@ -134,7 +134,6 @@ Insert certificate here when completed
 
 **Note: The material provided in this repository is only for helping those who may get stuck at any point of time in the course. It is very advised that no one should just copy the solutions(violation of Honor Code) presented here.**
 
-
 ## Progress
 
 - [x] [Section 01](https://github.com/developersCradle/rest-api-design-development-management/tree/main/RestApiDesignDevelopementAndManagement/Section%2001) - Setting the stage ✔️
@@ -150,17 +149,15 @@ Insert certificate here when completed
 - [ ] [Section 11](https://github.com/developersCradle/rest-api-design-development-management/tree/main/RestApiDesignDevelopementAndManagement/Section%2011) - API Management
 - [ ] [Section 12](https://github.com/developersCradle/rest-api-design-development-management/tree/main/RestApiDesignDevelopementAndManagement/Section%2012) - Goodbye & All the Best
 
-
 ### Additional stuff
 
 - [x] [Profile API - LinkedIn](https://learn.microsoft.com/en-us/linkedin/shared/integrations/people/profile-api).
 - [ ] [Crash Course on API design](https://www.youtube.com/watch?v=6WGxVttWaXE&list=WL&index=94).
-- [ ] Do RPC call with **GWT**.
 - [ ] Write some mockup **Swagger API** documentation.
-- [ ] Read thought [RFC2616](https://datatracker.ietf.org/doc/html/rfc2616) - Hypertext Transfer Protocol -- HTTP/1.1
+- [ ] Read thought [RFC2616](https://datatracker.ietf.org/doc/html/rfc2616) - Hypertext Transfer Protocol -- HTTP/1.1.
 - [ ] Read thought [RFC7617](https://datatracker.ietf.org/doc/html/rfc7617) - Basic Auth.
-- [ ] Read thought [RFC7519](https://datatracker.ietf.org/doc/html/rfc7519) - JSON Web Token (JWT)
-
-
-
+- [ ] Read thought [RFC7519](https://datatracker.ietf.org/doc/html/rfc7519) - JSON Web Token (JWT).
+- [ ] Read thought [RFC6749](https://www.rfc-editor.org/rfc/rfc6749.html) - OAuth 2.0 (OAuth2).
+- [ ] Do JWT also in [Spring](https://www.youtube.com/watch?v=KxqlJblhzfI).
+- [ ] Do RPC call with **GWT**.
 - [ ] Do some partial response test with **GraphQL**.
