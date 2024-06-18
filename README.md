@@ -62,11 +62,11 @@ Insert certificate here when completed
 
 All course material from SOAP Web Services by **Java Brains** with little bit of mixing new stuff, since this is old tutorial and many relevant technologies were deprecated or disappeared at time when i proceeded thought this. Comment section rocks! Contains my additional notes and some extra videos to make it more content rich experience. We be using **JAX-WS** standard and Java for this.
 
-[Original Channel](https://www.youtube.com/@Java.Brains)
+[Original Channel](https://www.youtube.com/@Java.Brains).
 
-[Source](https://www.youtube.com/playlist?list=PLe8LZCtW06l-JJDOb4PQ2TiAdMRtPKxKV)
+[Source](https://www.youtube.com/playlist?list=PLe8LZCtW06l-JJDOb4PQ2TiAdMRtPKxKV).
 
-If the content sparked :fire: your interest, please consider starting the course and start learning :book:
+If the content sparked :fire: your interest, please consider starting the course and start learning :book:.
 
 This repository is made with **Eclipse**, therefore it will include configuration files which are related to this IDE this approach will be favored for now. ⚙️
 
@@ -121,16 +121,14 @@ Learn the REST API Concepts, Design best practices, Security practices, Swagger 
 
 Official [answers](https://github.com/acloudfan/REST-API-Course)
 
-
 If the content sparked :fire: your interest, please consider buying the course and start learning :book:
-
 
 <!-- 
 Linkedin puts this shit front, when clicking from private mode x(. Need to put this to make jump working every case
 ?trk=public_profile_see-credential 
 -->
 
-<img id="REST_API_Design_Development_and_Management.jpg?trk=public_profile_see-credential" src="REST_API_Design_Development_and_Management.jpg" alt="REST API Design, Development and Management_certificate" width="600"/>
+<img id="REST_API_Design_Development_and_Management?trk=public_profile_see-credential" src="REST_API_Design_Development_and_Management.jpg" alt="REST API Design, Development and Management_certificate" width="600"/>
 
 **Note: The material provided in this repository is only for helping those who may get stuck at any point of time in the course. It is very advised that no one should just copy the solutions(violation of Honor Code) presented here.**
 
@@ -152,6 +150,9 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 ### Additional stuff
 
 - [x] [Profile API - LinkedIn](https://learn.microsoft.com/en-us/linkedin/shared/integrations/people/profile-api).
+- [x] [Profile API - LinkedIn](https://learn.microsoft.com/en-us/linkedin/shared/integrations/people/profile-api).
+- [x] [SpotifyAPI](https://developer.spotify.com/).
+    - [ ] [SpotifyAPI OAuth2.0](https://developer.spotify.com/documentation/web-api/concepts/authorization).
 - [ ] [Crash Course on API design](https://www.youtube.com/watch?v=6WGxVttWaXE&list=WL&index=94).
 - [ ] Write some mockup **Swagger API** documentation.
 - [ ] Read thought [RFC2616](https://datatracker.ietf.org/doc/html/rfc2616) - Hypertext Transfer Protocol -- HTTP/1.1.

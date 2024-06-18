@@ -388,3 +388,141 @@ module.exports = {
     - **6.** Protected Resource is returned.
 
 <img src="OauthAuth2.JPG" alt="alt text" width="600"/>
+
+<br>
+
+<img src="accessTokenFb.JPG" alt="alt text" width="600"/>
+
+- Facebook has 4 types of access tokens. Now days 5 different access token.
+    - These are not standard tokens, these are **API** specific.
+- [Fb access tokens](https://developers.facebook.com/docs/facebook-login/guides/access-tokens/)
+
+<img src="spotify.JPG" alt="alt text" width="600"/>
+
+1. **Reason** why spotify has become so popular, they have provided API for developers.
+    - For multiple devices.
+
+- [SpotifyAPI](https://developer.spotify.com/)
+
+- There is many other use cases for SpotifyAPI.
+
+<img src="spotifyUseCases.JPG" alt="alt text" width="600"/>
+
+- We well using as example **Spotify OAuth2.0**.
+
+<img src="spotifyOAuth.JPG" alt="alt text" width="600"/>
+
+- [Example OAuth2.0 for Spotify](https://developer.spotify.com/documentation/web-api/concepts/authorization)
+
+<em>1.</em> Spotify support **4 of 5 Grants**. **Resource Owner Credentials Grant** is **not** supported by spotify.
+
+#### Authorization Scope Grant
+
+<em>2.1</em> **Can fetch users's data by requesting access?**
+    - Once **Spotify** client application have received **authorization**. They will able access **private data** for that user **who provided** that authorization.
+
+<em>2.2</em> **Uses Secret Key? (key exchange must happen server-side!)**
+    - Require the client provide the **secret key**.
+
+<em>2.3</em> **Access token can ve refreshed?**
+    - **Refresh token** is return which client can use for **revalidating** the access token.
+
+- When client registers for **Spotify** it receives **client ID** and **client secret**. 
+
+<img src="spotifyClientGrendiantsGrant.JPG" alt="alt text" width="600"/>
+
+1. Since there is not **user authorization** involved. No user data access for user.
+    - With **client credentials** you can access only data that is **publicly available**.
+2. Here is example of its applications. The graph only needs some information out of Spotify.
+    - Only albums and singles is being used.
+
+3. **Application request** access to **token** with `client_id` and `client_secret`.
+4. **Spotify** returns `access_token`.
+5. Client can use that `access_token` to make calls spotify API:s.
+
+<img src="clientCredintialsCrant.JPG" alt="alt text" width="600"/>
+
+#### Client Credentials Grant
+
+- Login screen is not presented.
+
+<em>1.1</em> **Can fetch users's data by requesting access?**
+    - You cannot fetch data for specific user. Can only public data.
+
+<em>1.2</em> **Uses Secret Key? (key exchange must happen server-side!)**
+    - Require the client provide the **secret key** and **client ID**.
+
+<em>1.3</em> **Access token can ve refreshed?**
+    - **Refresh token** is **NOT** returned to client, since there is no authorization involved.
+
+<img src="implicitGrant.JPG" alt="alt text" width="600"/>
+
+1. You use this when you cannot protect client secret.
+    - Example. You code **Single Page Application** for browser and you decide embedded **client secret** into code. This is easily accessible for hacker.
+1. No authorization.
+1. With **Implicit Grant** you get access to user data.
+2. When **user** **takes action** on client of the application. Application makes authorization request with `client_id` and `scope`. 
+3. Spotify account service, displays dialog box provides login 
+4. User inputs credentials.
+5. Redirect and token is passed.
+6. After this you can use spotify API normally.
+
+<img src="implicitGrantInTable.JPG" alt="alt text" width="600"/>
+
+#### Authorization Scope Grant
+
+<em>1.1</em> **Can fetch users's data by requesting access?**
+    - You can fetch data for specific user.
+
+<em>1.2</em> **Uses Secret Key? (key exchange must happen server-side!)**
+    - Does not require the client provide the **secret key** and **client ID**.
+
+<em>1.3</em> **Access token can ve refreshed?**
+    - **Refresh token** cannot be refreshed.
+
+#### Refresh Token Grant
+
+<img src="refreshToken.JPG" alt="alt text" width="600"/>
+
+1. Client receives **access token** and **refresh token**. These can be saved **persistance store**.
+2. Client is going to use **access token** for **protected resources**.
+3. When **access token** get expired. Client can use **refresh token** to get new access token. Example **4.**.
+
+- For the flow, **Refresh Token Grant** is aligned with same flow as **Authorization Scope Grant**.
+
+<img src="resourceOwnerGrant.JPG" alt="alt text" width="600"/>
+
+1. In this credentials is shared with the client. This is not the best case.
+2. For this reason this should be used **only** with **TRUSTED** applications.
+3. In bigger scale, its not suggested to use that **grant type!**
+
+
+### Spotify documented scope
+
+<img src="spotifyScope.JPG" alt="alt text" width="600"/>
+
+1. These scopes are available for these **Grants**.
+
+<img src="OAuth2DesignDesicions.JPG" alt="alt text" width="600"/>
+
+1. What **data** for user is **public** and what is **private**.
+2. What type of **Grant** is used. **Authorization || Implicit Grant** is recommended.
+3. Implementing **OAuth** can be complex. Suggested is to use **API Management Platform**.
+
+<img src="summary3.JPG" alt="alt text" width="600"/>
+
+- Defacto for authorization implementation.
+- 5 Grant Types.
+
+# 47. API Security - Functional Attack
+
+- You can see  most recent exposures
+[OWSAP](https://owasp.org/www-project-top-ten/)
+
+<img src="functionalAttacks.JPG" alt="alt text" width="600"/>
+
+- Attacker want attack API.
+
+1. Attacker can force customer to launch the attack! with **Cross site forgery**.
+
+<img src="mostCommonAttacks.JPG" alt="alt text" width="600"/>
