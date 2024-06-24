@@ -526,3 +526,11 @@ module.exports = {
 1. Attacker can force customer to launch the attack! with **Cross site forgery**.
 
 <img src="mostCommonAttacks.JPG" alt="alt text" width="600"/>
+
+<br>
+
+
+<img src="sqlInjection.JPG" alt="alt text" width="600"/>
+
+1. Here hacker sees **form** is presented application and its call API, which in regards manipulates **RDMS** with SQL. Where **WHERE** clauses is important. Hacker can insert SQL.
+2. This attack can carried out not with just **SQL**, but also with **XPath**, **JSON Path**, **XSLT**.

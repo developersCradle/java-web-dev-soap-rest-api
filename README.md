@@ -150,7 +150,6 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 ### Additional stuff
 
 - [x] [Profile API - LinkedIn](https://learn.microsoft.com/en-us/linkedin/shared/integrations/people/profile-api).
-- [x] [Profile API - LinkedIn](https://learn.microsoft.com/en-us/linkedin/shared/integrations/people/profile-api).
 - [x] [SpotifyAPI](https://developer.spotify.com/).
     - [ ] [SpotifyAPI OAuth2.0](https://developer.spotify.com/documentation/web-api/concepts/authorization).
 - [ ] [Crash Course on API design](https://www.youtube.com/watch?v=6WGxVttWaXE&list=WL&index=94).
