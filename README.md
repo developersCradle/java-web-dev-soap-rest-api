@@ -140,12 +140,12 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 - [x] [Section 04](https://github.com/developersCradle/rest-api-design-development-management/tree/main/RestApiDesignDevelopementAndManagement/Section%2004) - Designing REST API ✔️
 - [x] [Section 05](https://github.com/developersCradle/rest-api-design-development-management/tree/main/RestApiDesignDevelopementAndManagement/Section%2005) - REST API Error Handling Patterns ✔️
 - [x] [Section 06](https://github.com/developersCradle/rest-api-design-development-management/tree/main/RestApiDesignDevelopementAndManagement/Section%2006) - REST API Handling Change - Versioning Patterns ✔️
-- [x] [Section 07](https://github.com/developersCradle/rest-api-design-development-management/tree/main/RestApiDesignDevelopementAndManagement/Section%2007) - REST API Cache Control Patterns
+- [x] [Section 07](https://github.com/developersCradle/rest-api-design-development-management/tree/main/RestApiDesignDevelopementAndManagement/Section%2007) - REST API Cache Control Patterns ✔️
 - [x] [Section 08](https://github.com/developersCradle/rest-api-design-development-management/tree/main/RestApiDesignDevelopementAndManagement/Section%2008) - REST API Response Data Handling Patterns ✔️
 - [x] [Section 09](https://github.com/developersCradle/rest-api-design-development-management/tree/main/RestApiDesignDevelopementAndManagement/Section%2009) - REST API Security 
-- [x] [Section 10](https://github.com/developersCradle/rest-api-design-development-management/tree/main/RestApiDesignDevelopementAndManagement/Section%2010) - REST API Specifications using Swagger 2.0 / OAI
-- [x] [Section 11](https://github.com/developersCradle/rest-api-design-development-management/tree/main/RestApiDesignDevelopementAndManagement/Section%2011) - API Management
-- [x] [Section 12](https://github.com/developersCradle/rest-api-design-development-management/tree/main/RestApiDesignDevelopementAndManagement/Section%2012) - Goodbye & All the Best
+- [x] [Section 10](https://github.com/developersCradle/rest-api-design-development-management/tree/main/RestApiDesignDevelopementAndManagement/Section%2010) - REST API Specifications using Swagger 2.0 / OAI ✔️
+- [x] [Section 11](https://github.com/developersCradle/rest-api-design-development-management/tree/main/RestApiDesignDevelopementAndManagement/Section%2011) - API Management ✔️
+- [x] [Section 12](https://github.com/developersCradle/rest-api-design-development-management/tree/main/RestApiDesignDevelopementAndManagement/Section%2012) - Goodbye & All the Best ✔️
 
 ### Additional stuff
 

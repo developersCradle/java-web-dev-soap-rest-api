@@ -171,3 +171,135 @@
 <br>
 
 <img src="TrafficManagement.JPG" alt="alt text" width="600"/>
+
+1. Three main reason why API provider should **manage the traffic**.
+
+<img src="trafficManagementExplained.JPG" alt="alt text" width="600"/>
+
+1. Response time from database.
+2. There will be bug in application.
+3. End user response time for another customer will suffer to **5 secs**.
+
+- We need to prevent from such happening for other our customer. Application should not suffer from **one misbehaving application**.
+    - Use **Response time consistency**.
+
+<img src="trafficManagementExplained2.JPG" alt="alt text" width="600"/>
+
+1. Is API response under 1 seconds
+2. How check if client is making 10,00 per day.
+
+<img src="trafficManagementExplained3.JPG" alt="alt text" width="600"/>
+
+1. Traffic management call, should be implement on edge of network. If not done this can be affecting internal usage of **API**. 
+    - In case of DDOS attack.
+
+2. This can be done using throttling or blocking requests.
+
+<img src="TrafficManagementPolicyes.JPG" alt="alt text" width="600"/>
+
+1. Traffic policies can be applied to the proxy.
+    - These can be **Quata**, **Rate Limiting** and **Spike Arrest**.
+
+<img src="quota.JPG" alt="alt text" width="600"/>
+
+1. Maximum number of calls per unit time. Application can make to **API**. 
+    - All public API today defines maximum calls.
+2. There is no **Quata** in internal usage.
+3. Externals **Quatfa** is 350 calls/Hour.
+
+<img src="quataPerDay.JPG" alt="alt text" width="600"/>
+
+1. You can see for this account **Quata** 5000 per day.
+
+- [Quata example](https://github.com/acloudfan/REST-API-Course-API-Management)
+
+- Example setting **Quata** in Apigee. 
+
+<img src="settingQuataForApigee.JPG" alt="alt text" width="600"/>
+
+<br>
+
+- With **Rate Limiting** we can limit **concurrent** connections to API.
+
+<img src="rateLimiting.JPG" alt="alt text" width="600"/>
+
+1. To network we can make 100 concurrent calls/sec. Se we need to rate limit this on to "**20 concurrent calls/sec**" to each of these applications.
+
+- Example in **Walmart Open API**.
+
+<img src="callsPerSecond.JPG" alt="alt text" width="600"/>
+
+1. Calls per second is limited to 5.
+
+- **Spike Arrest** prevents calls from some mark reaching backend.
+
+<img src="SpikeArrest.JPG" alt="alt text" width="600"/>
+
+1. **Spike Arrest** policy configured
+
+<img src="SpikeArrestConfiguredInApigee.JPG" alt="alt text" width="600"/>
+
+<br>
+
+<img src="summar4.JPG" alt="alt text" width="600"/>
+
+# 58. API Analytics
+
+<img src="whyApiAnalytics.JPG" alt="alt text" width="500"/>
+
+1. You see uses of API:s
+2. You can catch errors from you API:s
+3. You can understand threads/attacks better for preventing these kind of faults.
+4. **Proxies** can catch interning data from API.
+
+<img src="analytics.JPG" alt="alt text" width="500"/>
+
+- Two categories for Analytics.
+
+1. Metrics, error rate, response rate ... etc.
+2. Visibility.
+    - Into usage of API.
+    - Into Transactions.
+
+<img src="metrics.JPG" alt="alt text" width="500"/>
+
+1. You can get following metrics form your api from this category. Example **average response time**.
+2. Error rates. **API errors**.
+3. **SLA** If you are **achieving promised SLA rates**.
+
+<img src="visibility.JPG" alt="alt text" width="500"/>
+
+1. Who is the the most poplar developer using your API.
+2. **Region based** analytics from which region API is going invoked.
+3. From **which device** the API is invoked.
+4. This is very specific feature, not all are supporting this one.
+    - These analytics need to build into **proxy**.
+
+- All platform support analytics, but its different how they implement their analytics.
+
+<img src="summary4.JPG" alt="alt text" width="500"/>
+
+# 59. API Product and API Monetization
+
+<img src="apiProduct.JPG" alt="alt text" width="500"/>
+
+- You need to treat API like product, to sell it as product.
+
+- There is two ways to get revenue from API. **API Monetization**.
+
+<img src="revenue.JPG" alt="alt text" width="500"/>
+
+1. They charges directly for using their API:s.s
+2. Revenue is collected when their product is advertised or sold in their platform.
+
+- Different monetization models.
+
+<img src="monotization.JPG" alt="alt text" width="500"/>
+
+<br>
+
+<img src="monotizationMenu.JPG" alt="alt text" width="500"/>
+
+<br>
+
+<img src="summary5.JPG" alt="alt text" width="500"/>
