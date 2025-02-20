@@ -83,26 +83,26 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 
 ## Progress/Curriculum
 
-- [x] [01](https://github.com/developersCradle/java-web-development-under-the-hood/tree/main/SOAPWebServices/Section%2001) - SOAP Web Services - Introduction To Web Services ✔️
-- [x] [02](https://github.com/developersCradle/java-web-development-under-the-hood/tree/main/SOAPWebServices/Section%2002) - SOAP Web Services - Web Service Jargon ✔️
-- [x] [03](https://github.com/developersCradle/java-web-development-under-the-hood/tree/main/SOAPWebServices/Section%2003) - SOAP Web Services - Writing a Web service Client: Stub generation ✔️ 
-- [x] [04](https://github.com/developersCradle/java-web-development-under-the-hood/tree/main/SOAPWebServices/Section%2004) - SOAP Web Services - Writing a Web service Client: Calling the Service ✔️
-- [x] [05](https://github.com/developersCradle/rest-api-design-development-management/tree/main/SOAPWebServices/Section%2005) - SOAP Web Services - Setting up Java EE 7 SDK ✔️
-- [x] [06](https://github.com/developersCradle/rest-api-design-development-management/tree/main/SOAPWebServices/Section%2006) - SOAP Web Services - Writing a Web Service: Eclipse setup ✔️
-- [x] [07](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/SOAPWebServices/Section%2007) - SOAP Web Services - Writing a Web Service: Code and Deploy ✔️
-- [x] [08](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/SOAPWebServices/Section%2008) - SOAP Web Services - Adding Input Arguments ✔️
-- [x] [09](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/SOAPWebServices/Section%2009) - SOAP Web Services - Service First and Contract First Web Services ✔️
-- [x] [10](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/SOAPWebServices/Section%2010) - SOAP Web Services - Understanding the WSDL ✔️
-- [x] [11](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/SOAPWebServices/Section%2011) - SOAP Web Services - Customizing the WSDL ✔️
-- [x] [12](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/SOAPWebServices/Section%2012) - SOAP Web Services - Schema Types and Binding Styles ✔️
-- [x] [13](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/SOAPWebServices/Section%2013) - SOAP Web Services - Service Interface and Custom Types ✔️
-- [x] [14](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/SOAPWebServices/Section%2014) - SOAP Web Services - Using JAXB Annotations Part 1 ✔️
-- [x] [15](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/SOAPWebServices/Section%2015) - SOAP Web Services - Using JAXB Annotations Part 2 ✔️
-- [x] [16](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/SOAPWebServices/Section%2016) - SOAP Web Services - Handling Faults ✔️
-- [x] [17](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/SOAPWebServices/Section%2017) - SOAP Web Services - Using SoapUI ✔️
-- [x] [18](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/SOAPWebServices/Section%2018) - SOAP Web Services - Using Web Service Explorer ✔️
-- [x] [19](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/SOAPWebServices/Section%2019) - SOAP Web Services - Using Endpoint ✔️
-- [x] [20](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/SOAPWebServices/Section%2020) - SOAP Web Services - wsimport Revisited ✔️
+- [x] [Section 01](https://github.com/developersCradle/java-web-development-under-the-hood/tree/main/SOAPWebServices/Section%2001) - SOAP Web Services - Introduction To Web Services ✔️
+- [x] [Section 02](https://github.com/developersCradle/java-web-development-under-the-hood/tree/main/SOAPWebServices/Section%2002) - SOAP Web Services - Web Service Jargon ✔️
+- [x] [Section 03](https://github.com/developersCradle/java-web-development-under-the-hood/tree/main/SOAPWebServices/Section%2003) - SOAP Web Services - Writing a Web service Client: Stub generation ✔️ 
+- [x] [Section 04](https://github.com/developersCradle/java-web-development-under-the-hood/tree/main/SOAPWebServices/Section%2004) - SOAP Web Services - Writing a Web service Client: Calling the Service ✔️
+- [x] [Section 05](https://github.com/developersCradle/rest-api-design-development-management/tree/main/SOAPWebServices/Section%2005) - SOAP Web Services - Setting up Java EE 7 SDK ✔️
+- [x] [Section 06](https://github.com/developersCradle/rest-api-design-development-management/tree/main/SOAPWebServices/Section%2006) - SOAP Web Services - Writing a Web Service: Eclipse setup ✔️
+- [x] [Section 07](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/SOAPWebServices/Section%2007) - SOAP Web Services - Writing a Web Service: Code and Deploy ✔️
+- [x] [Section 08](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/SOAPWebServices/Section%2008) - SOAP Web Services - Adding Input Arguments ✔️
+- [x] [Section 09](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/SOAPWebServices/Section%2009) - SOAP Web Services - Service First and Contract First Web Services ✔️
+- [x] [Section 10](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/SOAPWebServices/Section%2010) - SOAP Web Services - Understanding the WSDL ✔️
+- [x] [Section 11](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/SOAPWebServices/Section%2011) - SOAP Web Services - Customizing the WSDL ✔️
+- [x] [Section 12](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/SOAPWebServices/Section%2012) - SOAP Web Services - Schema Types and Binding Styles ✔️
+- [x] [Section 13](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/SOAPWebServices/Section%2013) - SOAP Web Services - Service Interface and Custom Types ✔️
+- [x] [Section 14](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/SOAPWebServices/Section%2014) - SOAP Web Services - Using JAXB Annotations Part 1 ✔️
+- [x] [Section 15](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/SOAPWebServices/Section%2015) - SOAP Web Services - Using JAXB Annotations Part 2 ✔️
+- [x] [Section 16](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/SOAPWebServices/Section%2016) - SOAP Web Services - Handling Faults ✔️
+- [x] [Section 17](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/SOAPWebServices/Section%2017) - SOAP Web Services - Using SoapUI ✔️
+- [x] [Section 18](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/SOAPWebServices/Section%2018) - SOAP Web Services - Using Web Service Explorer ✔️
+- [x] [Section 19](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/SOAPWebServices/Section%2019) - SOAP Web Services - Using Endpoint ✔️
+- [x] [Section 20](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/SOAPWebServices/Section%2020) - SOAP Web Services - wsimport Revisited ✔️
 
 ### Additional stuff
 
@@ -161,3 +161,34 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 - [ ] Do JWT also in [Spring](https://www.youtube.com/watch?v=KxqlJblhzfI).
 - [ ] Do RPC call with **GWT**.
 - [ ] Do some partial response test with **GraphQL**.
+
+
+## Learn Swagger and the OpenAPI Specification.
+
+![Learn Swagger and the OpenAPI Specification](LearnSwaggerCourse.PNG)
+
+Contains my own notes with some course material.
+
+API Definition Files, Tools, and Documentation (OAS 2.0) **Peter Gruenbaum**.
+
+[The Course at Udemy](https://www.udemy.com/course/learn-swagger-and-the-open-api-specification/).   
+[Homepage of Maker](https://sdkbridge.com/).
+
+If the content sparked :fire: your interest, please consider buying the course and start learning :book:
+
+<!-- 
+Linkedin puts this shit front, when clicking from private mode x(. Need to put this to make jump working every case
+?trk=public_profile_see-credential 
+-->
+
+<img id=" ?trk=public_profile_see-credential" src=" " alt=" " width="600"/>
+
+**Note: The material provided in this repository is only for helping those who may get stuck at any point of time in the course. It is very advised that no one should just copy the solutions(violation of Honor Code) presented here.**
+
+## Progress
+
+- [ ] [Section 01](#) - ✔️
+
+### Additional stuff
+
+- [ ] [sdsd](#).
