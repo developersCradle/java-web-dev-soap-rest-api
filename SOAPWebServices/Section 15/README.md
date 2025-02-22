@@ -1,6 +1,6 @@
 # SOAP Web Services 15 - Using JAXB Annotations Part 2
 
-- We are changing pojo formatting with **JAXB**.
+- We are changing **Pojo** formatting with **JAXB**.
 
 - Indicating **JAXB** about root element `@XmlRootElement(name = "Product")`.
 	- If Product has other classes inside itself.
@@ -9,7 +9,7 @@
 
 <img src="jaxb.JPG" alt="alt text" width="700"/>
 
-- Pojo customized with **JAXB**
+- **Pojo** customized with **JAXB**
 
 ```
 

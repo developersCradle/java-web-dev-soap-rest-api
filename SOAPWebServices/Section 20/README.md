@@ -1,4 +1,4 @@
-# SOAP Web Services 20 - wsimport Revisited
+# SOAP Web Services 20 - wsimport Revisited.
 
 <img src="wsimport.JPG" alt="alt text" width="700"/>
 
@@ -10,7 +10,7 @@
 
 - Local file cannot figure out dependencies if **WSDL** has one.
 
-- Its **preferred** to import form **WSDL** form **URL**.
+- It's **preferred** to import form **WSDL** form **URL**.
 
 - Some **wsimport** commands.
 
@@ -19,7 +19,7 @@
 - `wsimport -s <directory>`
 - `wsimport -quiet`
 
-- **Binding files** are XML files, that let you specific custom overrides. For example. names  
+- **Binding files** are XML files, that let you specific custom overrides. For example. Names  
 
 <img src="wsImportWithBinding.JPG" alt="alt text" width="700"/>
 

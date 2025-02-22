@@ -59,7 +59,7 @@ public class IPLocationFinder {
 
 - We can call to **generate stubs using** `wsimport -keep -s src http://wsgeoip.lavasoft.com/ipservice.asmx?WSDL`.
 
-- If cannot find **wsimport** you can download it separately. 
+- If you cannot find **wsimport** you can download it separately. 
 	- We install `wsimport` from [here](https://github.com/eclipse-ee4j/metro-jax-ws/releases/tag/3.0.2)
 
 - We can see there is generated stubs for this **WSDL** web service.

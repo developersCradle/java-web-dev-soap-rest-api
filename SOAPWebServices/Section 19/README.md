@@ -24,7 +24,7 @@ public class TestMartPublisher {
 
 - Then we can URL `http://localhost:1234/productcatalog`
 
-- There is **standard** for writing **Web Services** -> **JAX-WS**
+- There is **standard** for writing **Web Services** → **JAX-WS**
 
-- There is **standard** for publish **Web Services** -> In this example **Metro**, **reference implementation**. You can publish your code. **GlassFish** bundled with the class. **Metro** comes with JDK, so we can just run it!
+- There is **standard** for publish **Web Services** → In this example **Metro**, **reference implementation**. You can publish your code. **GlassFish** bundled with the class. **Metro** comes with JDK, so we can just run it!
     - Single threaded, not for production! ❌

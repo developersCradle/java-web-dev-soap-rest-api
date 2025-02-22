@@ -11,7 +11,7 @@
 1. We are making **HTTP request**. Different with this tool, is that is done in **POST** body.
 2. **SOAP** has this **STRICT** standard for controlling **XML.**
 
-- Tools are helping constructing **XML**!
+- Tools are helping to construct **XML**!
 
 - And return in like in normal queries.
 
@@ -21,7 +21,7 @@
 
 <img src="makingRequestInSOAPui.JPG" alt="alt text" width="700"/>
 
-1. Xml is generated from **WSDL**.
+1. XML is generated from **WSDL**.
 2. We can input different parameters for request.
 
 - This is good tool for testing **Web Services**!

@@ -9,7 +9,7 @@
 
 <img src="xmlMapping.JPG" alt="alt text" width="700"/>
 
-1. By default mapping will be one to one.
+1. By default, mapping will be one to one.
 2. If we need to translate field to little bit different, you need to provide **@annotation**. 
 
 - We need give **JAXB** annotation.

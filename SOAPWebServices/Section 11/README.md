@@ -10,7 +10,7 @@
 @WebService(name = "TestMartCatalog", portName = "TestMartCatalogPort", serviceName="TestMartCatalogService")
 ```
 
-- **targetNamespace** in XML is like **Namespace** in Java world.
-    - You wan't to isolate all this time into package `targetNamespace = ""`
+- **TargetNamespace** in XML is like **Namespace** in Java world.
+    - You want to isolate all this time into package `targetNamespace = ""`
 
 - One example modifying **WebMethod** `@WebMethod(operationName = "fetchCatogories")`.

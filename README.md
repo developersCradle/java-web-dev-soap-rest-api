@@ -187,7 +187,12 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 
 ## Progress
 
-- [ ] [Section 01](#) - ✔️
+- [ ] [Section 01](#) - Introduction ✔️
+- [ ] [Section 02](#) - 
+- [ ] [Section 03(#) - 
+- [ ] [Section 04](#) - 
+- [ ] [Section 05](#) - 
+- [ ] [Section 06](#) - 
 
 ### Additional stuff
 

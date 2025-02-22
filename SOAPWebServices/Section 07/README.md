@@ -100,7 +100,7 @@ public class ProductCatalog {
 }
 ```
 
--  When annotate the class with `@WebService` all the methods are for WebService, so its useless to annotate with `@WebMethod`, but you **could**.
+-  When annotate the class with `@WebService` all the methods are for WebService, so It's useless to annotate with `@WebMethod`, but you **could**.
 
 - In **Tomcat** view endpoint. `http://localhost:8080/TestmartSoap/home`, you can see all the **WebServices**.
 

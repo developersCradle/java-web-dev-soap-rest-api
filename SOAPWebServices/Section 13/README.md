@@ -51,11 +51,11 @@ public class Product {
 		return productService.getProducts2(category);
 	}
 ```
-- Pojo conversion to XML is made behind scene.
+- **Pojo** conversion to XML is made behind scene.
 
 <img src="xmlConvercion.JPG" alt="alt text" width="700"/>
 
-1. Pojo fields is converted into XML.
+1. **Pojo** fields is converted into XML.
 
 - In old Web Service days we needed to write **Interface** for these annotations. Like in below.
 
@@ -88,7 +88,7 @@ public interface ProductCatalogInterface {
 }
 ```
 
-- Even though is old way, but we wan't to decouple our Java application! So its recommended to write **Interface**.
+- Even though is a old way, but we want to decouple our Java application! So It's recommended to write **Interface**.
     - For this we need annotate main endpoint`@WebService(endpointInterface = "org.javabrains.ProductCatalogInterface")`
 
 - These methods in interface are exposed for Web Operation.

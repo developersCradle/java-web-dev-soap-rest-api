@@ -11,7 +11,7 @@
 1. We need one something. For input output.
 
 - Default style is **DOCUMENT**.
-    - **DOCUMENT** can be frameworks can **validate** this **WSDL** schema. Where **RPC** , can not!.
+    - **DOCUMENT** can be frameworks can **validate** this **WSDL** schema. Where **RPC**, can not!
 
 <img src="documentStyle.JPG" alt="alt text" width="700"/>
 
@@ -65,7 +65,7 @@
 
 <img src="rpc.JPG" alt="alt text" width="700"/>
 
-- Changing RPC naming style for prams.
+- Changing RPC naming style for parameters.
 
 ```
 @WebService
