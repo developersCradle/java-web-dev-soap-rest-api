@@ -187,13 +187,13 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 
 ## Progress
 
-- [ ] [Section 01](#) - Introduction ✔️
+- [ ] [Section 01](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/Learn%20Swagger%20and%20the%20OpenAPI%20Specification/Section%2001#section-1-introduction) - Introduction ✔️
 - [ ] [Section 02](#) - 
-- [ ] [Section 03(#) - 
+- [ ] [Section 03](#) - 
 - [ ] [Section 04](#) - 
 - [ ] [Section 05](#) - 
 - [ ] [Section 06](#) - 
 
 ### Additional stuff
 
-- [ ] [sdsd](#).
+- [ ] Review `$ref` from **OAS**.

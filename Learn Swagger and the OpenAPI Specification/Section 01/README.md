@@ -87,4 +87,63 @@
 
 <img src="documentation.PNG" alt="alt text" width="500"/>
 
-1. We add **description** for the **API Defination**. [Description with Swagger](https://www.baeldung.com/swagger-set-example-description).
+1. We can add **description** for the **API Definition**. [Description with Swagger](https://www.baeldung.com/swagger-set-example-description).
+
+<img src="ProvidingDocumentation.PNG" alt="alt text" width="500"/>
+
+1. One of common scenario is the where get the API documentation.
+    - Not just for the **Developers** and also for **documentation writers**.
+
+# 3. YAML.
+
+<img src="yamlSummary.PNG" alt="alt text" width="500"/>
+
+<img src="openApiSpesifcation.PNG" alt="alt text" width="500"/>
+
+- We can use **YAML** or the **JSON** for the structure data.
+
+<img src="yaml.PNG" alt="alt text" width="500"/>
+
+1. Before this was like **HTML**.
+    - Later it changed to meaning to the markup language, later this is for **data**.
+2. Minimizes character, it uses indentation.
+
+<img src="keyValuePairs.PNG" alt="alt text" width="500"/>
+
+- YAML is having **key:value** pairs.
+
+<img src="levels.PNG" alt="alt text" width="500"/>
+
+1. **Don't** use **tabs** in **YAML** for the indentation. Rather than use **spaces**.
+2. You can see the indentation here.
+3. The brackets are for the JSON.
+
+<img src="types.PNG" alt="alt text" width="500"/>
+
+1. The **context** is defining the types in **YAML**.
+
+<img src="quates.PNG" alt="alt text" width="500"/>
+
+<img src="list.PNG" alt="alt text" width="500"/>
+
+1. Item called `cart`.
+2. **Two** items in the list.
+
+<img src="multiLineStrings.PNG" alt="alt text" width="500"/>
+
+1. **Line breaks** will be preserved.
+2. **Line breaks** will **not** preserved.
+
+
+- Some random things, you can read when needed!
+
+<img src="comments.PNG" alt="alt text" width="500"/>
+
+<img src="schem.PNG" alt="alt text" width="500"/>
+
+1. **Schemas** are not part of **YAML**, but **OAS** uses references for **schemas**.
+    - We can check [ref](https://swagger.io/docs/specification/v3_0/using-ref/).
+
+<img src="schemaExample.PNG" alt="alt text" width="500"/>
+
+1. You can **point** one point of the file with `$ref`.
