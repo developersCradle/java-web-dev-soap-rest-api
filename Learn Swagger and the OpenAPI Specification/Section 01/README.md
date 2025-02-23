@@ -4,9 +4,9 @@
 
 # 1. Introduction.
 
-<img src="Welcome.PNG" alt="alt text" width="500"/>
+<img src="Welcome.PNG" alt="alt text" width="400"/>
 
-<img src="apiDefination.PNG" alt="alt text" width="500"/>
+<img src="apiDefination.PNG" alt="alt text" width="400"/>
 
 1. **Swagger** and **Open API** are definitions for describing **API**.
 
@@ -132,10 +132,7 @@
 <img src="multiLineStrings.PNG" alt="alt text" width="500"/>
 
 1. **Line breaks** will be preserved.
-2. **Line breaks** will **not** preserved.
-
-
-- Some random things, you can read when needed!
+2. **Line breaks** will **not** be preserved.
 
 <img src="comments.PNG" alt="alt text" width="500"/>
 
@@ -147,3 +144,33 @@
 <img src="schemaExample.PNG" alt="alt text" width="500"/>
 
 1. You can **point** one point of the file with `$ref`.
+
+
+# Assignment 1: YAML.
+
+- You can use the [LINT tool](https://www.yamllint.com/).
+
+```
+# Two spaces are recomended
+
+title: Wizard's Choice
+author: Delight Games
+
+sections:
+- id: intro
+content:
+  - |
+    So this is some cool adventure stuff.
+    This is for multi-line adventure.
+  - Chapter second comes after.
+
+choices:
+  - description: This will make you hide behind the rock.
+    id: hiding
+  - description: This will makes you to run behind the rock.
+    id: running
+  - description: This  make you to jump top of the rock.
+    id: jumping
+```
+
+- The teachers answer: [Teachers answer](http://sdkbridge.com/swagger/Exercise1Answer.yaml).

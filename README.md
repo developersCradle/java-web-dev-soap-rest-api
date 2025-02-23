@@ -187,13 +187,11 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 
 ## Progress
 
-- [ ] [Section 01](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/Learn%20Swagger%20and%20the%20OpenAPI%20Specification/Section%2001#section-1-introduction) - Introduction ✔️
-- [ ] [Section 02](#) - 
-- [ ] [Section 03](#) - 
-- [ ] [Section 04](#) - 
-- [ ] [Section 05](#) - 
-- [ ] [Section 06](#) - 
+- [x] [Section 01](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/Learn%20Swagger%20and%20the%20OpenAPI%20Specification/Section%2001#section-1-introduction) - Introduction. ✔️
+- [ ] [Section 02](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/Learn%20Swagger%20and%20the%20OpenAPI%20Specification/Section%2002#02-open-api-specification) - Open API Specification. 
+- [ ] [Section 03](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/Learn%20Swagger%20and%20the%20OpenAPI%20Specification/Section%2003#03-tools-and-alternatives) - Tools and Alternatives.
 
 ### Additional stuff
 
 - [ ] Review `$ref` from **OAS**.
+- [ ] Review the [OAS 3.0](https://blog.restcase.com/6-most-significant-changes-in-oas-3-0/) after finishing this one.

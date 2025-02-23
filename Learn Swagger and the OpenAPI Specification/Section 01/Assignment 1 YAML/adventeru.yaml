@@ -1,0 +1,20 @@
+# Two spaces are recomended
+
+title: Wizard's Choice
+author: Delight Games
+
+sections:
+- id: intro
+content:
+  - |
+    So this is some cool adventure stuff.
+    This is for multi-line adventure.
+  - Chapter second comes after.
+
+choices:
+  - description: This will make you hide behind the rock.
+    id: hiding
+  - description: This will makes you to run behind the rock.
+    id: running
+  - description: This  make you to jump top of the rock.
+    id: jumping
