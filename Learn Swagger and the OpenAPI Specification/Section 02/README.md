@@ -26,7 +26,7 @@ Open API Specification.
 <img src="OASfileSecond.PNG" alt="alt text" width="600"/>
 
 1. You define different paths into the file and under this one came all the other operations, such as **GET** **POST** ... etc. 
-2. There is **path parameters** spesified.
+2. There is **path parameters** specified.
 
 <img src="OASfileThird.PNG" alt="alt text" width="600"/>
 
@@ -46,3 +46,91 @@ Open API Specification.
 - Swagger Editor provided to make **OAS** file.
 
 # Assignment 2: Open API Specification Basics
+
+- Todo.
+
+# 6. Schemas.
+
+<img src="customHeader.PNG" alt="alt text" width="600"/>
+
+- **Scehemas** define **Request** and **Response bodies**.
+
+<img src="requestBody.PNG" alt="alt text" width="600"/>
+
+<img src="whatIsSchema.PNG" alt="alt text" width="600"/>
+
+1. For **OAS** schema is based of **JSON Schema**, this is defined [from](https://json-schema.org/)
+
+2. This defines following structure.
+
+<img src="ref.PNG" alt="alt text" width="600"/>
+
+1. This is referring to the other place on the document.
+    - Here you can see the definition and usage to the other file.
+
+<img src="whatIsSchema.PNG" alt="alt text" width="600"/>
+
+<img src="requestBodyDocument.PNG" alt="alt text" width="600"/>
+
+1. You can see the `$ref` for **schema**. 
+
+<img src="requestBodyForOAS.PNG" alt="alt text" width="600"/>
+
+1. Example of using `$ref` for **Request Body**.
+
+<img src="schemaDefiantion.PNG" alt="alt text" width="600"/>
+
+<img src="examapleOfSchemaDefination.PNG" alt="alt text" width="600"/>
+
+- You can also add other than **key-value** pairs.
+
+<img src="NotJustKeyAndValues.PNG" alt="alt text" width="400"/>
+
+1. You can add other objects. 
+
+<img src="schemaWithRef.PNG" alt="alt text" width="500"/>
+
+<img src="schemaArray.PNG" alt="alt text" width="500"/>
+
+<img src="schemaArrayWIthRef.PNG" alt="alt text" width="500"/>
+
+1. Furthermore, you can use **$ref** with the **schema array**.
+
+<img src="required.PNG" alt="alt text" width="500"/>
+
+<img src="requestBodyOAS.PNG" alt="alt text" width="500"/>
+
+1. For **404** and **200** responses, the **schemas** are different.
+    - **Success 200** message has array of response.
+
+<img src="exampleOf200Response.PNG" 
+alt="alt text" width="500"/>
+
+1. Response for **success 200 message**.
+2. You can see **array** of responses.
+
+<img src="allOf.PNG" 
+alt="alt text" width="500"/>
+
+1. We can combine multiple object with `allOf`.
+    - This can be used for **multiple properties** from **different schemas**.
+
+<img src="headersAndExample.PNG" 
+alt="alt text" width="500"/>
+
+- These are not used so often.
+
+1. You can also define **custom headers**.
+    - You can include these and responses onto **OAS** file.
+
+- Form data can be also defined.
+
+<img src="formData.PNG" 
+alt="alt text" width="500"/>
+
+- With this one we define **form data** for **OAS**.
+
+
+# Assignment 3: Schemas
+
+
