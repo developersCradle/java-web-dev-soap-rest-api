@@ -1,6 +1,6 @@
 # SOAP Web Services 09 - Service First and Contract First Web Services
 
-- `@WebService` is for simple WebService
+- `@WebService` is for simple Web Service.
 
 - Do we write **Implementation** or **Interface** first?
 
@@ -11,7 +11,7 @@
 
 <img src="webServiceChange2.JPG" alt="alt text" width="600"/>
 
-1. This way around Web Service Impl is made first, then **WSDL** is generated automatically.
+1. This way around Web Service Implementation is made first, then **WSDL** is generated automatically.
 2. Now clients get affected when ever **Web Service** is updated.
 
 - There are two ways to write **Web Services**.
