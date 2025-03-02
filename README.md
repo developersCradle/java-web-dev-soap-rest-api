@@ -134,18 +134,18 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 
 ## Progress
 
-- [x] [Section 01](https://github.com/developersCradle/rest-api-design-development-management/tree/main/RestApiDesignDevelopementAndManagement/Section%2001) - Setting the stage ✔️
+- [x] [Section 01](https://github.com/developersCradle/rest-api-design-development-management/tree/main/RestApiDesignDevelopementAndManagement/Section%2001) - Setting the stage. ✔️
 - [x] [Section 02](https://github.com/developersCradle/rest-api-design-development-management/tree/main/RestApiDesignDevelopementAndManagement/Section%2002) - Evolution of RESTful services. ✔️
 - [x] [Section 03](https://github.com/developersCradle/rest-api-design-development-management/tree/main/RestApiDesignDevelopementAndManagement/Section%2003) - REST API Architectural Constraints. ✔️
-- [x] [Section 04](https://github.com/developersCradle/rest-api-design-development-management/tree/main/RestApiDesignDevelopementAndManagement/Section%2004) - Designing REST API ✔️
-- [x] [Section 05](https://github.com/developersCradle/rest-api-design-development-management/tree/main/RestApiDesignDevelopementAndManagement/Section%2005) - REST API Error Handling Patterns ✔️
-- [x] [Section 06](https://github.com/developersCradle/rest-api-design-development-management/tree/main/RestApiDesignDevelopementAndManagement/Section%2006) - REST API Handling Change - Versioning Patterns ✔️
-- [x] [Section 07](https://github.com/developersCradle/rest-api-design-development-management/tree/main/RestApiDesignDevelopementAndManagement/Section%2007) - REST API Cache Control Patterns ✔️
-- [x] [Section 08](https://github.com/developersCradle/rest-api-design-development-management/tree/main/RestApiDesignDevelopementAndManagement/Section%2008) - REST API Response Data Handling Patterns ✔️
-- [x] [Section 09](https://github.com/developersCradle/rest-api-design-development-management/tree/main/RestApiDesignDevelopementAndManagement/Section%2009) - REST API Security 
-- [x] [Section 10](https://github.com/developersCradle/rest-api-design-development-management/tree/main/RestApiDesignDevelopementAndManagement/Section%2010) - REST API Specifications using Swagger 2.0 / OAI ✔️
-- [x] [Section 11](https://github.com/developersCradle/rest-api-design-development-management/tree/main/RestApiDesignDevelopementAndManagement/Section%2011) - API Management ✔️
-- [x] [Section 12](https://github.com/developersCradle/rest-api-design-development-management/tree/main/RestApiDesignDevelopementAndManagement/Section%2012) - Goodbye & All the Best ✔️
+- [x] [Section 04](https://github.com/developersCradle/rest-api-design-development-management/tree/main/RestApiDesignDevelopementAndManagement/Section%2004) - Designing REST API. ✔️
+- [x] [Section 05](https://github.com/developersCradle/rest-api-design-development-management/tree/main/RestApiDesignDevelopementAndManagement/Section%2005) - REST API Error Handling Patterns. ✔️
+- [x] [Section 06](https://github.com/developersCradle/rest-api-design-development-management/tree/main/RestApiDesignDevelopementAndManagement/Section%2006) - REST API Handling Change - Versioning Patterns. ✔️
+- [x] [Section 07](https://github.com/developersCradle/rest-api-design-development-management/tree/main/RestApiDesignDevelopementAndManagement/Section%2007) - REST API Cache Control Patterns. ✔️
+- [x] [Section 08](https://github.com/developersCradle/rest-api-design-development-management/tree/main/RestApiDesignDevelopementAndManagement/Section%2008) - REST API Response Data Handling Patterns. ✔️
+- [x] [Section 09](https://github.com/developersCradle/rest-api-design-development-management/tree/main/RestApiDesignDevelopementAndManagement/Section%2009) - REST API Security. 
+- [x] [Section 10](https://github.com/developersCradle/rest-api-design-development-management/tree/main/RestApiDesignDevelopementAndManagement/Section%2010) - REST API Specifications using Swagger 2.0 / OAI. ✔️
+- [x] [Section 11](https://github.com/developersCradle/rest-api-design-development-management/tree/main/RestApiDesignDevelopementAndManagement/Section%2011) - API Management. ✔️
+- [x] [Section 12](https://github.com/developersCradle/rest-api-design-development-management/tree/main/RestApiDesignDevelopementAndManagement/Section%2012) - Goodbye & All the Best. ✔️
 
 ### Additional stuff
 
@@ -153,7 +153,7 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 - [x] [SpotifyAPI](https://developer.spotify.com/).
     - [ ] [SpotifyAPI OAuth2.0](https://developer.spotify.com/documentation/web-api/concepts/authorization).
 - [ ] [Crash Course on API design](https://www.youtube.com/watch?v=6WGxVttWaXE&list=WL&index=94).
-- [ ] Write some mockup **Swagger API** documentation.
+- [x] Write some mockup **Swagger API** documentation. [Link to .YAML](#) ✔️
 - [ ] Read thought [RFC2616](https://datatracker.ietf.org/doc/html/rfc2616) - Hypertext Transfer Protocol -- HTTP/1.1.
 - [ ] Read thought [RFC7617](https://datatracker.ietf.org/doc/html/rfc7617) - Basic Auth.
 - [ ] Read thought [RFC7519](https://datatracker.ietf.org/doc/html/rfc7519) - JSON Web Token (JWT).
@@ -172,6 +172,7 @@ Contains my own notes with some course material.
 API Definition Files, Tools, and Documentation (OAS 2.0) **Peter Gruenbaum**.
 
 [The Course at Udemy](https://www.udemy.com/course/learn-swagger-and-the-open-api-specification/).   
+
 [Homepage of Maker](https://sdkbridge.com/).
 
 If the content sparked :fire: your interest, please consider buying the course and start learning :book:

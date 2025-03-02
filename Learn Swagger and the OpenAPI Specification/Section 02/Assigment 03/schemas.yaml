@@ -4,30 +4,37 @@ swagger: '2.0'
 # Document metadata
 info:
   version: "0.0.1"
-  title: Example Photo Service
+  title: Music Service
   
 # URL data
-host: api.example.com
-basePath: /photo
+host: api.muzicplayz.com
+basePath: /v3
+# Or shold we use '/playlist' for in  part of URL
 schemes:
   - https
 
 # Endpoints
 paths:
-  # Photo albums 
-  /album:
-    # Get one or more albums
+  # Playlists, We can use same path for both.
+  /playlist:
+    # Get one or more playlists
     get:
       # Query parameters
       parameters:
-        # Starting date
-        - name: start
+        # Number to return
+        - name: limit
           in: query
           required: false
-          type: string
+          type: integer
           
-        # Ending date
-        - name: end
+        # Number to skip
+        - name: offset
+          in: query
+          required: false
+          type: integer
+          
+        # Search term
+        - name: search
           in: query
           required: false
           type: string
@@ -37,39 +44,31 @@ paths:
         # Response code
         200:
           description: Successful response
-          
-     # Create a new photo album
+    # Create a new playlist
     post:
-      # Query parameters
+      # Body 
       parameters:
-        - name: album
+        - name: newPlaylist
           in: body
           required: true
           schema: 
-            $ref: '#/definitions/Album'
-          
+            $ref: '#/definitions/newPlaylist'
+
       # Incomplete response (to finish later)
       responses:
         # Response code
         200:
           description: Successful response
-   
-  # Photo album
-  /album/{id}:    
-    # Get an album
-    get:
-      # Query parameters
+  # Playlists, with spesific ID.
+  /playlist/{playlist-id}:
+    # Delete a playlist 
+    delete:
+      # Path parameter
       parameters:
-        # Album id
-        - name: id
+        # Playlist id
+        - name: playlist-id
           in: path
           required: true
-          type: integer
-          
-        # Customer level 
-        - name: Access-level
-          in: header
-          required: false
           type: string
           
        # Incomplete response (to finish later)
@@ -77,32 +76,60 @@ paths:
         # Response code
         200:
           description: Successful response
-          
-definitions:
-  Album:
-    properties:
-      name: 
-        type: string
 
-        
-  Product:
-    properties:
-      product_id:
-        type: string
-        description: Unique identifier representing a specific product for a given latitude & longitude. For example, uberX in San Francisco will have a different product_id than uberX in Los Angeles.
-      description:
-        type: string
-        description: Description of product.
-      display_name:
-        type: string
-        description: Display name of product.
-      capacity:
-        type: integer
-        description: Capacity of product. For example, 4 people.
-      image:
-        type: string
-        description: Image URL representing the product.
- 
-        
-    
+    # Return a playlist.
+    get:
+      # Path parameter
+      parameters:
+        # Playlist id
+        - name: playlist-id
+          in: path
+          required: true
+          type: string
           
+      responses:
+        # Response code
+        200:
+          description: Successful response
+          schema:
+            $ref: '#/definitions/playlistWithSongs'
+
+
+
+definitions:
+  
+  # Playlist with song info
+  
+  playlistWithSongs:
+    properties:
+      id:
+        type: integer
+      name:
+        type: string
+      songs:
+        type: array
+        items:
+          $ref: '#/definitions/song'
+
+  # For creating new playlist
+  newPlaylist:
+    properties:
+      name:
+        type: string
+      songIds:
+        type: array
+        items:
+          type: integer
+  
+    required:
+      - name
+      
+  # Information about the song.
+  song:
+    properties:
+    id:
+      type: integer
+    title:
+      type: string
+    artist:
+      type: string

@@ -45,7 +45,7 @@ Open API Specification.
 
 - Swagger Editor provided to make **OAS** file.
 
-# Assignment 2: Open API Specification Basics
+# Assignment 2: Open API Specification Basics.
 
 - Todo.
 
@@ -130,7 +130,286 @@ alt="alt text" width="500"/>
 
 - With this one we define **form data** for **OAS**.
 
+# Assignment 3: Schemas.
 
-# Assignment 3: Schemas
+> Models in **swagger** files are defining **data structure**.
 
 
+- My answer for the task, **Music service**:
+
+```
+# Every Open API file needs this
+swagger: '2.0'
+
+# Document metadata
+info:
+  version: "0.0.1"
+  title: Music Service
+  
+# URL data
+host: api.muzicplayz.com
+basePath: /v3
+# Or shold we use '/playlist' for in  part of URL
+schemes:
+  - https
+
+# Endpoints
+paths:
+  # Playlists, We can use same path for both.
+  /playlist:
+    # Get one or more playlists
+    get:
+      # Query parameters
+      parameters:
+        # Number to return
+        - name: limit
+          in: query
+          required: false
+          type: integer
+          
+        # Number to skip
+        - name: offset
+          in: query
+          required: false
+          type: integer
+          
+        # Search term
+        - name: search
+          in: query
+          required: false
+          type: string
+          
+      # Incomplete response (to finish later)
+      responses:
+        # Response code
+        200:
+          description: Successful response
+    # Create a new playlist
+    post:
+      # Body 
+      parameters:
+        - name: newPlaylist
+          in: body
+          required: true
+          schema: 
+            $ref: '#/definitions/newPlaylist'
+
+      # Incomplete response (to finish later)
+      responses:
+        # Response code
+        200:
+          description: Successful response
+  # Playlists, with spesific ID.
+  /playlist/{playlist-id}:
+    # Delete a playlist 
+    delete:
+      # Path parameter
+      parameters:
+        # Playlist id
+        - name: playlist-id
+          in: path
+          required: true
+          type: string
+          
+       # Incomplete response (to finish later)
+      responses:
+        # Response code
+        200:
+          description: Successful response
+
+    # Return a playlist.
+    get:
+      # Path parameter
+      parameters:
+        # Playlist id
+        - name: playlist-id
+          in: path
+          required: true
+          type: string
+          
+      responses:
+        # Response code
+        200:
+          description: Successful response
+          schema:
+            $ref: '#/definitions/playlistWithSongs'
+
+
+
+definitions:
+  
+  # Playlist with song info
+  
+  playlistWithSongs:
+    properties:
+      id:
+        type: integer
+      name:
+        type: string
+      songs:
+        type: array
+        items:
+          $ref: '#/definitions/song'
+
+  # For creating new playlist
+  newPlaylist:
+    properties:
+      name:
+        type: string
+      songIds:
+        type: array
+        items:
+          type: integer
+  
+    required:
+      - name
+      
+  # Information about the song.
+  song:
+    properties:
+    id:
+      type: integer
+    title:
+      type: string
+    artist:
+      type: string
+```
+
+- My teachers answer:
+
+```
+# Every Open API file needs this
+swagger: '2.0'
+
+# Document metadata
+info:
+  version: "0.3.0"
+  title: Music API
+  
+# URL data
+host: api.muzicplayz.com
+basePath: /v3
+schemes:
+  - https
+
+# Endpoints
+paths:
+  # Playlists
+  /playlist:
+    # Get one or more playlists
+    get:
+      # Query parameters
+      parameters:
+        # Number to return
+        - name: limit
+          in: query
+          required: false
+          type: integer
+          
+        # Number to skip
+        - name: offset
+          in: query
+          required: false
+          type: integer
+          
+        # Search term
+        - name: search
+          in: query
+          required: false
+          type: string
+          
+      # Incomplete response (to finish later)
+      responses:
+        # Response code
+        200:
+          description: Successful response
+          
+    # Create a new playlist
+    post:
+      # Body 
+      parameters:
+        - name: newPlaylist
+          in: body
+          required: true
+          schema: 
+            $ref: '#/definitions/newPlaylist'
+
+      # Incomplete response (to finish later)
+      responses:
+        # Response code
+        200:
+          description: Successful response
+   
+  # Playlists
+  /playlist/{playlist-id}:    
+    # Delete a playlist 
+    delete:
+      # Path parameter
+      parameters:
+        # Playlist id
+        - name: playlist-id
+          in: path
+          required: true
+          type: string
+          
+       # Incomplete response (to finish later)
+      responses:
+        # Response code
+        200:
+          description: Successful response
+          
+    # Return a playlist  
+    get:
+      # Path parameter
+      parameters:
+        # Playlist id
+        - name: playlist-id
+          in: path
+          required: true
+          type: string
+          
+      responses:
+        # Response code
+        200:
+          description: Successful response
+          schema:
+            $ref: '#/definitions/playlistWithSongs'
+
+definitions:
+  # New play list
+  newPlaylist:
+    properties:
+      name:
+        type: string
+      songIds:
+        type: array
+        items: 
+          type: integer
+    required:
+      - name
+
+  # Playlist with song info    
+  playlistWithSongs:
+    properties:
+      id:
+        type: integer
+      name:
+        type: string
+      songs:
+        type: array
+        items: 
+          $ref: '#/definitions/song'
+          
+  # Song info
+  song:
+    properties:
+      id:
+        type: integer
+      title:
+        type: string      
+      artist:
+        type: string          
+               
+```
+
+# 7. Open API Specification Continued
