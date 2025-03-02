@@ -1,10 +1,10 @@
-# Section 2: Evolution of  RESTful services
+# Section 2: Evolution of RESTful services.
 
-# What I Learned
+# What I Learned.
 
-# 6. What is an API
+# 6. What is an API.
 
-## Evolving movie database(IMDB)
+## Evolving movie database(IMDB).
 
 <img src="imdb.PNG" alt="alt text" width="500"/>
 
@@ -24,7 +24,7 @@
 3. HTTP `GET` was invoked form Web Scraper.
 4. Response had tracking information about the movie.
 
-- This case was not end of trouble, there were many problems head.
+- This case was not end of trouble. There were many problems head.
 
 <img src="problemsAhead.PNG" alt="alt text" width="500"/>
 
@@ -46,7 +46,7 @@
 
 - After 2013 JSON have grown popularity. Nowadays, it's the first choice for API developers.
 
-# 7. Evolution of REST/JSON API
+# 7. Evolution of REST/JSON API.
 
 <img src="localProcedureCall.PNG" alt="alt text" width="500"/>
 
@@ -86,7 +86,7 @@
 
 <img src="whySoapWasHard.PNG" alt="alt text" width="500"/>
 
-# 8. Introduction to RESTful API
+# 8. Introduction to RESTful API.
 
 <img src="representationState.PNG" alt="alt text" width="500"/>
 
@@ -100,7 +100,7 @@
 
 1. This Representational State can be in any format.
 2. This can be converted to **ANY** format.
-    - For example HTML for browsers
+    - For example HTML for browsers.
 3. Now if you convert this node to REST API point, this will represent RESTful API from data point perspective.
 
 > REST API not tied to **any specific Data Format** ~ Rajeev
@@ -126,7 +126,7 @@
 
 - **REST** style communication is not tied to **HTTP**. You could use other protocols as well.
 
-# 9. Private, Public and Partner API
+# 9. Private, Public and Partner API.
 
 <img src="3typesOfApi.PNG" alt="alt text" width="500"/>
 
@@ -174,7 +174,7 @@
 4. Different levels for API’s.
 5. Provider needs to monitor the API.performance to keep up promise what SLA promised in first place. 
 
-# 10. Example REST API Walkthrough
+# 10. Example REST API Walkthrough.
 
 - Examples used from this link [Ticketmaster](https://developer.ticketmaster.com/partners/).
 
@@ -191,7 +191,7 @@
 - Here is example of **SLA management** in **Ticketmaster**.
     - Rate Limit, 5 request per second.
 
-# 11. API Value Chain
+# 11. API Value Chain.
 
 - API makes **value** by exposing data to outside and inside organization.
 
@@ -220,11 +220,11 @@
 
 <img src="apiValueChain.JPG" alt="alt text" width="500"/>
 
-1. Asset, Data which is going to provided.
+1. **Asset** or **Data** which is going to provide.
 2. Data is provided thought **Applications**.
 3. Makes asset easy access to developers.
 4. Make delightful experience for asset for end customer.
 5. For things to app developer.
-6. For making best API, we need to follow these rules!
+6. For making the best API, we need to follow these rules!
 
 

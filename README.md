@@ -1,4 +1,4 @@
-# Java Web Development Under The Hood
+# Java Web Development Under The Hood.
 
 ![Java Web Development Under The Hood](webDevelopementUnderTheHood.JPG)
 
@@ -33,9 +33,9 @@ Insert certificate here when completed
 
 ## Progress/Curriculum
 
-- [x] [Section 1: Module 1](#) - Module 1 ✔️
-- [ ] [Section 2](#) - Introduction  
-- [ ] [Section 3](#) - Servlets
+- [x] [Section 1: Module 1](#) - Module 1. ✔️
+- [ ] [Section 2](#) - Introduction.  
+- [ ] [Section 3](#) - Servlets.
 - [ ] [Section 4](#) -
 - [ ] [Section 5](#) -
 - [ ] [Section 6](#) -
@@ -56,7 +56,7 @@ Insert certificate here when completed
 - [ ] [Section 21](#) -
 
 
-# SOAP Web Services by Java Brains
+# SOAP Web Services by Java Brains.
 
 ![SOAP Web Services](webServices.jpg)
 
@@ -81,7 +81,7 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 
 **Note: The material provided in this repository is only for helping those who may get stuck at any point of time in the course. It is very advised that no one should just copy the solutions(violation of Honor Code) presented here.**
 
-## Progress/Curriculum
+## Progress/Curriculum.
 
 - [x] [Section 01](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/SOAP%20Web%20Services/Section%2001#soap-web-services-01---introduction-to-web-services) - SOAP Web Services - Introduction To Web Services. ✔️
 - [x] [Section 02](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/SOAP%20Web%20Services/Section%2002#soap-web-services-02---web-service-jargon) - SOAP Web Services - Web Service Jargon. ✔️
@@ -104,11 +104,11 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 - [x] [Section 19](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/SOAP%20Web%20Services/Section%2019#soap-web-services-19---using-endpoint) - SOAP Web Services - Using Endpoint. ✔️
 - [x] [Section 20](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/SOAP%20Web%20Services/Section%2020#soap-web-services-20---wsimport-revisited) - SOAP Web Services - wsimport Revisited. ✔️
 
-### Additional stuff
+### Additional stuff.
 
 - [ ] SOAP with [Spring](https://www.youtube.com/watch?v=ceSqN3CWd14)
 
-## REST API Design, Development & Management
+## REST API Design, Development & Management.
 
 ![REST API Design, Development & Management](restApiDesingLogo.PNG)
 
@@ -132,22 +132,22 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 
 **Note: The material provided in this repository is only for helping those who may get stuck at any point of time in the course. It is very advised that no one should just copy the solutions(violation of Honor Code) presented here.**
 
-## Progress
+## Progress.
 
-- [x] [Section 01](https://github.com/developersCradle/rest-api-design-development-management/tree/main/RestApiDesignDevelopementAndManagement/Section%2001) - Setting the stage. ✔️
-- [x] [Section 02](https://github.com/developersCradle/rest-api-design-development-management/tree/main/RestApiDesignDevelopementAndManagement/Section%2002) - Evolution of RESTful services. ✔️
-- [x] [Section 03](https://github.com/developersCradle/rest-api-design-development-management/tree/main/RestApiDesignDevelopementAndManagement/Section%2003) - REST API Architectural Constraints. ✔️
-- [x] [Section 04](https://github.com/developersCradle/rest-api-design-development-management/tree/main/RestApiDesignDevelopementAndManagement/Section%2004) - Designing REST API. ✔️
-- [x] [Section 05](https://github.com/developersCradle/rest-api-design-development-management/tree/main/RestApiDesignDevelopementAndManagement/Section%2005) - REST API Error Handling Patterns. ✔️
-- [x] [Section 06](https://github.com/developersCradle/rest-api-design-development-management/tree/main/RestApiDesignDevelopementAndManagement/Section%2006) - REST API Handling Change - Versioning Patterns. ✔️
-- [x] [Section 07](https://github.com/developersCradle/rest-api-design-development-management/tree/main/RestApiDesignDevelopementAndManagement/Section%2007) - REST API Cache Control Patterns. ✔️
-- [x] [Section 08](https://github.com/developersCradle/rest-api-design-development-management/tree/main/RestApiDesignDevelopementAndManagement/Section%2008) - REST API Response Data Handling Patterns. ✔️
-- [x] [Section 09](https://github.com/developersCradle/rest-api-design-development-management/tree/main/RestApiDesignDevelopementAndManagement/Section%2009) - REST API Security. 
-- [x] [Section 10](https://github.com/developersCradle/rest-api-design-development-management/tree/main/RestApiDesignDevelopementAndManagement/Section%2010) - REST API Specifications using Swagger 2.0 / OAI. ✔️
-- [x] [Section 11](https://github.com/developersCradle/rest-api-design-development-management/tree/main/RestApiDesignDevelopementAndManagement/Section%2011) - API Management. ✔️
-- [x] [Section 12](https://github.com/developersCradle/rest-api-design-development-management/tree/main/RestApiDesignDevelopementAndManagement/Section%2012) - Goodbye & All the Best. ✔️
+- [x] [Section 01](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/RestApiDesignDevelopementAndManagement/Section%2001#section-01---setting-the-stage) - Setting the stage. ✔️
+- [x] [Section 02](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/RestApiDesignDevelopementAndManagement/Section%2002#6-what-is-an-api) - Evolution of RESTful services. ✔️
+- [x] [Section 03](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/RestApiDesignDevelopementAndManagement/Section%2003#section-03---rest-api-architectural-constraints) - REST API Architectural Constraints. ✔️
+- [x] [Section 04](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/RestApiDesignDevelopementAndManagement/Section%2004#section-04---designing-rest-api) - Designing REST API. ✔️
+- [x] [Section 05](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/RestApiDesignDevelopementAndManagement/Section%2005#section-5-rest-api-error-handling-patterns) - REST API Error Handling Patterns. ✔️
+- [x] [Section 06](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/RestApiDesignDevelopementAndManagement/Section%2006#section-06---rest-api-handling-change---versioning) - REST API Handling Change - Versioning Patterns. ✔️
+- [x] [Section 07](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/RestApiDesignDevelopementAndManagement/Section%2007#section-07---rest-api-cache-control-patterns) - REST API Cache Control Patterns. ✔️
+- [x] [Section 08](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/RestApiDesignDevelopementAndManagement/Section%2008#section-08---rest-api-response-data-handling-patterns) - REST API Response Data Handling Patterns. ✔️
+- [x] [Section 09](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/RestApiDesignDevelopementAndManagement/Section%2009#section-09---rest-api-security) - REST API Security. 
+- [x] [Section 10](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/RestApiDesignDevelopementAndManagement/Section%2010#section-10---rest-api-specifications-using-swagger-20--oai) - REST API Specifications using Swagger 2.0 / OAI. ✔️
+- [x] [Section 11](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/RestApiDesignDevelopementAndManagement/Section%2011#section-11---api-management) - API Management. ✔️
+- [x] [Section 12](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/RestApiDesignDevelopementAndManagement/Section%2012#section-12---goodbye--all-the-best) - Goodbye & All the Best. ✔️
 
-### Additional stuff
+### Additional stuff.
 
 - [x] [Profile API - LinkedIn](https://learn.microsoft.com/en-us/linkedin/shared/integrations/people/profile-api).
 - [x] [SpotifyAPI](https://developer.spotify.com/).
@@ -186,13 +186,13 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 
 **Note: The material provided in this repository is only for helping those who may get stuck at any point of time in the course. It is very advised that no one should just copy the solutions(violation of Honor Code) presented here.**
 
-## Progress
+## Progress.
 
 - [x] [Section 01](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/Learn%20Swagger%20and%20the%20OpenAPI%20Specification/Section%2001#section-1-introduction) - Introduction. ✔️
 - [ ] [Section 02](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/Learn%20Swagger%20and%20the%20OpenAPI%20Specification/Section%2002#02-open-api-specification) - Open API Specification. 
 - [ ] [Section 03](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/Learn%20Swagger%20and%20the%20OpenAPI%20Specification/Section%2003#03-tools-and-alternatives) - Tools and Alternatives.
 
-### Additional stuff
+### Additional stuff.
 
 - [ ] Review `$ref` from **OAS**.
 - [ ] Review the [OAS 3.0](https://blog.restcase.com/6-most-significant-changes-in-oas-3-0/) after finishing this one.

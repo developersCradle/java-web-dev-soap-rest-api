@@ -428,3 +428,7 @@ definitions:
 4. **Standard**, but not very secure.
 5. This is **a complex way** to use **username** and **password** uses **tokens** instead.
   - If **token** gets stolen, it can **expire quickly**.
+
+<img src="howSecurityIsIndicated.PNG" alt="alt text" width="500"/>
+
+<img src="APIkey.PNG" alt="alt text" width="500"/>
