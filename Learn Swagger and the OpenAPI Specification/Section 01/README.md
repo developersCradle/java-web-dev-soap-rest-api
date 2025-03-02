@@ -64,9 +64,9 @@
 
 <img src="url.PNG" alt="alt text" width="500"/>
 
-- **Host** is the part the **domain part**. Example `api.example.com`
+1. **Host** is the part the **domain part**. Example `api.example.com`.
 
-- **Base path** is the **URL** which is shared in specific **URL**. 
+2. **Base path** is the **URL** which is shared in specific **URL**. 
 
 <img src="metohod.PNG" alt="alt text" width="500"/>
 

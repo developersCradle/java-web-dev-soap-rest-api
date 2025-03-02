@@ -153,7 +153,7 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 - [x] [SpotifyAPI](https://developer.spotify.com/).
     - [ ] [SpotifyAPI OAuth2.0](https://developer.spotify.com/documentation/web-api/concepts/authorization).
 - [ ] [Crash Course on API design](https://www.youtube.com/watch?v=6WGxVttWaXE&list=WL&index=94).
-- [x] Write some mockup **Swagger API** documentation. [Link to .YAML](#) ✔️
+- [x] Write some mockup **Swagger API** documentation. [Link to .YAML](https://github.com/developersCradle/java-web-dev-soap-rest-api/blob/main/Learn%20Swagger%20and%20the%20OpenAPI%20Specification/Section%2002/Assigment%2003/schemas.yaml) ✔️
 - [ ] Read thought [RFC2616](https://datatracker.ietf.org/doc/html/rfc2616) - Hypertext Transfer Protocol -- HTTP/1.1.
 - [ ] Read thought [RFC7617](https://datatracker.ietf.org/doc/html/rfc7617) - Basic Auth.
 - [ ] Read thought [RFC7519](https://datatracker.ietf.org/doc/html/rfc7519) - JSON Web Token (JWT).

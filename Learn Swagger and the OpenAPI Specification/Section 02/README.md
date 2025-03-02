@@ -412,4 +412,19 @@ definitions:
                
 ```
 
-# 7. Open API Specification Continued
+# 7. Open API Specification Continued.
+
+<img src="openAPIspesification.PNG" alt="alt text" width="500"/>
+
+<img src="securitySpecs.PNG" alt="alt text" width="500"/>
+
+- **Open API specification** handles **Authorization** and the **Authentication**.
+
+<img src="securityTypes.PNG" alt="alt text" width="500"/>
+
+1. There are 4 types.
+2. When using this, the **API** is considered to be **public**.
+3. When using this one, the **app** is considered to have **permissions** to use API.
+4. **Standard**, but not very secure.
+5. This is **a complex way** to use **username** and **password** uses **tokens** instead.
+  - If **token** gets stolen, it can **expire quickly**.
