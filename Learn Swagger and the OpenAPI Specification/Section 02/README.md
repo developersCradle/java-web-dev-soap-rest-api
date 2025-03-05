@@ -111,17 +111,81 @@ paths:
     
 ```
 
-- Teacher answer:
-
-
-```
+- My teacher answer:
 
 ```
+# Every Open API file needs this
+swagger: '2.0'
 
+# Document metadata
+info:
+  version: "0.3.0"
+  title: Music API
+  
+# URL data
+host: api.muzicplayz.com
+basePath: /v3
+schemes:
+  - https
+
+# Endpoints
+paths:
+  # Playlists
+  /playlist:
+    # Get one or more playlists
+    get:
+      # Query parameters
+      parameters:
+        # Number to return
+        - name: limit
+          in: query
+          required: false
+          type: integer
+          
+        # Number to skip
+        - name: offset
+          in: query
+          required: false
+          type: integer
+          
+        # Search term
+        - name: search
+          in: query
+          required: false
+          type: string
+          
+      # Incomplete response (to finish later)
+      responses:
+        # Response code
+        200:
+          description: Successful response
+   
+  # Playlists
+  /playlist/{playlist-id}:    
+    # Delete a playlist 
+    delete:
+      # Path parameter
+      parameters:
+        # Playlist id
+        - name: playlist-id
+          in: path
+          required: true
+          type: string
+          
+       # Incomplete response (to finish later)
+      responses:
+        # Response code
+        200:
+          description: Successful response
+          
+```
 
 # 6. Schemas.
 
 <img src="customHeader.PNG" alt="alt text" width="600"/>
+
+1. **Custom headers** are treaded as parameters.
+2. Some custom header.
 
 - **Scehemas** define **Request** and **Response bodies**.
 

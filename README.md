@@ -182,17 +182,55 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 ?trk=public_profile_see-credential 
 -->
 
-<img id=" ?trk=public_profile_see-credential" src=" " alt=" " width="600"/>
+<!-- 
+<img id=" ?trk=public_profile_see-credential" src=" " alt=" " width="600"/> 
+-->
 
 **Note: The material provided in this repository is only for helping those who may get stuck at any point of time in the course. It is very advised that no one should just copy the solutions(violation of Honor Code) presented here.**
 
 ## Progress.
 
 - [x] [Section 01](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/Learn%20Swagger%20and%20the%20OpenAPI%20Specification/Section%2001#section-1-introduction) - Introduction. ✔️
-- [ ] [Section 02](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/Learn%20Swagger%20and%20the%20OpenAPI%20Specification/Section%2002#02-open-api-specification) - Open API Specification. 
+- [x] [Section 02](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/Learn%20Swagger%20and%20the%20OpenAPI%20Specification/Section%2002#02-open-api-specification) - Open API Specification. ✔️ 
 - [ ] [Section 03](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/Learn%20Swagger%20and%20the%20OpenAPI%20Specification/Section%2003#03-tools-and-alternatives) - Tools and Alternatives.
 
 ### Additional stuff.
 
-- [ ] Review `$ref` from **OAS**.
+- [x] Review `$ref` from **OAS**.
 - [ ] Review the [OAS 3.0](https://blog.restcase.com/6-most-significant-changes-in-oas-3-0/) after finishing this one.
+
+
+
+## Learn API Technical Writing: JSON and XML for Writers.
+
+![Learn API Technical Writing: JSON and XML for Writers](technicalDocumentationXMLandJSON.PNG)
+
+Contains my own notes with some course material.
+
+Learn API Technical Writing: JSON and XML for Writers **Peter Gruenbaum**.
+
+[The Course at Udemy](https://www.udemy.com/course/api-documentation-1-json-and-xml/).
+
+[Homepage of Maker](https://sdkbridge.com/).
+
+If the content sparked :fire: your interest, please consider buying the course and start learning :book:
+
+<!-- 
+Linkedin puts this shit front, when clicking from private mode x(. Need to put this to make jump working every case
+?trk=public_profile_see-credential 
+-->
+
+<img id=" ?trk=public_profile_see-credential" src=" " alt=" " width="600"/>
+
+**Note: The material provided in this repository is only for helping those who may get stuck at any point of time in the course. It is very advised that no one should just copy the solutions(violation of Honor Code) presented here.**
+
+## Progress.
+
+- [ ] [Section 01](#) - Introduction.
+- [ ] [Section 02](#) - Introduction.
+- [ ] [Section 03](#) - Introduction.
+- [ ] [Section 04](#) - Introduction.
+
+### Additional stuff.
+
+- [ ] Some task here.
