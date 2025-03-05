@@ -47,7 +47,77 @@ Open API Specification.
 
 # Assignment 2: Open API Specification Basics.
 
-- Todo.
+
+- My answer:
+
+```
+# Every Open API file needs this.
+swagger: '2.0'
+
+# Document metadata.
+info:
+  version: "0.3.0"
+  title: Music API
+  
+# URL data.
+host: api.muzicplayz.com
+basePath: /v3
+schemes:
+  - https
+
+# Endpoints.
+paths:
+  # Photo albums 
+  /playlist:
+    # Get one or more albums.
+    get:
+      # Query Parameters
+      parameters:
+        # Number of the playlist to return.
+        - name: limit
+          in: query
+          required: false
+          type: Integer
+        # Index of returned playlist.
+        - name: offset
+          in: query
+          required: false
+          type: Integer
+        # Playlist is returned, whose name contains this string.
+        - name: search
+          in: query
+          required: false
+          type: String
+        
+      # Incomplete response (to finish later).
+      responses:
+        # Response code.
+        200:
+          description: Successful response
+  # Playlist, for spesic ID.
+  /playlist/{id}:
+    delete:
+      # Query Parameters
+      parameters:
+        # Number of the playlist to return.
+        - name: playlist-id
+          in: path
+          type: Integer
+          
+          responses:
+            # Response code.
+            200:
+              description: Successful response
+    
+```
+
+- Teacher answer:
+
+
+```
+
+```
+
 
 # 6. Schemas.
 
