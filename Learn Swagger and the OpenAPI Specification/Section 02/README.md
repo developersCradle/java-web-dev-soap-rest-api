@@ -612,10 +612,378 @@ definitions:
 
 ```
 
-- Todo
+swagger: '2.0'
 
+info:
+  version: "0.3.0"
+  title: Music API
+  
+host: api.muzicplayz.com
+basePath: /v3
+schemes:
+  - https
+
+# What api eats and produces.
+
+consumes:
+  - application/json
+produces:
+  - application/json
+  
+# Endpoints
+paths:
+  # Playlists
+  /playlist:
+    # Get one or more playlists
+    get:
+      # Query parameters
+      parameters:
+        # Number to return
+        - name: limit
+          in: query
+          required: false
+          type: integer
+          
+        # Number to skip
+        - name: offset
+          in: query
+          required: false
+          type: integer
+          
+        # Search term
+        - name: search
+          in: query
+          required: false
+          type: string
+          
+      # Basic auth security
+      security:
+        - basicAuth: [ ]
+        
+      # Incomplete response (to finish later)
+      responses:
+        # Response code
+        200:
+          description: Successful response
+          
+    # Create a new playlist
+    post:
+      # Body 
+      parameters:
+        - name: newPlaylist
+          in: body
+          required: true
+          schema: 
+            $ref: '#/definitions/newPlaylist'
+            
+      # Incomplete response (to finish later)
+      responses:
+        # Response code
+        200:
+          description: Successful response
+   
+  # Playlists
+  /playlist/{playlist-id}:    
+    # Delete a playlist 
+    delete:
+      # Path parameter
+      parameters:
+        # Playlist id
+        - name: playlist-id
+          in: path
+          required: true
+          type: string
+          
+       # Incomplete response (to finish later)
+      responses:
+        # Response code
+        200:
+          description: Successful response
+          
+        410:
+          description: Playlist already deleted
+          schema:
+            $ref: '#/definitions/error'
+          
+    # Return a playlist  
+    get:
+      # Path parameter
+      parameters:
+        # Playlist id
+        - name: playlist-id
+          in: path
+          required: true
+          type: string
+          
+      responses:
+        # Response code
+        200:
+          description: Successful response
+          schema:
+            $ref: '#/definitions/playlistWithSongs'
+
+  # Playlist image
+  /playlist/{playlist-id}/image: 
+    # Get one or more playlists
+    get:
+      operationId: getImage
+      parameters:
+        # Playlist id
+        - name: playlist-id
+          in: path
+          required: true
+          type: string
+          
+      responses:
+         200:
+          description: Successful response
+          schema:
+            type: file
+            
+      produces:
+        - image/png
+  
+definitions:
+  # New play list
+  newPlaylist:
+    properties:
+      name:
+        type: string
+      songIds:
+        type: array
+        items: 
+          type: integer
+      
+  # Playlist with song info    
+  playlistWithSongs:
+    properties:
+      id:
+        type: integer
+      name:
+        type: string
+      song:
+        type: array
+        items: 
+          $ref: '#/definitions/song'
+          
+  # Song info
+  song:
+    properties:
+      id:
+        type: integer
+      title:
+        type: string      
+      artist:
+        type: string  
+        
+  # Errors
+  error:
+    properties:
+      errorMessage:
+        type: string
+      logData:
+        type: object
+        properties:
+          entry:
+            type: integer
+          date:
+            type: string
+            
+          
+securityDefinitions:
+  basicAuth:
+    type: basic
+    
+          
 ```
 
+- Teachers answer:
+
+```
+# Every Open API file needs this
+swagger: '2.0'
+
+# Document metadata
+info:
+  version: "0.3.0"
+  title: Music API
+  
+# URL data
+host: api.muzicplayz.com
+basePath: /v3
+schemes:
+  - https
+
+consumes:
+  - application/json
+produces:
+  - application/json
+  
+# Endpoints
+paths:
+  # Playlists
+  /playlist:
+    # Get one or more playlists
+    get:
+      # Query parameters
+      parameters:
+        # Number to return
+        - name: limit
+          in: query
+          required: false
+          type: integer
+          
+        # Number to skip
+        - name: offset
+          in: query
+          required: false
+          type: integer
+          
+        # Search term
+        - name: search
+          in: query
+          required: false
+          type: string
+          
+      # Basic auth security
+      security:
+        - basicAuth: [ ]
+        
+      # Incomplete response (to finish later)
+      responses:
+        # Response code
+        200:
+          description: Successful response
+          
+    # Create a new playlist
+    post:
+      # Body 
+      parameters:
+        - name: newPlaylist
+          in: body
+          required: true
+          schema: 
+            $ref: '#/definitions/newPlaylist'
+            
+      # Incomplete response (to finish later)
+      responses:
+        # Response code
+        200:
+          description: Successful response
+   
+  # Playlists
+  /playlist/{playlist-id}:    
+    # Delete a playlist 
+    delete:
+      # Path parameter
+      parameters:
+        # Playlist id
+        - name: playlist-id
+          in: path
+          required: true
+          type: string
+          
+       # Incomplete response (to finish later)
+      responses:
+        # Response code
+        200:
+          description: Successful response
+          
+        410:
+          description: Playlist already deleted
+          schema:
+            $ref: '#/definitions/error'
+          
+    # Return a playlist  
+    get:
+      # Path parameter
+      parameters:
+        # Playlist id
+        - name: playlist-id
+          in: path
+          required: true
+          type: string
+          
+      responses:
+        # Response code
+        200:
+          description: Successful response
+          schema:
+            $ref: '#/definitions/playlistWithSongs'
+
+  # Playlist image
+  /playlist/{playlist-id}/image: 
+    # Get one or more playlists
+    get:
+      operationId: getImage
+      parameters:
+        # Playlist id
+        - name: playlist-id
+          in: path
+          required: true
+          type: string
+          
+      responses:
+         200:
+          description: Successful response
+          schema:
+            type: file
+            
+      produces:
+        - image/png
+  
+definitions:
+  # New play list
+  newPlaylist:
+    properties:
+      name:
+        type: string
+      songIds:
+        type: array
+        items: 
+          type: integer
+      
+  # Playlist with song info    
+  playlistWithSongs:
+    properties:
+      id:
+        type: integer
+      name:
+        type: string
+      song:
+        type: array
+        items: 
+          $ref: '#/definitions/song'
+          
+  # Song info
+  song:
+    properties:
+      id:
+        type: integer
+      title:
+        type: string      
+      artist:
+        type: string  
+        
+  # Errors
+  error:
+    properties:
+      errorMessage:
+        type: string
+      logData:
+        type: object
+        properties:
+          entry:
+            type: integer
+          date:
+            type: string
+            
+          
+securityDefinitions:
+  basicAuth:
+    type: basic
+              
+```
 
 # 8. Documentation.
 
@@ -635,8 +1003,219 @@ definitions:
 
 # Assignment 5: Documentation.
 
+- My answer:
+
 ```
+# Every Open API file needs this
+swagger: '2.0'
 
-- Todo. 
+# Document metadata
+info:
+  version: "0.3.0"
+  title: Music API
+  description: Music API with playlists
+  
+# URL data
+host: api.muzicplayz.com
+basePath: /v3
+schemes:
+  - https
 
+consumes:
+  - application/json
+produces:
+  - application/json
+  
+# Endpoints
+paths:
+  # Playlists
+  /playlist:
+    # Get one or more playlists
+    get:
+      description: Returns one or more playlists.
+      # Query parameters
+      parameters:
+        # Number to return
+        - name: limit
+          in: query
+          required: false
+          type: integer
+          description: **Number of playlists to return**
+          
+        # Number to skip
+        - name: offset
+          in: query
+          required: false
+          type: integer
+          description: Number of playlists to skip
+          
+        # Search term
+        - name: search
+          in: query
+          required: false
+          type: string
+          description: Search term
+          
+      # Basic auth security
+      security:
+        - basicAuth: [ ]
+        
+      # Incomplete response (to finish later)
+      responses:
+        # Response code
+        200:
+          description: Successful response
+          
+    # Create a new playlist
+    post:
+      # Body 
+      parameters:
+        - name: newPlaylist
+          in: body
+          required: true
+          schema: 
+            $ref: '#/definitions/newPlaylist'
+          description: New playlist
+            
+      # Incomplete response (to finish later)
+      responses:
+        # Response code
+        200:
+          description: Successful response
+   
+  # Playlists
+  /playlist/{playlist-id}:    
+    # Delete a playlist 
+    delete:
+      description: Deletes a playlist.
+      # Path parameter
+      parameters:
+        # Playlist id
+        - name: playlist-id
+          in: path
+          required: true
+          type: string
+          description: ID of the playlist to delete
+          
+       # Incomplete response (to finish later)
+      responses:
+        # Response code
+        200:
+          description: Successful response
+          
+        410:
+          description: Playlist already deleted
+          schema:
+            $ref: '#/definitions/error'
+          
+    # Return a playlist  
+    get:
+      description: Returns a playlist.
+      # Path parameter
+      parameters:
+        # Playlist id
+        - name: playlist-id
+          in: path
+          required: true
+          type: string
+          description: ID of the playlist to return
+          
+      responses:
+        # Response code
+        200:
+          description: Successful response
+          schema:
+            $ref: '#/definitions/playlistWithSongs'
+
+  # Playlist image
+  /playlist/{playlist-id}/image: 
+    # Get one or more playlists
+    get:
+      operationId: getImage
+      description: Returns a generated image for the playlist.
+      parameters:
+        # Playlist id
+        - name: playlist-id
+          in: path
+          required: true
+          type: string
+          description: ID of the playlist to generate the image for
+          
+      responses:
+         200:
+          description: Successful response
+          schema:
+            type: file
+            
+      produces:
+        - image/png
+  
+definitions:
+  # New play list
+  newPlaylist:
+    description: New playlist
+    properties:
+      name:
+        type: string
+        description: Playlist name
+      songIds:
+        type: array
+        description: IDs of the songs in the playlist
+        items: 
+          type: integer
+      
+  # Playlist with song info    
+  playlistWithSongs:
+    description: Playlist with song information
+    properties:
+      id:
+        type: integer
+        description: ID of the playlist
+      name:
+        type: string
+        description: Name of the playlist
+      song:
+        type: array
+        description: Song in the playlist
+        items: 
+          $ref: '#/definitions/song'
+          
+  # Song info
+  song:
+    description: Song information
+    properties:
+      id:
+        type: integer
+        description: Song ID
+      title:
+        type: string  
+        description: Song title
+      artist:
+        type: string  
+        description: Song artist
+        
+  # Errors
+  error:
+    description: Error information
+    properties:
+      errorMessage:
+        type: string
+        description: Human readable error message
+      logData:
+        type: object
+        description: Data that appears in the log when the error occurs
+        properties:
+          entry:
+            type: integer
+            description: Log entry number
+          date:
+            type: string
+            description: Log entry date
+            
+          
+securityDefinitions:
+  basicAuth:
+    type: basic
+    description: Username and password
+          
 ```

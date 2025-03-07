@@ -162,7 +162,6 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 - [ ] Do RPC call with **GWT**.
 - [ ] Do some partial response test with **GraphQL**.
 
-
 ## Learn Swagger and the OpenAPI Specification.
 
 ![Learn Swagger and the OpenAPI Specification](LearnSwaggerCourse.PNG)
@@ -182,9 +181,9 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 ?trk=public_profile_see-credential 
 -->
 
-<!-- 
-<img id=" ?trk=public_profile_see-credential" src=" " alt=" " width="600"/> 
--->
+
+<img id="Learn Swagger and the OpenAPI Specification?trk=public_profile_see-credential" src="Learn Swagger and the OpenAPI Specification.jpg" alt=" " width="600"/> 
+
 
 **Note: The material provided in this repository is only for helping those who may get stuck at any point of time in the course. It is very advised that no one should just copy the solutions(violation of Honor Code) presented here.**
 
@@ -192,7 +191,7 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 
 - [x] [Section 01](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/Learn%20Swagger%20and%20the%20OpenAPI%20Specification/Section%2001#section-1-introduction) - Introduction. ✔️
 - [x] [Section 02](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/Learn%20Swagger%20and%20the%20OpenAPI%20Specification/Section%2002#02-open-api-specification) - Open API Specification. ✔️ 
-- [ ] [Section 03](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/Learn%20Swagger%20and%20the%20OpenAPI%20Specification/Section%2003#03-tools-and-alternatives) - Tools and Alternatives.
+- [x] [Section 03](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/Learn%20Swagger%20and%20the%20OpenAPI%20Specification/Section%2003#03-tools-and-alternatives) - Tools and Alternatives. ✔️
 
 ### Additional stuff.
 
@@ -226,8 +225,8 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 
 ## Progress.
 
-- [ ] [Section 01](#) - Introduction.
-- [ ] [Section 02](#) - Introduction.
+- [ ] [Section 01](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/Learn%20API%20Technical%20Writing%20JSON%20and%20XML%20for%20Writers/Section%2001#section-1-introduction) - Introduction.
+- [ ] [Section 02](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/Learn%20API%20Technical%20Writing%20JSON%20and%20XML%20for%20Writers/Section%2002#section-2-json) - Introduction.
 - [ ] [Section 03](#) - Introduction.
 - [ ] [Section 04](#) - Introduction.
 

@@ -10,7 +10,7 @@ Tools and Alternatives.
 
 - **Swagger Editor**, syntax etc...
 - **Swagger Codegen**
-    - Take **OAS** and generators **SDK**:s out of the file.
+    - Take **OAS** and generates **SDK** out of the file.
 - **Swagger UI** auto generated UI documentation etc...
 
 - You can **host** these tools on your own platform.
@@ -19,7 +19,7 @@ Tools and Alternatives.
 # Assignment 6: SwaggerHub.
 
 ```
-
+SwaggerHub is commercialplatform.
 ```
 
 # 10. JSON.
@@ -47,3 +47,13 @@ Tools and Alternatives.
 
 
 # Assignment 7: Put It All Together.
+
+- Todo
+
+
+# Assignment 8: Swagger for a Real World API
+
+- Todo
+
+
+# 11. Alternatives to Swagger and OAS.
