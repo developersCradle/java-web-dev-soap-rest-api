@@ -19,7 +19,7 @@ Tools and Alternatives.
 # Assignment 6: SwaggerHub.
 
 ```
-SwaggerHub is commercialplatform.
+SwaggerHub is commercial platform.
 ```
 
 # 10. JSON.
@@ -57,3 +57,13 @@ SwaggerHub is commercialplatform.
 
 
 # 11. Alternatives to Swagger and OAS.
+
+- ✔️.
+
+# 12. Resources.
+
+- ✔️.
+
+# 13. Bonus Lecture: Offers for Other Courses.
+
+- ✔️.
