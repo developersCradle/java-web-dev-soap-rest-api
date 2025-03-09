@@ -12,7 +12,7 @@ Contains my own notes to better learning experience with some course content.
 
 [Homepage of Maker](https://www.in28minutes.com/).
 
-[Github of project](https://github.com/in28minutes/MockitoTutorialForBeginners).
+[GitHub of project](https://github.com/in28minutes/MockitoTutorialForBeginners).
 
 If the content sparked :fire: your interest, please consider buying the course and start learning :book:.
 
@@ -188,11 +188,11 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 
 ## Progress.
 
-- [x] [Section 01](#) - Introduction. ✔️
-- [ ] [Section 02](#) - API.
-- [ ] [Section 03](#) - Web Services.
+- [x] [Section 01](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/API%20and%20Web%20Service%20Introduction/Section%2001#section-01-introduction) - Introduction. ✔️
+- [ ] [Section 02](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/API%20and%20Web%20Service%20Introduction/Section%2002#section-02-api) - API.
+- [ ] [Section 03](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/API%20and%20Web%20Service%20Introduction/Section%2003#section-03-web-services) - Web Services.
 - [ ] [Section 04](#) - HTTP.
-- [ ] [Section 05](#) - XML.
+- [ ] [Section 05](https://github.com/developersCradle/java-web-dev-soap-rest-api/blob/main/API%20and%20Web%20Service%20Introduction/Section%2005/README.md#section-05-xml) - XML.
 - [ ] [Section 06](#) - JSON.
 - [ ] [Section 07](#) - SOAP.
 - [ ] [Section 08](#) - REST.
