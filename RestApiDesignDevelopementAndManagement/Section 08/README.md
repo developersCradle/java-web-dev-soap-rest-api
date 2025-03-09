@@ -2,7 +2,7 @@
 
 # What I Learned
 
-# 38. Building support for Partial Responses
+# 38. Building support for Partial Responses.
 
 <img src="endPointChallange.JPG" alt="alt text" width="400"/>
 
@@ -14,7 +14,7 @@
 1. **REST client** is in control of **granularity** of the data.    
     - **x, y, z** will be returned form REST Server API. 
 
-## Partial response
+## Partial response.
 
 Partial Responses gives benefits: (**Example mobile applications**)
 - Better performance.

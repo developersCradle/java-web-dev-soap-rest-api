@@ -188,8 +188,17 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 
 ## Progress.
 
-- [ ] [Section 01](#) - Introduction.
-- [ ] [Section 11](#) - Extras.
+- [x] [Section 01](#) - Introduction. ✔️
+- [ ] [Section 02](#) - API.
+- [ ] [Section 03](#) - Web Services.
+- [ ] [Section 04](#) - HTTP.
+- [ ] [Section 05](#) - XML.
+- [ ] [Section 06](#) - JSON.
+- [ ] [Section 07](#) - SOAP.
+- [ ] [Section 08](#) - REST.
+- [ ] [Section 09](#) - API Access.
+- [ ] [Section 10](#) - API Examples.
+- [ ] [Section 11](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/API%20and%20Web%20Service%20Introduction/Section%2011#section-11-extras) - Extras.
 
 ### Additional stuff.
 

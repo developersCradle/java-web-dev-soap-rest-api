@@ -397,9 +397,9 @@ module.exports = {
     - These are not standard tokens, these are **API** specific.
 - [Fb access tokens](https://developers.facebook.com/docs/facebook-login/guides/access-tokens/)
 
-<img src="spotify.JPG" alt="alt text" width="600"/>
+<img src="spotify.png" alt="alt text" width="600"/>
 
-1. **Reason** why spotify has become so popular, they have provided API for developers.
+1. **Reason** why **Spotify** has become so popular, they have provided API for developers.
     - For multiple devices.
 
 - [SpotifyAPI](https://developer.spotify.com/)
