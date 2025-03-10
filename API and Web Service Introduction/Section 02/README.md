@@ -9,7 +9,7 @@ API.
 <img src="apiDefination.PNG" alt="alt text" width="400"/>
 
 1. **A** contains the program what is going to be run.
-2. **P** program that executes task is being run.
+2. **P** program that executes task that is going to be run.
 3. **I** stand for where we are telling to the program to run.
 4. These are platform independence, upgrade safe and easy to use.
     

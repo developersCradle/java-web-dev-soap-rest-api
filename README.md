@@ -55,10 +55,11 @@ Insert certificate here when completed
 - [ ] [Section 20](#) -
 - [ ] [Section 21](#) -
 
-
 # SOAP Web Services by Java Brains.
 
-![SOAP Web Services](webServices.jpg)
+<p align="center">
+   <img src="webServices.jpg" alt="alt text" width="400"/>
+</p>
 
 All course material from SOAP Web Services by **Java Brains** with little bit of mixing new stuff, since this is old tutorial and many relevant technologies were deprecated or disappeared at time when I proceeded thought this. Comment section rocks! Contains my additional notes and some extra videos to make it more content rich experience. We be using **JAX-WS** standard and Java for this.
 
@@ -106,7 +107,7 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 
 ### Additional stuff.
 
-- [ ] SOAP with [Spring](https://www.youtube.com/watch?v=ceSqN3CWd14)
+- [ ] SOAP with [Spring](https://www.youtube.com/watch?v=ceSqN3CWd14).
 
 ## REST API Design, Development & Management.
 
@@ -189,8 +190,8 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 ## Progress.
 
 - [x] [Section 01](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/API%20and%20Web%20Service%20Introduction/Section%2001#section-01-introduction) - Introduction. ✔️
-- [ ] [Section 02](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/API%20and%20Web%20Service%20Introduction/Section%2002#section-02-api) - API.
-- [ ] [Section 03](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/API%20and%20Web%20Service%20Introduction/Section%2003#section-03-web-services) - Web Services.
+- [x] [Section 02](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/API%20and%20Web%20Service%20Introduction/Section%2002#section-02-api) - API. ✔️
+- [x] [Section 03](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/API%20and%20Web%20Service%20Introduction/Section%2003#section-03-web-services) - Web Services. ✔️
 - [ ] [Section 04](#) - HTTP.
 - [ ] [Section 05](https://github.com/developersCradle/java-web-dev-soap-rest-api/blob/main/API%20and%20Web%20Service%20Introduction/Section%2005/README.md#section-05-xml) - XML.
 - [ ] [Section 06](#) - JSON.
