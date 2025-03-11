@@ -1,5 +1,5 @@
-# Section 03: Web Services.
+# Section 07: SOAP.
 
-Web Services.
+SOAP.
 
 # What I learned.
