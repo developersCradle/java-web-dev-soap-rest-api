@@ -130,10 +130,18 @@ HTTP.
 - Cookies as set often!
 - Cookies are setted in HTTP Header section!
 
-<img src="HTTPsecurity.PNG" alt="alt text" width="550"/>
+<img src="HTTPsecurity.PNG" alt="alt text" width="450"/>
 
-1. Cookies are just lines of text.
-2. Cookies does not hold password. They can hold encrypted **Tokens**.
+1. **Cookies** are just lines of text.
+2. **Cookies** does not hold password. They can hold encrypted **Tokens**.
 3. Application can associate IP-address with **Session ID**.
 
 <img src="httpInfra.PNG" alt="alt text" width="550"/>
+
+1. Without HTTP age.
+2. With HTTP age.
+3. Benefits with **Stateless**.
+
+<img src="httpInfra.PNG" alt="alt text" width="550"/>
+
+1. Services at **windows**.

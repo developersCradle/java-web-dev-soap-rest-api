@@ -192,7 +192,7 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 - [x] [Section 01](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/API%20and%20Web%20Service%20Introduction/Section%2001#section-01-introduction) - Introduction. ✔️
 - [x] [Section 02](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/API%20and%20Web%20Service%20Introduction/Section%2002#section-02-api) - API. ✔️
 - [x] [Section 03](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/API%20and%20Web%20Service%20Introduction/Section%2003#section-03-web-services) - Web Services. ✔️
-- [ ] [Section 04](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/API%20and%20Web%20Service%20Introduction/Section%2004#section-04-http) - HTTP.
+- [x] [Section 04](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/API%20and%20Web%20Service%20Introduction/Section%2004#section-04-http) - HTTP. ✔️
 - [ ] [Section 05](https://github.com/developersCradle/java-web-dev-soap-rest-api/blob/main/API%20and%20Web%20Service%20Introduction/Section%2005/README.md#section-05-xml) - XML.
 - [ ] [Section 06](#) - JSON.
 - [ ] [Section 07](#) - SOAP.
