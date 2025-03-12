@@ -193,18 +193,13 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 - [x] [Section 02](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/API%20and%20Web%20Service%20Introduction/Section%2002#section-02-api) - API. ✔️
 - [x] [Section 03](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/API%20and%20Web%20Service%20Introduction/Section%2003#section-03-web-services) - Web Services. ✔️
 - [x] [Section 04](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/API%20and%20Web%20Service%20Introduction/Section%2004#section-04-http) - HTTP. ✔️
-- [ ] [Section 05](https://github.com/developersCradle/java-web-dev-soap-rest-api/blob/main/API%20and%20Web%20Service%20Introduction/Section%2005/README.md#section-05-xml) - XML.
-- [ ] [Section 06](#) - JSON.
+- [x] [Section 05](https://github.com/developersCradle/java-web-dev-soap-rest-api/blob/main/API%20and%20Web%20Service%20Introduction/Section%2005/README.md#section-05-xml) - XML. ✔️
+- [ ] [Section 06](#) - JSON. 
 - [ ] [Section 07](#) - SOAP.
 - [ ] [Section 08](#) - REST.
 - [ ] [Section 09](#) - API Access.
 - [ ] [Section 10](#) - API Examples.
 - [ ] [Section 11](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/API%20and%20Web%20Service%20Introduction/Section%2011#section-11-extras) - Extras.
-
-### Additional stuff.
-
-- [ ] Some task here.
-
 
 ## Learn Swagger and the OpenAPI Specification.
 
@@ -263,7 +258,7 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 ?trk=public_profile_see-credential 
 -->
 
-<img id=" ?trk=public_profile_see-credential" src=" " alt=" " width="600"/>
+<!-- <img id=" ?trk=public_profile_see-credential" src=" " alt=" " width="600"/> -->
 
 **Note: The material provided in this repository is only for helping those who may get stuck at any point of time in the course. It is very advised that no one should just copy the solutions(violation of Honor Code) presented here.**
 
