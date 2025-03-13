@@ -194,13 +194,17 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 - [x] [Section 03](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/API%20and%20Web%20Service%20Introduction/Section%2003#section-03-web-services) - Web Services. ✔️
 - [x] [Section 04](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/API%20and%20Web%20Service%20Introduction/Section%2004#section-04-http) - HTTP. ✔️
 - [x] [Section 05](https://github.com/developersCradle/java-web-dev-soap-rest-api/blob/main/API%20and%20Web%20Service%20Introduction/Section%2005/README.md#section-05-xml) - XML. ✔️
-- [ ] [Section 06](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/API%20and%20Web%20Service%20Introduction/Section%2006#section-06-json) - JSON. 
-- [ ] [Section 07](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/API%20and%20Web%20Service%20Introduction/Section%2007#section-07-soap) - SOAP.
+- [x] [Section 06](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/API%20and%20Web%20Service%20Introduction/Section%2006#section-06-json) - JSON. ✔️
+- [x] [Section 07](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/API%20and%20Web%20Service%20Introduction/Section%2007#section-07-soap) - SOAP. ✔️
 - [ ] [Section 08](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/API%20and%20Web%20Service%20Introduction/Section%2008#section-08-rest) - REST.
 - [ ] [Section 09](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/API%20and%20Web%20Service%20Introduction/Section%2009#section-09-api-access) - API Access.
 - [ ] [Section 10](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/API%20and%20Web%20Service%20Introduction/Section%2010#section-10-api-examples) - API Examples.
 - [ ] [Section 11](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/API%20and%20Web%20Service%20Introduction/Section%2011#section-11-extras) - Extras.
 - [ ] [Section 12](#) - Conclusion.
+
+### Additional stuff.
+
+- [ ] Test try example from [GeoIPService](http://wsgeoip.lavasoft.com/ipservice.asmx). Many of **SOAP** endpoints are deprecated :(.
 
 ## Learn Swagger and the OpenAPI Specification.
 
@@ -220,7 +224,6 @@ If the content sparked :fire: your interest, please consider buying the course a
 Linkedin puts this shit front, when clicking from private mode x(. Need to put this to make jump working every case
 ?trk=public_profile_see-credential 
 -->
-
 
 <img id="Learn Swagger and the OpenAPI Specification?trk=public_profile_see-credential" src="Learn Swagger and the OpenAPI Specification.jpg" alt=" " width="600"/> 
 
