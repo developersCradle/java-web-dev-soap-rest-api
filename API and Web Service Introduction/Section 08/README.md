@@ -54,4 +54,19 @@ REST.
 
 1. You can send back custom headers!
 
-- 5 stars man! ✔️.
+- Checked ✔️.
+
+# 33. REST Example (Create Twitter App).
+
+- `callback URL` if login on some authorization service. Example **OAuth**.
+    - The **authorization server** sends a response to the specified **callback URL**. This URL is where the service returns the results, such as an access token or error message.
+
+<img src="secretKey.PNG" alt="alt text" width="700"/>
+
+1. **Security Key** or **API key** can be identified and authenticate the caller. This example from **Twitter**.
+
+- You can create **X** app using **Java** library (https://docs.x.com/x-api/tools-and-libraries/overview#java).
+
+# 34. REST Exercise.
+
+<img src="restExersice.PNG" alt="alt text" width="700"/>

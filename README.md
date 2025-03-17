@@ -205,6 +205,8 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 ### Additional stuff.
 
 - [ ] Test try example from [GeoIPService](http://wsgeoip.lavasoft.com/ipservice.asmx). Many of **SOAP** endpoints are deprecated :(.
+- [ ] Do the app **X** (not **Twitter**). 
+    - Try to make using [X SDK](https://docs.x.com/x-api/tools-and-libraries/overview#java).
 
 ## Learn Swagger and the OpenAPI Specification.
 
