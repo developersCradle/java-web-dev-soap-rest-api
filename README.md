@@ -243,6 +243,7 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 
 - [x] Review `$ref` from **OAS**. ✔️
 - [ ] Host the swagger exercise on the GitHub pages [Example page of hosting](https://github.com/peter-evans/swagger-github-pages?tab=readme-ov-file).
+    - Did not get this working at the moment. Can do in future again :)
 - [ ] Review the [OAS 3.0](https://blog.restcase.com/6-most-significant-changes-in-oas-3-0/) after finishing this one.
 
 
