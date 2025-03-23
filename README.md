@@ -183,7 +183,7 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 ?trk=public_profile_see-credential 
 -->
 
-<!-- <img id=" ?trk=public_profile_see-credential" src=" " alt=" " width="600"/> -->
+<img id="API and Web Service Introduction?trk=public_profile_see-credential" src="API and Web Service Introduction.jpg" alt=" " width="600"/> 
 
 **Note: The material provided in this repository is only for helping those who may get stuck at any point of time in the course. It is very advised that no one should just copy the solutions(violation of Honor Code) presented here.**
 
@@ -196,18 +196,18 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 - [x] [Section 05](https://github.com/developersCradle/java-web-dev-soap-rest-api/blob/main/API%20and%20Web%20Service%20Introduction/Section%2005/README.md#section-05-xml) - XML. ✔️
 - [x] [Section 06](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/API%20and%20Web%20Service%20Introduction/Section%2006#section-06-json) - JSON. ✔️
 - [x] [Section 07](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/API%20and%20Web%20Service%20Introduction/Section%2007#section-07-soap) - SOAP. ✔️
-- [ ] [Section 08](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/API%20and%20Web%20Service%20Introduction/Section%2008#section-08-rest) - REST.
-- [ ] [Section 09](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/API%20and%20Web%20Service%20Introduction/Section%2009#section-09-api-access) - API Access.
-- [ ] [Section 10](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/API%20and%20Web%20Service%20Introduction/Section%2010#section-10-api-examples) - API Examples.
-- [ ] [Section 11](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/API%20and%20Web%20Service%20Introduction/Section%2011#section-11-extras) - Extras.
-- [ ] [Section 12](#) - Conclusion.
+- [x] [Section 08](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/API%20and%20Web%20Service%20Introduction/Section%2008#section-08-rest) - REST. ✔️
+- [x] [Section 09](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/API%20and%20Web%20Service%20Introduction/Section%2009#section-09-api-access) - API Access. ✔️
+- [x] [Section 10](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/API%20and%20Web%20Service%20Introduction/Section%2010#section-10-api-examples) - API Examples. ✔️
+- [x] [Section 11](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/API%20and%20Web%20Service%20Introduction/Section%2011#section-11-extras) - Extras. ✔️
+- [x] [Section 12](#) - Conclusion. ✔️
 
 ### Additional stuff.
 
 - [ ] Test try example from [GeoIPService](http://wsgeoip.lavasoft.com/ipservice.asmx). Many of **SOAP** endpoints are deprecated :(.
 - [ ] Do the app **X** (not **Twitter**). 
     - Try to make using [X SDK](https://docs.x.com/x-api/tools-and-libraries/overview#java).
-
+- [ ] Do example with the [Webhook](https://www.youtube.com/watch?v=tshKOgRLYn0).
 ## Learn Swagger and the OpenAPI Specification.
 
 ![Learn Swagger and the OpenAPI Specification](LearnSwaggerCourse.PNG)

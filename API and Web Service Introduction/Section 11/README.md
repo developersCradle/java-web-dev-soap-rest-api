@@ -4,6 +4,18 @@ Extras.
 
 # What I learned.
 
+# 51. Create an API (Amazon Web Services).
+
+<img src="creatingAPi.JPG" alt="alt text" width="400"/>
+
+- These **AWS** are cloud computing.
+
+- Todo.
+
+# 52. Calling APIs Using Programming Languages.
+
+- Todo.
+
 # 53. Webhooks.
 
 - Name **Webhooks**.
@@ -36,4 +48,45 @@ Extras.
 
 # 54. Microservices.
 
+<img src="microServices.PNG" alt="alt text" width="400"/>
+
+1. `MICRO` means **Small**.
+2. `SERVICE` means **API**.
+3. `S` means **multiple**.
+
+<img src="monolith.PNG" alt="alt text" width="400"/>
+
+1. `MONO` mean **one**.
+2. `LITH` means **stone**.
+3. `MONOLITH` Would be one **API** and `MICROSERVICES` Would be many **API**.
+
+<img src="differentApproachToApis.JPG" alt="alt text" width="400"/>
+
+1. All the programs are here as example **API**s.
+
+2. In **microservices** this comes as small services.
+    - There will bunch of **API**s.
+
+- Microservices: **Advantages** ➕:
+    - Scalability.
+    - Code language independent.
+        - We can write these in **multiple languages**.
+    - Small and Specialized teams
+
+- Microservices: **Negatives** ➖:
+    - IF there are multiple teams, this coordination will be difficult.
+
+<img src="memeDreamLIner.jpg" alt="alt text" width="600"/>
+
+- **Example** is **BOINGS** plane.
+    - Parts were from different vendors, parts just didn't fit together.
+        - ❌ This same with the microservices, if multiple teams will be working together ❌.
+
+# 55. General Technical Interview Tips.
+
+- Todo
+
+# 56. What's Next/After This Course.
+
+- Todo.
 
