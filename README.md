@@ -150,10 +150,10 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 
 ### Additional stuff.
 
-- [x] [Profile API - LinkedIn](https://learn.microsoft.com/en-us/linkedin/shared/integrations/people/profile-api). ✔️
-- [x] [SpotifyAPI](https://developer.spotify.com/). ✔️
-    - [ ] [SpotifyAPI OAuth2.0](https://developer.spotify.com/documentation/web-api/concepts/authorization).
-- [ ] [Crash Course on API design](https://www.youtube.com/watch?v=6WGxVttWaXE&list=WL&index=94).
+- [x] Read thought [Profile API - LinkedIn](https://learn.microsoft.com/en-us/linkedin/shared/integrations/people/profile-api). ✔️
+- [x] Read thought [SpotifyAPI](https://developer.spotify.com/). ✔️
+    - [ ] Read thought [SpotifyAPI OAuth2.0](https://developer.spotify.com/documentation/web-api/concepts/authorization).
+- [ ] Snack to consume :) [Crash Course on API design](https://www.youtube.com/watch?v=6WGxVttWaXE&list=WL&index=94).
 - [x] Write some mockup **Swagger API** documentation. [Link to .YAML](https://github.com/developersCradle/java-web-dev-soap-rest-api/blob/main/Learn%20Swagger%20and%20the%20OpenAPI%20Specification/Section%2002/Assigment%2003/schemas.yaml). ✔️
 - [ ] Read thought [RFC2616](https://datatracker.ietf.org/doc/html/rfc2616) - Hypertext Transfer Protocol -- HTTP/1.1.
 - [ ] Read thought [RFC7617](https://datatracker.ietf.org/doc/html/rfc7617) - Basic Auth.
@@ -208,13 +208,14 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 - [ ] Do the app **X** (not **Twitter**). 
     - Try to make using [X SDK](https://docs.x.com/x-api/tools-and-libraries/overview#java).
 - [ ] Do example with the [Webhook](https://www.youtube.com/watch?v=tshKOgRLYn0).
+
 ## Learn Swagger and the OpenAPI Specification.
 
 ![Learn Swagger and the OpenAPI Specification](LearnSwaggerCourse.PNG)
 
 Contains my own notes with some course material.
 
-API Definition Files, Tools, and Documentation (OAS 2.0) **Peter Gruenbaum**.
+API Definition Files, Tools, and Documentation (**OAS 2.0**) **Peter Gruenbaum**.
 
 [The Course at Udemy](https://www.udemy.com/course/learn-swagger-and-the-open-api-specification/).   
 
@@ -241,8 +242,8 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 ### Additional stuff.
 
 - [x] Review `$ref` from **OAS**. ✔️
-- [ ] Review the [OAS 3.0](https://blog.restcase.com/6-most-significant-changes-in-oas-3-0/) after finishing this one.
 - [ ] Host the swagger exercise on the GitHub pages [Example page of hosting](https://github.com/peter-evans/swagger-github-pages?tab=readme-ov-file).
+- [ ] Review the [OAS 3.0](https://blog.restcase.com/6-most-significant-changes-in-oas-3-0/) after finishing this one.
 
 
 ## Learn API Technical Writing: JSON and XML for Writers.
