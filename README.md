@@ -1,10 +1,12 @@
-# Java Web Development Under The Hood.
+<p align="center">
+    <img id="Java Web Development Under The Hood" src="Java Web Development Under The Hood.png">
+</p>
 
 ![Java Web Development Under The Hood](webDevelopementUnderTheHood.JPG)
 
 These are fundamentals for any **professional** Java developer to understand, even the old concepts, these can become handy in legacy projects! These concepts will come to you eventually regardless which Java framework you will decide to work with.
 
-All course material from Java Web Development Under The Hood by **Matt Greencroft** from legendary **Virtual Pair Programmers**.
+All course material from Java Web Development Under The Hood by **Matt Greencroft** from legendary **Virtual Pair Programmers** ©.
 
 Contains my own notes to better learning experience with some course content. 
 
@@ -25,13 +27,15 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 ?trk=public_profile_see-credential 
 -->
 
-<img id="" src="" alt="" width="600"/>
+<p align="center">
+    Insert certificate here when completed
+</p>
 
-Insert certificate here when completed
+
 
 **Note: The material provided in this repository is only for helping those who may get stuck at any point of time in the course. It is very advised that no one should just copy the solutions(violation of Honor Code) presented here.**
 
-## Progress/Curriculum.
+#### Progress/Curriculum.
 
 - [x] [Section 1: Module 1](#) - Module 1. ✔️
 - [ ] [Section 2](#) - Introduction.  
@@ -55,13 +59,15 @@ Insert certificate here when completed
 - [ ] [Section 20](#) -
 - [ ] [Section 21](#) -
 
-# SOAP Web Services by Java Brains.
 
 <p align="center">
-   <img src="webServices.jpg" alt="alt text" width="400"/>
+        <img id="Java Web Development Under The Hood" src="SOAP Web Services by Java Brains.png" height="60px">
 </p>
 
-All course material from SOAP Web Services by **Java Brains** with little bit of mixing new stuff, since this is old tutorial and many relevant technologies were deprecated or disappeared at time when I proceeded thought this. Comment section rocks! Contains my additional notes and some extra videos to make it more content rich experience. We be using **JAX-WS** standard and Java for this.
+![Web Servics](webServices.jpg)
+
+
+All course material from SOAP Web Services by **Java Brains** © with little bit of mixing new stuff, since this is old tutorial and many relevant technologies were deprecated or disappeared at time when I proceeded thought this. Comment section rocks! Contains my additional notes and some extra videos to make it more content rich experience. We be using **JAX-WS** standard and Java for this.
 
 [Original Channel](https://www.youtube.com/@Java.Brains).
 
@@ -78,11 +84,15 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 ?trk=public_profile_see-credential 
 -->
 
-<img id="SOAP Web Services with Java_certificate?trk=public_profile_see-credential" src="SOAP Web Services with Java_certificate.JPG" alt="SOAP Web Services with Java_certificate" width="600"/>
+
+<p align="center">
+    <img id="SOAP Web Services with Java_certificate?trk=public_profile_see-credential" src="SOAP Web Services with Java_certificate.JPG" alt="SOAP Web Services with Java_certificate" width="600"/>
+</p>
+
 
 **Note: The material provided in this repository is only for helping those who may get stuck at any point of time in the course. It is very advised that no one should just copy the solutions(violation of Honor Code) presented here.**
 
-## Progress/Curriculum.
+#### Progress/Curriculum.
 
 - [x] [Section 01](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/SOAP%20Web%20Services/Section%2001#soap-web-services-01---introduction-to-web-services) - SOAP Web Services - Introduction To Web Services. ✔️
 - [x] [Section 02](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/SOAP%20Web%20Services/Section%2002#soap-web-services-02---web-service-jargon) - SOAP Web Services - Web Service Jargon. ✔️
@@ -105,18 +115,20 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 - [x] [Section 19](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/SOAP%20Web%20Services/Section%2019#soap-web-services-19---using-endpoint) - SOAP Web Services - Using Endpoint. ✔️
 - [x] [Section 20](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/SOAP%20Web%20Services/Section%2020#soap-web-services-20---wsimport-revisited) - SOAP Web Services - wsimport Revisited. ✔️
 
-### Additional stuff.
+#### Additional stuff.
 
 - [ ] SOAP with [Spring](https://www.youtube.com/watch?v=ceSqN3CWd14).
 
-## REST API Design, Development & Management.
+<p align="center">
+    <img id="REST API Design, Development & Management" src="REST API Design, Development & Management Caption.png">
+</p>
 
-![REST API Design, Development & Management](restApiDesingLogo.PNG)
+![REST API Design, Development & Management](REST%20API%20Design%20Development%20and%20Management%20course%20desc.PNG)
 
 This repository is trying to be one place quest for understanding REST API Design/Development. Contains my own notes with some course material.
 This course servers as start, but later might add even more resources.
 
-Learn the REST API Concepts, Design best practices, Security practices, Swagger 2.0/OAI, Hands-on API Management by **Rajeev Sakhuja**.
+Learn the REST API Concepts, Design best practices, Security practices, Swagger 2.0/OAI, Hands-on API Management by **Rajeev Sakhuja** ©.
 
 [The Course at Udemy](https://www.udemy.com/course/rest-api/).   
 
@@ -129,11 +141,14 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 ?trk=public_profile_see-credential 
 -->
 
-<img id="REST_API_Design_Development_and_Management?trk=public_profile_see-credential" src="REST_API_Design_Development_and_Management.jpg" alt="REST API Design, Development and Management_certificate" width="600"/>
+<p align="center">
+    <img id="REST_API_Design_Development_and_Management?trk=public_profile_see-credential" src="REST_API_Design_Development_and_Management cert.jpg" alt="REST API Design, Development and Management_certificate" width="600"/>
+</p>
+
 
 **Note: The material provided in this repository is only for helping those who may get stuck at any point of time in the course. It is very advised that no one should just copy the solutions(violation of Honor Code) presented here.**
 
-## Progress.
+#### Progress/Curriculum.
 
 - [x] [Section 01](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/RestApiDesignDevelopementAndManagement/Section%2001#section-01---setting-the-stage) - Setting the stage. ✔️
 - [x] [Section 02](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/RestApiDesignDevelopementAndManagement/Section%2002#6-what-is-an-api) - Evolution of RESTful services. ✔️
@@ -148,7 +163,7 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 - [x] [Section 11](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/RestApiDesignDevelopementAndManagement/Section%2011#section-11---api-management) - API Management. ✔️
 - [x] [Section 12](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/RestApiDesignDevelopementAndManagement/Section%2012#section-12---goodbye--all-the-best) - Goodbye & All the Best. ✔️
 
-### Additional stuff.
+#### Additional stuff.
 
 - [x] Read thought [Profile API - LinkedIn](https://learn.microsoft.com/en-us/linkedin/shared/integrations/people/profile-api). ✔️
 - [x] Read thought [SpotifyAPI](https://developer.spotify.com/). ✔️
@@ -164,13 +179,16 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 - [ ] Do some partial response test with **GraphQL**.
 
 
-## API and Web Service Introduction.
+<p align="center">
+    <img id="API and Web Service Introduction caption" src="API and Web Service Introduction caption.png">
+</p>
+
 
 ![API and Web Service Introduction](API%20and%20Web%20Service%20Introduction.PNG)
 
-Contains my own notes with some course material.
+Contains my own notes to better learning experience with some course content.
 
-API and Web Service Introduction **Nate Ross**.
+API and Web Service Introduction **Nate Ross** ©.
 
 [The Course at Udemy](https://www.udemy.com/course/api-and-web-service-introduction/?couponCode=2021PM20).
 
@@ -183,11 +201,13 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 ?trk=public_profile_see-credential 
 -->
 
-<img id="API and Web Service Introduction?trk=public_profile_see-credential" src="API and Web Service Introduction.jpg" alt=" " width="600"/> 
+<p align="center">
+    <img id="API and Web Service Introduction?trk=public_profile_see-credential" src="API and Web Service Introduction cert.jpg" alt=" " width="600"/> 
+</p>
 
 **Note: The material provided in this repository is only for helping those who may get stuck at any point of time in the course. It is very advised that no one should just copy the solutions(violation of Honor Code) presented here.**
 
-## Progress.
+#### Progress/Curriculum.
 
 - [x] [Section 01](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/API%20and%20Web%20Service%20Introduction/Section%2001#section-01-introduction) - Introduction. ✔️
 - [x] [Section 02](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/API%20and%20Web%20Service%20Introduction/Section%2002#section-02-api) - API. ✔️
@@ -209,13 +229,17 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
     - Try to make using [X SDK](https://docs.x.com/x-api/tools-and-libraries/overview#java).
 - [ ] Do example with the [Webhook](https://www.youtube.com/watch?v=tshKOgRLYn0).
 
-## Learn Swagger and the OpenAPI Specification.
+
+
+<p align="center">
+    <img id="API and Web Service Introduction?trk=public_profile_see-credential" src="Learn Swagger and the OpenAPI Specification caption.png" alt="Learn Swagger and the OpenAPI Specification"/> 
+</p>
 
 ![Learn Swagger and the OpenAPI Specification](LearnSwaggerCourse.PNG)
 
 Contains my own notes with some course material.
 
-API Definition Files, Tools, and Documentation (**OAS 2.0**) **Peter Gruenbaum**.
+API Definition Files, Tools, and Documentation (**OAS 2.0**) **Peter Gruenbaum** ©.
 
 [The Course at Udemy](https://www.udemy.com/course/learn-swagger-and-the-open-api-specification/).   
 
@@ -228,18 +252,21 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 ?trk=public_profile_see-credential 
 -->
 
-<img id="Learn Swagger and the OpenAPI Specification?trk=public_profile_see-credential" src="Learn Swagger and the OpenAPI Specification.jpg" alt=" " width="600"/> 
+<p align="center">
+    <img id="Learn Swagger and the OpenAPI Specification?trk=public_profile_see-credential" src="Learn Swagger and the OpenAPI Specification.jpg" alt=" " width="600"/> 
+</p>
+
 
 
 **Note: The material provided in this repository is only for helping those who may get stuck at any point of time in the course. It is very advised that no one should just copy the solutions(violation of Honor Code) presented here.**
 
-## Progress.
+#### Progress/Curriculum.
 
 - [x] [Section 01](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/Learn%20Swagger%20and%20the%20OpenAPI%20Specification/Section%2001#section-1-introduction) - Introduction. ✔️
 - [x] [Section 02](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/Learn%20Swagger%20and%20the%20OpenAPI%20Specification/Section%2002#02-open-api-specification) - Open API Specification. ✔️ 
 - [x] [Section 03](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/Learn%20Swagger%20and%20the%20OpenAPI%20Specification/Section%2003#03-tools-and-alternatives) - Tools and Alternatives. ✔️
 
-### Additional stuff.
+#### Additional stuff.
 
 - [x] Review `$ref` from **OAS**. ✔️
 - [ ] Host the swagger exercise on the GitHub pages [Example page of hosting](https://github.com/peter-evans/swagger-github-pages?tab=readme-ov-file).
@@ -247,13 +274,13 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 - [ ] Review the [OAS 3.0](https://blog.restcase.com/6-most-significant-changes-in-oas-3-0/) after finishing this one.
 
 
-## Learn API Technical Writing: JSON and XML for Writers.
+# Learn API Technical Writing: JSON and XML for Writers.
 
 ![Learn API Technical Writing: JSON and XML for Writers](technicalDocumentationXMLandJSON.PNG)
 
 Contains my own notes with some course material.
 
-Learn API Technical Writing: JSON and XML for Writers **Peter Gruenbaum**.
+Learn API Technical Writing: JSON and XML for Writers **Peter Gruenbaum** ©.
 
 [The Course at Udemy](https://www.udemy.com/course/api-documentation-1-json-and-xml/).
 
@@ -266,17 +293,20 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 ?trk=public_profile_see-credential 
 -->
 
-<!-- <img id=" ?trk=public_profile_see-credential" src=" " alt=" " width="600"/> -->
+<p align="center">
+    Insert certificate here when completed
+</p>
+
 
 **Note: The material provided in this repository is only for helping those who may get stuck at any point of time in the course. It is very advised that no one should just copy the solutions(violation of Honor Code) presented here.**
 
-## Progress.
+#### Progress/Curriculum.
 
 - [ ] [Section 01](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/Learn%20API%20Technical%20Writing%20JSON%20and%20XML%20for%20Writers/Section%2001#section-1-introduction) - Introduction.
 - [ ] [Section 02](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/Learn%20API%20Technical%20Writing%20JSON%20and%20XML%20for%20Writers/Section%2002#section-2-json) - Introduction.
 - [ ] [Section 03](#) - Introduction.
 - [ ] [Section 04](#) - Introduction.
 
-### Additional stuff.
+#### Additional stuff.
 
 - [ ] Some task here.
