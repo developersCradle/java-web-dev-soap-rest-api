@@ -60,6 +60,63 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 - [ ] [Section 21](#) -
 
 
+---
+
+# Java Web Services
+
+![Web Servics](java%20webservices%20description.PNG)
+
+All course material from SOAP Web Services by **Java Brains** © with little bit of mixing new stuff, since this is old tutorial and many relevant technologies were deprecated or disappeared at time when I proceeded thought this. Comment section rocks! Contains my additional notes and some extra videos to make it more content rich experience. We be using **JAX-WS** standard and Java for this.
+
+[Original Channel](https://www.youtube.com/@Java.Brains).
+
+[Source](https://www.youtube.com/playlist?list=PLe8LZCtW06l-JJDOb4PQ2TiAdMRtPKxKV).
+
+If the content sparked :fire: your interest, please consider starting the course and start learning :book:.
+
+This repository is made with **Eclipse**, therefore it will include configuration files which are related to this IDE this approach will be favored for now. ⚙️
+
+<br>
+
+<!-- 
+Linkedin puts this shit front, when clicking from private mode x(. Need to put this to make jump working every case
+?trk=public_profile_see-credential 
+-->
+
+
+<p align="center">
+    Insert here
+</p>
+
+
+**Note: The material provided in this repository is only for helping those who may get stuck at any point of time in the course. It is very advised that no one should just copy the solutions(violation of Honor Code) presented here.**
+
+#### Progress/Curriculum.
+
+- [ ] [Section 01](#) - Software Setup and Notes.
+- [ ] [Section 02](#) - Completed Projects and Troubleshooting.
+- [ ] [Section 03](#) - Web Services - The Big Picture.
+- [ ] [Section 04](#) - XML and XML Schema Definition and JSON.
+- [ ] [Section 05](#) - SOAP Web Services Concepts.
+- [ ] [Section 06](#) - SOAP Web Services Design and Implementation.
+- [ ] [Section 07](#) - JAX-WS AND JAXB.
+- [ ] [Section 08](#) - Apache CXF.
+- [ ] [Section 09](#) - Developing Top Down Web Services.
+- [ ] [Section 10](#) - Java SOAP Client.
+- [ ] [Section 11](#) - Developing Bottom Up Web Services.
+- [ ] [Section 12](#) - WS Standards.
+- [ ] [Section 13](#) - User Name Token Profile Client.
+- [ ] [Section 14](#) - MTOM.
+- [ ] [Section 15](#) - JAX-WS Handlers.
+- [ ] [Section 16](#) - SOAP Faults.
+
+
+#### Additional stuff.
+
+- [ ] Add here.
+
+---
+
 <p align="center">
         <img id="Java Web Development Under The Hood" src="SOAP Web Services by Java Brains.png" height="60px">
 </p>
