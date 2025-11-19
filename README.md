@@ -1,5 +1,5 @@
 <p align="center">
-    <img id="Java Web Development Under The Hood" src="Java Web Development Under The Hood.png">
+    <img id="Java Web Development Under The Hood" src="Java Web Development Under The Hood.png" style="width:900px;height:140px;">
 </p>
 
 ![Java Web Development Under The Hood](webDevelopementUnderTheHood.JPG)
@@ -32,7 +32,6 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 </p>
 
 
-
 **Note: The material provided in this repository is only for helping those who may get stuck at any point of time in the course. It is very advised that no one should just copy the solutions(violation of Honor Code) presented here.**
 
 #### Progress/Curriculum.
@@ -60,21 +59,23 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 - [ ] [Section 21](#) -
 
 
----
+<p align="center">
+    <img id="Java Web Development Under The Hood" src="Java Web Services caption.png" style="width:900px;height:140px;">
+</p>
 
-# Java Web Services
+![Java Web Services](java%20webservices%20description.PNG)
 
-![Web Servics](java%20webservices%20description.PNG)
+All course material from Java Web Services by **Bharath Thippireddy**.
 
-All course material from SOAP Web Services by **Java Brains** © with little bit of mixing new stuff, since this is old tutorial and many relevant technologies were deprecated or disappeared at time when I proceeded thought this. Comment section rocks! Contains my additional notes and some extra videos to make it more content rich experience. We be using **JAX-WS** standard and Java for this.
+Contains my own notes with some course material to enforce learning experience.
 
-[Original Channel](https://www.youtube.com/@Java.Brains).
+This repository is made with [![IntelliJ IDEA](https://img.shields.io/badge/IntelliJIDEA-000000.svg?logo=intellij-idea&logoColor=white)](#) with **Eclipse** hotkeys. This is why it will include configuration files which are related to this IDE this approach will be favored for now. ⚙️
 
-[Source](https://www.youtube.com/playlist?list=PLe8LZCtW06l-JJDOb4PQ2TiAdMRtPKxKV).
+[Original Channel](https://www.bharaththippireddy.com/).
+
+[Source](https://www.udemy.com/course/java-web-services/).
 
 If the content sparked :fire: your interest, please consider starting the course and start learning :book:.
-
-This repository is made with **Eclipse**, therefore it will include configuration files which are related to this IDE this approach will be favored for now. ⚙️
 
 <br>
 
@@ -83,11 +84,9 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 ?trk=public_profile_see-credential 
 -->
 
-
 <p align="center">
     Insert here
 </p>
-
 
 **Note: The material provided in this repository is only for helping those who may get stuck at any point of time in the course. It is very advised that no one should just copy the solutions(violation of Honor Code) presented here.**
 
@@ -109,16 +108,33 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 - [ ] [Section 14](#) - MTOM.
 - [ ] [Section 15](#) - JAX-WS Handlers.
 - [ ] [Section 16](#) - SOAP Faults.
-
+- [ ] [Section 17](#) - REST Web Services Concepts.
+- [ ] [Section 18](#) - RESTFul Design and Implementation.
+- [ ] [Section 19](#) - Configuring JSON Support.
+- [ ] [Section 20](#) - REST Error Handling.
+- [ ] [Section 21](#) - JAX-RS Client API - Creating Java REST Clients.
+- [ ] [Section 22](#) - JAX-RS Injection.
+- [ ] [Section 23](#) - Asynchronous REST.
+- [ ] [Section 24](#) - REST and Spring Security.
+- [ ] [Section 25](#) - OAuth Concepts.
+- [ ] [Section 26](#) - REST Attachments.
+- [ ] [Section 27](#) - Jersey Quick Start.
+- [ ] [Section 28](#) - REST Using Spring Boot Web.
+- [ ] [Section 29](#) - REST and Database CRUD Operations.
+- [ ] [Section 30](#) - CRUD Using Spring Boot.
+- [ ] [Section 31](#) - Clinical Data Reporting Project.
+- [ ] [Section 32](#) - Develop React Front End.
+- [ ] [Section 33](#) - Deploy to AWS.
+- [ ] [Section 34](#) - Dockerize the Clinical App.
+- [ ] [Section 35](#) - CRUD Operations Using SOAP.
+- [ ] [Section 36](#) - Interview Help and Wrap Up.
 
 #### Additional stuff.
 
 - [ ] Add here.
 
----
-
 <p align="center">
-        <img id="Java Web Development Under The Hood" src="SOAP Web Services by Java Brains.png" height="60px">
+        <img id="Java Web Development Under The Hood" src="SOAP Web Services by Java Brains.png" style="width:900px;height:140px;">
 </p>
 
 ![Web Servics](webServices.jpg)
@@ -177,7 +193,7 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 - [ ] SOAP with [Spring](https://www.youtube.com/watch?v=ceSqN3CWd14).
 
 <p align="center">
-    <img id="REST API Design, Development & Management" src="REST API Design, Development & Management Caption.png">
+    <img id="REST API Design, Development & Management" src="REST API Design, Development & Management Caption.png" style="width:900px;height:110px;">
 </p>
 
 ![REST API Design, Development & Management](REST%20API%20Design%20Development%20and%20Management%20course%20desc.PNG)
@@ -201,7 +217,6 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 <p align="center">
     <img id="REST_API_Design_Development_and_Management?trk=public_profile_see-credential" src="REST_API_Design_Development_and_Management cert.jpg" alt="REST API Design, Development and Management_certificate" width="600"/>
 </p>
-
 
 **Note: The material provided in this repository is only for helping those who may get stuck at any point of time in the course. It is very advised that no one should just copy the solutions(violation of Honor Code) presented here.**
 
@@ -235,11 +250,9 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 - [ ] Do RPC call with **GWT**.
 - [ ] Do some partial response test with **GraphQL**.
 
-
 <p align="center">
     <img id="API and Web Service Introduction caption" src="API and Web Service Introduction caption.png">
 </p>
-
 
 ![API and Web Service Introduction](API%20and%20Web%20Service%20Introduction.PNG)
 
@@ -286,8 +299,6 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
     - Try to make using [X SDK](https://docs.x.com/x-api/tools-and-libraries/overview#java).
 - [ ] Do example with the [Webhook](https://www.youtube.com/watch?v=tshKOgRLYn0).
 
-
-
 <p align="center">
     <img id="API and Web Service Introduction?trk=public_profile_see-credential" src="Learn Swagger and the OpenAPI Specification caption.png" alt="Learn Swagger and the OpenAPI Specification"/> 
 </p>
@@ -312,7 +323,6 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 <p align="center">
     <img id="Learn Swagger and the OpenAPI Specification?trk=public_profile_see-credential" src="Learn Swagger and the OpenAPI Specification.jpg" alt=" " width="600"/> 
 </p>
-
 
 
 **Note: The material provided in this repository is only for helping those who may get stuck at any point of time in the course. It is very advised that no one should just copy the solutions(violation of Honor Code) presented here.**

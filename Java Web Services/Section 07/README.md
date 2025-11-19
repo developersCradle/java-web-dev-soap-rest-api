@@ -7,7 +7,7 @@ JAX-WS AND JAXB.
 # JAXB Introduction.
 
 <p align="center">
-        <img id="Java Web Development Under The Hood" src="jaxWs.PNG" height="300px">
+        <img id="Java Web Development Under The Hood" src="jaxWs.PNG" height="400px">
 </p>
 
 > Yes, **Spring-WS** and **JAX-WS** are **different** approaches to building web services in Java, though both can deal with SOAP messages.
@@ -42,3 +42,8 @@ JAX-WS AND JAXB.
 <p align="center">
         <img id="Java Web Development Under The Hood" src="jaxB.PNG" height="400px">
 </p>
+
+1. **JAXB** stands for **J**ava **A**rchitecture **X**ML **B**inding.
+        - It proves the mapping, **XML** schema to **Java** classes.
+2. **JAXB** is similar what **Hibernate** is for SQL.
+        - Developer will interact with the **Hibernate** rather than the **SQL** itself.
