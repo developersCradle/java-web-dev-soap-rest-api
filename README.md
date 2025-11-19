@@ -58,7 +58,6 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 - [ ] [Section 20](#) -
 - [ ] [Section 21](#) -
 
-
 <p align="center">
     <img id="Java Web Development Under The Hood" src="Java Web Services caption.png" style="width:900px;height:140px;">
 </p>
@@ -77,12 +76,14 @@ This repository is made with [![IntelliJ IDEA](https://img.shields.io/badge/Inte
 
 If the content sparked :fire: your interest, please consider starting the course and start learning :book:.
 
-<br>
-
 <!-- 
 Linkedin puts this shit front, when clicking from private mode x(. Need to put this to make jump working every case
 ?trk=public_profile_see-credential 
 -->
+
+> While debugging a legacy system with a particularly nasty bug, I noticed something interesting: during the JAXB marshalling/unmarshalling process, a character was mysteriously changing. ~ *DevelopersCradle*
+
+That small detail turned out to be the key to diagnosing the entire issue. It was a great reminder that in complex systems, subtle transformations—especially in serialization workflows—can have big impacts.
 
 <p align="center">
     Insert here
@@ -137,8 +138,9 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
         <img id="Java Web Development Under The Hood" src="SOAP Web Services by Java Brains.png" style="width:900px;height:140px;">
 </p>
 
-![Web Servics](webServices.jpg)
-
+<p align="center">
+    <img id="Java Web Development Under The Hood" src="webServices.jpg" style="width:400px;height:210px;">
+</p>
 
 All course material from SOAP Web Services by **Java Brains** © with little bit of mixing new stuff, since this is old tutorial and many relevant technologies were deprecated or disappeared at time when I proceeded thought this. Comment section rocks! Contains my additional notes and some extra videos to make it more content rich experience. We be using **JAX-WS** standard and Java for this.
 
@@ -272,7 +274,7 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 -->
 
 <p align="center">
-    <img id="API and Web Service Introduction?trk=public_profile_see-credential" src="API and Web Service Introduction cert.jpg" alt=" " width="600"/> 
+    <img id="API and Web Service Introduction?trk=public_profile_see-credential" src="API and Web Service Introduction cert.jpg" alt="API and Web Service Introduction cert" width="600"/> 
 </p>
 
 **Note: The material provided in this repository is only for helping those who may get stuck at any point of time in the course. It is very advised that no one should just copy the solutions(violation of Honor Code) presented here.**
@@ -321,7 +323,7 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 -->
 
 <p align="center">
-    <img id="Learn Swagger and the OpenAPI Specification?trk=public_profile_see-credential" src="Learn Swagger and the OpenAPI Specification.jpg" alt=" " width="600"/> 
+    <img id="Learn Swagger and the OpenAPI Specification?trk=public_profile_see-credential" src="Learn Swagger and the OpenAPI Specification.jpg" alt="learn swagger cert here" width="600"/> 
 </p>
 
 
