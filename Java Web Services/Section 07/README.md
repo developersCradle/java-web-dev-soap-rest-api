@@ -87,3 +87,198 @@ JAX-WS AND JAXB.
 <p align="center">
         <img id="Java Web Services" src="runtimeAPI.PNG" height="400px">
 </p>
+
+1. **Runtime API** consisting of the **Marshall**, **UNMarshall** and **Annotations**
+   - Annotation if we hand code the **Beans**, in the ***Code First** approach!
+
+<p align="center">
+        <img id="Java Web Services" src="referenceImplementation.PNG" height="400px">
+</p>
+
+1. **CXF** uses the reference of **JAXB** documentation.
+
+# JAXB Tools and Plugins.
+
+- Most of these tools are included into the **JDK** 
+inside!
+
+- Inside the **SDK** there is tool which are common example:
+
+<p align="center">
+        <img id="Java Web Services" src="insideJDK.PNG" height="400px">
+</p>
+
+1. `schemagen`.
+    - Generates schemas form Java code.
+2. `xjc` **X**ML **J**ava **C**ompiler.
+    -  To make **Java** classes from the **XML**.
+
+- We will not be **directly** using these. We will use the **plugins** top of these.
+
+- There will be many implementations of **JABX** plugins.
+  - We will be using! [maven-jaxb2-plugin](https://mvnrepository.com/artifact/org.jvnet.jaxb2.maven2/maven-jaxb2-plugin).
+
+# Steps to Generate Stubs from XML Schema.
+
+<p align="center">
+        <img id="Java Web Services" src="xmlChemaToJavaClasses.PNG" height="300px">
+</p>
+
+- Here is the XML Schema Definition (XSD) of **Employee.xsd**:
+
+````
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+    targetNamespace="http://www.journaldev.com/com/journaldev/employee/data"
+    xmlns:empns="http://www.journaldev.com/com/journaldev/employee/data"
+    elementFormDefault="qualified">
+ 
+    <element name="empRequest" type="empns:EmpRequest"></element>
+    <element name="empResponse" type="empns:EmpResponse"></element>
+ 
+    <complexType name="EmpRequest">
+        <sequence>
+            <element name="id" type="int" minOccurs="0" maxOccurs="1" />
+            <element name="name" type="string" minOccurs="0" maxOccurs="1" />
+        </sequence>
+    </complexType>
+     
+    <complexType name="EmpResponse">
+        <sequence>
+            <element name="id" type="int" minOccurs="1" maxOccurs="1" />
+            <element name="name" type="string" minOccurs="1" maxOccurs="1" />
+            <element name="role" type="string" minOccurs="1" maxOccurs="unbounded" />
+            <element name="gender" type="string" minOccurs="1" maxOccurs="1" />
+            <element name="salary" type="string" minOccurs="1" maxOccurs="1" />
+        </sequence>
+    </complexType>
+</schema>
+
+````
+
+- Here is the XML Schema Definition (XSD) of **Patient.xsd**:
+
+````
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.bharatthippireddy.com/Patient"
+	xmlns:tns="http://www.bharatthippireddy.com/Patient"
+	elementFormDefault="qualified">
+
+	<element name="patient" type="tns:Patient" />
+
+	<complexType name="Patient">
+		<sequence>
+			<element name="name" type="tns:String15Chars" />
+			<element name="age" type="int" />
+			<element name="dob" type="date" />
+			<element name="email" type="string" maxOccurs="unbounded" />
+			<element name="gender" type="tns:Gender" />
+			<element name="phone" type="string" />
+			<element name="payment" type="tns:PaymentType" />
+		</sequence>
+
+		<attribute name="id" type="tns:ID" />
+	</complexType>
+
+	<complexType name="PaymentType">
+		<choice>
+			<element name="cash" type="int" />
+			<element name="insurance" type="tns:Insurance" />
+		</choice>
+	</complexType>
+
+	<complexType name="Insurance">
+		<all>
+			<element name="provider" type="string" />
+			<element name="limit" type="int" />
+		</all>
+
+	</complexType>
+
+	<simpleType name="ID">
+		<restriction base="int">
+			<pattern value="[0-9]*"></pattern>
+		</restriction>
+	</simpleType>
+
+	<simpleType name="String15Chars">
+		<restriction base="string">
+			<maxLength value="15" />
+		</restriction>
+	</simpleType>
+
+	<simpleType name="Gender">
+		<restriction base="string">
+			<enumeration value="M" />
+			<enumeration value="F" />
+		</restriction>
+	</simpleType>
+</schema>
+````
+
+# Generate the Stubs.
+
+- We configure **build values** here.
+
+````
+<build>
+...
+</build>
+````
+
+- We will be **configuring** the **maven-jaxb2-plugin** 
+
+````
+            <plugin>
+                <groupId>org.jvnet.jaxb2.maven2</groupId>
+                <artifactId>maven-jaxb2-plugin</artifactId>
+                <version>0.15.3</version>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>generate</goal>
+                        </goals>
+                    </execution>
+                </executions>
+
+                <configuration>
+                    <schemaDirectory>${project.basedir}/src/main/xsd</schemaDirectory>
+                    <schemaIncludes>
+                        <include>Patient.xsd</include>
+                    </schemaIncludes>
+                    <bindingDirectory>${project.basedir}/src/main/xsd</bindingDirectory>
+                    <bindingIncludes>
+                        <include>global.xjb</include>
+                    </bindingIncludes>
+                    <generateDirectory>${project.basedir}/src/generated</generateDirectory>
+                </configuration>
+            </plugin>
+        </plugins>
+````
+
+- We will be running the plugin: `jaxb2:generate`. This is for **generating** stubs.
+
+<p align="center">
+        <img id="Java Web Services" src="generatingStubs.gif" height="400px">
+</p>
+
+<p align="center">
+        <img id="Java Web Services" src="configurationOfPaths.PNG" height="400px">
+</p>
+
+1. You can see the configuration paths for the `maven-jaxb2-plugin`.
+
+
+# Customize Generated Code Using Binding File.
+
+# Stubs Walk Through.
+
+# Generating Java Classes from XML Schema.
+
+# Marshalling and Unmarshalling.
+
+# Marshalling and Unmarshalling (Quiz).
+
+# JAX-WS Summary.
+
+# JAXB Summary.

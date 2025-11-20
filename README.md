@@ -98,8 +98,8 @@ That small detail turned out to be the key to diagnosing the entire issue. It wa
 - [ ] [Section 03](#) - Web Services - The Big Picture.
 - [ ] [Section 04](#) - XML and XML Schema Definition and JSON.
 - [ ] [Section 05](#) - SOAP Web Services Concepts.
-- [ ] [Section 06](#) - SOAP Web Services Design and Implementation.
-- [ ] [Section 07](#) - JAX-WS AND JAXB.
+- [ ] [Section 06](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/Java%20Web%20Services/Section%2006#section-06-soap-web-services-design-and-implementation) - SOAP Web Services Design and Implementation.
+- [ ] [Section 07](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/Java%20Web%20Services/Section%2007#section-07-jax-ws-and-jaxb) - JAX-WS AND JAXB.
 - [ ] [Section 08](#) - Apache CXF.
 - [ ] [Section 09](#) - Developing Top Down Web Services.
 - [ ] [Section 10](#) - Java SOAP Client.
