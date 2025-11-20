@@ -1,3 +1,10 @@
+
+
+<p align="center">
+    <img id="studying" src="java web services.png" style="width:900px;height:300px;">
+    <text>Attempt to study <b>Web Services</b>, <b>Rest API Design</b> and related topics!</text>
+</p>
+
 <p align="center">
     <img id="Java Web Development Under The Hood" src="Java Web Development Under The Hood.png" style="width:900px;height:140px;">
 </p>
