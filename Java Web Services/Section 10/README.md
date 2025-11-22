@@ -1,5 +1,5 @@
-# Section 2: JSON.
+# Section 10: Java SOAP Client.
 
-JSON.
+Java SOAP Client.
 
 # What I learned.

@@ -1,12 +1,12 @@
 
 
 <p align="center">
-    <img id="studying" src="java web services.png" style="width:900px;height:300px;">
-    <text>Attempt to study <b>Web Services</b>, <b>Rest API Design</b> and related topics!</text>
+    <img id="studying" src="java web services.png" style="width:900px;height:320px;">
+    <text>Attempt to study <b>Web Services</b>, <b>Rest API Design</b> and <b>related topics</b>!</text>
 </p>
 
 <p align="center">
-    <img id="Java Web Development Under The Hood" src="Java Web Development Under The Hood.png" style="width:900px;height:140px;">
+    <img id="Java Web Development Under The Hood" src="Java Web Development Under The Hood.png" style="width:900px;height:110px;">
 </p>
 
 ![Java Web Development Under The Hood](webDevelopementUnderTheHood.JPG)
@@ -88,12 +88,12 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 ?trk=public_profile_see-credential 
 -->
 
-> While debugging a legacy system with a particularly nasty bug, I noticed something interesting: during the JAXB marshalling/unmarshalling process, a character was mysteriously changing. ~ *DevelopersCradle*
-
-That small detail turned out to be the key to diagnosing the entire issue. It was a great reminder that in complex systems, subtle transformations—especially in serialization workflows—can have big impacts.
+> While debugging a legacy system with a particularly nasty bug, I noticed something interesting: during the JAXB marshalling/unmarshalling process, a character was mysteriously changing.
+> 
+> That small detail turned out to be the key to diagnosing the entire issue. It was a great reminder that in complex systems, subtle transformations—especially in serialization workflows—can have big impacts. ~ *DevelopersCradle*
 
 <p align="center">
-    Insert here
+    Insert Cert here
 </p>
 
 **Note: The material provided in this repository is only for helping those who may get stuck at any point of time in the course. It is very advised that no one should just copy the solutions(violation of Honor Code) presented here.**
@@ -259,9 +259,13 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 - [ ] Do RPC call with **GWT**.
 - [ ] Do some partial response test with **GraphQL**.
 
+
+
+
 <p align="center">
-    <img id="API and Web Service Introduction caption" src="API and Web Service Introduction caption.png">
+    <img id="API and Web Service Introduction caption" src="API and Web Service Introduction caption.png" style="width:900px;height:140px;">
 </p>
+
 
 ![API and Web Service Introduction](API%20and%20Web%20Service%20Introduction.PNG)
 

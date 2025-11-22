@@ -124,7 +124,7 @@ inside!
         <img id="Java Web Services" src="xmlChemaToJavaClasses.PNG" height="300px">
 </p>
 
-- Here is the XML Schema Definition (XSD) of **Employee.xsd**:
+- Here is the **X**ML **S**chema **D**efinition (**XSD**) of **Employee.xsd**:
 
 ````
 <?xml version="1.0" encoding="UTF-8"?>
@@ -156,7 +156,7 @@ inside!
 
 ````
 
-- Here is the XML Schema Definition (XSD) of **Patient.xsd**:
+- Here is the **X**ML **S**chema **D**efinition (**XSD**) of **Patient.xsd**:
 
 ````
 <?xml version="1.0" encoding="UTF-8"?>
@@ -268,8 +268,46 @@ inside!
 
 1. You can see the configuration paths for the `maven-jaxb2-plugin`.
 
-
 # Customize Generated Code Using Binding File.
+
+- We can customize the **stub** generation process.
+    - This can be modified thought **XJB** - **X**ML **J**ava **B**inding.
+
+- Our `global.xjb` file below: 
+
+````
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<jaxb:bindings version="2.0"
+  xmlns:jaxb="http://java.sun.com/xml/ns/jaxb"
+  xmlns:xjc="http://java.sun.com/xml/ns/jaxb/xjc"
+  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+  jaxb:extensionBindingPrefixes="xjc">
+   
+ <jaxb:globalBindings>
+    <xjc:simple />
+    <xjc:serializable uid="-1" />
+    <jaxb:javaType name="java.util.Calendar" xmlType="xs:dateTime"
+      parseMethod="javax.xml.bind.DatatypeConverter.parseDateTime"
+      printMethod="javax.xml.bind.DatatypeConverter.printDateTime" />
+  </jaxb:globalBindings>
+</jaxb:bindings>
+````
+
+- This file is used during **XSD** → **Java code** generation!
+
+<p align="center">
+        <img id="Java Web Services" src="bindingSetting.PNG" height="200px">
+</p>
+
+1. Look for `.xjb` binding files in the folder `src/main/xsd` and include the following additional file `global.xjb` to the **XSD** → **Java code** generation process.
+
+````
+<bindingIncludes>
+    <include>global.xjb</include>
+</bindingIncludes>
+````
+
+
 
 # Stubs Walk Through.
 
