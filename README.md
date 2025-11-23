@@ -4,11 +4,11 @@
 </p>
 
 <p align="center">
-    <img id="Java Web Development Under The Hood" src="Java Web Development Under The Hood Caption.png" style="width:900px;height:110px;">
+    <img id="Java Web Development Under The Hood" src="Java_Web_Development_Under_The_Hood_Caption.png" style="width:900px;height:110px;">
 </p>
 
 <p align="center">
-    <img src="Java Web Development Under The Hood Description.JPG" alt="Java Web Development Under The Hood" style="width:800px;"/>
+    <img src="Java_Web_Development_Under_The_Hood_Description.JPG" alt="Java Web Development Under The Hood" style="width:800px;"/>
 </p>
 
 These are fundamentals for any **professional** Java developer to understand, even the old concepts, these can become handy in legacy projects! These concepts will come to you eventually regardless which Java framework you will decide to work with.
@@ -65,11 +65,11 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 - [ ] [Section 21](#) - Goodbye.
 
 <p align="center">
-    <img id="Java Web Development Under The Hood" src="Java Web Services Caption.png" style="width:900px;height:140px;">
+    <img id="Java Web Development Under The Hood" src="Java_Web_Services_Caption.PNG" style="width:900px;height:140px;">
 </p>
 
 <p align="center">
-    <img src="Java Web Development Under The Hood Description.JPG" alt="Java Web Development Under The Hood" style="width:800px;"/>
+    <img src="Java_Webservices_Description.PNG" alt="Java Web Development Under The Hood" style="width:800px;"/>
 </p>
 
 All course material from Java Web Services by **Bharath Thippireddy**.

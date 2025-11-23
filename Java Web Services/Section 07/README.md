@@ -745,7 +745,10 @@ protected Integer id;`
 </patient>
 ````
 
+- `package-info.java` will be used, if we will be creating the Java docs.
+
 - The `ObjectFactory.java` will be used if there is **Data Structure**, which does not **map** to **particular field**!
+    - This **usually** is rarely used.
 
 # Generating Java Classes from XML Schema.
 
