@@ -1,15 +1,15 @@
-
-
 <p align="center">
-    <img id="studying" src="java web services.png" style="width:900px;height:320px;">
+    <img id="studying" src="java web services.png" style="width:900px;height:330px;">
     <text>Attempt to study <b>Web Services</b>, <b>Rest API Design</b> and <b>related topics</b>!</text>
 </p>
 
 <p align="center">
-    <img id="Java Web Development Under The Hood" src="Java Web Development Under The Hood.png" style="width:900px;height:110px;">
+    <img id="Java Web Development Under The Hood" src="Java Web Development Under The Hood Caption.png" style="width:900px;height:110px;">
 </p>
 
-![Java Web Development Under The Hood](webDevelopementUnderTheHood.JPG)
+<p align="center">
+    <img src="Java Web Development Under The Hood Description.JPG" alt="Java Web Development Under The Hood" style="width:800px;"/>
+</p>
 
 These are fundamentals for any **professional** Java developer to understand, even the old concepts, these can become handy in legacy projects! These concepts will come to you eventually regardless which Java framework you will decide to work with.
 
@@ -38,38 +38,39 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
     Insert certificate here when completed
 </p>
 
-
 **Note: The material provided in this repository is only for helping those who may get stuck at any point of time in the course. It is very advised that no one should just copy the solutions(violation of Honor Code) presented here.**
 
 #### Progress/Curriculum.
 
-- [x] [Section 1: Module 1](#) - Module 1. ✔️
-- [ ] [Section 2](#) - Introduction.  
-- [ ] [Section 3](#) - Servlets.
-- [ ] [Section 4](#) -
-- [ ] [Section 5](#) -
-- [ ] [Section 6](#) -
-- [ ] [Section 7](#) -
-- [ ] [Section 8](#) -
-- [ ] [Section 9](#) -
-- [ ] [Section 10](#) -
-- [ ] [Section 11](#) -
-- [ ] [Section 12](#) -
-- [ ] [Section 13](#) -
-- [ ] [Section 14](#) -
-- [ ] [Section 15](#) -
-- [ ] [Section 16](#) -
-- [ ] [Section 17](#) -
-- [ ] [Section 18](#) -
-- [ ] [Section 19](#) -
-- [ ] [Section 20](#) -
-- [ ] [Section 21](#) -
+- [ ] [Section 01](#) - Module 1.
+- [ ] [Section 02](#) - Introduction.
+- [ ] [Section 03](#) - Servlets.
+- [ ] [Section 04](#) - Servlet Exercise.
+- [ ] [Section 05](#) - Handling forms.
+- [ ] [Section 06](#) - GET and POST.
+- [ ] [Section 07](#) - POST-REDIRECT-GET.
+- [ ] [Section 08](#) - Sessions and Cookies.
+- [ ] [Section 09](#) - Servlet Security.
+- [ ] [Section 10](#) - Module 2.
+- [ ] [Section 11](#) - Servlet Annotations.
+- [ ] [Section 12](#) - Servlet Filters.
+- [ ] [Section 13](#) - JSP Introduction.
+- [ ] [Section 14](#) - Further JSP.
+- [ ] [Section 15](#) - MVC.
+- [ ] [Section 16](#) - JSTL.
+- [ ] [Section 17](#) - AJAX.
+- [ ] [Section 18](#) - Asynchronous Servlets.
+- [ ] [Section 19](#) - Websockets part 1 - Server to client.
+- [ ] [Section 20](#) - Websockets part 2 - Client to server.
+- [ ] [Section 21](#) - Goodbye.
 
 <p align="center">
-    <img id="Java Web Development Under The Hood" src="Java Web Services caption.png" style="width:900px;height:140px;">
+    <img id="Java Web Development Under The Hood" src="Java Web Services Caption.png" style="width:900px;height:140px;">
 </p>
 
-![Java Web Services](java%20webservices%20description.PNG)
+<p align="center">
+    <img src="Java Webservices Description.PNG" alt="Java Web Development Under The Hood" style="width:800px;"/>
+</p>
 
 All course material from Java Web Services by **Bharath Thippireddy**.
 
@@ -139,7 +140,7 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 
 #### Additional stuff.
 
-- [ ] Add here.
+- [ ] Read additional [JAXB](https://www.baeldung.com/jaxb?utm_source=chatgpt.com).
 
 <p align="center">
         <img id="Java Web Development Under The Hood" src="SOAP Web Services by Java Brains.png" style="width:900px;height:140px;">
@@ -166,7 +167,7 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 ?trk=public_profile_see-credential 
 -->
 
-
+<!-- Todo change the id when not lazy-->
 <p align="center">
     <img id="SOAP Web Services with Java_certificate?trk=public_profile_see-credential" src="SOAP Web Services with Java_certificate.JPG" alt="SOAP Web Services with Java_certificate" width="600"/>
 </p>
@@ -202,10 +203,12 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 - [ ] SOAP with [Spring](https://www.youtube.com/watch?v=ceSqN3CWd14).
 
 <p align="center">
-    <img id="REST API Design, Development & Management" src="REST API Design, Development & Management Caption.png" style="width:900px;height:110px;">
+    <img id="REST API Design, Development & Management" src="REST API Design, Development & Management Caption.png" style="width:1000px;height:110px;">
 </p>
 
-![REST API Design, Development & Management](REST%20API%20Design%20Development%20and%20Management%20course%20desc.PNG)
+<p align="center">
+    <img src="REST API Design, Development & Management Description.PNG" alt="REST API Design, Development & Management" style="width:900px;"/>
+</p>
 
 This repository is trying to be one place quest for understanding REST API Design/Development. Contains my own notes with some course material.
 This course servers as start, but later might add even more resources.
@@ -223,8 +226,10 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 ?trk=public_profile_see-credential 
 -->
 
+<!-- Todo change the id when not lazy-->
+
 <p align="center">
-    <img id="REST_API_Design_Development_and_Management?trk=public_profile_see-credential" src="REST_API_Design_Development_and_Management cert.jpg" alt="REST API Design, Development and Management_certificate" width="600"/>
+    <img id="REST_API_Design_Development_and_Management?trk=public_profile_see-credential" src="REST API Design, Development & Management Certificate.jpg" alt="REST API Design, Development & Management Certificate" width="600"/>
 </p>
 
 **Note: The material provided in this repository is only for helping those who may get stuck at any point of time in the course. It is very advised that no one should just copy the solutions(violation of Honor Code) presented here.**
@@ -259,15 +264,11 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 - [ ] Do RPC call with **GWT**.
 - [ ] Do some partial response test with **GraphQL**.
 
-
-
-
 <p align="center">
-    <img id="API and Web Service Introduction caption" src="API and Web Service Introduction caption.png" style="width:900px;height:140px;">
+    <img id="API and Web Service Introduction caption" src="API and Web Service Introduction Caption.png" style="width:900px;height:140px;">
 </p>
 
-
-![API and Web Service Introduction](API%20and%20Web%20Service%20Introduction.PNG)
+![API and Web Service Introduction](API%20and%20Web%20Service%20Introduction%20Description.PNG)
 
 Contains my own notes to better learning experience with some course content.
 
@@ -285,7 +286,7 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 -->
 
 <p align="center">
-    <img id="API and Web Service Introduction?trk=public_profile_see-credential" src="API and Web Service Introduction cert.jpg" alt="API and Web Service Introduction cert" width="600"/> 
+    <img id="API and Web Service Introduction?trk=public_profile_see-credential" src="API and Web Service Introduction Certificate.jpg" alt="API and Web Service Introduction Certificate" width="600"/> 
 </p>
 
 **Note: The material provided in this repository is only for helping those who may get stuck at any point of time in the course. It is very advised that no one should just copy the solutions(violation of Honor Code) presented here.**
@@ -305,7 +306,7 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 - [x] [Section 11](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/API%20and%20Web%20Service%20Introduction/Section%2011#section-11-extras) - Extras. ✔️
 - [x] [Section 12](#) - Conclusion. ✔️
 
-### Additional stuff.
+#### Additional stuff.
 
 - [ ] Test try example from [GeoIPService](http://wsgeoip.lavasoft.com/ipservice.asmx). Many of **SOAP** endpoints are deprecated :(.
 - [ ] Do the app **X** (not **Twitter**). 
@@ -313,7 +314,7 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 - [ ] Do example with the [Webhook](https://www.youtube.com/watch?v=tshKOgRLYn0).
 
 <p align="center">
-    <img id="API and Web Service Introduction?trk=public_profile_see-credential" src="Learn Swagger and the OpenAPI Specification caption.png" alt="Learn Swagger and the OpenAPI Specification"/> 
+    <img id="API and Web Service Introduction?trk=public_profile_see-credential" src="Learn Swagger and the OpenAPI Specification Caption.png" alt="Learn Swagger and the OpenAPI Specification" style="width:900px;height:90px;"/> 
 </p>
 
 ![Learn Swagger and the OpenAPI Specification](LearnSwaggerCourse.PNG)
@@ -353,8 +354,9 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
     - Did not get this working at the moment. Can do in future again :)
 - [ ] Review the [OAS 3.0](https://blog.restcase.com/6-most-significant-changes-in-oas-3-0/) after finishing this one.
 
-
-# Learn API Technical Writing: JSON and XML for Writers.
+<p align="center">
+    <img id="Learn API Technical Writing: JSON and XML for Writers" src="Learn API Technical Writing JSON and XML for Writers Caption.png" style="width:900px;height:140px;">
+</p>
 
 ![Learn API Technical Writing: JSON and XML for Writers](technicalDocumentationXMLandJSON.PNG)
 
@@ -383,9 +385,9 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 #### Progress/Curriculum.
 
 - [ ] [Section 01](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/Learn%20API%20Technical%20Writing%20JSON%20and%20XML%20for%20Writers/Section%2001#section-1-introduction) - Introduction.
-- [ ] [Section 02](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/Learn%20API%20Technical%20Writing%20JSON%20and%20XML%20for%20Writers/Section%2002#section-2-json) - Introduction.
-- [ ] [Section 03](#) - Introduction.
-- [ ] [Section 04](#) - Introduction.
+- [ ] [Section 02](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/Learn%20API%20Technical%20Writing%20JSON%20and%20XML%20for%20Writers/Section%2002#section-2-json) - JSON.
+- [ ] [Section 03](#) - XML.
+- [ ] [Section 04](#) - Final Words.
 
 #### Additional stuff.
 

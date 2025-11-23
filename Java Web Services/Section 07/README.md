@@ -273,6 +273,18 @@ inside!
 - We can customize the **stub** generation process.
     - This can be modified thought **XJB** - **X**ML **J**ava **B**inding.
 
+<p align="center">
+        <img id="Java Web Services" src="bindingSetting.PNG" height="200px">
+</p>
+
+1. Look for `.xjb` binding files in the folder `src/main/xsd` and include the following additional file `global.xjb` to the **XSD** → **Java code** generation process.
+
+````
+<bindingIncludes>
+    <include>global.xjb</include>
+</bindingIncludes>
+````
+
 - Our `global.xjb` file below: 
 
 ````
@@ -294,20 +306,9 @@ inside!
 ````
 
 - This file is used during **XSD** → **Java code** generation!
-
-<p align="center">
-        <img id="Java Web Services" src="bindingSetting.PNG" height="200px">
-</p>
-
-1. Look for `.xjb` binding files in the folder `src/main/xsd` and include the following additional file `global.xjb` to the **XSD** → **Java code** generation process.
-
-````
-<bindingIncludes>
-    <include>global.xjb</include>
-</bindingIncludes>
-````
-
-
+    - `</jaxb:globalBindings> ... </jaxb:globalBindings>` We are telling here the convention configurations.
+        - Example If encounter in **XML** `xmlType="xs:dateTime"` use in **Java** code `name="java.util.Calendar"`.
+        - Another example `<xjc:serializable uid="-1"/>` tells to use `private final static long serialVersionUID = -1L;` in **Java code** for **stubs**.
 
 # Stubs Walk Through.
 
