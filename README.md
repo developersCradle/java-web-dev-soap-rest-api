@@ -69,7 +69,7 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 </p>
 
 <p align="center">
-    <img src="Java Webservices Description.PNG" alt="Java Web Development Under The Hood" style="width:800px;"/>
+    <img src="Java Web Development Under The Hood Description.JPG" alt="Java Web Development Under The Hood" style="width:800px;"/>
 </p>
 
 All course material from Java Web Services by **Bharath Thippireddy**.
