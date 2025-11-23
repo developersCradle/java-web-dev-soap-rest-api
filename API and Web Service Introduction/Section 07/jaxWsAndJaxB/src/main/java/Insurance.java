@@ -11,22 +11,23 @@ package com.bharatthippireddy.patient;
 import java.io.Serializable;
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
+import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for PaymentType complex type.
+ * <p>Java class for Insurance complex type.
  * 
  * <p>The following schema fragment specifies the expected content contained within this class.
  * 
  * <pre>
- * &lt;complexType name="PaymentType"&gt;
+ * &lt;complexType name="Insurance"&gt;
  *   &lt;complexContent&gt;
  *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType"&gt;
- *       &lt;choice&gt;
- *         &lt;element name="cash" type="{http://www.w3.org/2001/XMLSchema}int"/&gt;
- *         &lt;element name="insurance" type="{http://www.bharatthippireddy.com/Patient}Insurance"/&gt;
- *       &lt;/choice&gt;
+ *       &lt;all&gt;
+ *         &lt;element name="provider" type="{http://www.w3.org/2001/XMLSchema}string"/&gt;
+ *         &lt;element name="limit" type="{http://www.w3.org/2001/XMLSchema}int"/&gt;
+ *       &lt;/all&gt;
  *     &lt;/restriction&gt;
  *   &lt;/complexContent&gt;
  * &lt;/complexType&gt;
@@ -35,64 +36,56 @@ import javax.xml.bind.annotation.XmlType;
  * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "PaymentType", propOrder = {
-    "insurance",
-    "cash"
+@XmlType(name = "Insurance", propOrder = {
+
 })
-public class PaymentType
+public class Insurance
     implements Serializable
 {
 
     private final static long serialVersionUID = -1L;
-    protected Insurance insurance;
-    protected Integer cash;
+    @XmlElement(required = true)
+    protected String provider;
+    protected int limit;
 
     /**
-     * Gets the value of the insurance property.
+     * Gets the value of the provider property.
      * 
      * @return
      *     possible object is
-     *     {@link Insurance }
+     *     {@link String }
      *     
      */
-    public Insurance getInsurance() {
-        return insurance;
+    public String getProvider() {
+        return provider;
     }
 
     /**
-     * Sets the value of the insurance property.
+     * Sets the value of the provider property.
      * 
      * @param value
      *     allowed object is
-     *     {@link Insurance }
+     *     {@link String }
      *     
      */
-    public void setInsurance(Insurance value) {
-        this.insurance = value;
+    public void setProvider(String value) {
+        this.provider = value;
     }
 
     /**
-     * Gets the value of the cash property.
+     * Gets the value of the limit property.
      * 
-     * @return
-     *     possible object is
-     *     {@link Integer }
-     *     
      */
-    public Integer getCash() {
-        return cash;
+    public int getLimit() {
+        return limit;
     }
 
     /**
-     * Sets the value of the cash property.
+     * Sets the value of the limit property.
      * 
-     * @param value
-     *     allowed object is
-     *     {@link Integer }
-     *     
      */
-    public void setCash(Integer value) {
-        this.cash = value;
+    public void setLimit(int value) {
+        this.limit = value;
     }
 
 }

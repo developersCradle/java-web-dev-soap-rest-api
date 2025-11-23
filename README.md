@@ -203,11 +203,11 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 - [ ] SOAP with [Spring](https://www.youtube.com/watch?v=ceSqN3CWd14).
 
 <p align="center">
-    <img id="REST API Design, Development & Management" src="REST API Design, Development & Management Caption.png" style="width:1000px;height:110px;">
+    <img id="REST API Design, Development & Management" src="REST_API_Design_Development_&_Management_Caption.png" style="width:1000px;height:110px;">
 </p>
 
 <p align="center">
-    <img src="REST API Design, Development & Management Description.PNG" alt="REST API Design, Development & Management" style="width:900px;"/>
+    <img src="REST_API_Design_Development_&_Management_Description.PNG" alt="REST API Design, Development & Management" style="width:900px;"/>
 </p>
 
 This repository is trying to be one place quest for understanding REST API Design/Development. Contains my own notes with some course material.
@@ -229,7 +229,7 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 <!-- Todo change the id when not lazy-->
 
 <p align="center">
-    <img id="REST_API_Design_Development_and_Management?trk=public_profile_see-credential" src="REST API Design, Development & Management Certificate.jpg" alt="REST API Design, Development & Management Certificate" width="600"/>
+    <img id="REST_API_Design_Development_and_Management?trk=public_profile_see-credential" src="REST_API_Design_Development_&_Management_Certificate.jpg" alt="REST API Design, Development & Management Certificate" width="600"/>
 </p>
 
 **Note: The material provided in this repository is only for helping those who may get stuck at any point of time in the course. It is very advised that no one should just copy the solutions(violation of Honor Code) presented here.**
@@ -265,10 +265,12 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 - [ ] Do some partial response test with **GraphQL**.
 
 <p align="center">
-    <img id="API and Web Service Introduction caption" src="API and Web Service Introduction Caption.png" style="width:900px;height:140px;">
+    <img id="API and Web Service Introduction caption" src="API_and_Web_Service_Introduction_Caption.png" style="width:900px;height:140px;">
 </p>
 
-![API and Web Service Introduction](API%20and%20Web%20Service%20Introduction%20Description.PNG)
+<p align="center">
+    <img id="API and Web Service Introduction caption" src="API_and_Web_Service_Introduction_Description.PNG" style="width:900px;height:140px;">
+</p>
 
 Contains my own notes to better learning experience with some course content.
 
@@ -286,7 +288,7 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 -->
 
 <p align="center">
-    <img id="API and Web Service Introduction?trk=public_profile_see-credential" src="API and Web Service Introduction Certificate.jpg" alt="API and Web Service Introduction Certificate" width="600"/> 
+    <img id="API and Web Service Introduction?trk=public_profile_see-credential" src="API_and_Web_Service_Introduction_Certificate.jpg" alt="API and Web Service Introduction Certificate" width="600"/> 
 </p>
 
 **Note: The material provided in this repository is only for helping those who may get stuck at any point of time in the course. It is very advised that no one should just copy the solutions(violation of Honor Code) presented here.**
@@ -338,7 +340,6 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
     <img id="Learn Swagger and the OpenAPI Specification?trk=public_profile_see-credential" src="Learn Swagger and the OpenAPI Specification.jpg" alt="learn swagger cert here" width="600"/> 
 </p>
 
-
 **Note: The material provided in this repository is only for helping those who may get stuck at any point of time in the course. It is very advised that no one should just copy the solutions(violation of Honor Code) presented here.**
 
 #### Progress/Curriculum.
@@ -378,7 +379,6 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 <p align="center">
     Insert certificate here when completed
 </p>
-
 
 **Note: The material provided in this repository is only for helping those who may get stuck at any point of time in the course. It is very advised that no one should just copy the solutions(violation of Honor Code) presented here.**
 
