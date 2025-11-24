@@ -312,7 +312,6 @@ inside!
 
 # Stubs Walk Through.
 
-
 - **Patient** in **XSD** `Patient.xsd`.
 
 ````
@@ -750,12 +749,11 @@ protected Integer id;`
 - The `ObjectFactory.java` will be used if there is **Data Structure**, which does not **map** to **particular field**!
     - This **usually** is rarely used.
 
-# Generating Java Classes from XML Schema.
-
-
-
-
 # Marshalling and Unmarshalling.
+
+- **Marshalling** is the process of turning **Java** object into **XML**.
+
+- **Unmarshalling** is the process of turning **XML** into **Java** object.
 
 # Marshalling and Unmarshalling (Quiz).
 

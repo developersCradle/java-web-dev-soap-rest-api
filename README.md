@@ -172,7 +172,6 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
     <img id="SOAP Web Services with Java_certificate?trk=public_profile_see-credential" src="SOAP Web Services with Java_certificate.JPG" alt="SOAP Web Services with Java_certificate" width="600"/>
 </p>
 
-
 **Note: The material provided in this repository is only for helping those who may get stuck at any point of time in the course. It is very advised that no one should just copy the solutions(violation of Honor Code) presented here.**
 
 #### Progress/Curriculum.
@@ -288,7 +287,7 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 -->
 
 <p align="center">
-    <img id="API and Web Service Introduction?trk=public_profile_see-credential" src="API_and_Web_Service_Introduction_Certificate.jpg" alt="API and Web Service Introduction Certificate" width="600"/> 
+    <img id="API and Web Service Introduction?trk=public_profile_see-credential" src="API_and_Web_Service_Introduction_Certificate.jpg" alt="API and Web Service Introduction Certificate" width="600"/>
 </p>
 
 **Note: The material provided in this repository is only for helping those who may get stuck at any point of time in the course. It is very advised that no one should just copy the solutions(violation of Honor Code) presented here.**
@@ -316,10 +315,12 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 - [ ] Do example with the [Webhook](https://www.youtube.com/watch?v=tshKOgRLYn0).
 
 <p align="center">
-    <img id="API and Web Service Introduction?trk=public_profile_see-credential" src="Learn Swagger and the OpenAPI Specification Caption.png" alt="Learn Swagger and the OpenAPI Specification" style="width:900px;height:90px;"/> 
+    <img id="Learn Swagger and the OpenAPI Specification?trk=public_profile_see-credential" src="Learn_Swagger_and_the_OpenAPI_Specification_Caption.png" alt="Learn Swagger and the OpenAPI Specification" style="width:900px;height:90px;"/> 
 </p>
 
-![Learn Swagger and the OpenAPI Specification](LearnSwaggerCourse.PNG)
+<p align="center">
+    <img id="Learn Swagger and the OpenAPI Specification?trk=public_profile_see-credential" src="Learn_Swagger_and_the_OpenAPI_Specification_Description.PNG" alt="Learn Swagger and the OpenAPI Specification" style="width:900px;height:90px;"/> 
+</p>
 
 Contains my own notes with some course material.
 
@@ -337,7 +338,7 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 -->
 
 <p align="center">
-    <img id="Learn Swagger and the OpenAPI Specification?trk=public_profile_see-credential" src="Learn Swagger and the OpenAPI Specification.jpg" alt="learn swagger cert here" width="600"/> 
+    <img id="Learn Swagger and the OpenAPI Specification?trk=public_profile_see-credential" src="Learn_Swagger_and_the_OpenAPI_Specification_Certification.jpg" alt="learn swagger cert here" width="600"/> 
 </p>
 
 **Note: The material provided in this repository is only for helping those who may get stuck at any point of time in the course. It is very advised that no one should just copy the solutions(violation of Honor Code) presented here.**
@@ -356,7 +357,7 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 - [ ] Review the [OAS 3.0](https://blog.restcase.com/6-most-significant-changes-in-oas-3-0/) after finishing this one.
 
 <p align="center">
-    <img id="Learn API Technical Writing: JSON and XML for Writers" src="Learn API Technical Writing JSON and XML for Writers Caption.png" style="width:900px;height:140px;">
+    <img id="Learn API Technical Writing: JSON and XML for Writers" src="Learn API Technical Writing JSON and XML for Writers Caption.png" style="width:900px;height:120px;">
 </p>
 
 ![Learn API Technical Writing: JSON and XML for Writers](technicalDocumentationXMLandJSON.PNG)
