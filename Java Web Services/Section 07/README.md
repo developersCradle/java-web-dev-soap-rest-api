@@ -647,12 +647,11 @@ public class Patient
     public void setId(Integer value) {
         this.id = value;
     }
-
 }
 ````
 
 - Here you can see the: 
-    - **XSD**: `<element name="age" type="int" />`.
+    - **XSD**: `<element name="age" type="int"/>`.
     - **Java**: `protected int age;`.
 
 - If we will be converting **Java** classes back to **XSD**. In **Java** classes there is different **JAXB annotations** for helping in the conversion, example:
@@ -755,7 +754,69 @@ protected Integer id;`
 
 - **Unmarshalling** is the process of turning **XML** into **Java** object.
 
-# Marshalling and Unmarshalling (Quiz).
+- Before `JAXB` can:
+    - **marshal** (**convert object** → **XML**).
+    - **unmarshal** (**XML** → **object**).
+- It needs to know the classes involved. This is done with following:
+    - We will be **marshalling** and **unmarshalling** `Patient.class`.
+
+
+````
+        // We need to tell JAXB entry point.
+        try {
+            JAXBContext context = JAXBContext.newInstance(Patient.class);
+            Marshaller marshaller = context.createMarshaller();
+        } catch (JAXBException e) {
+            throw new RuntimeException(e);
+        }
+````
+
+- We create **Marshaller**.
+    - This is created from the **Marhaller** context. `Marshaller marshaller = context.createMarshaller();`.
+
+````
+        // We need to tell JAXB entry point.
+        try {
+            JAXBContext context = JAXBContext.newInstance(Patient.class);
+            
+        } catch (JAXBException e) {
+            throw new RuntimeException(e);
+        }
+````
+
+- Then we are going to **Marhall** the **Java** Object into **XML**.
+
+````
+    StringWriter writer = new StringWriter();
+    marshaller.marshal(patient, writer);
+````
+
+- **Marshalling API**s often require a `Writer` or `OutputStream` to write the serialized data.
+    - **StringWriter** is perfect because:
+        1. **In-memory storage**:
+            - You don’t want to write to a file yet; you just need a String.
+        2. **Implements Writer**:
+            - JAXB’s Marshaller or other serializers expect a Writer object. 
+        3. **Easy to retrieve the result**:
+            - After marshalling, you can get the string with `toString()`.
+
+- Then we are writing that content to a `String`.
+
+````
+    System.out.println(writer.toString());
+````
+
+<p align="center">
+        <img id="Java Web Services" src="marshallingJavaObjectToXML.gif" height="400px">
+</p>
+
+- The output:
+
+````
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><patient id="123" xmlns="http://www.bharatthippireddy.com/Patient"><name>Some random name.</name><age>0</age></patient>
+````
+
+- You can see the different fields: `age` and `name` as **XML**.
 
 # JAX-WS Summary.
 

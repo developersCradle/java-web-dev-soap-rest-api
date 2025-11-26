@@ -315,16 +315,18 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 - [ ] Do example with the [Webhook](https://www.youtube.com/watch?v=tshKOgRLYn0).
 
 <p align="center">
-    <img id="Learn Swagger and the OpenAPI Specification?trk=public_profile_see-credential" src="Learn_Swagger_and_the_OpenAPI_Specification_Caption.png" alt="Learn Swagger and the OpenAPI Specification" style="width:900px;height:90px;"/> 
+    <img id="Learn Swagger and the OpenAPI Specification?trk=public_profile_see-credential" src="Learn_Swagger_and_the_OpenAPI_Specification_Caption.png" alt="Learn Swagger and the OpenAPI Specification" style="width:900px;height:100px;"/> 
 </p>
 
 <p align="center">
-    <img id="Learn Swagger and the OpenAPI Specification?trk=public_profile_see-credential" src="Learn_Swagger_and_the_OpenAPI_Specification_Description.PNG" alt="Learn Swagger and the OpenAPI Specification" style="width:900px;height:90px;"/> 
+    <img id="Learn Swagger and the OpenAPI Specification" src="Learn_Swagger_and_the_OpenAPI_Specification_Description.PNG" alt="Learn Swagger and the OpenAPI Specification Description" style="width:900px;height:90px;"/> 
 </p>
 
-Contains my own notes with some course material.
-
 API Definition Files, Tools, and Documentation (**OAS 2.0**) **Peter Gruenbaum** ©.
+
+Contains my own notes with some course material to enforce learning experience.
+
+This repository is made with [![IntelliJ IDEA](https://img.shields.io/badge/IntelliJIDEA-000000.svg?logo=intellij-idea&logoColor=white)](#) with **Eclipse** hotkeys. This is why it will include configuration files which are related to this IDE this approach will be favored for now. ⚙️
 
 [The Course at Udemy](https://www.udemy.com/course/learn-swagger-and-the-open-api-specification/).   
 
@@ -332,13 +334,15 @@ API Definition Files, Tools, and Documentation (**OAS 2.0**) **Peter Gruenbaum**
 
 If the content sparked :fire: your interest, please consider buying the course and start learning :book:.
 
+> Sometimes inspiration from someone else is enough. I’m happy to share that I’ve obtained a new certification: Learn Swagger and the OpenAPI. ~ *DevelopersCradle*
+
 <!-- 
 Linkedin puts this shit front, when clicking from private mode x(. Need to put this to make jump working every case
 ?trk=public_profile_see-credential 
 -->
 
 <p align="center">
-    <img id="Learn Swagger and the OpenAPI Specification?trk=public_profile_see-credential" src="Learn_Swagger_and_the_OpenAPI_Specification_Certification.jpg" alt="learn swagger cert here" width="600"/> 
+    <img id="Learn Swagger and the OpenAPI Specification?trk=public_profile_see-credential" src="Learn_Swagger_and_the_OpenAPI_Specification_Certification.jpg" alt="Learn Swagger and the OpenAPI Specification Certification" width="600"/> 
 </p>
 
 **Note: The material provided in this repository is only for helping those who may get stuck at any point of time in the course. It is very advised that no one should just copy the solutions(violation of Honor Code) presented here.**
