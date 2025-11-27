@@ -760,7 +760,6 @@ protected Integer id;`
 - It needs to know the classes involved. This is done with following:
     - We will be **marshalling** and **unmarshalling** `Patient.class`.
 
-
 ````
         // We need to tell JAXB entry point.
         try {
@@ -792,7 +791,7 @@ protected Integer id;`
 ````
 
 - **Marshalling API**s often require a `Writer` or `OutputStream` to write the serialized data.
-    - **StringWriter** is perfect because:
+    - `StringWriter` is perfect because:
         1. **In-memory storage**:
             - You don’t want to write to a file yet; you just need a String.
         2. **Implements Writer**:
@@ -818,6 +817,71 @@ protected Integer id;`
 
 - You can see the different fields: `age` and `name` as **XML**.
 
+- We are getting **Java Object** that represents the **XML**.
+
+````
+Object unmarshal = unmarshaller.unmarshal(new StringReader(writer.toString()));
+````
+
+- And print it: `System.out.println(unmarshal.getName());`:
+
+````
+Some random name.
+````
+
+- Full example below:
+
+````
+package org.java.jaxWSjaxB;
+
+import com.bharatthippireddy.patient.Patient;
+
+import javax.xml.bind.JAXBContext;
+import javax.xml.bind.JAXBException;
+import javax.xml.bind.Marshaller;
+import javax.xml.bind.Unmarshaller;
+import java.io.StringReader;
+import java.io.StringWriter;
+
+public class JAXBDemo {
+
+    public static void main(String[] args){
+
+        // We need to tell JAXB entry point.
+        try {
+
+            // Marshalling.
+            JAXBContext context = JAXBContext.newInstance(Patient.class);
+            Marshaller marshaller = context.createMarshaller();
+
+            Patient patient = new Patient();
+            patient.setId(123);
+            patient.setName("Some random name.");
+
+            StringWriter writer = new StringWriter();
+            marshaller.marshal(patient, writer);
+
+            System.out.println(writer.toString());
+
+            // Unmarshalling.
+            Unmarshaller unmarshaller = context.createUnmarshaller();
+
+            var unmarshal = (Patient)unmarshaller.unmarshal(new StringReader(writer.toString()));
+            System.out.println(unmarshal.getName());
+
+        } catch (JAXBException e) {
+            throw new RuntimeException(e);
+        }
+    }
+}
+````
+
 # JAX-WS Summary.
+
+<p align="center">
+        <img id="Java Web Services" src="jaxWsSummary.PNG" height="400px">
+</p>
+
+1. `JAX-WS` provides specification and API templates.
 
 # JAXB Summary.

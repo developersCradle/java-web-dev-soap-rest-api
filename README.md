@@ -76,6 +76,12 @@ All course material from Java Web Services by **Bharath Thippireddy**.
 
 Contains my own notes with some course material to enforce learning experience.
 
+While debugging a legacy system with a particularly nasty bug.
+
+> While debugging, I noticed something interesting: during the JAXB marshalling/unmarshalling process, a character was mysteriously changing.
+> 
+> That small detail turned out to be the key to diagnosing the entire issue. It was a great reminder that in complex systems, subtle transformations—especially in serialization workflows—can have big impacts. ~ *DevelopersCradle*
+
 This repository is made with [![IntelliJ IDEA](https://img.shields.io/badge/IntelliJIDEA-000000.svg?logo=intellij-idea&logoColor=white)](#) with **Eclipse** hotkeys. This is why it will include configuration files which are related to this IDE this approach will be favored for now. ⚙️
 
 [Original Channel](https://www.bharaththippireddy.com/).
@@ -88,10 +94,6 @@ If the content sparked :fire: your interest, please consider starting the course
 Linkedin puts this shit front, when clicking from private mode x(. Need to put this to make jump working every case
 ?trk=public_profile_see-credential 
 -->
-
-> While debugging a legacy system with a particularly nasty bug, I noticed something interesting: during the JAXB marshalling/unmarshalling process, a character was mysteriously changing.
-> 
-> That small detail turned out to be the key to diagnosing the entire issue. It was a great reminder that in complex systems, subtle transformations—especially in serialization workflows—can have big impacts. ~ *DevelopersCradle*
 
 <p align="center">
     Insert Cert here
@@ -107,7 +109,7 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 - [ ] [Section 04](#) - XML and XML Schema Definition and JSON.
 - [ ] [Section 05](#) - SOAP Web Services Concepts.
 - [ ] [Section 06](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/Java%20Web%20Services/Section%2006#section-06-soap-web-services-design-and-implementation) - SOAP Web Services Design and Implementation.
-- [ ] [Section 07](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/Java%20Web%20Services/Section%2007#section-07-jax-ws-and-jaxb) - JAX-WS AND JAXB.
+- [x] [Section 07](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/Java%20Web%20Services/Section%2007#section-07-jax-ws-and-jaxb) - JAX-WS AND JAXB. ✔️
 - [ ] [Section 08](#) - Apache CXF.
 - [ ] [Section 09](#) - Developing Top Down Web Services.
 - [ ] [Section 10](#) - Java SOAP Client.
@@ -140,6 +142,7 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 
 #### Additional stuff.
 
+- [ ] Go thought `JAXB` and soap related for now.
 - [ ] Read additional [JAXB](https://www.baeldung.com/jaxb?utm_source=chatgpt.com).
 
 <p align="center">
@@ -326,6 +329,8 @@ API Definition Files, Tools, and Documentation (**OAS 2.0**) **Peter Gruenbaum**
 
 Contains my own notes with some course material to enforce learning experience.
 
+> Sometimes inspiration from someone else is enough. I’m happy to share that I’ve obtained a new certification: Learn Swagger and the OpenAPI. ~ *DevelopersCradle*
+
 This repository is made with [![IntelliJ IDEA](https://img.shields.io/badge/IntelliJIDEA-000000.svg?logo=intellij-idea&logoColor=white)](#) with **Eclipse** hotkeys. This is why it will include configuration files which are related to this IDE this approach will be favored for now. ⚙️
 
 [The Course at Udemy](https://www.udemy.com/course/learn-swagger-and-the-open-api-specification/).   
@@ -333,8 +338,6 @@ This repository is made with [![IntelliJ IDEA](https://img.shields.io/badge/Inte
 [Homepage of Maker](https://sdkbridge.com/).
 
 If the content sparked :fire: your interest, please consider buying the course and start learning :book:.
-
-> Sometimes inspiration from someone else is enough. I’m happy to share that I’ve obtained a new certification: Learn Swagger and the OpenAPI. ~ *DevelopersCradle*
 
 <!-- 
 Linkedin puts this shit front, when clicking from private mode x(. Need to put this to make jump working every case
