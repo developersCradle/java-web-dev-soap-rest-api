@@ -1,5 +1,5 @@
-# Section 11: Developing Bottom Up Web Services.
+# Section 15: JAX-WS Handlers.
 
-Developing Bottom Up Web Services.
+JAX-WS Handlers.
 
 # What I learned.

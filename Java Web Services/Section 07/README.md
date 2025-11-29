@@ -754,10 +754,11 @@ protected Integer id;`
 
 - **Unmarshalling** is the process of turning **XML** into **Java** object.
 
-- Before `JAXB` can:
+- `JAXB` can:
     - **marshal** (**convert object** → **XML**).
     - **unmarshal** (**XML** → **object**).
-- It needs to know the classes involved. This is done with following:
+
+- `JAXB` needs to know the classes involved, that are involved in **serialization** and **deserialization** process. This is done with following:
     - We will be **marshalling** and **unmarshalling** `Patient.class`.
 
 ````
@@ -882,6 +883,31 @@ public class JAXBDemo {
         <img id="Java Web Services" src="jaxWsSummary.PNG" height="400px">
 </p>
 
-1. `JAX-WS` provides specification and API templates.
+1. `JAX-WS` provides specification and API from **Oracle**.
 
 # JAXB Summary.
+
+<p align="center">
+        <img id="Java Web Services" src="jaxbSummary.PNG" height="400px">
+</p>
+
+1. **JAXB** can be used for **serialize** to the **Java objects** and back to the **XML**.
+
+<p align="center">
+        <img id="Java Web Services" src="tools.PNG" height="400px">
+</p>
+
+1. **XJC** can be used for convert the **XML Schema** files to have **Java classes**
+    - **XSD** to **Java** file.
+
+2. We can use this for generating **Schema** files, from the **Java classes**.
+
+3. We can use the **Maven plugin** instead of the executing these **tools separately**.
+
+4. **XJC** and the **SchemaGen** ships with the **Java JDK** after **Java 6**.
+
+<p align="center">
+        <img id="Java Web Services" src="annotationSummary.PNG" height="400px">
+</p>
+
+1. After these annotations, we can **serialize** and **deserialize** these classes.

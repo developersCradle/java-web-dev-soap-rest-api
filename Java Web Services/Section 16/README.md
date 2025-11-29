@@ -1,5 +1,5 @@
-# Section 11: Developing Bottom Up Web Services.
+# Section 16: SOAP Faults.
 
-Developing Bottom Up Web Services.
+SOAP Faults.
 
 # What I learned.
