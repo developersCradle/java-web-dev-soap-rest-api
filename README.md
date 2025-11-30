@@ -253,6 +253,9 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 
 #### Additional stuff.
 
+- [ ] Check trough typos, and texture meaning, when have time.
+    - Change the Folder naming.
+    - Left to the chapter 6.
 - [x] Read thought [Profile API - LinkedIn](https://learn.microsoft.com/en-us/linkedin/shared/integrations/people/profile-api). ✔️
 - [x] Read thought [SpotifyAPI](https://developer.spotify.com/). ✔️
     - [ ] Read thought [SpotifyAPI OAuth2.0](https://developer.spotify.com/documentation/web-api/concepts/authorization).
@@ -271,7 +274,7 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 </p>
 
 <p align="center">
-    <img id="API and Web Service Introduction caption" src="API_and_Web_Service_Introduction_Description.PNG" style="width:900px;height:140px;">
+    <img id="API and Web Service Introduction caption" src="API_and_Web_Service_Introduction_Description.PNG" style="width:900px;height:160px;">
 </p>
 
 Contains my own notes to better learning experience with some course content.

@@ -17,7 +17,7 @@ Apache CXF.
     **C**ommunication 
     **F**oundation).
 
-- These come their **own version** of the **stack**.
+- All of these, are implementing their **own version** of the **stack**.
 
 # Apache CXF Overview.
 
