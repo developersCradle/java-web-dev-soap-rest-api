@@ -5,7 +5,7 @@ Apache CXF.
 # What I learned.
 
 <p align="center">
-        <img id="Java Web Services" src="summaryOfTheChapter.PNG" height="400px">
+        <img id="Java Web Services" src="summaryOfTheChapter.PNG" height="300px">
 </p>
 
 1. **Java SOAP frameworks**.
@@ -73,6 +73,8 @@ Apache CXF.
 2. To publish the endpoints, we just open these using the configuration.
 
 # Spring Boot.
+
+- This will be briefly touched.
 
 # Using Spring Boot 2.X.
 

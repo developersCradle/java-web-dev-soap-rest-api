@@ -303,6 +303,7 @@ inside!
       printMethod="javax.xml.bind.DatatypeConverter.printDateTime" />
   </jaxb:globalBindings>
 </jaxb:bindings>
+
 ````
 
 - This file is used during **XSD** → **Java code** generation!
@@ -312,13 +313,12 @@ inside!
 
 # Stubs Walk Through.
 
-<details>
-<summary id="IDE problem" open="false"> <b>Patien</b> in <b>XSD</b>  <code>Patient.xsd</code></summary>
-<?xml version="1.0" encoding="UTF-8"?>
-<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.bharatthippireddy.com/Patient"
-	xmlns:tns="http://www.bharatthippireddy.com/Patient"
-	elementFormDefault="qualified">
+- We will write following Patient classes and for that we will write the **schema** file.
 
+<details>
+<summary id="IDE problem" open="false"> <b>Patien</b> in <b>XSD</b>  <code>Patient.xsd</code>.</summary>
+
+````
 	<element name="patient" type="tns:Patient" />
 
 	<complexType name="Patient">
@@ -369,11 +369,13 @@ inside!
 
 		</restriction>
 	</simpleType>
-</schema>
+
+````
+
 </details>
 
 <details>
-<summary id="IDE problem" open="false"> <b>Patient</b> in <b>Java</b>  <code>Patient.java</code></summary>
+<summary id="IDE problem" open="false"> <b>Patient</b> in <b>Java</b>  <code>Patient.java</code>.</summary>
 
 ````
 //
@@ -648,12 +650,11 @@ public class Patient
         this.id = value;
     }
 }
+
 ````
+
 </schema>
 </details>
-
-
-
 
 
 - Here you can see the: 
