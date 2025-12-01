@@ -1,5 +1,5 @@
-# Section 11: Developing Bottom Up Web Services.
+# Section 19: Configuring JSON Support.
 
-Developing Bottom Up Web Services.
+Configuring JSON Support.
 
 # What I learned.

@@ -1,5 +1,5 @@
-# Section 11: Developing Bottom Up Web Services.
+# Section 18: RESTFul Design and Implementation.
 
-Developing Bottom Up Web Services.
+RESTFul Design and Implementation.
 
 # What I learned.

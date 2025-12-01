@@ -78,7 +78,59 @@ Apache CXF.
 
 # Using Spring Boot 2.X.
 
+- Check the latest starter to use [check from here](https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter).
+
+- todo this loppuun
+
+
 # Create the SOAP project.
+
+<p align="center">
+        <img id="Java Web Services" src="stepsForCreatingTheProjectsApacheCfx.PNG" height="300px">
+</p>
+
+1. We will see the **WSDL** file created.
+
+<p align="center">
+        <img id="Java Web Services" src="springProjectsCoordinates.PNG" height="450px">
+</p>
+
+- You can add the **dependency** for the **CFX** `cxf-spring-boot-starter-jaxws`.
+        - Dependency [CXF MVN](https://mvnrepository.com/artifact/org.apache.cxf/cxf-spring-boot-starter-jaxws).
+
+- The latest, which was when I did these notes, were `4.0.3`.
+
+````
+<dependency>
+    <groupId>org.apache.cxf</groupId>
+    <artifactId>cxf-spring-boot-starter-jaxws</artifactId>
+    <version>4.0.3</version>
+</dependency>
+````
+
+- The latest, which was when I did these notes, were `4.0.0`.
+        - add here the link mvn
+````
+
+    <!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter</artifactId>
+            <version>4.0.0</version>
+        </dependency>
+````
+
+- The latest, which was when I did these notes, were `4.0.0`.
+        - add here the link mvn
+````
+        <!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-test -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <version>4.0.0</version>
+            <scope>test</scope>
+        </dependency>
+````
 
 # Upgrade.
 

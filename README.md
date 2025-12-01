@@ -74,9 +74,9 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 
 <p align="center">
 All course material from Java Web Services by <strong>Bharath Thippireddy</strong>.
-Contains my own notes with some course material to enforce learning experience.
 </p>
 
+Contains my own notes with some course material to enforce learning experience.
 
 
 > While debugging a legacy system with a particularly nasty bug. There was something interesting happening: during the `JAXB` **marshalling**/**unmarshalling** process, a character was mysteriously changing.
@@ -112,15 +112,15 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 - [ ] [Section 06](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/Java%20Web%20Services/Section%2006#section-06-soap-web-services-design-and-implementation) - SOAP Web Services Design and Implementation.
 - [x] [Section 07](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/Java%20Web%20Services/Section%2007#section-07-jax-ws-and-jaxb) - JAX-WS AND JAXB. ✔️
 - [ ] [Section 08](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/Java%20Web%20Services/Section%2008#section-08-apache-cxf) - Apache CXF.
-- [ ] [Section 09](#) - Developing Top Down Web Services.
-- [ ] [Section 10](#) - Java SOAP Client.
-- [ ] [Section 11](#) - Developing Bottom Up Web Services.
-- [ ] [Section 12](#) - WS Standards.
-- [ ] [Section 13](#) - User Name Token Profile Client.
-- [ ] [Section 14](#) - MTOM.
-- [ ] [Section 15](#) - JAX-WS Handlers.
-- [ ] [Section 16](#) - SOAP Faults.
-- [ ] [Section 17](#) - REST Web Services Concepts.
+- [ ] [Section 09](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/Java%20Web%20Services/Section%2009#section-09-developing-top-down-web-services) - Developing Top Down Web Services.
+- [ ] [Section 10](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/Java%20Web%20Services/Section%2010#section-10-java-soap-client) - Java SOAP Client.
+- [ ] [Section 11](https://github.com/developersCradle/java-web-dev-soap-rest-api/blob/main/Java%20Web%20Services/Section%2011/README.md#section-11-developing-bottom-up-web-services) - Developing Bottom Up Web Services.
+- [ ] [Section 12](https://github.com/developersCradle/java-web-dev-soap-rest-api/blob/main/Java%20Web%20Services/Section%2012/README.md#section-12-ws-standards) - WS Standards.
+- [ ] [Section 13](https://github.com/developersCradle/java-web-dev-soap-rest-api/blob/main/Java%20Web%20Services/Section%2013/README.md#section-13-user-name-token-profile-client) - User Name Token Profile Client.
+- [ ] [Section 14](https://github.com/developersCradle/java-web-dev-soap-rest-api/blob/main/Java%20Web%20Services/Section%2014/README.md#section-14-mtom) - MTOM.
+- [ ] [Section 15](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/Java%20Web%20Services/Section%2015#section-15-jax-ws-handlers) - JAX-WS Handlers.
+- [ ] [Section 16](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/Java%20Web%20Services/Section%2016#section-16-soap-faults) - SOAP Faults.
+- [ ] [Section 17](https://github.com/developersCradle/java-web-dev-soap-rest-api/blob/main/Java%20Web%20Services/Section%2017/README.md#section-17-rest-web-services-concepts) - REST Web Services Concepts.
 - [ ] [Section 18](#) - RESTFul Design and Implementation.
 - [ ] [Section 19](#) - Configuring JSON Support.
 - [ ] [Section 20](#) - REST Error Handling.
