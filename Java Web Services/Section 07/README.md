@@ -312,21 +312,8 @@ inside!
 
 # Stubs Walk Through.
 
-
-
-
 <details>
-
-<summary id="IDE problem" open="false"> <b>Patien</b> in <b>XSD</b> <code>Patient.xsd</code></summary>
-- 1.
-- 2 .
-</details>
-
-
-
-- 
-
-````
+<summary id="IDE problem" open="false"> <b>Patien</b> in <b>XSD</b>  <code>Patient.xsd</code></summary>
 <?xml version="1.0" encoding="UTF-8"?>
 <schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.bharatthippireddy.com/Patient"
 	xmlns:tns="http://www.bharatthippireddy.com/Patient"
@@ -383,9 +370,10 @@ inside!
 		</restriction>
 	</simpleType>
 </schema>
-````
+</details>
 
-- **Patient** in Java `Patient.java`.
+<details>
+<summary id="IDE problem" open="false"> <b>Patient</b> in <b>Java</b>  <code>Patient.java</code></summary>
 
 ````
 //
@@ -661,6 +649,12 @@ public class Patient
     }
 }
 ````
+</schema>
+</details>
+
+
+
+
 
 - Here you can see the: 
     - **XSD**: `<element name="age" type="int"/>`.
