@@ -1,5 +1,5 @@
-# Section 11: Developing Bottom Up Web Services.
+# Section 14: MTOM.
 
-Developing Bottom Up Web Services.
+MTOM.
 
 # What I learned.

@@ -1,6 +1,6 @@
 # Section 07 - REST API Cache Control Patterns
 
-Caching behavior 
+Caching behavior. 
 
 # What I Learned
 
@@ -21,7 +21,7 @@ Caching behavior
 
 - You can **cache** at any tier. **Closer** caching is done to **consumer** the faster the performance
 
-## When deciding what to cache form Data perspective 
+# When deciding what to cache form Data perspective 
 
 <img src="whatToCache.JPG" alt="alt text" width="400"/>
 

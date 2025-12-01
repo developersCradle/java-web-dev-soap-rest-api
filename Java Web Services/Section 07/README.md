@@ -312,7 +312,19 @@ inside!
 
 # Stubs Walk Through.
 
-- **Patient** in **XSD** `Patient.xsd`.
+
+
+
+<details>
+
+<summary id="IDE problem" open="false"> <b>Patien</b> in <b>XSD</b> <code>Patient.xsd</code></summary>
+- 1.
+- 2 .
+</details>
+
+
+
+- 
 
 ````
 <?xml version="1.0" encoding="UTF-8"?>

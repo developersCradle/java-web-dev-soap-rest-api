@@ -1,5 +1,5 @@
-# Section 11: Developing Bottom Up Web Services.
+# Section 17: REST Web Services Concepts.
 
-Developing Bottom Up Web Services.
+REST Web Services Concepts.
 
 # What I learned.

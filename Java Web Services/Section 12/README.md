@@ -1,5 +1,5 @@
-# Section 11: Developing Bottom Up Web Services.
+# Section 12: WS Standards.
 
-Developing Bottom Up Web Services.
+WS Standards.
 
 # What I learned.
