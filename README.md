@@ -79,6 +79,11 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 <span style="font-size: 60px; float:left; line-height:45px; padding-right:26px;">
 A </span> ll course material from Java Web Services by <b>Bharath Thippireddy</b>.
 
+
+
+
+<span style="font-size:60px;">Test </span>
+
 <p align="center">
 All course material from Java Web Services by <strong>Bharath Thippireddy</strong>.
 </p>
