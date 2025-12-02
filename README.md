@@ -78,10 +78,10 @@ All course material from Java Web Services by <strong>Bharath Thippireddy</stron
 
 Contains my own notes with some course material to enforce learning experience.
 
-
 > While debugging a legacy system with a particularly nasty bug. There was something interesting happening: during the `JAXB` **marshalling**/**unmarshalling** process, a character was mysteriously changing.
 > 
-> That small detail turned out to be the key to diagnosing the entire issue. It was a great reminder that in complex systems, subtle transformations—especially in serialization workflows—can have big impacts. ~ *DevelopersCradle*
+> That small detail turned out to be the key to diagnosing the entire issue. It was a great reminder that in complex systems, subtle transformations—especially in serialization workflows—can have big impacts.
+> ~ *DevelopersCradle*
 
 This repository is made with [![IntelliJ IDEA](https://img.shields.io/badge/IntelliJIDEA-000000.svg?logo=intellij-idea&logoColor=white)](#) with **Eclipse** hotkeys. This is why it will include configuration files which are related to this IDE this approach will be favored for now. ⚙️
 
@@ -213,7 +213,13 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
     <img src="REST_API_Design_Development_&_Management_Description.PNG" alt="REST API Design, Development & Management" style="width:900px;"/>
 </p>
 
-This repository is trying to be one place quest for understanding REST API Design/Development. Contains my own notes with some course material.
+This repository is trying to be one place quest for understanding REST API Design/Development. 
+
+> In the grand tapestry of knowledge, every thread of learning weaves a brighter future.
+> I’m happy to share that I’ve obtained a new certification: REST API Design, Development & Management. 🐟 
+> ~ *DevelopersCradle*
+
+Contains my own notes with some course material.
 This course servers as start, but later might add even more resources.
 
 Learn the REST API Concepts, Design best practices, Security practices, Swagger 2.0/OAI, Hands-on API Management by **Rajeev Sakhuja** ©.
