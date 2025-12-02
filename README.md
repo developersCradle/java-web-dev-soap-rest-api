@@ -80,7 +80,7 @@ Contains my own notes with some course material to enforce learning experience.
 
 > While debugging a legacy system with a particularly nasty bug. There was something interesting happening: during the `JAXB` **marshalling**/**unmarshalling** process, a character was mysteriously changing.
 > 
-> That small detail turned out to be the key to diagnosing the entire issue. It was a great reminder that in complex systems, subtle transformations—especially in serialization workflows—can have big impacts. 
+> That small detail turned out to be the key to diagnosing the entire issue. It was a great reminder that in complex systems, subtle transformations—especially in serialization workflows—can have big impacts.<br>
 > ~ *DevelopersCradle*
 
 This repository is made with [![IntelliJ IDEA](https://img.shields.io/badge/IntelliJIDEA-000000.svg?logo=intellij-idea&logoColor=white)](#) with **Eclipse** hotkeys. This is why it will include configuration files which are related to this IDE this approach will be favored for now. ⚙️
