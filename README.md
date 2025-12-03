@@ -286,6 +286,11 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 
 Contains my own notes to better learning experience with some course content.
 
+> I’m happy to share that I’ve obtained a new certification: API and Web Service Introduction!
+>
+> Did you know, its often better to include XML schema to SOAP messages to bring extra security. 🐟🐟🐟<br>
+> ~ *DevelopersCradle*
+
 API and Web Service Introduction **Nate Ross** ©.
 
 [The Course at Udemy](https://www.udemy.com/course/api-and-web-service-introduction/?couponCode=2021PM20).
@@ -335,12 +340,12 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
     <img id="Learn Swagger and the OpenAPI Specification" src="Learn_Swagger_and_the_OpenAPI_Specification_Description.PNG" alt="Learn Swagger and the OpenAPI Specification Description" style="width:900px;height:90px;"/> 
 </p>
 
-API Definition Files, Tools, and Documentation (**OAS 2.0**) **Peter Gruenbaum** ©.
-
 Contains my own notes with some course material to enforce learning experience.
 
 > Sometimes inspiration from someone else is enough. I’m happy to share that I’ve obtained a new certification: Learn Swagger and the OpenAPI.<br>
 > ~ *DevelopersCradle*
+
+API Definition Files, Tools, and Documentation (**OAS 2.0**) **Peter Gruenbaum** ©.
 
 This repository is made with [![IntelliJ IDEA](https://img.shields.io/badge/IntelliJIDEA-000000.svg?logo=intellij-idea&logoColor=white)](#) with **Eclipse** hotkeys. This is why it will include configuration files which are related to this IDE this approach will be favored for now. ⚙️
 

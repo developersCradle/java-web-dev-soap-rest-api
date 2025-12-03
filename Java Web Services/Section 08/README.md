@@ -35,7 +35,7 @@ Apache CXF.
 
 1. **CFX** comes with the **SOAP/REST** Engine. 
     - `1.1` It serializes/deserializes messages into **Java objects** and **XML**. 
-    - `1.2` **XML** comes in → The **engine takes it in** → Coverts it into **Java Object** → Sends it to appropriate web service endpoint → Takes the result and converts it to back to the appropriate Object type. → Returns it back to the **client**
+    - `1.2` **XML** comes in → The **engine takes it in** → Coverts it into **Java Object** → Sends it to appropriate web service endpoint → Takes the result and converts it to back to the appropriate Object type. → Returns it back to the **client**.
 2. We just **configure** the application to have these following **standards**.
 
 <p align="center">
@@ -45,7 +45,7 @@ Apache CXF.
 1. Tools for Develop **Provider** And **Publishers**. We can **automate** these with the **Maven Plugins** or the **Ant Task**.
     - `1.1` The `wsdl2java` is to make the **WSDL** to **Java** classes.
         - Example command to **WSDL2Java**: `wsdl2java -d output_directory -p com.example.client http://example.com/service?wsdl`.
-    - `1.2` We can also do **code first**, with the `java2wsdl`
+    - `1.2` We can also do **code first**, with the `java2wsdl`.
 2. It's easy to **configure** CFX using **Spring** configurations.
 3. We can modify both **Handlers** and **Interceptors** in **Apache CXF**.
 4. There are a lot of documentation and samples from **Apache CFX**.
@@ -82,46 +82,51 @@ Apache CXF.
 
 - todo this loppuun
 
-
 # Create the SOAP project.
 
 <p align="center">
         <img id="Java Web Services" src="stepsForCreatingTheProjectsApacheCfx.PNG" height="300px">
 </p>
 
-1. We will see the **WSDL** file created.
+1. One point, here we will see the **WSDL** file created.
 
 <p align="center">
         <img id="Java Web Services" src="springProjectsCoordinates.PNG" height="450px">
 </p>
 
 - You can add the **dependency** for the **CFX** `cxf-spring-boot-starter-jaxws`.
-        - Dependency [CXF MVN](https://mvnrepository.com/artifact/org.apache.cxf/cxf-spring-boot-starter-jaxws).
+  - Dependency [CXF MVN](https://mvnrepository.com/artifact/org.apache.cxf/cxf-spring-boot-starter-jaxws).
 
-- The latest, which was when I did these notes, were `4.0.3`.
+- The latest, which was when I did these notes, were `4.1.4`.
 
 ````
+<!-- https://mvnrepository.com/artifact/org.apache.cxf/cxf-spring-boot-starter-jaxws -->
 <dependency>
     <groupId>org.apache.cxf</groupId>
     <artifactId>cxf-spring-boot-starter-jaxws</artifactId>
-    <version>4.0.3</version>
+    <version>4.1.4</version>
 </dependency>
 ````
 
-- The latest, which was when I did these notes, were `4.0.0`.
-        - add here the link mvn
-````
-
-    <!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter -->
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter</artifactId>
-            <version>4.0.0</version>
-        </dependency>
-````
+- You can add the **dependency** for the **Spring Boot Starter** `spring-boot-starter`.
+  - Dependency [Spring Boot Starter](https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter).
 
 - The latest, which was when I did these notes, were `4.0.0`.
-        - add here the link mvn
+
+````
+<!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter -->
+<dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter</artifactId>
+    <version>4.0.0</version>
+</dependency>
+````
+
+- You can add the **dependency** for the **Spring Boot Starter Test** `spring-boot-starter-test`.
+  - Dependency [Spring Boot Starter Test](https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-test).
+
+- The latest, which was when I did these notes, were `4.0.0`.
+
 ````
         <!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-test -->
         <dependency>
@@ -134,12 +139,57 @@ Apache CXF.
 
 # Upgrade.
 
+- Just check the latest versions.
+
 # Create the endpoint.
+
+<p align="center">
+        <img id="Java Web Services" src="createEndpointStep.PNG" height="300px">
+</p>
+
+1.
+
+- We make this **WebService** endpoint, with the `@WebService` and `@WebMethod`.
+
+````
+package org.java.helloWorld;
+
+import jakarta.jws.WebMethod;
+import jakarta.jws.WebService;
+
+@WebService
+public class HelloWs {
+
+
+    @WebMethod
+    public String hello()
+    {
+        return "Hello";
+    }
+}
+````
 
 # Create the configuration class.
 
+<p align="center">
+        <img id="Java Web Services" src="creatingTheConfigClassStep.PNG" height="300px">
+</p>
+
+1. We will be creating the **config class** here.
+
+- When we are importing the `EndpointImpl`, remember to import the **right one**! Some of them are **deprecated**. 
+  - Right one `import org.apache.cxf.endpoint.EndpointImpl;`!
+
 # Run the application.
 
+<p align="center">
+        <img id="Java Web Services" src="runTheApplicationStep.PNG" height="300px">
+</p>
+
+1. We will be creating the **config class** here.
+
+
+- todo tee tämä lo
 # Change the web application context.
 
 # Test using SoapUI.
