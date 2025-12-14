@@ -1,5 +1,5 @@
 <p align="center">
-    <img id="studying" src="java web services.png" style="width:900px;height:330px;">
+    <img id="Java Web Services poster id" src="Java_Web_Services.gif" style="width:900px;height:330px;">
     <text>Attempt to study <b>Web Services</b>, <b>Rest API Design</b> and <b>related topics</b>!</text>
 </p>
 
