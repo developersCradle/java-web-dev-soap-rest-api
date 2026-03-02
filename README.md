@@ -1,7 +1,126 @@
 <p align="center">
-    <img id="Java Web Services poster id" src="Java_Web_Services.gif" style="width:900px;height:330px;">
-    <text>Attempt to study <b>Web Services</b>, <b>Rest API Design</b> and <b>related topics</b>!</text>
+    <img id="studying" src="Practical_Web_API_And_Services_Caption.png" style="width:900px;height:140px;">
+
+<p align="center">
+    <img id="Java Web Services poster id" src="Java_Web_Services.gif" style="width:700px;height:330px;">
+    <p align="center">
+        <text>Attempt to study <b>Web Services</b>, <b>Rest API Design</b> and <b>related topics</b>!</text>
+    </p>
 </p>
+
+# API First Development With Open API Spring Boot Kotlin.
+
+<p align="center">
+    <img src="API_First_Development_With_Open_API_Spring_Boot_Kotlin_Description.PNG" alt="Java Web Development Under The Hood" style="width:800px;"/>
+</p>
+
+<!-- 
+These are fundamentals for any **professional** Java developer to understand, even the old concepts, these can become handy in legacy projects! These concepts will come to you eventually regardless which Java framework you will decide to work with.
+
+<!-- All course material from Java Web Development Under The Hood by **Matt Greencroft** from legendary **Virtual Pair Programmers** ©. -->
+
+Contains my own notes to better learning experience with some course content. 
+
+[The Course at Udemy](https://www.udemy.com/course/java-web-development-under-the-hood).
+
+[Homepage of Maker](https://www.in28minutes.com/).
+
+[GitHub of project](https://github.com/in28minutes/MockitoTutorialForBeginners).
+
+If the content sparked :fire: your interest, please consider buying the course and start learning :book:.
+
+This repository is made with **Eclipse**, therefore it will include configuration files which are related to this IDE this approach will be favored for now. ⚙️
+
+<br>
+
+<!-- 
+Linkedin puts this shit front, when clicking from private mode x(. Need to put this to make jump working every case
+?trk=public_profile_see-credential 
+-->
+
+<p align="center">
+    Insert certificate here when completed
+</p>
+
+**Note: The material provided in this repository is only for helping those who may get stuck at any point of time in the course. It is very advised that no one should just copy the solutions(violation of Honor Code) presented here.**
+
+#### Progress/Curriculum.
+
+- [ ] [Section 01](#) - Introduction.  
+- [ ] [Section 02](#) - Open API Specification Explained.  
+- [ ] [Section 03](#) - Swagger UI and Open API Spring Kotlin Generator.  
+- [ ] [Section 04](#) - Interface Only Approach - Open API Generator.  
+- [ ] [Section 05](#) - Delegation Pattern - Open API Kotlin Generator.  
+
+#### Additional stuff.
+
+- [ ] Some task here.
+
+
+# Build RESTFUL APIs using Kotlin and Spring Boot.
+
+<p align="center">
+    <img src="Build_RESTFUL_APIs_Using_Kotlin_And_Spring_Boot_Description.PNG" alt="Java Web Development Under The Hood" style="width:800px;"/>
+</p> 
+
+These are fundamentals for any **professional** Java developer to understand, even the old concepts, these can become handy in legacy projects! These concepts will come to you eventually regardless which Java framework you will decide to work with.
+
+All course material from Java Web Development Under The Hood by **Matt Greencroft** from legendary **Virtual Pair Programmers** ©.
+
+Contains my own notes to better learning experience with some course content. 
+
+[The Course at Udemy](https://www.udemy.com/course/java-web-development-under-the-hood).
+
+[Homepage of Maker](https://www.in28minutes.com/).
+
+[GitHub of project](https://github.com/in28minutes/MockitoTutorialForBeginners).
+
+If the content sparked :fire: your interest, please consider buying the course and start learning :book:.
+
+This repository is made with **Eclipse**, therefore it will include configuration files which are related to this IDE this approach will be favored for now. ⚙️
+
+<br>
+
+<!-- 
+Linkedin puts this shit front, when clicking from private mode x(. Need to put this to make jump working every case
+?trk=public_profile_see-credential 
+-->
+
+<p align="center">
+    Insert certificate here when completed
+</p>
+
+**Note: The material provided in this repository is only for helping those who may get stuck at any point of time in the course. It is very advised that no one should just copy the solutions(violation of Honor Code) presented here.**
+
+#### Progress/Curriculum.
+
+- [ ] [Section 01](#) - Getting Started with the Course.
+- [ ] [Section 02](#) - Course Slides & Source Code.
+- [ ] [Section 03](#) - Getting Started with Kotlin Programming Language.
+- [ ] [Section 04](#) - Kotlin Fundamentals.
+- [ ] [Section 05](#) - Functions in Kotlin. 
+- [ ] [Section 06](#) - Classes, Interfaces and Inheritance.
+- [ ] [Section 07](#) - Nulls in Kotlin.
+- [ ] [Section 08](#) - Collections, Arrays & Lambda Expressions.
+- [ ] [Section 09](#) - Exceptions in Kotlin.
+- [ ] [Section 10](#) - Scope Functions.
+- [ ] [Section 11](#) - Getting Started with Kotlin and Spring Boot.
+- [ ] [Section 12](#) - Integration/Unit Testing using JUnit5.
+- [ ] [Section 13](#) - Build the Course Catalog Service.
+- [ ] [Section 14](#) - Unit Testing Controller Layer (Web).
+- [ ] [Section 15](#) - Bean Validation using Validators and ControllerAdvice.
+- [ ] [Section 16](#) - Custom JPA Queries using Spring Data JPA & DB Layer Testing.
+- [ ] [Section 17](#) - GET Endpoint to Retrieve Courses by Name using @RequestParam.
+- [ ] [Section 18](#) - Entity Relationships using Spring Data JPA.
+- [ ] [Section 19](#) - Integrating with Postgres DB.
+- [ ] [Section 20](#) - Integration Testing using Testcontainers.
+- [ ] [Section 21](#) - Java & Kotlin Interoperability.
+
+#### Additional stuff.
+
+- [ ] Some task here.
+
+
 
 <p align="center">
     <img id="Java Web Development Under The Hood" src="Java_Web_Development_Under_The_Hood_Caption.png" style="width:900px;height:110px;">
@@ -64,6 +183,10 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 - [ ] [Section 20](#) - Websockets part 2 - Client to server.
 - [ ] [Section 21](#) - Goodbye.
 
+#### Additional stuff.
+
+- [ ] Some task here.
+
 <p align="center">
     <img id="Java Web Development Under The Hood" src="Java_Web_Services_Caption.PNG" style="width:900px;height:140px;">
 </p>
@@ -80,7 +203,7 @@ Contains my own notes with some course material to enforce learning experience.
 
 > While debugging a legacy system with a particularly nasty bug. There was something interesting happening: during the `JAXB` **marshalling**/**unmarshalling** process, a character was mysteriously changing.
 > 
-> That small detail turned out to be the key to diagnosing the entire issue. It was a great reminder that in complex systems, subtle transformations—especially in serialization workflows—can have big impacts.<br>
+> That small detail turned out to be the key to diagnosing the entire issue. It was a great reminder that in complex systems, subtle transformations—especially in serialization workflows—can have big impacts.<br><br>
 > ~ *DevelopersCradle*
 
 This repository is made with [![IntelliJ IDEA](https://img.shields.io/badge/IntelliJIDEA-000000.svg?logo=intellij-idea&logoColor=white)](#) with **Eclipse** hotkeys. This is why it will include configuration files which are related to this IDE this approach will be favored for now. ⚙️
@@ -216,7 +339,7 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 This repository is trying to be one place quest for understanding REST API Design/Development. 
 
 > In the grand tapestry of knowledge, every thread of learning weaves a brighter future.
-> I’m happy to share that I’ve obtained a new certification: REST API Design, Development & Management. 🐟<br>
+> I’m happy to share that I’ve obtained a new certification: REST API Design, Development & Management. 🐟<br><br>
 > ~ *DevelopersCradle*
 
 Contains my own notes with some course material.
