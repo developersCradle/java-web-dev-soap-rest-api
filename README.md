@@ -1,12 +1,61 @@
 <p align="center">
     <img id="studying" src="Practical_Web_API_And_Services_Caption.png" style="width:900px;height:140px;">
-
-<p align="center">
-    <img id="Java Web Services poster id" src="Java_Web_Services.gif" style="width:700px;height:330px;">
+    <img id="Java Web Services poster id" src="Java_Web_Services.gif" style="width:620px;height:300px;">
     <p align="center">
         <text>Attempt to study <b>Web Services</b>, <b>Rest API Design</b> and <b>related topics</b>!</text>
     </p>
 </p>
+
+<p align="center">
+    <img src="REST_Based_Microservices_API_Development_In_Golang_Caption.png" alt="REST Based Microservices API Development In Golang Caption" style="width:1600px;height:90px;"/>
+</p>
+
+<p align="center">
+    <img src="REST_Based_Microservices_API_Development_In_Golang_Description.PNG" alt="REST Based Microservices API Development In Golang Description" style="width:690px" />
+</p>
+
+All course material from *REST based microservices API development in Golang* by **Ashish Juyal**.
+
+> Some glorious story! <br><br>
+> ~ *DevelopersCradle*
+
+Contains my own with my own visual notes ✍️ with some course material to enforce learning experience.
+
+[The Course at Udemy](https://www.udemy.com/course/rest-based-microservices-api-development-in-go-lang/).
+
+[Homepage of Maker](https://www.thecodecamp.in/).
+
+If the content sparked :fire: your interest, please consider buying the course and start learning :book:.
+
+<!-- This repository is made with **Eclipse**, therefore it will include configuration files which are related to this IDE this approach will be favored for now. ⚙️ -->
+
+<br>
+
+<!-- 
+Linkedin puts this shit front, when clicking from private mode x(. Need to put this to make jump working every case
+?trk=public_profile_see-credential 
+-->
+
+<p align="center">
+    Insert certificate here when completed
+</p>
+
+**Note: The material provided in this repository is only for helping those who may get stuck at any point of time in the course. It is very advised that no one should just copy the solutions(violation of Honor Code) presented here.**
+
+#### Progress/Curriculum.
+
+
+- [ ] [Section 01](#): Introduction.
+- [ ] [Section 02](#): Router Basics.
+- [ ] [Section 03](#): Application Development.
+- [ ] [Section 04](#): Security.
+- [ ] [Section 05](#): Unit Testing.
+- [ ] [Section 06](#): Advance Topics.
+
+#### Additional stuff.
+
+- [ ] Some task here.
+
 
 # API First Development With Open API Spring Boot Kotlin.
 
@@ -14,10 +63,13 @@
     <img src="API_First_Development_With_Open_API_Spring_Boot_Kotlin_Description.PNG" alt="Java Web Development Under The Hood" style="width:800px;"/>
 </p>
 
-<!-- 
-These are fundamentals for any **professional** Java developer to understand, even the old concepts, these can become handy in legacy projects! These concepts will come to you eventually regardless which Java framework you will decide to work with.
 
-<!-- All course material from Java Web Development Under The Hood by **Matt Greencroft** from legendary **Virtual Pair Programmers** ©. -->
+All course material from Java Web Development Under The Hood by **Matt Greencroft** from legendary **Virtual Pair Programmers** ©.
+
+> add here
+>
+
+Contains my own with my own visual notes ✍️ with some course material to enforce learning experience.
 
 Contains my own notes to better learning experience with some course content. 
 
@@ -63,13 +115,14 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
     <img src="Build_RESTFUL_APIs_Using_Kotlin_And_Spring_Boot_Description.PNG" alt="Java Web Development Under The Hood" style="width:800px;"/>
 </p> 
 
-These are fundamentals for any **professional** Java developer to understand, even the old concepts, these can become handy in legacy projects! These concepts will come to you eventually regardless which Java framework you will decide to work with.
+All course material from *Build RESTFUL APIs using Kotlin and Spring Boot* by **Matt Greencroft** from legendary **Virtual Pair Programmers** ©.
 
-All course material from Java Web Development Under The Hood by **Matt Greencroft** from legendary **Virtual Pair Programmers** ©.
+> add here
+>
 
-Contains my own notes to better learning experience with some course content. 
+Contains my own with my own visual notes ✍️ with some course material to enforce learning experience.
 
-[The Course at Udemy](https://www.udemy.com/course/java-web-development-under-the-hood).
+[The Course at Udemy](https://www.udemy.com/course/build-restful-apis-using-kotlin-and-spring-boot/).
 
 [Homepage of Maker](https://www.in28minutes.com/).
 
@@ -120,8 +173,6 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 
 - [ ] Some task here.
 
-
-
 <p align="center">
     <img id="Java Web Development Under The Hood" src="Java_Web_Development_Under_The_Hood_Caption.png" style="width:900px;height:110px;">
 </p>
@@ -131,6 +182,9 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 </p>
 
 These are fundamentals for any **professional** Java developer to understand, even the old concepts, these can become handy in legacy projects! These concepts will come to you eventually regardless which Java framework you will decide to work with.
+
+> add here
+>
 
 All course material from Java Web Development Under The Hood by **Matt Greencroft** from legendary **Virtual Pair Programmers** ©.
 
@@ -195,15 +249,16 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
     <img src="Java_Webservices_Description.PNG" alt="Java Web Development Under The Hood" style="width:800px;"/>
 </p>
 
-<p align="center">
+<!-- This is was the testing to make these as chapters in fantasy books! -->
+<!-- <p align="center">
 All course material from Java Web Services by <strong>Bharath Thippireddy</strong>.
-</p>
+</p> -->
 
 Contains my own notes with some course material to enforce learning experience.
 
 > While debugging a legacy system with a particularly nasty bug. There was something interesting happening: during the `JAXB` **marshalling**/**unmarshalling** process, a character was mysteriously changing.
 > 
-> That small detail turned out to be the key to diagnosing the entire issue. It was a great reminder that in complex systems, subtle transformations—especially in serialization workflows—can have big impacts.<br><br>
+> That small detail turned out to be the key to diagnosing the entire issue. It was a great reminder that in complex systems, subtle transformations—especially in serialization workflows—can have big impacts. <br><br>
 > ~ *DevelopersCradle*
 
 This repository is made with [![IntelliJ IDEA](https://img.shields.io/badge/IntelliJIDEA-000000.svg?logo=intellij-idea&logoColor=white)](#) with **Eclipse** hotkeys. This is why it will include configuration files which are related to this IDE this approach will be favored for now. ⚙️
@@ -279,6 +334,9 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 
 All course material from SOAP Web Services by **Java Brains** © with little bit of mixing new stuff, since this is old tutorial and many relevant technologies were deprecated or disappeared at time when I proceeded thought this. Comment section rocks! Contains my additional notes and some extra videos to make it more content rich experience. We be using **JAX-WS** standard and Java for this.
 
+> add here
+>
+
 [Original Channel](https://www.youtube.com/@Java.Brains).
 
 [Source](https://www.youtube.com/playlist?list=PLe8LZCtW06l-JJDOb4PQ2TiAdMRtPKxKV).
@@ -295,6 +353,7 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 -->
 
 <!-- Todo change the id when not lazy-->
+
 <p align="center">
     <img id="SOAP Web Services with Java_certificate?trk=public_profile_see-credential" src="SOAP Web Services with Java_certificate.JPG" alt="SOAP Web Services with Java_certificate" width="600"/>
 </p>
@@ -400,18 +459,21 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 - [ ] Do some partial response test with **GraphQL**.
 
 <p align="center">
-    <img id="API and Web Service Introduction caption" src="API_and_Web_Service_Introduction_Caption.png" style="width:900px;height:140px;">
+    <img id="api_and_web_service_introduction_caption?trk=public_profile_see-credential" src="API_And_Web_Service_Introduction_Caption.png"
+    alt="add this" style="width:940px;height:140px;">
 </p>
 
 <p align="center">
-    <img id="API and Web Service Introduction caption" src="API_and_Web_Service_Introduction_Description.PNG" style="width:900px;height:160px;">
+    <img id="api_and_web_service_introduction_description?trk=public_profile_see-credential" src="API_and_Web_Service_Introduction_Description.PNG" 
+    alt="add this"
+    style="width:800px;">
 </p>
 
 Contains my own notes to better learning experience with some course content.
 
 > I’m happy to share that I’ve obtained a new certification: API and Web Service Introduction!
 >
-> Did you know, its often better to include XML schema to SOAP messages to bring extra security. 🐟🐟🐟<br>
+> Did you know, it's often better to include XML schema to SOAP messages to bring extra security. 🐟🐟🐟 <br><br>
 > ~ *DevelopersCradle*
 
 API and Web Service Introduction **Nate Ross** ©.
@@ -502,15 +564,22 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
     - Did not get this working at the moment. Can do in future again :)
 - [ ] Review the [OAS 3.0](https://blog.restcase.com/6-most-significant-changes-in-oas-3-0/) after finishing this one.
 
+
+
 <p align="center">
-    <img id="Learn API Technical Writing: JSON and XML for Writers" src="Learn API Technical Writing JSON and XML for Writers Caption.png" style="width:900px;height:120px;">
+    <img src="Learn API Technical Writing JSON and XML for Writers Caption.png" alt="Learn API Technical Writing: JSON And XML For Writers Caption" style="width:1600px;height:90px;"/>
 </p>
 
-![Learn API Technical Writing: JSON and XML for Writers](technicalDocumentationXMLandJSON.PNG)
-
-Contains my own notes with some course material.
+<p align="center">
+    <img src="technicalDocumentationXMLandJSON.PNG" alt="Learn API Technical Writing JSON And XML For Writers Description" style="width:690px" />
+</p>
 
 Learn API Technical Writing: JSON and XML for Writers **Peter Gruenbaum** ©.
+
+> add here
+>
+
+Contains my own notes with some course material.
 
 [The Course at Udemy](https://www.udemy.com/course/api-documentation-1-json-and-xml/).
 
