@@ -1,6 +1,6 @@
 <p align="center">
     <img id="studying" src="Practical_Web_API_And_Services_Caption.png" style="width:900px;height:140px;">
-    <img id="Java Web Services poster id" src="Java_Web_Services.gif" style="width:620px;height:300px;">
+    <img id="Java Web Services poster id" src="Java_Web_Services.gif" style="width:500px;height:300px;">
     <p align="center">
         <text>Attempt to study <b>Web Services</b>, <b>Rest API Design</b> and <b>related topics</b>!</text>
     </p>
@@ -45,8 +45,8 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 #### Progress/Curriculum.
 
 
-- [ ] [Section 01](#): Introduction.
-- [ ] [Section 02](#): Router Basics.
+- [x] [Section 01](#): Introduction. ✅
+- [ ] [Section 02](#): Router Basics. ⚠️ In progress! ⚠️
 - [ ] [Section 03](#): Application Development.
 - [ ] [Section 04](#): Security.
 - [ ] [Section 05](#): Unit Testing.
@@ -57,10 +57,13 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 - [ ] Some task here.
 
 
-# API First Development With Open API Spring Boot Kotlin.
 
 <p align="center">
-    <img src="API_First_Development_With_Open_API_Spring_Boot_Kotlin_Description.PNG" alt="Java Web Development Under The Hood" style="width:800px;"/>
+    <img src="API_First_Development_With_Open_API_Spring_Boot_Kotlin_Caption.png" alt="API First Development With Open API Spring Boot Kotlin" style="width:1600px;height:110px;"/>
+</p>
+
+<p align="center">
+    <img src="API_First_Development_With_Open_API_Spring_Boot_Kotlin_Description.PNG" alt="Java Web Development Under The Hood" style="width:690px" />
 </p>
 
 
@@ -109,11 +112,14 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 - [ ] Some task here.
 
 
-# Build RESTFUL APIs using Kotlin and Spring Boot.
+<p align="center">
+    <img src="Build_RESTFUL_APIs_Using_Kotlin_And_Spring_Boot_Caption.png" alt="Build RESTFUL APIs Using Kotlin And Spring Boot Caption" style="width:1600px;height:100px;"/>
+</p>
 
 <p align="center">
-    <img src="Build_RESTFUL_APIs_Using_Kotlin_And_Spring_Boot_Description.PNG" alt="Java Web Development Under The Hood" style="width:800px;"/>
-</p> 
+    <img src="Build_RESTFUL_APIs_Using_Kotlin_And_Spring_Boot_Description.PNG" alt="Build RESTFUL APIs Using Kotlin And Spring Boot Description" style="width:690px" />
+</p>
+
 
 All course material from *Build RESTFUL APIs using Kotlin and Spring Boot* by **Matt Greencroft** from legendary **Virtual Pair Programmers** ©.
 
@@ -256,9 +262,9 @@ All course material from Java Web Services by <strong>Bharath Thippireddy</stron
 
 Contains my own notes with some course material to enforce learning experience.
 
-> While debugging a legacy system with a particularly nasty bug. There was something interesting happening: during the `JAXB` **marshalling**/**unmarshalling** process, a character was mysteriously changing.
+> While debugging a legacy system with a particularly nasty bug. There was something interesting happening: during the `JAXB` **marshalling**/**unmarshalling** process, a character was mysteriously changing. 🐟
 > 
-> That small detail turned out to be the key to diagnosing the entire issue. It was a great reminder that in complex systems, subtle transformations—especially in serialization workflows—can have big impacts. <br><br>
+> That small detail turned out to be the key to diagnosing the entire issue. It was a great reminder that in complex systems, subtle transformations—especially in serialization workflows—can have big impacts. 🐟 <br><br>
 > ~ *DevelopersCradle*
 
 This repository is made with [![IntelliJ IDEA](https://img.shields.io/badge/IntelliJIDEA-000000.svg?logo=intellij-idea&logoColor=white)](#) with **Eclipse** hotkeys. This is why it will include configuration files which are related to this IDE this approach will be favored for now. ⚙️
@@ -387,18 +393,26 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 
 - [ ] SOAP with [Spring](https://www.youtube.com/watch?v=ceSqN3CWd14).
 
+
 <p align="center">
-    <img id="REST API Design, Development & Management" src="REST_API_Design_Development_&_Management_Caption.png" style="width:1000px;height:110px;">
+    <img
+     src="REST_API_Design_Development_&_Management_Caption.png"
+    alt="REST API Design Development & Management Caption"
+    style="width:1600px;height:110px;"/>
 </p>
 
 <p align="center">
-    <img src="REST_API_Design_Development_&_Management_Description.PNG" alt="REST API Design, Development & Management" style="width:900px;"/>
+    <img src="REST_API_Design_Development_&_Management_Description.PNG"
+    alt="REST API Design Development & Management Description"
+    style="width:690px" />
 </p>
+
 
 This repository is trying to be one place quest for understanding REST API Design/Development. 
 
-> In the grand tapestry of knowledge, every thread of learning weaves a brighter future.
-> I’m happy to share that I’ve obtained a new certification: REST API Design, Development & Management. 🐟<br><br>
+> When I was working at **🏛️Nordea**🏛️, we were tasked with designing multi-level APIs that needed to be as reusable and scalable as possible. This was a challenge that required careful planning and foresight. 🐟
+>
+> It was in this context that my knowledge of `REST API Design, Development & Management` truly shined. Understanding how to structure endpoints, handle versioning, and enforce consistent standards made planning and execution much smoother. It transformed a complex API project into a more maintainable and efficient system. 🐟 <br><br>
 > ~ *DevelopersCradle*
 
 Contains my own notes with some course material.
