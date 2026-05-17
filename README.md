@@ -1,3 +1,22 @@
+<!-- 
+
+We are using following structure:
+
+<p align="center">
+    <img
+     src="Jackson_Quick_Start_JSON_Serialization_With_Java_Made_Easy_Caption.png"
+    alt="Jackson quick start json serialization with java made easy caption!"
+    style="width:1600px;height:120px;"/>
+</p> 
+<p align="center">
+    <img
+    id="Jackson_Quick_Start_JSON_Serialization_With_Java_Made_Easy_Description?trk=public_profile_see-credential" src="Jackson_Quick_Start_JSON_Serialization_With_Java_Made_Easy_Description.png"
+    alt="Jackson quick start json serialization with java made easy description!"
+    style="width:590px; height:160px;" />
+</p>
+
+-->
+
 <p align="center">
     <img id="studying" src="Practical_Web_API_And_Services_Caption.png" style="width:900px;height:140px;">
     <img id="Java Web Services poster id" src="Java_Web_Services.gif" style="width:500px;height:300px;">
@@ -59,32 +78,27 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 
 
 <p align="center">
-    <img src="API_First_Development_With_Open_API_Spring_Boot_Kotlin_Caption.png" alt="API First Development With Open API Spring Boot Kotlin" style="width:1600px;height:110px;"/>
+    <img src="API_First_Development_With_Open_API_Spring_Boot_Kotlin_Caption.png" alt="API first development with open api spring boot kotlin caption!" style="width:1600px;height:110px;"/>
 </p>
 
 <p align="center">
-    <img src="API_First_Development_With_Open_API_Spring_Boot_Kotlin_Description.PNG" alt="Java Web Development Under The Hood" style="width:690px" />
+    <img src="API_First_Development_With_Open_API_Spring_Boot_Kotlin_Description.PNG" alt="API first development with open api spring boot kotlin description" style="width:690px" />
 </p>
 
+All course material from *API First Development With Open API Spring Boot Kotlin* by **Vikas Kumar** ©.
 
-All course material from Java Web Development Under The Hood by **Matt Greencroft** from legendary **Virtual Pair Programmers** ©.
-
-> add here
+> While working in the 🏛️**Nordea**🏛️, we were operating in an environment where requirements and integrations were changing very fast across multiple teams. Services were evolving quickly, but API changes often caused friction because consumers and providers were not always aligned. Small contract mismatches would appear frequently, and integration cycles kept getting longer as systems scaled.
 >
+> To keep up with the pace of change, we embraced a contract-first approach where APIs were defined and agreed upon upfront before implementation. Combined with code generators, we ensured that server stubs, client SDKs, and data models were always derived from the same contract. 🐟 <br><br>
+> ~ *DevelopersCradle*
 
-Contains my own with my own visual notes ✍️ with some course material to enforce learning experience.
+Contains my own notes with some course material to enforce learning experience.
 
-Contains my own notes to better learning experience with some course content. 
+This repository is made with [![IntelliJ IDEA](https://img.shields.io/badge/IntelliJIDEA-000000.svg?logo=intellij-idea&logoColor=white)](#) with [![Eclipse](https://img.shields.io/badge/Eclipse-FE7A16.svg?logo=Eclipse&logoColor=white)](#) hotkeys, therefore it will include configuration files which are related to this IDE this approach will be favored for now. ⚙️
 
-[The Course at Udemy](https://www.udemy.com/course/java-web-development-under-the-hood).
-
-[Homepage of Maker](https://www.in28minutes.com/).
-
-[GitHub of project](https://github.com/in28minutes/MockitoTutorialForBeginners).
+[The Course at Udemy](https://www.udemy.com/course/master-api-driven-development-with-spring-boot-kotlin/).
 
 If the content sparked :fire: your interest, please consider buying the course and start learning :book:.
-
-This repository is made with **Eclipse**, therefore it will include configuration files which are related to this IDE this approach will be favored for now. ⚙️
 
 <br>
 
@@ -93,24 +107,25 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 ?trk=public_profile_see-credential 
 -->
 
+
 <p align="center">
-    Insert certificate here when completed
+    <img id="API_First_Development_With_Open_API_Spring_Boot_Kotlin_Cerntificate?trk=public_profile_see-credential" src="API_First_Development_With_Open_API_Spring_Boot_Kotlin_Cerntificate.jpg" alt="API first development with open api spring boot kotlin cerntificate" width="600"/>
 </p>
+
 
 **Note: The material provided in this repository is only for helping those who may get stuck at any point of time in the course. It is very advised that no one should just copy the solutions(violation of Honor Code) presented here.**
 
 #### Progress/Curriculum.
 
-- [ ] [Section 01](#) - Introduction.  
-- [ ] [Section 02](#) - Open API Specification Explained.  
-- [ ] [Section 03](#) - Swagger UI and Open API Spring Kotlin Generator.  
-- [ ] [Section 04](#) - Interface Only Approach - Open API Generator.  
-- [ ] [Section 05](#) - Delegation Pattern - Open API Kotlin Generator.  
+- [x] [Section 01](#) - Introduction. ✅
+- [x] [Section 02](#) - Open API Specification Explained. ✅
+- [x] [Section 03](#) - Swagger UI and Open API Spring Kotlin Generator. ✅
+- [x] [Section 04](#) - Interface Only Approach - Open API Generator. ✅
+- [x] [Section 05](#) - Delegation Pattern - Open API Kotlin Generator. ✅
 
 #### Additional stuff.
 
 - [ ] Some task here.
-
 
 <p align="center">
     <img src="Build_RESTFUL_APIs_Using_Kotlin_And_Spring_Boot_Caption.png" alt="Build RESTFUL APIs Using Kotlin And Spring Boot Caption" style="width:1600px;height:100px;"/>
@@ -358,10 +373,8 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 ?trk=public_profile_see-credential 
 -->
 
-<!-- Todo change the id when not lazy-->
-
 <p align="center">
-    <img id="SOAP Web Services with Java_certificate?trk=public_profile_see-credential" src="SOAP Web Services with Java_certificate.JPG" alt="SOAP Web Services with Java_certificate" width="600"/>
+    <img id="SOAP_Web_Services_With_Java_Certificate?trk=public_profile_see-credential" src="SOAP_Web_Services_With_Java_Certificate.JPG" alt="SOAP web services with java certificate" width="600"/>
 </p>
 
 **Note: The material provided in this repository is only for helping those who may get stuck at any point of time in the course. It is very advised that no one should just copy the solutions(violation of Honor Code) presented here.**
@@ -407,12 +420,11 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
     style="width:690px" />
 </p>
 
-
 This repository is trying to be one place quest for understanding REST API Design/Development. 
 
-> When I was working at **🏛️Nordea**🏛️, we were tasked with designing multi-level APIs that needed to be as reusable and scalable as possible. This was a challenge that required careful planning and foresight. 🐟
+> When I was working at 🏛️**Nordea**🏛️, we were tasked with designing multi-level APIs that needed to be as reusable and scalable as possible. This was a challenge that required careful planning and foresight. 🐟
 >
-> It was in this context that my knowledge of `REST API Design, Development & Management` truly shined. Understanding how to structure endpoints, handle versioning, and enforce consistent standards made planning and execution much smoother. It transformed a complex API project into a more maintainable and efficient system. 🐟 <br><br>
+> It was in this context that my knowledge of *REST API Design, Development & Management* truly shined. Understanding how to structure endpoints, handle versioning, and enforce consistent standards made planning and execution much smoother. It transformed a complex API project into a more maintainable and efficient system. 🐟 <br><br>
 > ~ *DevelopersCradle*
 
 Contains my own notes with some course material.
