@@ -6,7 +6,7 @@ We are using following structure:
     <img
      src="Jackson_Quick_Start_JSON_Serialization_With_Java_Made_Easy_Caption.png"
     alt="Jackson quick start json serialization with java made easy caption!"
-    style="width:1600px;height:120px;"/>
+    style="width:1600px;height:120px;"/>gt
 </p> 
 <p align="center">
     <img
@@ -16,6 +16,42 @@ We are using following structure:
 </p>
 
 -->
+
+<!--
+Template for the questions:
+
+# Quiz 07: Atomic Operations, Volatile & Metrics Practical Example.
+
+<details>
+<summary id="Question_01" open="true"> <b>Question 01.</b> </summary>
+````yaml
+Question 01:
+The question comes here!
+
+- My answer:
+
+<div align="center">
+    <img src="Quiz 07/Q1.PNG" width="600"/>
+</div>
+
+1. Add here the answer!
+
+</details>
+-->
+
+<!-- 
+Template for the task/exercies:
+ 
+# Lab Exercise - Mapping Collections of Value Types.
+
+<div align="center">
+    <img src="add here the exercise!" alt="Hibernate Java Persistence!" width=" 500"/>
+</div>
+
+1. **Question 1:** add here the question from the test!
+	- **Answer:** **D**. here can be the examplaniton!
+ -->
+
 
 <p align="center">
     <img id="studying" src="Practical_Web_API_And_Services_Caption.png" style="width:900px;height:140px;">
@@ -78,11 +114,11 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 
 
 <p align="center">
-    <img src="API_First_Development_With_Open_API_Spring_Boot_Kotlin_Caption.png" alt="API first development with open api spring boot kotlin caption!" style="width:1600px;height:110px;"/>
+    <img src="API_First_Development_With_Open_API_Spring_Boot_Kotlin_Caption.png" alt="API first development with open api spring boot kotlin caption!" style="width:1600px;height:120px;"/>
 </p>
 
 <p align="center">
-    <img src="API_First_Development_With_Open_API_Spring_Boot_Kotlin_Description.PNG" alt="API first development with open api spring boot kotlin description" style="width:690px" />
+    <img src="API_First_Development_With_Open_API_Spring_Boot_Kotlin_Description.PNG" alt="API first development with open api spring boot kotlin description" style="width:590px; height:160px;" />
 </p>
 
 All course material from *API First Development With Open API Spring Boot Kotlin* by **Vikas Kumar** ©.
@@ -132,7 +168,7 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 </p>
 
 <p align="center">
-    <img src="Build_RESTFUL_APIs_Using_Kotlin_And_Spring_Boot_Description.PNG" alt="Build RESTFUL APIs Using Kotlin And Spring Boot Description" style="width:690px" />
+    <img src="Build_RESTFUL_APIs_Using_Kotlin_And_Spring_Boot_Description.PNG" alt="Build RESTFUL APIs Using Kotlin And Spring Boot Description" style="width:590px; height:160px;" />
 </p>
 
 
@@ -151,7 +187,7 @@ Contains my own with my own visual notes ✍️ with some course material to enf
 
 If the content sparked :fire: your interest, please consider buying the course and start learning :book:.
 
-This repository is made with **Eclipse**, therefore it will include configuration files which are related to this IDE this approach will be favored for now. ⚙️
+This repository is made with [![IntelliJ IDEA](https://img.shields.io/badge/IntelliJIDEA-000000.svg?logo=intellij-idea&logoColor=white)](#) with [![Eclipse](https://img.shields.io/badge/Eclipse-FE7A16.svg?logo=Eclipse&logoColor=white)](#) hotkeys, therefore it will include configuration files which are related to this IDE this approach will be favored for now. ⚙️
 
 <br>
 
@@ -199,7 +235,7 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 </p>
 
 <p align="center">
-    <img src="Java_Web_Development_Under_The_Hood_Description.JPG" alt="Java Web Development Under The Hood" style="width:800px;"/>
+    <img src="Java_Web_Development_Under_The_Hood_Description.JPG" alt="Java Web Development Under The Hood" style="width:590px; height:160px;"/>
 </p>
 
 These are fundamentals for any **professional** Java developer to understand, even the old concepts, these can become handy in legacy projects! These concepts will come to you eventually regardless which Java framework you will decide to work with.
@@ -219,7 +255,7 @@ Contains my own notes to better learning experience with some course content.
 
 If the content sparked :fire: your interest, please consider buying the course and start learning :book:.
 
-This repository is made with **Eclipse**, therefore it will include configuration files which are related to this IDE this approach will be favored for now. ⚙️
+This repository is made with [![IntelliJ IDEA](https://img.shields.io/badge/IntelliJIDEA-000000.svg?logo=intellij-idea&logoColor=white)](#) with [![Eclipse](https://img.shields.io/badge/Eclipse-FE7A16.svg?logo=Eclipse&logoColor=white)](#) hotkeys, therefore it will include configuration files which are related to this IDE this approach will be favored for now. ⚙️
 
 <br>
 
@@ -267,7 +303,7 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 </p>
 
 <p align="center">
-    <img src="Java_Webservices_Description.PNG" alt="Java Web Development Under The Hood" style="width:800px;"/>
+    <img src="Java_Webservices_Description.PNG" alt="Java Web Development Under The Hood" style="width:590px; height:160px;"/>
 </p>
 
 <!-- This is was the testing to make these as chapters in fantasy books! -->
@@ -282,7 +318,7 @@ Contains my own notes with some course material to enforce learning experience.
 > That small detail turned out to be the key to diagnosing the entire issue. It was a great reminder that in complex systems, subtle transformations—especially in serialization workflows—can have big impacts. 🐟 <br><br>
 > ~ *DevelopersCradle*
 
-This repository is made with [![IntelliJ IDEA](https://img.shields.io/badge/IntelliJIDEA-000000.svg?logo=intellij-idea&logoColor=white)](#) with **Eclipse** hotkeys. This is why it will include configuration files which are related to this IDE this approach will be favored for now. ⚙️
+This repository is made with [![IntelliJ IDEA](https://img.shields.io/badge/IntelliJIDEA-000000.svg?logo=intellij-idea&logoColor=white)](#) with [![Eclipse](https://img.shields.io/badge/Eclipse-FE7A16.svg?logo=Eclipse&logoColor=white)](#) hotkeys. This is why it will include configuration files which are related to this IDE this approach will be favored for now. ⚙️
 
 [Original Channel](https://www.bharaththippireddy.com/).
 
@@ -364,7 +400,7 @@ All course material from SOAP Web Services by **Java Brains** © with little bit
 
 If the content sparked :fire: your interest, please consider starting the course and start learning :book:.
 
-This repository is made with **Eclipse**, therefore it will include configuration files which are related to this IDE this approach will be favored for now. ⚙️
+This repository is made with [![IntelliJ IDEA](https://img.shields.io/badge/IntelliJIDEA-000000.svg?logo=intellij-idea&logoColor=white)](#) with [![Eclipse](https://img.shields.io/badge/Eclipse-FE7A16.svg?logo=Eclipse&logoColor=white)](#) hotkeys, therefore it will include configuration files which are related to this IDE this approach will be favored for now. ⚙️
 
 <br>
 
@@ -417,7 +453,7 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 <p align="center">
     <img src="REST_API_Design_Development_&_Management_Description.PNG"
     alt="REST API Design Development & Management Description"
-    style="width:690px" />
+    style="width:590px; height:160px;" />
 </p>
 
 This repository is trying to be one place quest for understanding REST API Design/Development. 
@@ -430,7 +466,7 @@ This repository is trying to be one place quest for understanding REST API Desig
 Contains my own notes with some course material.
 This course servers as start, but later might add even more resources.
 
-Learn the REST API Concepts, Design best practices, Security practices, Swagger 2.0/OAI, Hands-on API Management by **Rajeev Sakhuja** ©.
+*REST API Design, Development & ManagementE* by **Rajeev Sakhuja** ©.
 
 [The Course at Udemy](https://www.udemy.com/course/rest-api/).   
 
@@ -492,7 +528,7 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 <p align="center">
     <img id="api_and_web_service_introduction_description?trk=public_profile_see-credential" src="API_and_Web_Service_Introduction_Description.PNG" 
     alt="add this"
-    style="width:800px;">
+    style="width:590px; height:160px;">
 </p>
 
 Contains my own notes to better learning experience with some course content.
@@ -544,11 +580,11 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 - [ ] Do example with the [Webhook](https://www.youtube.com/watch?v=tshKOgRLYn0).
 
 <p align="center">
-    <img id="Learn Swagger and the OpenAPI Specification?trk=public_profile_see-credential" src="Learn_Swagger_and_the_OpenAPI_Specification_Caption.png" alt="Learn Swagger and the OpenAPI Specification" style="width:900px;height:100px;"/> 
+    <img id="Learn Swagger and the OpenAPI Specification?trk=public_profile_see-credential" src="Learn_Swagger_and_the_OpenAPI_Specification_Caption.png" alt="Learn Swagger and the OpenAPI Specification" style="width:1600px;height:120px;"/> 
 </p>
 
 <p align="center">
-    <img id="Learn Swagger and the OpenAPI Specification" src="Learn_Swagger_and_the_OpenAPI_Specification_Description.PNG" alt="Learn Swagger and the OpenAPI Specification Description" style="width:900px;height:90px;"/> 
+    <img id="Learn Swagger and the OpenAPI Specification" src="Learn_Swagger_and_the_OpenAPI_Specification_Description.PNG" alt="Learn Swagger and the OpenAPI Specification Description" style="width:590px; height:160px;"/> 
 </p>
 
 Contains my own notes with some course material to enforce learning experience.
@@ -558,7 +594,7 @@ Contains my own notes with some course material to enforce learning experience.
 
 API Definition Files, Tools, and Documentation (**OAS 2.0**) **Peter Gruenbaum** ©.
 
-This repository is made with [![IntelliJ IDEA](https://img.shields.io/badge/IntelliJIDEA-000000.svg?logo=intellij-idea&logoColor=white)](#) with **Eclipse** hotkeys. This is why it will include configuration files which are related to this IDE this approach will be favored for now. ⚙️
+This repository is made with [![IntelliJ IDEA](https://img.shields.io/badge/IntelliJIDEA-000000.svg?logo=intellij-idea&logoColor=white)](#) with [![Eclipse](https://img.shields.io/badge/Eclipse-FE7A16.svg?logo=Eclipse&logoColor=white)](#) hotkeys. This is why it will include configuration files which are related to this IDE this approach will be favored for now. ⚙️
 
 [The Course at Udemy](https://www.udemy.com/course/learn-swagger-and-the-open-api-specification/).   
 
@@ -593,11 +629,11 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 
 
 <p align="center">
-    <img src="Learn API Technical Writing JSON and XML for Writers Caption.png" alt="Learn API Technical Writing: JSON And XML For Writers Caption" style="width:1600px;height:90px;"/>
+    <img src="Learn_API_Technical_Writing_JSON_And_XML_For_Writers_Caption.png" alt="Learn api technical writing: JSON and xml for writers caption!" style="width:1600px;height:120px;"/>
 </p>
 
 <p align="center">
-    <img src="technicalDocumentationXMLandJSON.PNG" alt="Learn API Technical Writing JSON And XML For Writers Description" style="width:690px" />
+    <img src="Learn_API_Technical_Writing_JSON_And_XML_For_Writers_Description.png" alt="Learn API Technical Writing JSON And XML For Writers Description!" style="width:590px; height:160px;" />
 </p>
 
 Learn API Technical Writing: JSON and XML for Writers **Peter Gruenbaum** ©.
