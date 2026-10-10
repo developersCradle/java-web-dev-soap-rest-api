@@ -1,10 +1,10 @@
-# 03 Tools and Alternatives.
+# Tools and Alternatives.
 
 Tools and Alternatives.
 
 # What I learned.
 
-# 9. Swagger Tools.
+# Swagger Tools. ✅
 
 <img src="toolWillBeCovered.PNG" alt="alt text" width="500"/>
 
@@ -16,13 +16,13 @@ Tools and Alternatives.
 - You can **host** these tools on your own platform.
 - **Paid** is **SwaggerHub**, these are hosted somewhere else.
 
-# Assignment 6: SwaggerHub.
+# Assignment 06: SwaggerHub.
 
 ```
 SwaggerHub is commercial platform.
 ```
 
-# 10. JSON.
+# JSON. ✅
 
 - **OAS** file can be created with `yaml` or `json`.
 
@@ -46,24 +46,24 @@ SwaggerHub is commercial platform.
 1. **Swagger** uses `yaml` by default.
 
 
-# Assignment 7: Put It All Together.
+# Assignment 07: Put It All Together.
 
 - Todo
 
 
-# Assignment 8: Swagger for a Real World API
+# Assignment 08: Swagger for a Real World API
 
 - Todo
 
 
-# 11. Alternatives to Swagger and OAS.
+# Alternatives to Swagger and OAS. ✅
 
-- ✔️.
+- Checked ✅.
 
-# 12. Resources.
+# Resources. ✅
 
-- ✔️.
+- Checked ✅.
 
-# 13. Bonus Lecture: Offers for Other Courses.
+# Bonus Lecture: Offers for Other Courses. ✅
 
-- ✔️.
+- Checked ✅.

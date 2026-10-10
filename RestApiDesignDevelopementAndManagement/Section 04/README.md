@@ -4,7 +4,7 @@ Designing REST API.
 
 # What I Learned.
 
-# API Endpoint URL.
+# API Endpoint URL. ✅
 
 <p align="center">
     <img src="APIendPoint.JPG" alt="alt text" width="500"/>
@@ -88,7 +88,7 @@ Designing REST API.
     <img src="summary.JPG" alt="alt text" width="500"/>
 </p>
 
-# Practices for Resource Names, Actions & Associations.
+# Practices for Resource Names, Actions & Associations. ✅
 
 <p align="center">
     <img src="resourcingNaming.JPG" alt="alt text" width="500"/>
@@ -153,7 +153,9 @@ Designing REST API.
 
 # Walk through: Setup the API URI for ACME API.
 
-# User case: ACME API.
+- todo 
+
+# User case: ACME API. ✅
 
 <p align="center">
     <img src="userCasePlan.PNG" alt="alt text" width="500"/>
@@ -195,7 +197,7 @@ Designing REST API.
     <img src="summary3.PNG" alt="alt text" width="500"/>
 </p>
 
-# HTTP API Request flow and HTTP Status Code.
+# HTTP API Request flow and HTTP Status Code. ✅
 
 - API call flow.
 
@@ -232,7 +234,7 @@ Designing REST API.
     <img src="summary4.PNG" alt="alt text" width="500"/>
 </p>
 
-# Implementing REST API CRUD operations.
+# Implementing REST API CRUD operations. ✅
 
 - When planning **HTTP Verbs** for CRUD, here is some which you should be aware of.
 
@@ -240,7 +242,7 @@ Designing REST API.
     <img src="httpVerbsWhenPlanningCRUD.PNG" alt="alt text" width="500"/>
 </p>
 
-# POST, Request.
+# POST, Request. ✅
 
 - What kind of information is needed for `HTTP POST` from `Requestor` perspective.
 
@@ -253,7 +255,7 @@ Designing REST API.
 3. If Resource is sub-resource for example review the URL will look like this.
 4. Request Body will have the data of Resource.
 
-# POST, Response.
+# POST, Response. ✅
 
 <p align="center">
     <img src="createResourceByPostResponse.PNG" alt="alt text" width="500"/>
@@ -262,7 +264,7 @@ Designing REST API.
 1. Request CODE must return in **header**.
 2. API implementation can do either one of two things.
 
-# GET, Request.
+# GET, Request. ✅
 
 <p align="center">
     <img src="retrieveResosourceByGetRequest.PNG" alt="alt text" width="500"/>
@@ -274,13 +276,13 @@ Designing REST API.
 - Headers are optional.
 - Request body is optional.
 
-# GET, Response.
+# GET, Response. ✅
 
 <p align="center">
     <img src="retrieveResosourceByGetResponse.PNG" alt="alt text" width="500"/>
 </p>
 
-# HTTP PUT/PATCH, Request, For Updating the Resource.
+# HTTP PUT/PATCH, Request, For Updating the Resource. ✅
 
 - You could use **PUT** or **PATCH**.
     - **PUT** When all attributes are updated.
@@ -292,7 +294,7 @@ Designing REST API.
     <img src="updatingTheResosourceByPutOrPatchRequest.PNG" alt="alt text" width="500"/>
 </p>
 
-# HTTP PUT/PATCH, Response, For Updating the Resource.
+# HTTP PUT/PATCH, Response, For Updating the Resource. ✅
 
 - This can be implemented in many ways.
 
@@ -300,7 +302,7 @@ Designing REST API.
     <img src="updatingTheResosourceByPutOrPatchResponse.PNG" alt="alt text" width="500"/>
 </p>
 
-# HTTP DELETE, Request, For Deleting the Resource.
+# HTTP DELETE, Request, For Deleting the Resource. ✅
 
 <p align="center">
     <img src="deletingTheResosourceByDeleteRequest.PNG" alt="alt text" width="500"/>
@@ -308,7 +310,7 @@ Designing REST API.
 
 - Body is not needed.
 
-# HTTP DELETE, Response, For Deleting the Resource.
+# HTTP DELETE, Response, For Deleting the Resource. ✅
 
 <p align="center">
     <img src="deletingTheResosourceByDeleteResponse.PNG" alt="alt text" width="500"/>
@@ -325,7 +327,7 @@ Designing REST API.
 1. Twitter API uses **POST** for updating partially their resources. **PATCH** would be here the best, but twitter.
     - They own way, no harm done if you follow this consistently.
 
-# API Data Format Setup.
+# API Data Format Setup. ✅
 
 - For supporting multiple Data Formats API needs to decide what kind of output is given. This can be done in multiple ways. 
 
@@ -368,7 +370,7 @@ Designing REST API.
     <img src="exampleUsingResourceFormat.PNG" alt="alt text" width="500"/>
 </p>
 
-# API codes for returning query status.
+# API codes for returning query status. ✅
 
 <p align="center">
     <img src="APIdeveloperResponseCodes.PNG" alt="alt text" width="500"/>
@@ -386,7 +388,7 @@ Designing REST API.
     <img src="summary5.PNG" alt="alt text" width="500"/>
 </p>
 
-# Setup the Demo/Test environment.
+# Setup the Demo/Test environment. ✅
 
 <p align="center">
     <img src="clusterConnection.PNG" alt="alt text" width="500"/>

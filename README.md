@@ -53,17 +53,35 @@ Template for the task/exercies:
 
  -->
 
-
 <p align="center">
-    <img id="studying" src="Practical_Web_API_And_Services_Caption.png" style="width:900px;height:140px;">
-    <p align="center">
-        <text>Attempt to study <b>Web Services</b>, <b>Rest API Design</b> and <b>related topics</b>!</text>
-    </p>
-    <img id="Java Web Services poster id" src="Java_Web_Services.gif" style="width:500px;height:300px;">
+  <img 
+  src="Practical_Web_API_And_Services_Caption.png" 
+  width="900" 
+  height="140" 
+  alt="Web API and services!"
+  />
 </p>
 
-<p align="center">
-    <img src="REST_Based_Microservices_API_Development_In_Golang_Caption.png" alt="REST Based Microservices API Development In Golang Caption" style="width:1600px;height:90px;"/>
+<p 
+align="center">
+  Attempt to study <b>Web Services</b>, <b>REST API Design</b>, and <b>related topics</b>!
+</p>
+
+<p 
+align="center">
+  <img 
+  src="Java_Web_Services_Graphic.gif" 
+  width="550" 
+  height="350" 
+  alt="Java web services graphics!" 
+  />
+</p>
+
+<p 
+align="center">
+    <img 
+    src="REST_Based_Microservices_API_Development_In_Golang_Caption.png" alt="REST based microservices API development in Golang caption!" style="width:1600px;height:90px;"
+    />
 </p>
 
 <p align="center">
@@ -72,7 +90,14 @@ Template for the task/exercies:
 
 All course material from *REST based microservices API development in Golang* by **Ashish Juyal**.
 
-> Some glorious story! 🐟 <br><br>
+
+> While browsing job requirements, I noticed that Go (Golang) was listed as a required skill for a position at **Wolt**. 🐟
+>
+> That caught my attention and made me curious: Why Go? What makes it a good choice for building backend systems at scale? 🐟
+>
+> Instead of simply moving on, I decided to explore the language and understand its fundamentals, from goroutines and channels to concurrency and performance. 🐟
+>
+> Sometimes, a job requirement can be more than just a checkbox on a list. It can be an opportunity to learn something new, understand the technology behind real-world systems, and grow as an engineer. 🐟 <br><br>
 > ~ *DevelopersCradle*
 
 Contains my own with my own visual notes ✍️ with some course material to enforce learning experience.
@@ -165,14 +190,22 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 -->
 
 
+
 <p 
+id="Logo_Combination" 
 align="center">
     <img 
+    src="Me_At_Nordea.jpeg" 
+    alt="Me sitting in some chair and trying to look professional!" 
+    style="width:690px;height:540px;"
+    />
+    <img 
     id="API_First_Development_With_Open_API_Spring_Boot_Kotlin_Cerntificate?trk=public_profile_see-credential" src="API_First_Development_With_Open_API_Spring_Boot_Kotlin_Cerntificate.jpg"
-    alt="API first development with open api spring boot kotlin cerntificate"
+    alt="API first development with open api spring boot kotlin cerntificate!"
     width="600"
     />
 </p>
+
 
 **Note: The material provided in this repository is only for helping those who may get stuck at any point of time in the course. It is very advised that no one should just copy the solutions(violation of Honor Code) presented here.**
 
@@ -407,7 +440,7 @@ align="center">
 - [ ] [Section 04](#) - XML and XML Schema Definition and JSON.
 - [ ] [Section 05](#) - SOAP Web Services Concepts.
 - [ ] [Section 06](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/Java%20Web%20Services/Section%2006#section-06-soap-web-services-design-and-implementation) - SOAP Web Services Design and Implementation.
-- [x] [Section 07](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/Java%20Web%20Services/Section%2007#section-07-jax-ws-and-jaxb) - JAX-WS AND JAXB. ✔️
+- [x] [Section 07](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/Java%20Web%20Services/Section%2007#section-07-jax-ws-and-jaxb) - JAX-WS AND JAXB. ✅
 - [ ] [Section 08](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/Java%20Web%20Services/Section%2008#section-08-apache-cxf) - Apache CXF.
 - [ ] [Section 09](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/Java%20Web%20Services/Section%2009#section-09-developing-top-down-web-services) - Developing Top Down Web Services.
 - [ ] [Section 10](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/Java%20Web%20Services/Section%2010#section-10-java-soap-client) - Java SOAP Client.
@@ -479,26 +512,26 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 
 #### Progress/Curriculum.
 
-- [x] [Section 01](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/SOAP%20Web%20Services/Section%2001#soap-web-services-01---introduction-to-web-services) - SOAP Web Services - Introduction To Web Services. ✔️
-- [x] [Section 02](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/SOAP%20Web%20Services/Section%2002#soap-web-services-02---web-service-jargon) - SOAP Web Services - Web Service Jargon. ✔️
-- [x] [Section 03](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/SOAP%20Web%20Services/Section%2003#soap-web-services-03---writing-a-web-service-client-stub-generation) - SOAP Web Services - Writing a Web service Client: Stub generation. ✔️ 
-- [x] [Section 04](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/SOAP%20Web%20Services/Section%2004#soap-web-services-04---writing-a-web-service-client-calling-the-service) - SOAP Web Services - Writing a Web service Client: Calling the Service. ✔️
-- [x] [Section 05](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/SOAP%20Web%20Services/Section%2005#soap-web-services-05---setting-up-java-ee-7-sdk5) - SOAP Web Services - Setting up Java EE 7 SDK. ✔️
-- [x] [Section 06](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/SOAP%20Web%20Services/Section%2006#soap-web-services-06---writing-a-web-service-eclipse-setup) - SOAP Web Services - Writing a Web Service: Eclipse setup. ✔️
-- [x] [Section 07](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/SOAP%20Web%20Services/Section%2007#soap-web-services-07---writing-a-web-service-client-stub-generation) - SOAP Web Services - Writing a Web Service: Code and Deploy. ✔️
-- [x] [Section 08](https://github.com/developersCradle/java-web-dev-soap-rest-api/blob/main/SOAP%20Web%20Services/Section%2008/README.md#soap-web-services-08---adding-input-arguments) - SOAP Web Services - Adding Input Arguments. ✔️
-- [x] [Section 09](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/SOAP%20Web%20Services/Section%2009#soap-web-services-09---service-first-and-contract-first-web-services) - SOAP Web Services - Service First and Contract First Web Services. ✔️
-- [x] [Section 10](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/SOAP%20Web%20Services/Section%2010#soap-web-services-10---understanding-the-wsdl) - SOAP Web Services - Understanding the WSDL. ✔️
-- [x] [Section 11](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/SOAP%20Web%20Services/Section%2011#soap-web-services-11---customizing-the-wsdl) - SOAP Web Services - Customizing the WSDL. ✔️
-- [x] [Section 12](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/SOAP%20Web%20Services/Section%2012#soap-web-services-12---schema-types-and-binding-styles) - SOAP Web Services - Schema Types and Binding Styles. ✔️
-- [x] [Section 13](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/SOAP%20Web%20Services/Section%2013#soap-web-services-13---service-interface-and-custom-types) - SOAP Web Services - Service Interface and Custom Types. ✔️
-- [x] [Section 14](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/SOAP%20Web%20Services/Section%2014#soap-web-services-14---using-jaxb-annotations-part-1) - SOAP Web Services - Using JAXB Annotations Part 1. ✔️
-- [x] [Section 15](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/SOAP%20Web%20Services/Section%2015#soap-web-services-15---using-jaxb-annotations-part-2) - SOAP Web Services - Using JAXB Annotations Part 2. ✔️
-- [x] [Section 16](https://github.com/developersCradle/java-web-dev-soap-rest-api/blob/main/SOAP%20Web%20Services/Section%2016/README.md#soap-web-services-16---handling-faults) - SOAP Web Services - Handling Faults. ✔️
-- [x] [Section 17](https://github.com/developersCradle/java-web-dev-soap-rest-api/blob/main/SOAP%20Web%20Services/Section%2017/README.md#soap-web-services-17---using-soapui) - SOAP Web Services - Using SoapUI. ✔️
-- [x] [Section 18](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/SOAP%20Web%20Services/Section%2018#soap-web-services-18---using-web-service-explorer) - SOAP Web Services - Using Web Service Explorer. ✔️
-- [x] [Section 19](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/SOAP%20Web%20Services/Section%2019#soap-web-services-19---using-endpoint) - SOAP Web Services - Using Endpoint. ✔️
-- [x] [Section 20](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/SOAP%20Web%20Services/Section%2020#soap-web-services-20---wsimport-revisited) - SOAP Web Services - wsimport Revisited. ✔️
+- [x] [Section 01](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/SOAP%20Web%20Services/Section%2001#soap-web-services-01---introduction-to-web-services) - SOAP Web Services - Introduction To Web Services. ✅
+- [x] [Section 02](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/SOAP%20Web%20Services/Section%2002#soap-web-services-02---web-service-jargon) - SOAP Web Services - Web Service Jargon. ✅
+- [x] [Section 03](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/SOAP%20Web%20Services/Section%2003#soap-web-services-03---writing-a-web-service-client-stub-generation) - SOAP Web Services - Writing a Web service Client: Stub generation. ✅
+- [x] [Section 04](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/SOAP%20Web%20Services/Section%2004#soap-web-services-04---writing-a-web-service-client-calling-the-service) - SOAP Web Services - Writing a Web service Client: Calling the Service. ✅
+- [x] [Section 05](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/SOAP%20Web%20Services/Section%2005#soap-web-services-05---setting-up-java-ee-7-sdk5) - SOAP Web Services - Setting up Java EE 7 SDK. ✅
+- [x] [Section 06](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/SOAP%20Web%20Services/Section%2006#soap-web-services-06---writing-a-web-service-eclipse-setup) - SOAP Web Services - Writing a Web Service: Eclipse setup. ✅
+- [x] [Section 07](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/SOAP%20Web%20Services/Section%2007#soap-web-services-07---writing-a-web-service-client-stub-generation) - SOAP Web Services - Writing a Web Service: Code and Deploy. ✅
+- [x] [Section 08](https://github.com/developersCradle/java-web-dev-soap-rest-api/blob/main/SOAP%20Web%20Services/Section%2008/README.md#soap-web-services-08---adding-input-arguments) - SOAP Web Services - Adding Input Arguments. ✅
+- [x] [Section 09](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/SOAP%20Web%20Services/Section%2009#soap-web-services-09---service-first-and-contract-first-web-services) - SOAP Web Services - Service First and Contract First Web Services. ✅
+- [x] [Section 10](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/SOAP%20Web%20Services/Section%2010#soap-web-services-10---understanding-the-wsdl) - SOAP Web Services - Understanding the WSDL. ✅
+- [x] [Section 11](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/SOAP%20Web%20Services/Section%2011#soap-web-services-11---customizing-the-wsdl) - SOAP Web Services - Customizing the WSDL. ✅
+- [x] [Section 12](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/SOAP%20Web%20Services/Section%2012#soap-web-services-12---schema-types-and-binding-styles) - SOAP Web Services - Schema Types and Binding Styles. ✅
+- [x] [Section 13](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/SOAP%20Web%20Services/Section%2013#soap-web-services-13---service-interface-and-custom-types) - SOAP Web Services - Service Interface and Custom Types. ✅
+- [x] [Section 14](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/SOAP%20Web%20Services/Section%2014#soap-web-services-14---using-jaxb-annotations-part-1) - SOAP Web Services - Using JAXB Annotations Part 1. ✅
+- [x] [Section 15](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/SOAP%20Web%20Services/Section%2015#soap-web-services-15---using-jaxb-annotations-part-2) - SOAP Web Services - Using JAXB Annotations Part 2. ✅
+- [x] [Section 16](https://github.com/developersCradle/java-web-dev-soap-rest-api/blob/main/SOAP%20Web%20Services/Section%2016/README.md#soap-web-services-16---handling-faults) - SOAP Web Services - Handling Faults. ✅
+- [x] [Section 17](https://github.com/developersCradle/java-web-dev-soap-rest-api/blob/main/SOAP%20Web%20Services/Section%2017/README.md#soap-web-services-17---using-soapui) - SOAP Web Services - Using SoapUI. ✅
+- [x] [Section 18](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/SOAP%20Web%20Services/Section%2018#soap-web-services-18---using-web-service-explorer) - SOAP Web Services - Using Web Service Explorer. ✅
+- [x] [Section 19](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/SOAP%20Web%20Services/Section%2019#soap-web-services-19---using-endpoint) - SOAP Web Services - Using Endpoint. ✅
+- [x] [Section 20](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/SOAP%20Web%20Services/Section%2020#soap-web-services-20---wsimport-revisited) - SOAP Web Services - wsimport Revisited. ✅
 
 #### Additional stuff.
 
@@ -551,29 +584,29 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 
 #### Progress/Curriculum.
 
-- [x] [Section 01](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/RestApiDesignDevelopementAndManagement/Section%2001#section-01---setting-the-stage) - Setting the stage. ✔️
-- [x] [Section 02](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/RestApiDesignDevelopementAndManagement/Section%2002#6-what-is-an-api) - Evolution of RESTful services. ✔️
-- [x] [Section 03](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/RestApiDesignDevelopementAndManagement/Section%2003#section-03---rest-api-architectural-constraints) - REST API Architectural Constraints. ✔️
-- [x] [Section 04](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/RestApiDesignDevelopementAndManagement/Section%2004#section-04---designing-rest-api) - Designing REST API. ✔️
-- [x] [Section 05](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/RestApiDesignDevelopementAndManagement/Section%2005#section-5-rest-api-error-handling-patterns) - REST API Error Handling Patterns. ✔️
-- [x] [Section 06](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/RestApiDesignDevelopementAndManagement/Section%2006#section-06---rest-api-handling-change---versioning) - REST API Handling Change - Versioning Patterns. ✔️
-- [x] [Section 07](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/RestApiDesignDevelopementAndManagement/Section%2007#section-07---rest-api-cache-control-patterns) - REST API Cache Control Patterns. ✔️
-- [x] [Section 08](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/RestApiDesignDevelopementAndManagement/Section%2008#section-08---rest-api-response-data-handling-patterns) - REST API Response Data Handling Patterns. ✔️
+- [x] [Section 01](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/RestApiDesignDevelopementAndManagement/Section%2001#section-01---setting-the-stage) - Setting the stage. ✅
+- [x] [Section 02](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/RestApiDesignDevelopementAndManagement/Section%2002#6-what-is-an-api) - Evolution of RESTful services. ✅
+- [x] [Section 03](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/RestApiDesignDevelopementAndManagement/Section%2003#section-03---rest-api-architectural-constraints) - REST API Architectural Constraints. ✅
+- [x] [Section 04](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/RestApiDesignDevelopementAndManagement/Section%2004#section-04---designing-rest-api) - Designing REST API. ✅
+- [x] [Section 05](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/RestApiDesignDevelopementAndManagement/Section%2005#section-5-rest-api-error-handling-patterns) - REST API Error Handling Patterns. ✅
+- [x] [Section 06](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/RestApiDesignDevelopementAndManagement/Section%2006#section-06---rest-api-handling-change---versioning) - REST API Handling Change - Versioning Patterns. ✅
+- [x] [Section 07](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/RestApiDesignDevelopementAndManagement/Section%2007#section-07---rest-api-cache-control-patterns) - REST API Cache Control Patterns. ✅
+- [x] [Section 08](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/RestApiDesignDevelopementAndManagement/Section%2008#section-08---rest-api-response-data-handling-patterns) - REST API Response Data Handling Patterns. ✅
 - [x] [Section 09](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/RestApiDesignDevelopementAndManagement/Section%2009#section-09---rest-api-security) - REST API Security. 
-- [x] [Section 10](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/RestApiDesignDevelopementAndManagement/Section%2010#section-10---rest-api-specifications-using-swagger-20--oai) - REST API Specifications using Swagger 2.0 / OAI. ✔️
-- [x] [Section 11](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/RestApiDesignDevelopementAndManagement/Section%2011#section-11---api-management) - API Management. ✔️
-- [x] [Section 12](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/RestApiDesignDevelopementAndManagement/Section%2012#section-12---goodbye--all-the-best) - Goodbye & All the Best. ✔️
+- [x] [Section 10](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/RestApiDesignDevelopementAndManagement/Section%2010#section-10---rest-api-specifications-using-swagger-20--oai) - REST API Specifications using Swagger 2.0 / OAI. ✅
+- [x] [Section 11](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/RestApiDesignDevelopementAndManagement/Section%2011#section-11---api-management) - API Management. ✅
+- [x] [Section 12](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/RestApiDesignDevelopementAndManagement/Section%2012#section-12---goodbye--all-the-best) - Goodbye & All the Best. ✅
 
 #### Additional stuff.
 
 - [ ] Check trough typos, and texture meaning, when have time.
     - Change the Folder naming.
     - Left to the chapter 6.
-- [x] Read thought [Profile API - LinkedIn](https://learn.microsoft.com/en-us/linkedin/shared/integrations/people/profile-api). ✔️
-- [x] Read thought [SpotifyAPI](https://developer.spotify.com/). ✔️
+- [x] Read thought [Profile API - LinkedIn](https://learn.microsoft.com/en-us/linkedin/shared/integrations/people/profile-api). ✅
+- [x] Read thought [SpotifyAPI](https://developer.spotify.com/). ✅
     - [ ] Read thought [SpotifyAPI OAuth2.0](https://developer.spotify.com/documentation/web-api/concepts/authorization).
 - [ ] Snack to consume :) [Crash Course on API design](https://www.youtube.com/watch?v=6WGxVttWaXE&list=WL&index=94).
-- [x] Write some mockup **Swagger API** documentation. [Link to .YAML](https://github.com/developersCradle/java-web-dev-soap-rest-api/blob/main/Learn%20Swagger%20and%20the%20OpenAPI%20Specification/Section%2002/Assigment%2003/schemas.yaml). ✔️
+- [x] Write some mockup **Swagger API** documentation. [Link to .YAML](https://github.com/developersCradle/java-web-dev-soap-rest-api/blob/main/Learn%20Swagger%20and%20the%20OpenAPI%20Specification/Section%2002/Assigment%2003/schemas.yaml). ✅
 - [ ] Read thought [RFC2616](https://datatracker.ietf.org/doc/html/rfc2616) - Hypertext Transfer Protocol -- HTTP/1.1.
 - [ ] Read thought [RFC7617](https://datatracker.ietf.org/doc/html/rfc7617) - Basic Auth.
 - [ ] Read thought [RFC7519](https://datatracker.ietf.org/doc/html/rfc7519) - JSON Web Token (JWT).
@@ -582,8 +615,10 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 - [ ] Do RPC call with **GWT**.
 - [ ] Do some partial response test with **GraphQL**.
 
+<!-- Todo change this back! -->
+
 <p align="center">
-    <img id="api_and_web_service_introduction_caption?trk=public_profile_see-credential" src="API_And_Web_Service_Introduction_Caption.png"
+    <img id="api_and_web_service_introduction_caption?trk=public_profile_see-credential" src="API_And_Web_Service_Introduction_Caption_.png"
     alt="add this" style="width:940px;height:140px;">
 </p>
 
@@ -621,18 +656,18 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 
 #### Progress/Curriculum.
 
-- [x] [Section 01](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/API%20and%20Web%20Service%20Introduction/Section%2001#section-01-introduction) - Introduction. ✔️
-- [x] [Section 02](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/API%20and%20Web%20Service%20Introduction/Section%2002#section-02-api) - API. ✔️
-- [x] [Section 03](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/API%20and%20Web%20Service%20Introduction/Section%2003#section-03-web-services) - Web Services. ✔️
-- [x] [Section 04](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/API%20and%20Web%20Service%20Introduction/Section%2004#section-04-http) - HTTP. ✔️
-- [x] [Section 05](https://github.com/developersCradle/java-web-dev-soap-rest-api/blob/main/API%20and%20Web%20Service%20Introduction/Section%2005/README.md#section-05-xml) - XML. ✔️
-- [x] [Section 06](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/API%20and%20Web%20Service%20Introduction/Section%2006#section-06-json) - JSON. ✔️
-- [x] [Section 07](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/API%20and%20Web%20Service%20Introduction/Section%2007#section-07-soap) - SOAP. ✔️
-- [x] [Section 08](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/API%20and%20Web%20Service%20Introduction/Section%2008#section-08-rest) - REST. ✔️
-- [x] [Section 09](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/API%20and%20Web%20Service%20Introduction/Section%2009#section-09-api-access) - API Access. ✔️
-- [x] [Section 10](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/API%20and%20Web%20Service%20Introduction/Section%2010#section-10-api-examples) - API Examples. ✔️
-- [x] [Section 11](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/API%20and%20Web%20Service%20Introduction/Section%2011#section-11-extras) - Extras. ✔️
-- [x] [Section 12](#) - Conclusion. ✔️
+- [x] [Section 01](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/API%20and%20Web%20Service%20Introduction/Section%2001#section-01-introduction) - Introduction. ✅
+- [x] [Section 02](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/API%20and%20Web%20Service%20Introduction/Section%2002#section-02-api) - API. ✅
+- [x] [Section 03](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/API%20and%20Web%20Service%20Introduction/Section%2003#section-03-web-services) - Web Services. ✅
+- [x] [Section 04](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/API%20and%20Web%20Service%20Introduction/Section%2004#section-04-http) - HTTP. ✅
+- [x] [Section 05](https://github.com/developersCradle/java-web-dev-soap-rest-api/blob/main/API%20and%20Web%20Service%20Introduction/Section%2005/README.md#section-05-xml) - XML. ✅
+- [x] [Section 06](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/API%20and%20Web%20Service%20Introduction/Section%2006#section-06-json) - JSON. ✅
+- [x] [Section 07](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/API%20and%20Web%20Service%20Introduction/Section%2007#section-07-soap) - SOAP. ✅
+- [x] [Section 08](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/API%20and%20Web%20Service%20Introduction/Section%2008#section-08-rest) - REST. ✅
+- [x] [Section 09](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/API%20and%20Web%20Service%20Introduction/Section%2009#section-09-api-access) - API Access. ✅
+- [x] [Section 10](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/API%20and%20Web%20Service%20Introduction/Section%2010#section-10-api-examples) - API Examples. ✅
+- [x] [Section 11](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/API%20and%20Web%20Service%20Introduction/Section%2011#section-11-extras) - Extras. ✅
+- [x] [Section 12](#) - Conclusion. ✅
 
 #### Additional stuff.
 
@@ -677,13 +712,13 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 
 #### Progress/Curriculum.
 
-- [x] [Section 01](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/Learn%20Swagger%20and%20the%20OpenAPI%20Specification/Section%2001#section-1-introduction) - Introduction. ✔️
-- [x] [Section 02](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/Learn%20Swagger%20and%20the%20OpenAPI%20Specification/Section%2002#02-open-api-specification) - Open API Specification. ✔️ 
-- [x] [Section 03](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/Learn%20Swagger%20and%20the%20OpenAPI%20Specification/Section%2003#03-tools-and-alternatives) - Tools and Alternatives. ✔️
+- [x] [Section 01](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/Learn%20Swagger%20and%20the%20OpenAPI%20Specification/Section%2001#section-1-introduction) - Introduction. ✅
+- [x] [Section 02](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/Learn%20Swagger%20and%20the%20OpenAPI%20Specification/Section%2002#02-open-api-specification) - Open API Specification. ✅ 
+- [x] [Section 03](https://github.com/developersCradle/java-web-dev-soap-rest-api/tree/main/Learn%20Swagger%20and%20the%20OpenAPI%20Specification/Section%2003#03-tools-and-alternatives) - Tools and Alternatives. ✅
 
 #### Additional stuff.
 
-- [x] Review `$ref` from **OAS**. ✔️
+- [x] Review `$ref` from **OAS**. ✅
 - [ ] Host the swagger exercise on the GitHub pages [Example page of hosting](https://github.com/peter-evans/swagger-github-pages?tab=readme-ov-file).
     - Did not get this working at the moment. Can do in future again :)
 - [ ] Review the [OAS 3.0](https://blog.restcase.com/6-most-significant-changes-in-oas-3-0/) after finishing this one.

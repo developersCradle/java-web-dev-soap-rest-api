@@ -1,4 +1,4 @@
-# SOAP Web Services 17 - Using SoapUI
+# SOAP Web Services 17 - Using SoapUI.
 
 - There is many SOAP testing tools.
 

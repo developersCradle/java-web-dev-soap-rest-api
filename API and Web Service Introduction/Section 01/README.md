@@ -2,6 +2,6 @@
 
 Introduction.
 
-# What I learned.
+# What I learned. 
 
 <img src="currilum.PNG" alt="alt text" width="400"/>

@@ -1,4 +1,4 @@
-# SOAP Web Services 04 - Writing a Web service Client: Calling the Service
+# SOAP Web Services 04 - Writing a Web service Client: Calling the Service.
 
 - Using Generated **SEI** in our Java code.
 
@@ -9,7 +9,7 @@
 1. Service will have under same name generated service and port.
 2. To use specific service: We need to create service and from there get port.
 
-```
+```Java
 import com.lavasoft.GeoIPService;
 import com.lavasoft.GeoIPServiceSoap;
 

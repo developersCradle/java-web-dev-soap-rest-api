@@ -1,4 +1,4 @@
-# SOAP Web Services 08 - Adding Input Arguments
+# SOAP Web Services 08 - Adding Input Arguments.
 
 - We want to transfer logic to other place. Different scenarios are taking place:
     - Web Services, so application can send SOAP message.
@@ -9,7 +9,7 @@
 
 - Example of where logic is inside **Service**.
 
-```
+```Java
 package org.javabrains;
 
 import java.util.ArrayList;

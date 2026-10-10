@@ -1,6 +1,6 @@
-# Section 10 - REST API Specifications using Swagger 2.0 / OAI
+# Section 10 - REST API Specifications using Swagger 2.0 / OAI.
 
-# What I Learned
+# What I Learned.
 
 <img src="restApiDocumentationWays.PNG" alt="alt text" width="500"/>
 

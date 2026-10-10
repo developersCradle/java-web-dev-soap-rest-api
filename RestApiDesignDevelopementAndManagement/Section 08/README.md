@@ -1,8 +1,8 @@
-# Section 08 - REST API Response Data Handling Patterns
+# Section 08 - REST API Response Data Handling Patterns.
 
-# What I Learned
+# What I Learned.
 
-# 38. Building support for Partial Responses.
+# Building support for Partial Responses. ✅
 
 <img src="endPointChallange.JPG" alt="alt text" width="400"/>
 
@@ -66,7 +66,7 @@ Partial Responses gives benefits: (**Example mobile applications**)
     - **Better performance** for Mobile Applications.
 - This can be achieved by using **Field Projections** and **Filters**.
 
-# 39. Walk through : Setup Partial Response Support in ACME API
+# Walk through : Setup Partial Response Support in ACME API ✅
 
 - Checkout for project `git checkout partialresponse`.
 
@@ -124,7 +124,7 @@ module.exports = function(router){
 }
 ```
 
-# 40. Building support for Pagination
+# Building support for Pagination. ✅
 
 <img src="whyPagination.JPG" alt="alt text" width="400"/>
 
@@ -193,7 +193,7 @@ module.exports = function(router){
 
 <img src="summary.JPG" alt="alt text" width="400"/>
 
-# 41. Walk through : Building support for Pagination in ACME API
+# Walk through : Building support for Pagination in ACME API. ✅
 
 - Checkout for project `git checkout pagination`.
 

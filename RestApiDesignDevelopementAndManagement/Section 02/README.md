@@ -4,9 +4,11 @@ Evolution of RESTful services.
 
 # What I Learned.
 
-# What is an API.
+# What is an API. ✅
 
-# Evolving movie database(IMDB).
+- todo
+
+# Evolving movie database(IMDB). ✅
 
 <p align="center">
     <img src="imdb.PNG" alt="alt text" width="500"/>
@@ -61,7 +63,7 @@ Evolution of RESTful services.
 
 - After 2013 JSON have grown popularity. Nowadays, it's the first choice for API developers.
 
-# Evolution of REST/JSON API.
+# Evolution of REST/JSON API. ✅
 
 <p align="center">
     <img src="localProcedureCall.PNG" alt="alt text" width="500"/>
@@ -115,7 +117,7 @@ Evolution of RESTful services.
     <img src="whySoapWasHard.PNG" alt="alt text" width="500"/>
 </p>
 
-# Introduction to RESTful API.
+# Introduction to RESTful API. ✅
 
 <p align="center">
     <img src="representationState.PNG" alt="alt text" width="500"/>
@@ -167,7 +169,7 @@ Evolution of RESTful services.
 
 - **REST** style communication is not tied to **HTTP**. You could use other protocols as well.
 
-# Private, Public and Partner API.
+# Private, Public and Partner API. ✅
 
 <p align="center">
     <img src="3typesOfApi.PNG" alt="alt text" width="500"/>
@@ -250,7 +252,7 @@ Evolution of RESTful services.
 - Here is example of **SLA management** in **Ticketmaster**.
     - Rate Limit, 5 request per second.
 
-# API Value Chain.
+# API Value Chain. ✅
 
 - API makes **value** by exposing data to outside and inside organization.
 

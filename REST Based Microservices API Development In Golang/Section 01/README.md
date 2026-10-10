@@ -4,7 +4,7 @@ Introduction.
 
 # What I Learned.
 
-# Welcome to the course.
+# Welcome to the course. ✅
 
 <div align="center">
     <img src="Intro_For_The_Course.PNG" alt="Golang course!" width="500"/>
@@ -52,7 +52,7 @@ Introduction.
 | **Unit testing**        | Testing level | Tests one small unit of code         |
 | **Integration testing** | Testing level | Tests interaction between components |
 
-# Links & resources.
+# Links & resources. ✅
 
 ````
 Links & resources
@@ -88,7 +88,7 @@ Go Tour
 https://tour.golang.org/welcome/1
 ````
 
-# Getting started.
+# Getting started. ✅
 
 <div align="center">
     <img src="Installing_Tools.PNG" alt="Golang course!" width="500"/>

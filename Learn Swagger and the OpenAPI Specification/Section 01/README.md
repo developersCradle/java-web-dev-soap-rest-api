@@ -2,7 +2,7 @@
 
 # What I learned. 
 
-# 1. Introduction.
+# Introduction. ✅
 
 <img src="Welcome.PNG" alt="alt text" width="400"/>
 
@@ -54,7 +54,7 @@
 
 <img src="overview.PNG" alt="alt text" width="500"/>
 
-# 2. API Definition.
+# API Definition. ✅
 
 <img src="whatIsTheAPIdefinationFIle.PNG" alt="alt text" width="500"/>
 
@@ -98,7 +98,7 @@
 1. One of common scenario is the where get the API documentation.
     - Not just for the **Developers** and also for **documentation writers**.
 
-# 3. YAML.
+# YAML. ✅
 
 <img src="yamlSummary.PNG" alt="alt text" width="500"/>
 
@@ -150,7 +150,7 @@
 1. You can **point** one point of the file with `$ref`.
 
 
-# Assignment 1: YAML.
+# Assignment 01: YAML.
 
 - You can use the [LINT tool](https://www.yamllint.com/).
 

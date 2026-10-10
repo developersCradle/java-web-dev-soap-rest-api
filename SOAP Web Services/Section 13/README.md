@@ -1,4 +1,4 @@
-# SOAP Web Services 13 - Service Interface and Custom Types
+# SOAP Web Services 13 - Service Interface and Custom Types.
 
 ### Pojo
 
@@ -62,7 +62,7 @@ public class Product {
 
 ### Interface for Web Service
 
-```
+```Java
 package org.javabrains;
 
 import java.util.List;
@@ -71,7 +71,6 @@ import org.javabrains.model.Product;
 
 import jakarta.jws.WebMethod;
 import jakarta.jws.WebService;
-
 
 @WebService(name = "TestMartCatalog", portName = "TestMartCatalogPort", serviceName="TestMartCatalogService", targetNamespace = "http://www.testmart.com")
 public interface ProductCatalogInterface {
@@ -89,6 +88,6 @@ public interface ProductCatalogInterface {
 ```
 
 - Even though is a old way, but we want to decouple our Java application! So It's recommended to write **Interface**.
-    - For this we need annotate main endpoint`@WebService(endpointInterface = "org.javabrains.ProductCatalogInterface")`
+    - For this we need annotate main endpoint`@WebService(endpointInterface = "org.javabrains.ProductCatalogInterface")`.
 
 - These methods in interface are exposed for Web Operation.

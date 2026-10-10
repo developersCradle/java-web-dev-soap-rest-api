@@ -1,4 +1,4 @@
-# SOAP Web Services 07 - Writing a Web service Client: Stub generation
+# SOAP Web Services 07 - Writing a Web service Client: Stub generation.
 
 - With **Tomcat 10**, you will need following configuration.
 

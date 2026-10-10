@@ -1,4 +1,4 @@
-# SOAP Web Services 12 - Schema Types and Binding Styles
+# SOAP Web Services 12 - Schema Types and Binding Styles.
 
 - Second Web Service.
 
@@ -19,7 +19,7 @@
 
 - Changing document style to **RPC**.
 
-```
+```Xml
 <!--
  Published by XML-WS Runtime (https://github.com/eclipse-ee4j/metro-jax-ws). Runtime's version is XML-WS Runtime 4.0.0 git-revision#129f787. 
 -->
@@ -67,7 +67,7 @@
 
 - Changing RPC naming style for parameters.
 
-```
+```Java
 @WebService
 @SOAPBinding(style = Style.RPC)
 public class ShopInfo {
@@ -93,7 +93,7 @@ public class ShopInfo {
 
 - Now message is defined by such.
 
-```
+```Xml
 <message name="getShopInfo">
 <part name="lookupInput" type="xsd:string"/>
 </message>

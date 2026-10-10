@@ -1,4 +1,4 @@
-# SOAP Web Services 05 - Setting up Java EE 7 SDK
+# SOAP Web Services 05 - Setting up Java EE 7 SDK.
 
 - [GlassFish Included nowadays](https://www.oracle.com/java/technologies/javaee-8-sdk-downloads.html)
 

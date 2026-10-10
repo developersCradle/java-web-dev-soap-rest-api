@@ -1,8 +1,8 @@
-# Section 09 - REST API Security
+# Section 09 - REST API Security.
 
-# What I Learned
+# What I Learned.
 
-# 42. REST API Security - Introduction
+# REST API Security - Introduction. ✅
 
 <img src="APIsecurity.JPG" alt="alt text" width="600"/>
 
@@ -29,7 +29,7 @@
 
 <img src="apiSecurity2.JPG" alt="alt text" width="600"/>
 
-# 43. Securing API with Basic Authentication
+# Securing API with Basic Authentication. ✅
 
 - **Basic is authentication** is the most **basic** authenticating.
     - It is included with HTTP standard.
@@ -77,7 +77,7 @@
 
 - To fix sending credentials every request. We need to use **Session**, but this is not **REST**.
 
-# 44. Securing API with Tokens & JWT
+# Securing API with Tokens & JWT. ✅
 
 <img src="tokenBasedAuth.JPG" alt="alt text" width="600"/>
 
@@ -304,7 +304,7 @@ module.exports = {
 
 <img src="summary.JPG" alt="alt text" width="600"/>
 
-# 45. Securing API with API Key & Secret
+# Securing API with API Key & Secret. ✅
 
 - Key and secret security scheme.
 
@@ -346,7 +346,7 @@ module.exports = {
 
 <img src="summary2.JPG" alt="alt text" width="600"/>
 
-# 46. API Authorization using OAuth2.0
+# API Authorization using OAuth2.0. ✅
 
 <img src="OauthSetup.JPG" alt="alt text" width="600"/>
 
@@ -514,7 +514,7 @@ module.exports = {
 - Defacto for authorization implementation.
 - 5 Grant Types.
 
-# 47. API Security - Functional Attack
+# API Security - Functional Attack. ✅
 
 - You can see  most recent exposures
 [OWSAP](https://owasp.org/www-project-top-ten/)
@@ -528,7 +528,6 @@ module.exports = {
 <img src="mostCommonAttacks.JPG" alt="alt text" width="600"/>
 
 <br>
-
 
 <img src="sqlInjection.JPG" alt="alt text" width="600"/>
 

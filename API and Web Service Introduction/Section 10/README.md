@@ -4,17 +4,17 @@ API Examples.
 
 # What I learned.
 
-# 42. Postman Installation.
+# Postman Installation. ✅
 
-- Just installing here. ✔️
+- Just installing here. ✅
 
 - **Postman** is API tool.
 
-# 43. Postman Simple Example.
+# Postman Simple Example.
 
 - todo.
 
-# 44. No Authentication + HTTP Status Codes.
+# No Authentication + HTTP Status Codes.
 
 - Just select `no auth` from PostMan.
 
@@ -28,7 +28,7 @@ API Examples.
 
 2. Server who returning result, is having error. 
 
-# 45. Basic Authentication.
+# Basic Authentication. ✅
 
 <img id="course material" src="basicAuth.JPG" alt=" " width="400"/>
 
@@ -40,24 +40,24 @@ API Examples.
 
 - **Base64** is binary format.
 
-# 46. Digest Authentication.
+# Digest Authentication. ✅
 
 <img id="course material" src="basicAuth.JPG" alt=" " width="400"/>
 
 1. Example. Encrypted `zip` file is **digested** or decrypted to readable format.
 
-# 47. Bearer Token.
+# Bearer Token.
 
 - Todo.
 
-# 48. OAuth.
+# OAuth.
 
 - Todo.
 
-# 49. Postman Exercise.
+# Postman Exercise.
 
 - Todo.
 
-# 50. Postman Exercise.
+# Postman Exercise.
 
 - Todo.

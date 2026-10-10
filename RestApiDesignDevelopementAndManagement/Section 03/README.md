@@ -4,7 +4,7 @@ REST API Architectural Constraints.
 
 # What I Learned.
 
-# Introduction to REST Architecture Constraints.
+# Introduction to REST Architecture Constraints. ✅
 
 <p align="center">
     <img src="restFullAppllication.JPG" alt="alt text" width="500"/>
@@ -56,9 +56,9 @@ REST API Architectural Constraints.
     <img src="summary.JPG" alt="alt text" width="500"/>
 </p>
 
-# REST API Architectural Constraint - Client Server.
+# REST API Architectural Constraint - Client Server. ✅
 
-# Client - Server constraint explained.
+# Client - Server constraint explained. ✅
 
 - Client request **resource**.
 - Server responses with **resource**.
@@ -96,7 +96,9 @@ REST API Architectural Constraints.
 
 # REST API Architectural Constraint - Uniform Interface.
 
-# Uniform Interface constraint explained.
+- todo
+
+# Uniform Interface constraint explained. ✅
 
 <p align="center">
     <img src="uniformInterface.JPG" alt="uniform" width="500"/>
@@ -145,7 +147,7 @@ REST API Architectural Constraints.
 
 # REST API Architectural Constraint - Statelessness.
 
-# Statelessness constraint explained.
+# Statelessness constraint explained. ✅
 
 <p align="center">
     <img src="stateless.JPG" alt="Statelessness" width="500"/>
@@ -185,7 +187,7 @@ REST API Architectural Constraints.
 
 # REST API Architectural Constraint - Caching.
 
-# Client - Server constraint explained.
+# Client - Server constraint explained. ✅
 
 <p align="center">
     <img src="stateness.JPG" alt="cache" width="500"/>
@@ -219,7 +221,9 @@ REST API Architectural Constraints.
 
 # REST API Architectural Constraint - Layered System.
 
-# Layered System explained.
+- todo 
+
+# Layered System explained. ✅
 
 <p align="center">
     <img src="applicationTiers.JPG" alt="cache" width="500"/>
@@ -249,7 +253,9 @@ REST API Architectural Constraints.
 
 # REST API Architectural Constraint - Code On Demand.
 
-# Code On Demand - REST API Architectural Constraint.
+- todo
+
+# Code On Demand - REST API Architectural Constraint. ✅
 
 - Server can send code to client.
 
@@ -296,7 +302,7 @@ REST API Architectural Constraints.
 2. Link 2, Carrying refund of trans action.
 3. Link 3, Get parent transaction of this transaction.
 
-# Richardson Maturity Model for REST API.
+# Richardson Maturity Model for REST API. ✅
 
 <p align="center">
     <img src="rmm.JPG" alt="alt text" width="500"/>
@@ -361,7 +367,7 @@ REST API Architectural Constraints.
     <img src="summaryArchi.JPG" alt="acme" width="500"/>
 </p>
 
-# WebApp versus REST API Architecture.
+# WebApp versus REST API Architecture. ✅
 
 <p align="center">
     <img src="webAppVersusRESTapi.JPG" alt="acme" width="500"/>

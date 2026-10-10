@@ -4,7 +4,7 @@ XML.
 
 # What I learned.
 
-# 21. XML Introduction.
+ # XML Introduction. ✅
 
 <img src="xml.PNG" alt="alt text" width="550"/>
 
@@ -15,7 +15,7 @@ XML.
 
  - We can send this **XML** to pizza API.
 
- ```
+ ```Xml
  <Pizza>
     <Size>Small</Size>
         <Topping>Cheese</Topping>
@@ -39,11 +39,11 @@ XML.
 
 - When receiving, If field is wrong type or not present this will be ❌**rejected**❌.
 
-# 22. XML Exercise.
+# XML Exercise. ✅
 
 - My answer:
 
-```
+```Xml
  <Pizza>
     <Size>Small</Size>
         <Topping>Cheese</Topping>

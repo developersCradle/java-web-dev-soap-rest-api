@@ -4,7 +4,7 @@ HTTP.
 
 # What I learned.
 
-# 10. Introduction to HTTP.
+# Introduction to HTTP. ✅
 
 - We are calling using **HTTP**.
 
@@ -31,15 +31,15 @@ HTTP.
 
 <img src="httpBodyOther.PNG" alt="alt text" width="500"/>
 
-# 11. HTTP Exercise.
+#  HTTP Exercise. ✅
 
 <img src="exercise.PNG" alt="alt text" width="450"/>
 
-# 12. HTTP Parts.
+# HTTP Parts. ✅
 
 <img src="4partsOfHTTP.PNG" alt="alt text" width="450"/>
 
-# 13. HTTP Start Line.
+# HTTP Start Line. ✅
 
 <img src="startLine.PNG" alt="alt text" width="550"/>
 
@@ -55,11 +55,11 @@ HTTP.
 2. With **POST** you need to be careful not create same resource again, so this **method** is **not** IDEMPOTENT.
 3. With **PUT** you can repeat and repeat modification. This **method** is idempotent.
 
-# 14. HTTP Start Line Exercise.
+# HTTP Start Line Exercise. ✅
 
 <img src="exerciseAnswers.PNG" alt="alt text" width="700"/>
 
-# 15. HTTP Headers.
+# HTTP Headers. ✅
 
 - [Some headers](https://en.wikipedia.org/wiki/List_of_HTTP_header_fields).
 
@@ -67,17 +67,17 @@ HTTP.
 
 - `Server` header, this will be the **name of server**, when the response comes back.
 
-# 16. HTTP Headers Exercise.
+# HTTP Headers Exercise. ✅
 
 - Check web for headers. ✅
 
-# 17. HTTP Blank Line.
+# HTTP Blank Line. ✅
 
 <img src="blankLine.PNG" alt="alt text" width="250"/>
 
 1. **Blank line** will be separation mark for response.
 
-# 18. HTTP Body.
+# HTTP Body. ✅
 
 <img src="body.PNG" alt="alt text" width="250"/>
 
@@ -100,7 +100,7 @@ HTTP.
 1. `Content-type` with different Media types.
 2. These `JSON` and `XML` are very important for APIs.
 
-# 20. Advanced Topics HTTP: Stateless, Cookies, Security, Infrastructure.
+# Advanced Topics HTTP: Stateless, Cookies, Security, Infrastructure. ✅
 
 <img src="stateless.PNG" alt="alt text" width="450"/>
 

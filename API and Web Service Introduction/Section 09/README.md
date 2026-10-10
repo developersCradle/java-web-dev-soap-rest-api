@@ -4,13 +4,13 @@ API Access.
 
 # What I learned.
 
-# 35. HTTPS.
+# HTTPS. ✅
 
 <img src="https.PNG" alt="alt text" width="700"/>
 
 1. **S** is just **encrypted.
 
-# 36. Authentication and Authorization.
+# Authentication and Authorization. ✅
 
 <img src="authAndAuthorization.PNG" alt="alt text" width="700"/>
 
@@ -24,7 +24,7 @@ API Access.
 3. `Bearer token` does not authenticate user and authorize the user for specific folders
 4. **OAuth** has both.
 
-# 37. Apps.
+# Apps. ✅
 
 <img src="threeTypesOfApps.PNG" alt="alt text" width="700"/>
 
@@ -44,19 +44,19 @@ API Access.
 
 <img src="comparison.PNG" alt="alt text" width="700"/>
 
-# 38. OAuth.
+# OAuth.
 
 - TODO.
 
-# 39. Advanced Topic: OAuth Authorization Code Grant (Google Cloud).
+# Advanced Topic: OAuth Authorization Code Grant (Google Cloud).
 
 - TODO.
 
-# 40. Advanced Topic: OpenID Connect.
+# Advanced Topic: OpenID Connect.
 
 - TODO.
 
-# 41. Exercise: API Access Definitions.
+# Exercise: API Access Definitions. ✅
 
 <img src="apiAccess.PNG" alt="alt text" width="700"/>
 

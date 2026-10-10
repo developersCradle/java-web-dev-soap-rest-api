@@ -1,4 +1,4 @@
-# SOAP Web Services 06 - Writing a Web Service: Eclipse setup
+# SOAP Web Services 06 - Writing a Web Service: Eclipse setup.
 
 - Adding Sever Connector in Eclipse [GlassFish](https://www.baeldung.com/eclipse-glassfish-setup).
 

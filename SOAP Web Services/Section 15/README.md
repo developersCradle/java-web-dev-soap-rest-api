@@ -1,4 +1,4 @@
-# SOAP Web Services 15 - Using JAXB Annotations Part 2
+# SOAP Web Services 15 - Using JAXB Annotations Part 02.
 
 - We are changing **Pojo** formatting with **JAXB**.
 
@@ -11,8 +11,7 @@
 
 - **Pojo** customized with **JAXB**
 
-```
-
+```Java
 package org.javabrains.model;
 
 import jakarta.xml.bind.annotation.XmlElement;
@@ -57,13 +56,11 @@ public class Product {
 	}
 
 }
-
 ```
 
 - And putting `@WebResult(name="Product")` for catalog or interface makes it return inside such.
 
-```
-
+```Java
 @WebService(name = "TestMartCatalog")
 public interface ProductCatalogInterface {
 

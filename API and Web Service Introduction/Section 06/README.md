@@ -4,7 +4,7 @@ JSON.
 
 # What I learned.
 
-# 23. JSON Introduction.
+# JSON Introduction. ✅
 
 <img src="json.PNG" alt="alt text" width="700"/>
 
@@ -16,7 +16,7 @@ JSON.
 - **Object** start with `{}`.
 - **List** with `[]`.
 
-```
+```Xml
 <Pizza>
     <Size>Small</Size>
         <Topping>Cheese</Topping>
@@ -30,7 +30,7 @@ JSON.
 > To reflect look for example from the **XML**, with **JSON** structure.
 
 
-```
+```Json
 {
 	"Pizza" : [
 		{
@@ -45,7 +45,7 @@ JSON.
 
 - JSON has **schema**, but it's rarely used!
 
-# 24. JSON Exercise.
+# JSON Exercise. ✅
 
 ```
 {
@@ -62,7 +62,7 @@ JSON.
 }
 ```
 
-# 25. XML JSON Comparison.
+# XML JSON Comparison. ✅
 
  <img src="xml-jsonCompare.PNG" alt="alt text" width="700"/>
 

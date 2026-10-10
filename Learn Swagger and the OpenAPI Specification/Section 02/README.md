@@ -4,11 +4,11 @@ Open API Specification.
 
 # What I learned.
 
-# 4. Notes about OAS 3 and the Swagger editor.
+# Notes about OAS 3 and the Swagger editor. ✅
 
 - This is the newer [editor](https://editor.swagger.io/).
 
-# 5. Open API Specification Basics.
+# Open API Specification Basics. ✅
 
 <img src="openAPI.PNG" alt="alt text" width="400"/>
 
@@ -46,7 +46,6 @@ Open API Specification.
 - Swagger Editor provided to make **OAS** file.
 
 # Assignment 2: Open API Specification Basics.
-
 
 - My answer:
 
@@ -180,7 +179,7 @@ paths:
           
 ```
 
-# 6. Schemas.
+# Schemas. ✅
 
 <img src="customHeader.PNG" alt="alt text" width="600"/>
 
@@ -546,7 +545,7 @@ definitions:
                
 ```
 
-# 7. Open API Specification Continued.
+# Open API Specification Continued. ✅
 
 <img src="openAPIspesification.PNG" alt="alt text" width="500"/>
 
@@ -611,7 +610,6 @@ definitions:
 # Assignment 4: Open API Specification Continued.
 
 ```
-
 swagger: '2.0'
 
 info:

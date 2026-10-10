@@ -1,0 +1,18 @@
+# What version of Open API we will be using.
+openapi: 3.0.1
+info:
+  title: API Driven development Demo!
+  version: 1.0.0
+  description: "Tutorial for api first development"
+
+# Servers is array.
+servers:
+  - url: /api/
+    description: base url for dev env.
+
+tags:
+  - name: post
+    description: Operations about the post.
+
+paths:
+  /post

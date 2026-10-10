@@ -4,7 +4,7 @@ API.
 
 # What I learned.
 
-# 2. What is an API?
+# What is an API? ✅
 
 <img src="apiDefination.PNG" alt="alt text" width="400"/>
 
@@ -13,19 +13,19 @@ API.
 3. **I** stand for where we are telling to the program to run.
 4. These are platform independence, upgrade safe and easy to use.
     
-# 3. API Exercise 1.
+# API Exercise 01. ✅
 
 <img src="whatIsTheAPI.PNG" alt="alt text" width="400"/>
 
 1. **eBay** exposes API to access the orders. Not from browser. 
 2. Lets consumers access the API. Brings flexibility. 
 
-# 4. API Exercise 2.
+# API Exercise 02. ✅
 
 - Some API to explore. [Ebay API:s](https://developer.ebay.com/develop)
     - Usually **tokens** are need to access API:s.
 
-# 5. API Details.
+# API Details. ✅
 
 1. **Request** is made. To something to be run.
 2. **Program** is run. To finish that been requested.
@@ -45,13 +45,13 @@ API.
 1. We are making order. This order is stored in **eBay:s** computer. 
 2. URL for **eBay:s** folder in their computer.
 
-# 6. API Details Example.
+# API Details Example. ✅
 
 - URL:s has different folders.
 
-- Pretty basic stuff. ✔️
+- Pretty basic stuff. ✅
 
-# 7. API Mashup.
+# API Mashup. ✅
 
 - Mashup is mixing different things.
 

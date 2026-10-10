@@ -1,8 +1,8 @@
-# Section 11 - API Management
+# Section 11 - API Management.
 
-# What I Learned
+# What I Learned.
 
-# 53. Introduction to API Management
+# Introduction to API Management. ✅
 
 <img src="apiManagement.JPG" alt="alt text" width="600"/>
 
@@ -24,7 +24,7 @@
     - Security policies and traffic management policies. 
 3. App developers can access **dev portals**
 
-# 54. API Lifecycle & Developer Productivity
+# API Lifecycle & Developer Productivity. ✅
 
 ### Different stages of API
 
@@ -119,7 +119,7 @@
 
 <img src="summary2.JPG" alt="alt text" width="600"/>
 
-# 56. API Security Management
+# API Security Management. ✅
 
 - Public data.
 
@@ -166,7 +166,7 @@
 
 <img src="summary3.JPG" alt="alt text" width="600"/>
 
-# 57. API Traffic Management
+# API Traffic Management. ✅
 
 <br>
 
@@ -243,7 +243,7 @@
 
 <img src="summar4.JPG" alt="alt text" width="600"/>
 
-# 58. API Analytics
+# API Analytics. ✅
 
 <img src="whyApiAnalytics.JPG" alt="alt text" width="500"/>
 
@@ -279,17 +279,17 @@
 
 <img src="summary4.JPG" alt="alt text" width="500"/>
 
-# 59. API Product and API Monetization
+# API Product and API Monetization. ✅
 
 <img src="apiProduct.JPG" alt="alt text" width="500"/>
 
 - You need to treat API like product, to sell it as product.
 
-- There is two ways to get revenue from API. **API Monetization**.
+- There are two ways to get revenue from API. **API Monetization**.
 
 <img src="revenue.JPG" alt="alt text" width="500"/>
 
-1. They charges directly for using their API:s.s
+1. They charge directly for using their API:s.
 2. Revenue is collected when their product is advertised or sold in their platform.
 
 - Different monetization models.

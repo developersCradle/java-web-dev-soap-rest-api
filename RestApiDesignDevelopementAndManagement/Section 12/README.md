@@ -1,7 +1,9 @@
-# Section 12 - Goodbye & All the Best
+# Section 12 - Goodbye & All the Best.
 
-# What I Learned
+Goodbye & All the Best.
 
-# 60. Good bye
+# What I Learned.
+
+# Good bye. ✅
 
 <img src="summaryOfChapters.JPG" alt="alt text" width="500"/>

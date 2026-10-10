@@ -7,11 +7,11 @@ Setting the stage.
 - For pulling submodules I used:
     - `git submodule update --init --recursive`.
 
-# Introduction to the Author and the Course.
+# Introduction to the Author and the Course. ✅
 
 - Get you hand dirty.
 
-# ACME Travels - Case study.
+# ACME Travels - Case study. ✅
 
 - Case ACME new plan.
 
@@ -27,7 +27,7 @@ Setting the stage.
 
 - There three tasks which you need to accomplish. **Let's build Cool API’S**.
 
-# Tools for Design, Development, Testing and Management or REST API.
+# Tools for Design, Development, Testing and Management or REST API. ✅
 
 <p align="center">
     <img src="implementingRestAPI.PNG" alt="alt text" width="400"/>

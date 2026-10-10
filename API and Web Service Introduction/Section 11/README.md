@@ -4,7 +4,7 @@ Extras.
 
 # What I learned.
 
-# 51. Create an API (Amazon Web Services).
+# Create an API (Amazon Web Services). 
 
 <img src="creatingAPi.JPG" alt="alt text" width="400"/>
 
@@ -12,11 +12,11 @@ Extras.
 
 - Todo.
 
-# 52. Calling APIs Using Programming Languages.
+# Calling APIs Using Programming Languages.
 
 - Todo.
 
-# 53. Webhooks.
+# Webhooks. ✅
 
 - Name **Webhooks**.
     - **Web** → Web service.
@@ -46,7 +46,7 @@ Extras.
 3. Notification is sent in form of **text** message or other endpoints.
 4. Follows the same **HTTP** response and request.
 
-# 54. Microservices.
+# Microservices. ✅
 
 <img src="microServices.PNG" alt="alt text" width="400"/>
 
@@ -82,7 +82,7 @@ Extras.
     - Parts were from different vendors, parts just didn't fit together.
         - ❌ This same with the microservices, if multiple teams will be working together ❌.
 
-# 55. General Technical Interview Tips.
+# General Technical Interview Tips.
 
 - Todo
 

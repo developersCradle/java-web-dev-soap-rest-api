@@ -1,10 +1,10 @@
-# Section 5: REST API Error Handling Patterns.
+# Section 05: REST API Error Handling Patterns.
 
 REST API Error Handling Patterns.
 
 # What I Learned
 
-# REST API Error Handling Practices.
+# REST API Error Handling Practices. ✅
 
 <p align="center">
     <img src="application erros.JPG" alt="alt text" width="400"/>

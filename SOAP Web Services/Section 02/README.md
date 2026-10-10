@@ -1,4 +1,4 @@
-# SOAP Web Services 02 - Web Service Jargon
+# SOAP Web Services 02 - Web Service Jargon.
 
 <img src="webServices3.JPG" alt="alt text" width="400"/>
 

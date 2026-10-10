@@ -1,6 +1,6 @@
-# SOAP Web Services 10 - Understanding the WSDL
+# SOAP Web Services 10 - Understanding the WSDL.
 
-```
+```Java
 public interface Calculator {
 
     int add (int a, int b);
@@ -11,7 +11,7 @@ public interface Calculator {
 
 - Excluding method out of **Web Service**.
 
-```
+```Java
 	@WebMethod(exclude = true) //This is optional
 	public List<String> getProducts(String category)
 	{
@@ -22,7 +22,7 @@ public interface Calculator {
 
 - This is in **WSDL** interface. There is interface with input and output.
 
-```
+```Xml
 <portType name="ProductCatalog">
 <operation name="addProduct">
 <input wsam:Action="http://javabrains.org/ProductCatalog/addProductRequest" message="tns:addProduct"/>
@@ -32,7 +32,7 @@ public interface Calculator {
 
 - Types are defined here, like Types in Java. There needs to be types in **WSDL**.
 
-```
+```Xml
 <types>
 <xsd:schema>
 <xsd:import namespace="http://javabrains.org/" schemaLocation="http://localhost:8080/TestmartSoap/home?xsd=1"/>
@@ -44,7 +44,7 @@ public interface Calculator {
 
 - Return and argument type defined in **WSDL**.
 
-```
+```Xml
 <message name="addProduct">
 <part name="parameters" element="tns:addProduct"/>
 </message>
@@ -55,14 +55,14 @@ public interface Calculator {
 
 - **Binding** how Web Service accepts requests.
 
-```
+```Xml
 <binding name="ProductCatalogPortBinding" type="tns:ProductCatalog">
 </binding>
 ```
 
 - Where **service** is made available and in what **port**.
 
-```
+```Xml
 <service name="ProductCatalogService">
 <port name="ProductCatalogPort" binding="tns:ProductCatalogPortBinding">
 <soap:address location="http://localhost:8080/TestmartSoap/home"/>

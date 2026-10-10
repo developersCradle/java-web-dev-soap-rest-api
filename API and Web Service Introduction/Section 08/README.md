@@ -4,7 +4,7 @@ REST.
 
 # What I learned.
 
-# 30. REST Introduction Part One.
+# REST Introduction Part One. ✅
 
  <img src="apiRest.PNG" alt="alt text" width="600"/>
 
@@ -44,11 +44,11 @@ REST.
 
 1. You can put stuff into cache.
 
-# 31. REST Introduction Part Two.
+# REST Introduction Part Two. ✅
 
 <img src="restAnswers.PNG" alt="alt text" width="700"/>
 
-# 32. REST Example (Call EBay API).
+# REST Example (Call EBay API). ✅
 
 <img src="responseHeaders.PNG" alt="alt text" width="700"/>
 
@@ -56,7 +56,7 @@ REST.
 
 - Checked ✔️.
 
-# 33. REST Example (Create Twitter App).
+# REST Example (Create Twitter App). ✅
 
 - `callback URL` if login on some authorization service. Example **OAuth**.
     - The **authorization server** sends a response to the specified **callback URL**. This URL is where the service returns the results, such as an access token or error message.
@@ -67,6 +67,6 @@ REST.
 
 - You can create **X** app using **Java** library (https://docs.x.com/x-api/tools-and-libraries/overview#java).
 
-# 34. REST Exercise.
+# REST Exercise. ✅
 
 <img src="restExersice.PNG" alt="alt text" width="700"/>

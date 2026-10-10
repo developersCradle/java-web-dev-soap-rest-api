@@ -4,7 +4,7 @@ REST API Handling Change - Versioning.
 
 # What I Learned.
 
-# Handling changes to API.
+# Handling changes to API. ✅
 
 <p align="center">
     <img src="apiChanges.JPG" alt="alt text" width="500"/>
@@ -58,7 +58,7 @@ REST API Handling Change - Versioning.
     <img src="summary.JPG" alt="alt text" width="500"/>
 </p>
 
-# Versioning the API.
+# Versioning the API. ✅
 
 <p align="center">
     <img src="restAPIversioning.JPG" alt="alt text" width="500"/>

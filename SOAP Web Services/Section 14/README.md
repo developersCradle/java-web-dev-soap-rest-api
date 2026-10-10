@@ -1,4 +1,4 @@
-# SOAP Web Services 14 - Using JAXB Annotations Part 1
+# SOAP Web Services 14 - Using JAXB Annotations Part 01.
 
 - Mapping between Beans and XML response, is helping tool called **JAXB**.
 	- Binds different parts of Java Object with different part of **XML** object.

@@ -4,11 +4,11 @@ SOAP.
 
 # What I learned.
 
-# 26. SOAP REST Comparison.
+# SOAP REST Comparison. ✅
 
 - SOAP REST are just ways to form HTTP request and responses.
 
-# 27. SOAP Introduction.
+# SOAP Introduction. ✅
 
  <img src="soap.PNG" alt="alt text" width="700"/>
 
@@ -22,7 +22,7 @@ SOAP.
 
 - **W3C**, is creator if **SOAP** and **WSDL**.
 
-# 28. SOAP Examples.
+# SOAP Examples. ✅
 
 <img src="envelope.PNG" alt="alt text" width="700"/>
 
@@ -32,6 +32,6 @@ SOAP.
 
 - REST in general, is much easier.
 
-# 29. SOAP Exercise.
+# SOAP Exercise. ✅
 
 <img src="soapExercise.PNG" alt="alt text" width="700"/>

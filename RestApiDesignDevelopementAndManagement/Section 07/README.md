@@ -1,8 +1,8 @@
-# Section 07 - REST API Cache Control Patterns
+# Section 07 - REST API Cache Control Patterns.
 
 Caching behavior. 
 
-# What I Learned
+# What I Learned.
 
 <img src="whoCaches.JPG" alt="alt text" width="400"/>
 
@@ -21,7 +21,7 @@ Caching behavior.
 
 - You can **cache** at any tier. **Closer** caching is done to **consumer** the faster the performance
 
-# When deciding what to cache form Data perspective 
+# When deciding what to cache form Data perspective. ✅
 
 <img src="whatToCache.JPG" alt="alt text" width="400"/>
 
@@ -125,7 +125,7 @@ Caching behavior.
 3. If using `no-cache` consider using **ETag** for large responses
 4. Most popular cache property is `max-age`. When using wrongly it can be not so good. Set it to what you **refresh speed** of your data.
 
-## Summary
+## Summary. ✅
 
 <img src="summary.JPG" alt="alt text" width="400"/>
 

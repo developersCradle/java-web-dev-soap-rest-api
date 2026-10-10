@@ -1,4 +1,4 @@
-# SOAP Web Services 03 - Writing a Web service Client: Stub generation
+# SOAP Web Services 03 - Writing a Web service Client: Stub generation,
 
 - We are writing **Web Service** client. Of using [GeoIPService](http://wsgeoip.lavasoft.com/ipservice.asmx).
 
@@ -7,7 +7,7 @@
 
 - Same copied here.
 
-```
+```Xml
 <?xml version="1.0" encoding="UTF-8"?>
 <wsdl:definitions xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://lavasoft.com/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" targetNamespace="http://lavasoft.com/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
   <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">&lt;b&gt;A web service which performs GetIpAddress Lookups.&lt;/b&gt;</wsdl:documentation>
@@ -463,10 +463,9 @@
 
 1. Take note of these two important fields in **WSDL**. **Service** and **port**.
 
-- Calling Service Point Interface in **Java**.
+- Calling Service Point Interface in **Java**:
 
-```
-
+```Java
 public class IPLocationFinder {
 
 	

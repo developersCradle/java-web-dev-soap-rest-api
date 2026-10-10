@@ -4,7 +4,7 @@ Router Basics.
 
 # What I Learned.
 
-# Hello World.
+# Hello World. ✅
 
 <div align="center">
     <img src="Hello_World_Chapter.PNG" alt="Golang course!" width="500"/>
@@ -31,10 +31,7 @@ Router Basics.
 
 - Our implementation of simple **HTTP** server:
 
-
 - **HTTP** server running:
-
-
 
 <details>
 <summary id="The factorial thread" open="true"> <b>oijooijoi!</b> </summary>

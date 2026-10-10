@@ -1,8 +1,8 @@
-# SOAP Web Services 16 - Handling Faults
+# SOAP Web Services 16 - Handling Faults.
 
 - When we implement Exception throwing from Java class, we can see following in **WSDL**.
 
-```
+```Java
 @WebService
 @SOAPBinding(style = Style.RPC)
 public class ShopInfo {
@@ -33,7 +33,7 @@ public class ShopInfo {
 
 - SOAP response needs to be technology independent, meaning no reason to return **Java** **stack trace**.
 
-```
+```Xml
 <operation name="getShopInfo">
 <input wsam:Action="http://javabrains.org/ShopInfo/getShopInfoRequest" message="tns:getShopInfo"/>
 <output wsam:Action="http://javabrains.org/ShopInfo/getShopInfoResponse" message="tns:getShopInfoResponse"/>
@@ -43,7 +43,7 @@ public class ShopInfo {
 
 - Response for invalid query in SOAP UI.
 
-```
+```Xml
 <S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/">
    <S:Body>
       <S:Fault xmlns:ns4="http://www.w3.org/2003/05/soap-envelope">
