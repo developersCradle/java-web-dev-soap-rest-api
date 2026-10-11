@@ -27,7 +27,7 @@ JSON.
 ```
 
 > [!IMPORTANT]
-> To reflect look for example from the **XML**, with **JSON** structure.
+> ⚠️ To reflect look for example from the **XML**, with **JSON** structure. ⚠️
 
 
 ```Json

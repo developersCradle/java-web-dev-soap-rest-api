@@ -56,8 +56,7 @@ Template for the task/exercies:
 <p align="center">
   <img 
   src="Practical_Web_API_And_Services_Caption.png" 
-  width="900" 
-  height="140" 
+  style="width:900px;height:190px;
   alt="Web API and services!"
   />
 </p>
@@ -80,12 +79,18 @@ align="center">
 <p 
 align="center">
     <img 
-    src="REST_Based_Microservices_API_Development_In_Golang_Caption.png" alt="REST based microservices API development in Golang caption!" style="width:1600px;height:90px;"
+    src="REST_Based_Microservices_API_Development_In_Golang_Caption.png" alt="REST based microservices API development in Golang caption!"
+    style="width:1600px;height:90px;"
     />
 </p>
 
-<p align="center">
-    <img src="REST_Based_Microservices_API_Development_In_Golang_Description.PNG" alt="REST Based Microservices API Development In Golang Description" style="width:690px" />
+<p 
+align="center">
+    <img 
+    src="REST_Based_Microservices_API_Development_In_Golang_Description.PNG" 
+    alt="REST Based Microservices API Development In Golang Description" 
+    style="width:690px" 
+    />
 </p>
 
 All course material from *REST based microservices API development in Golang* by **Ashish Juyal**.
@@ -102,9 +107,9 @@ All course material from *REST based microservices API development in Golang* by
 
 Contains my own with my own visual notes ✍️ with some course material to enforce learning experience.
 
-[The Course at Udemy](https://www.udemy.com/course/rest-based-microservices-api-development-in-go-lang/).
+[The course at Udemy.](https://www.udemy.com/course/rest-based-microservices-api-development-in-go-lang/)
 
-[Homepage of Maker](https://www.thecodecamp.in/).
+[Homepage of maker.](https://www.thecodecamp.in/)
 
 If the content sparked :fire: your interest, please consider buying the course and start learning :book:.
 
@@ -178,7 +183,7 @@ Contains my own notes with some course material to enforce learning experience.
 
 This repository is made with [![IntelliJ IDEA](https://img.shields.io/badge/IntelliJIDEA-000000.svg?logo=intellij-idea&logoColor=white)](#) with [![Eclipse](https://img.shields.io/badge/Eclipse-FE7A16.svg?logo=Eclipse&logoColor=white)](#) hotkeys, therefore it will include configuration files which are related to this IDE this approach will be favored for now. ⚙️
 
-[The Course at Udemy](https://www.udemy.com/course/master-api-driven-development-with-spring-boot-kotlin/).
+[The course at Udemy.](https://www.udemy.com/course/master-api-driven-development-with-spring-boot-kotlin/)
 
 If the content sparked :fire: your interest, please consider buying the course and start learning :book:.
 
@@ -189,15 +194,13 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 ?trk=public_profile_see-credential 
 -->
 
-
-
 <p 
 id="Logo_Combination" 
 align="center">
     <img 
     src="Me_At_Nordea.jpeg" 
     alt="Me sitting in some chair and trying to look professional!" 
-    style="width:690px;height:540px;"
+    style="width:590px;height:440px;"
     />
     <img 
     id="API_First_Development_With_Open_API_Spring_Boot_Kotlin_Cerntificate?trk=public_profile_see-credential" src="API_First_Development_With_Open_API_Spring_Boot_Kotlin_Cerntificate.jpg"
@@ -205,7 +208,6 @@ align="center">
     width="600"
     />
 </p>
-
 
 **Note: The material provided in this repository is only for helping those who may get stuck at any point of time in the course. It is very advised that no one should just copy the solutions(violation of Honor Code) presented here.**
 
@@ -231,7 +233,6 @@ align="center">
     <img src="Build_RESTFUL_APIs_Using_Kotlin_And_Spring_Boot_Description.PNG" alt="Build RESTFUL APIs Using Kotlin And Spring Boot Description" style="width:590px; height:160px;" />
 </p>
 
-
 All course material from *Build RESTFUL APIs using Kotlin and Spring Boot* by **Matt Greencroft** from legendary **Virtual Pair Programmers** ©.
 
 > add here 🐟 <br><br> 
@@ -239,11 +240,11 @@ All course material from *Build RESTFUL APIs using Kotlin and Spring Boot* by **
 
 Contains my own with my own visual notes ✍️ with some course material to enforce learning experience.
 
-[The Course at Udemy](https://www.udemy.com/course/build-restful-apis-using-kotlin-and-spring-boot/).
+[The course at Udemy.](https://www.udemy.com/course/build-restful-apis-using-kotlin-and-spring-boot/)
 
-[Homepage of Maker](https://www.in28minutes.com/).
+[Homepage of maker.](https://www.in28minutes.com/)
 
-[GitHub of project](https://github.com/in28minutes/MockitoTutorialForBeginners).
+[GitHub of project.](https://github.com/in28minutes/MockitoTutorialForBeginners)
 
 If the content sparked :fire: your interest, please consider buying the course and start learning :book:.
 
@@ -270,7 +271,6 @@ align="center">
     width="600"
     />
 </p>
-
 
 **Note: The material provided in this repository is only for helping those who may get stuck at any point of time in the course. It is very advised that no one should just copy the solutions(violation of Honor Code) presented here.**
 
@@ -394,18 +394,20 @@ align="center">
 All course material from Java Web Services by <strong>Bharath Thippireddy</strong>.
 </p> -->
 
-Contains my own notes with some course material to enforce learning experience.
+All course material from *Java Web Services* by **Bharath Thippireddy**.
 
 > While debugging a legacy system with a particularly nasty bug. There was something interesting happening: during the `JAXB` **marshalling**/**unmarshalling** process, a character was mysteriously changing. 🐟
 > 
 > That small detail turned out to be the key to diagnosing the entire issue. It was a great reminder that in complex systems, subtle transformations—especially in serialization workflows—can have big impacts. 🐟 <br><br>
 > ~ *DevelopersCradle*
 
+Contains my own with my own visual notes ✍️ with some course material to enforce learning experience.
+
 This repository is made with [![IntelliJ IDEA](https://img.shields.io/badge/IntelliJIDEA-000000.svg?logo=intellij-idea&logoColor=white)](#) with [![Eclipse](https://img.shields.io/badge/Eclipse-FE7A16.svg?logo=Eclipse&logoColor=white)](#) hotkeys. This is why it will include configuration files which are related to this IDE this approach will be favored for now. ⚙️
 
-[Original Channel](https://www.bharaththippireddy.com/).
+[The course at Udemy.](https://www.udemy.com/course/java-web-services/)
 
-[Source](https://www.udemy.com/course/java-web-services/).
+[Website of maker.](https://www.bharaththippireddy.com/)
 
 If the content sparked :fire: your interest, please consider starting the course and start learning :book:.
 
@@ -489,9 +491,9 @@ All course material from SOAP Web Services by **Java Brains** © with little bit
 > add here 🐟 <br><br> 
 > ~ *DevelopersCradle*
 
-[Original Channel](https://www.youtube.com/@Java.Brains).
+[Original channel.](https://www.youtube.com/@Java.Brains)
 
-[Source](https://www.youtube.com/playlist?list=PLe8LZCtW06l-JJDOb4PQ2TiAdMRtPKxKV).
+[Source.](https://www.youtube.com/playlist?list=PLe8LZCtW06l-JJDOb4PQ2TiAdMRtPKxKV)
 
 If the content sparked :fire: your interest, please consider starting the course and start learning :book:.
 
@@ -561,11 +563,11 @@ This repository is trying to be one place quest for understanding REST API Desig
 Contains my own notes with some course material.
 This course servers as start, but later might add even more resources.
 
-*REST API Design, Development & ManagementE* by **Rajeev Sakhuja** ©.
+*REST API Design, Development & Management* by **Rajeev Sakhuja** ©.
 
-[The Course at Udemy](https://www.udemy.com/course/rest-api/).   
+[The course at Udemy.](https://www.udemy.com/course/rest-api/)
 
-Official [answers](https://github.com/acloudfan/REST-API-Course).
+[Official repo.](https://github.com/acloudfan/REST-API-Course)
 
 If the content sparked :fire: your interest, please consider buying the course and start learning :book:.
 
@@ -577,7 +579,9 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 <!-- Todo change the id when not lazy-->
 
 <p align="center">
-    <img id="REST_API_Design_Development_and_Management?trk=public_profile_see-credential" src="REST_API_Design_Development_&_Management_Certificate.jpg" alt="REST API Design, Development & Management Certificate" width="600"/>
+    <img id="REST_API_Design_Development_and_Management?trk=public_profile_see-credential" src="REST_API_Design_Development_&_Management_Certificate.jpg" 
+    alt="REST API Design, Development & Management Certificate" width="600"
+    />
 </p>
 
 **Note: The material provided in this repository is only for helping those who may get stuck at any point of time in the course. It is very advised that no one should just copy the solutions(violation of Honor Code) presented here.**
@@ -617,29 +621,36 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 
 <!-- Todo change this back! -->
 
-<p align="center">
-    <img id="api_and_web_service_introduction_caption?trk=public_profile_see-credential" src="API_And_Web_Service_Introduction_Caption_.png"
-    alt="add this" style="width:940px;height:140px;">
+<p 
+align="center">
+    <img 
+    id="api_and_web_service_introduction_caption?trk=public_profile_see-credential" src="API_And_Web_Service_Introduction_Caption.png"
+    alt="add this" 
+    style="width:940px;height:140px;"
+    />
 </p>
 
-<p align="center">
-    <img id="api_and_web_service_introduction_description?trk=public_profile_see-credential" src="API_and_Web_Service_Introduction_Description.PNG" 
+<p 
+align="center">
+    <img 
+    id="api_and_web_service_introduction_description?trk=public_profile_see-credential" src="API_and_Web_Service_Introduction_Description.PNG" 
     alt="add this"
-    style="width:590px; height:160px;">
+    style="width:590px; height:160px;"
+    />
 </p>
 
 Contains my own notes to better learning experience with some course content.
 
-> I’m happy to share that I’ve obtained a new certification: API and Web Service Introduction! 🐟
+> One time, I was sitting in a café, pondering API security in general. But there's no need to discuss it anymore — I've completed my API Security certification! 🐟
 >
-> Did you know, it's often better to include XML schema to SOAP messages to bring extra security. 🐟<br><br>
+> Did you know, it's often better to include XML schema to SOAP messages to bring extra security. 🐟 <br><br> 
 > ~ *DevelopersCradle*
 
-API and Web Service Introduction **Nate Ross** ©.
+Contains my own with my own visual notes ✍️ with some course material to enforce learning experience.
 
-[The Course at Udemy](https://www.udemy.com/course/api-and-web-service-introduction/?couponCode=2021PM20).
+[The course at Udemy.](https://www.udemy.com/course/api-and-web-service-introduction/)
 
-[Homepage of Maker](https://ezlearn.tech/).
+[Homepage of maker.](https://ezlearn.tech/)
 
 If the content sparked :fire: your interest, please consider buying the course and start learning :book:.
 
@@ -648,8 +659,23 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 ?trk=public_profile_see-credential 
 -->
 
-<p align="center">
-    <img id="API and Web Service Introduction?trk=public_profile_see-credential" src="API_and_Web_Service_Introduction_Certificate.jpg" alt="API and Web Service Introduction Certificate" width="600"/>
+
+<p 
+id="Logo_Combination" 
+align="center">
+    <img 
+    src="Me_At_Cafe.jpeg" 
+    alt="Me thinking API security!" 
+    style="width:490px;height:440px;"
+    />
+    <p 
+    align="center">
+    <img 
+    id="API and Web Service Introduction?trk=public_profile_see-credential" 
+    src="API_and_Web_Service_Introduction_Certificate.jpg"
+    alt="API and Web Service Introduction Certificate"
+    width="600"/>
+    </p>
 </p>
 
 **Note: The material provided in this repository is only for helping those who may get stuck at any point of time in the course. It is very advised that no one should just copy the solutions(violation of Honor Code) presented here.**
@@ -676,12 +702,21 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
     - Try to make using [X SDK](https://docs.x.com/x-api/tools-and-libraries/overview#java).
 - [ ] Do example with the [Webhook](https://www.youtube.com/watch?v=tshKOgRLYn0).
 
-<p align="center">
-    <img id="Learn Swagger and the OpenAPI Specification?trk=public_profile_see-credential" src="Learn_Swagger_and_the_OpenAPI_Specification_Caption.png" alt="Learn Swagger and the OpenAPI Specification" style="width:1600px;height:120px;"/> 
+<p 
+align="center">
+    <img 
+    id="Learn Swagger_and_the_OpenAPI_Specification?trk=public_profile_see-credential" src="Learn_Swagger_and_the_OpenAPI_Specification_Caption.png" 
+    alt="Learn swagger and the openAPI specification!" style="width:1600px;height:100px;"
+    /> 
 </p>
 
-<p align="center">
-    <img id="Learn Swagger and the OpenAPI Specification" src="Learn_Swagger_and_the_OpenAPI_Specification_Description.PNG" alt="Learn Swagger and the OpenAPI Specification Description" style="width:590px; height:160px;"/> 
+<p 
+align="center">
+    <img 
+    id="Learn Swagger and the OpenAPI Specification" src="Learn_Swagger_and_the_OpenAPI_Specification_Description.PNG" 
+    alt="Learn Swagger and the OpenAPI Specification Description" 
+    style="width:590px; height:160px;"
+    /> 
 </p>
 
 Contains my own notes with some course material to enforce learning experience.
@@ -693,9 +728,9 @@ API Definition Files, Tools, and Documentation (**OAS 2.0**) **Peter Gruenbaum**
 
 This repository is made with [![IntelliJ IDEA](https://img.shields.io/badge/IntelliJIDEA-000000.svg?logo=intellij-idea&logoColor=white)](#) with [![Eclipse](https://img.shields.io/badge/Eclipse-FE7A16.svg?logo=Eclipse&logoColor=white)](#) hotkeys. This is why it will include configuration files which are related to this IDE this approach will be favored for now. ⚙️
 
-[The Course at Udemy](https://www.udemy.com/course/learn-swagger-and-the-open-api-specification/).   
+[The course at Udemy.](https://www.udemy.com/course/learn-swagger-and-the-open-api-specification/)   
 
-[Homepage of Maker](https://sdkbridge.com/).
+[Homepage of maker.](https://sdkbridge.com/)
 
 If the content sparked :fire: your interest, please consider buying the course and start learning :book:.
 
@@ -723,13 +758,12 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
     - Did not get this working at the moment. Can do in future again :)
 - [ ] Review the [OAS 3.0](https://blog.restcase.com/6-most-significant-changes-in-oas-3-0/) after finishing this one.
 
-
-
 <p 
 align="center">
     <img 
     src="Learn_API_Technical_Writing_JSON_And_XML_For_Writers_Caption.png" 
-    alt="Learn api technical writing: JSON and xml for writers caption!" style="width:1600px;height:120px;"
+    alt="Learn api technical writing: JSON and xml for writers caption!" 
+    style="width:1600px;height:120px;"
     />
 </p>
 
@@ -737,20 +771,21 @@ align="center">
 align="center">
     <img 
     src="Learn_API_Technical_Writing_JSON_And_XML_For_Writers_Description.png" 
-    alt="Learn API Technical Writing JSON And XML For Writers Description!" style="width:590px; height:160px;" 
+    alt="Learn API Technical Writing JSON And XML For Writers Description!" 
+    style="width:590px; height:160px;" 
     />
 </p>
 
-Learn API Technical Writing: JSON and XML for Writers **Peter Gruenbaum** ©.
+*Learn API Technical Writing: JSON and XML for Writers* by the **Peter Gruenbaum** ©.
 
 > add here 🐟 <br><br> 
 > ~ *DevelopersCradle*
 
 Contains my own notes with some course material.
 
-[The Course at Udemy](https://www.udemy.com/course/api-documentation-1-json-and-xml/).
+[The course at Udemy.](https://www.udemy.com/course/api-documentation-1-json-and-xml/)
 
-[Homepage of Maker](https://sdkbridge.com/).
+[Homepage of maker.](https://sdkbridge.com/)
 
 If the content sparked :fire: your interest, please consider buying the course and start learning :book:.
 

@@ -1,3 +1,8 @@
+#springdoc.api-docs.enabled=false
+#springdoc.swagger-ui.url=/open-api.yaml
 spring:
   application:
     name: open-api-demo
+
+  swagger-ui:
+    url: /open-api.yaml

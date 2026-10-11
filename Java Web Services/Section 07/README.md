@@ -49,7 +49,7 @@ JAX-WS AND JAXB.
    - Developer will interact with the **Hibernate** rather than the **SQL** itself.
 
 > [!IMPORTANT]
-> `JAXB` provides us with **three** main tools.
+> ⚠️ `JAXB` provides us with **three** main tools! ⚠️
 
 <p align="center">
         <img id="Java Web Services" src="jaxBmainTools.PNG" height="400px">
