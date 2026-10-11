@@ -167,7 +167,7 @@ align="center">
 align="center">
     <img 
     src="API_First_Development_With_Open_API_Spring_Boot_Kotlin_Description.PNG"
-    alt="API first development with open api spring boot kotlin description"
+    alt="API first development with open api spring boot kotlin description!"
     style="width:590px; height:160px;"
     />
 </p>
@@ -182,6 +182,8 @@ All course material from *API First Development With Open API Spring Boot Kotlin
 Contains my own notes with some course material to enforce learning experience.
 
 This repository is made with [![IntelliJ IDEA](https://img.shields.io/badge/IntelliJIDEA-000000.svg?logo=intellij-idea&logoColor=white)](#) with [![Eclipse](https://img.shields.io/badge/Eclipse-FE7A16.svg?logo=Eclipse&logoColor=white)](#) hotkeys, therefore it will include configuration files which are related to this IDE this approach will be favored for now. ⚙️
+
+Also, we will utilize ![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white) with the ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white).
 
 [The course at Udemy.](https://www.udemy.com/course/master-api-driven-development-with-spring-boot-kotlin/)
 
@@ -249,6 +251,11 @@ Contains my own with my own visual notes ✍️ with some course material to enf
 If the content sparked :fire: your interest, please consider buying the course and start learning :book:.
 
 This repository is made with [![IntelliJ IDEA](https://img.shields.io/badge/IntelliJIDEA-000000.svg?logo=intellij-idea&logoColor=white)](#) with [![Eclipse](https://img.shields.io/badge/Eclipse-FE7A16.svg?logo=Eclipse&logoColor=white)](#) hotkeys, therefore it will include configuration files which are related to this IDE this approach will be favored for now. ⚙️
+
+Also, we will utilize ![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white) with the ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white).
+
+
+
 
 <br>
 
