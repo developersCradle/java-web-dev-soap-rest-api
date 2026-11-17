@@ -6,14 +6,16 @@ We are using following structure:
     <img
     src="Jackson_Quick_Start_JSON_Serialization_With_Java_Made_Easy_Caption.png"
     alt="Jackson quick start json serialization with java made easy caption!"
-    style="width:1600px;height:120px;"/>gt
+    style="width:1600px;height:120px;"
+    />
 </p> 
 <p align="center">
     <img
     id="Jackson_Quick_Start_JSON_Serialization_With_Java_Made_Easy_Description?trk=public_profile_see-credential"
     src="Jackson_Quick_Start_JSON_Serialization_With_Java_Made_Easy_Description.png"
     alt="Jackson quick start json serialization with java made easy
-    description!" style="width:590px; height:160px;" />
+    description!" style="width:590px; height:160px;" 
+    />
 </p>
 
 
@@ -56,7 +58,7 @@ Template for the task/exercies:
 <p align="center">
   <img 
   src="Practical_Web_API_And_Services_Caption.png" 
-  style="width:900px;height:190px;
+  style="width:900px;height:180px;
   alt="Web API and services!"
   />
 </p>
@@ -126,9 +128,10 @@ Linkedin puts this shit front, when clicking from private mode x(. Need to put t
 id="Logo_Combination" 
 align="center">
     <img 
-    src="#" 
-    alt="#" 
-    style="width:590px;height:440px;"/>
+    src="Where_The_Go_Was_Born.jpeg" 
+    alt="Where the go was born!" 
+    style="width:660px;height:650px;"
+    />
     <img 
     id="#?trk=public_profile_see-credential" 
     src="Dummy_Cert.png" 
@@ -144,11 +147,11 @@ align="center">
 
 
 - [x] [Section 01](#): Introduction. ✅
-- [ ] [Section 02](#): Router Basics. ⚠️ In progress! ⚠️
-- [ ] [Section 03](#): Application Development.
-- [ ] [Section 04](#): Security.
-- [ ] [Section 05](#): Unit Testing.
-- [ ] [Section 06](#): Advance Topics.
+- [x] [Section 02](#): Router Basics. ✅
+- [x] [Section 03](#): Application Development. ✅
+- [x] [Section 04](#): Security. ✅
+- [x] [Section 05](#): Unit Testing. ✅
+- [x] [Section 06](#): Advance Topics. ✅
 
 #### Additional stuff.
 
@@ -202,7 +205,7 @@ align="center">
     <img 
     src="Me_At_Nordea.jpeg" 
     alt="Me sitting in some chair and trying to look professional!" 
-    style="width:590px;height:440px;"
+    style="width:650px;height:550px;"
     />
     <img 
     id="API_First_Development_With_Open_API_Spring_Boot_Kotlin_Cerntificate?trk=public_profile_see-credential" src="API_First_Development_With_Open_API_Spring_Boot_Kotlin_Cerntificate.jpg"
